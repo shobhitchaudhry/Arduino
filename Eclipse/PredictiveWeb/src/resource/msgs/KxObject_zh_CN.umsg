@@ -1,0 +1,2595 @@
++KXEN_E_CABSTRACTSTORE_DO_NOT_SUPPORT_DROP_SPACE
+-无法删除存储 %1 中的对象。
+
++KXEN_E_INPUT_FIELD_BADCHECK
+-内部错误： 输入字段 %1 未正确准备。
+
++KXEN_E_OUTPUT_FIELD_BADCHECK
+-内部错误： 输出字段 %1 未正确准备。
+
++KXEN_W_ABSTRACTTRANSFORM_NULL_SUBKEYS
+-在 %2 输入案例中，%1 已生成具有部分空键的输出。
+-因此这些输出未写入。
+
++KXEN_W_ABSTRACTTRANSFORM_TOO_MUCH_NULL_SUBKEYS
+-多个 %1 输入案例已生成具有部分空键的输出。
+-这些输出未写入。
+-有关详细信息，请参阅日志。
+
++KXEN_W_ABSTRACTTRANSFORM_DETAIL_NULL_SUBKEYS
+-针对输入记录 # %1 生成的输出具有一些空子键，且未
+-写入。
+-输入记录可通过键（%2）进行标识。
+
++KXEN_W_ABSTRACTTRANSFORM_DETAIL_NO_OUTPUT
+-未针对输入案例 # %1 生成输出。 
+-此输入案例可通过键（%2）进行标识。
+
++KXEN_W_ABSTRACTTRANSFORM_TOO_MUCH_NO_OUTPUTS
+-多个 %1 输入案例未生成任何输出。
+-有关详细信息，请参阅日志。
+
++KXEN_W_ABSTRACTTRANSFORM_FINAL_NO_OUTPUTS
+-在 %1 输入案例中，%2 案例未生成任何输出案例。
+
++KXEN_E_INVALID_COMPOSITE_MISSING_COMPONENT
+-已定义复合变量 %1。 但在数据中
+-无法找到其组件 %2。
+
++KXEN_E_MAPPING_COMPOSED_VARIABLE_MAPPED
+-某些复合变量的名称与数据集中现有字段的名称相同。
+
++KXEN_I_COMPOSED_VARIABLES
+-复合变量列表
+
++KXEN_I_CDATACACHMANAGER_CURRENT_SIZE_IN_L1
+-数据缓存 L1 中 %1 的大小为 %1 MB。
+
++KXEN_I_CDATACACHMANAGER_CURRENT_SIZE_IN_L1_L2
+-数据缓存 L1 中 %1 的大小为 %2 MB，L2 中的大小为 %3 MB。
+
++KXEN_W_CFILECASEITER_READ_TOOMUCHLESSFIELDS
+-至少找到 %2 行包含少于 %1 个预期值。
+
++KXEN_W_CREADCASEITER_READ_FOUNDMOREFIELDSTHANVARS
+-在行 %3 中，已找到 %2 个值，而仅预期 %1 个。
+
++KXEN_W_CREADCASEITER_READ_TOOMUCHMOREFIELDS
+-至少找到 %2 行包含多于 %1 个值。
+-请检查详细日志，描述可能错误。
+
++KXEN_W_CREADCASEITER_READ_TOOMUCHLESSFIELDS
+-至少找到 %2 行包含少于 %1 个值。
+-请检查详细日志，描述可能错误。
+
++KXEN_W_EXPLAIN_SMALL_FORCED_USER_DEFAULT_DESC
+-此请求的成本估算为 #VALUE#。 用户已明确批准成本小于 #MAX#
+-的请求。
+
++KXEN_W_EXPLAIN_MEDIUM_FORCED_USER_DEFAULT_DESC
+-此请求的成本估算为 #VALUE#。 是否要执行？
+-Automated Analytics 请求此类确认，因为用户已明确要求对所有成本大于 #MIN# 的请求
+-进行确认。
+
++KXEN_W_EXPLAIN_TOO_FAST
+-DBMS 未提供成本估算。
+-请求级别可能过低。
+
+#Note for translator: do not translate Explain in 'Explain mode'
+
++KXEN_W_EXPLAIN_RUN_TIME_ERROR_DEFAULT_DESC
+-此请求的成本估算为 #VALUE#。 是否要执行？
+-Automated Analytics 请求此类确认，因为出现了运行时错误
+-，且请求的动态分类已不可用。
+-请联系管理员检查 Explain 模式设置。
+
++KXEN_W_EXPLAIN_BAD_CONFIG_ERROR_DEFAULT_DESC
+-此请求的成本估算为 #VALUE#。 是否要执行？
+-Automated Analytics 请求此类确认，因为未正确设置 Explain 模式。
+-请联系管理员检查 Explain 模式设置。
+
++KXEN_W_ABSTRACT_CASEITER_NO_MORE_DATA
+-空间 %1 中的数据结束
+
++KXEN_W_ABSTRACT_FILTERING_NO_MORE_DATA
+-空间 %1 中的已过滤数据结束
+
++KXEN_W_ABSTRACT_FILTERING_DATA
+-空间 %1 已过滤。
+
++KXEN_E_INVALID_OPERAND_IN_FILTER
+-测试 %1%2 无法与值“%3”同时使用。
+
++KXEN_E_FILTER_UNKNOWN_OPERAND
+-过滤器中存在未知操作符 %1。
+
++KXEN_E_VARIABLE_UNKNOWN_IN_FILTER
+-过滤器使用空间 %2 中的未知变量 %1。
+
++KXEN_E_FILTER_UNKNOWN_SIMPLE_FILTER
+-过滤器中存在未知操作符 %1。
+
++KXEN_W_SCRIPT_SETUP_FAIL
+-执行脚本 %1 的设置选项时出错。
+
++KXEN_E_NATIVE_EXPLAIN_MODE_NON_IMPLEMENTED
+-%1 未提供本机 Explain 模式。
+-请联系管理员检查 Explain 模式设置。
+
++KXEN_E_SIMULATED_EXPLAIN_MODE_NON_IMPLEMENTED
+-%1 未提供本机 Explain 模式
+-，且 KXAF 引擎没有为此存储提供自己的 Explain 模式。
+-请联系管理员检查 Explain 模式设置。
+
++KXEN_E_EXPLAIN_FIELD_NOT_STRING
+-用于 %1 的 Explain 模式的字段 %2 不是数字。
+-可用的 Explain 字段列表为 %3。
+
++KXEN_E_EXPLAIN_MODE_DEACTIVATED
+-不存在 %1 的 Explain 模式。
+
++KXEN_W_EXPLAIN_DEFAULT_CONFIG_DEFAULT_DESC
+-此请求的成本估算为 #VALUE#。 是否要执行？
+-Automated Analytics 请求此类确认，因为 Explain 模式可用于我们的 DBMS
+-，但未进行设置。
+-可联系管理员对 Explain 模式设置进行调整。
+
++KXEN_E_EXPLAIN_CLASS_NO_WORKLOAD
+-针对 %1 的 Explain 模式，没有 Explain 类 %4 的工作负载。
+
++KXEN_E_EXPLAIN_CLASS_WORKLOAD_UNKNOWN
+-针对 %1 的 Explain 类 %4，存在未知工作负载（%3）。
+
++KXEN_E_EXPLAIN_CLASS_NO_DESC
+-针对 %1 的 Explain 模式，没有 Explain 类 %4 的描述。
+
++KXEN_E_EXPLAIN_NO_VALUE
+-针对 %1 的 Explain 模式，未通过字段 %2 提供可用值。
+
++KXEN_E_EXPLAIN_NO_MATCH
+-针对 %1 的 Explain 模式，未找到与值 %2 和字段 %3 相匹配的类。
+
++KXEN_E_EXPLAIN_TOO_MANY_MATCH
+-在 %1 的 Explain 模式中，存在多个与值 %2 和字段 %3 相匹配的类。
+
++KXEN_E_EXPLAIN_CLASS_OPTION_EMPTY_VALUE
+-针对 %1 的 Explain 模式，未在类 %4 中为选项 %3 定义值。
+
++KXEN_E_EXPLAIN_CLASS_BAD_SYNTAX_IN_OPTION
+-针对 %1 的 Explain 模式，选项 %2 存在语法错误。
+
++KXEN_E_NO_EXPLAIN_CLASSES
+-未针对 %1 的 Explain 模式定义有效类。
+
++KXEN_E_EXPLAIN_CLASSES_NO_EXPLAINFIELD_OPERATOR
+-在 %1 的 Explain 模式设置中缺少预测字段。
+
++KXEN_E_EXPLAIN_CLASSES_UNKNOWN_EXPLAINFIELD_OPERATOR
+-在 %1 的 Explain 模式设置中存在未知预测字段操作符。
+
++KXEN_E_EXPLAIN_CLASSES_TOO_MANY_0_MIN
+-为 %1 的 Explain 模式至少定义了 2 个没有最小值的类。
+
++KXEN_E_EXPLAIN_CLASSES_TOO_MANY_NONE_MAX
+-为 %1 的 Explain 模式至少定义了 2 个没有最大值的类。
+
++KXEN_E_BAD_EXPLAIN_CLASSES
+-%1 的 Explain 模式设置存在问题。
+-请联系管理员进行检查。
+
++KXEN_E_UNKNOWN_EXPLAIN_FIELD
+-针对 %1 的 Explain 模式存在未知预测字段名称。
+-可用 Explain 字段的列表为 %2。
+
++KXEN_E_EXPLAIN_FIELD_BAD_TYPE
+-用于 %1 的 Explain 模式的预测字段 %2 不是数字。
+-可用预测字段的列表为 %3。
+
++KXEN_E_EXPLAIN_CLASS_BAD_MINMAX
+-最小和最大限制在 %1 的 Explain 模式的类 %4 中已倒置。
+
++KXEN_E_LOCK_KXADMIN_STORE_NOTOPEN
+-Automated Analytics 元数据资源库未打开。
+
++KXEN_W_MODEL_REPOSITORY_SAVE_CONTAINER
+-保存容器 %1
+
++KXEN_W_MODEL_REPOSITORY_ERASE_VARIABLE_SPOOL
+-消除变量池中的一些变量定义
+
++KXEN_W_VARIABLE_POOL_NOT_DEFINED
+-未针对当前存储（%1）定义元数据资源库。
+
++KXEN_W_VARIABLE_POOL_UNKNOWN_VARIABLE
+-在元数据资源库中保存变量描述时，未在当前空间中找到请求的变量（%1）。
+
++KXEN_W_CONNECTOR_TABLE_NAME_CONFLICT
+-此数据操作的名称与数据库中现有表的名称冲突。
+
++KXEN_E_INVALID_CONNECTOR_NAME
+-用于此数据操作的名称无效。 点在数据操作的名称中是无效字符。
+
++KXEN_W_MODEL_REPOSITORY_ERASE_CONNECTOR
+-消除数据操作 %1
+
++KXEN_W_MODEL_REPOSITORY_ERASE_CONTAINER
+-消除容器 %1
+
++KXEN_W_MODEL_REPOSITORY_ERASE_MODEL
+-消除模型 %1
+
++KXEN_W_MODEL_REPOSITORY_SAVE_MODEL
+-保存模型 %1
+
++KXEN_W_MODEL_REPOSITORY_SAVE_CONNECTOR
+-保存数据操作 %1
+
++KXEN_E_DATASPACE_CANNOT_WRITE_L1
+-数据集 %1 无法在 L1 缓存 %2 中进行缓存。 缓存资源库中可能没有更多的可用空间。
+-模型仍可进行训练，但是需要联系管理员以调整配置。
+
++KXEN_E_DATASPACE_CANNOT_WRITE_L2
+-数据集 %1 无法在 L2 缓存 %2 中进行缓存。 缓存资源库中可能没有更多的可用空间。
+-模型仍可进行训练，但是需要联系管理员以调整配置。
+
++KXEN_E_DATASPACE_CANNOT_WRITE
+-数据集 %1 无法缓存。 可能没有更多的可用空间。
+-请联系管理员。
+
++KXEN_E_SPACE_TOO_MUCH_SKIPPEDLINES
+-要跳过的记录数（%1）大于空间 %3 的记录数（%2）。
+
++KXEN_W_CABSTRACTSPACE_COMPUTECOUNT
+-请求 %1 的案例数量。
+
++KXEN_W_CABSTRACTSPACE_SLOWCOUNT
+-KXAF 需要 %1 的案例数量，但是无法通过高效的方式获得。
+-此操作可能会花费一些时间。
+
++KXEN_W_CUSERSPACE_CANNOT_ADAPT_TO_VARIABLES
+-无法调整空间 %1 来匹配新字段集。
+
++KXEN_E_SERIOUS_MAPPING_ERROR
+-文件 %1 与预期布局不匹配。
+-检查一些内容，诸如 <tab> 字符未替换为 <space>。
+
++KXEN_E_SPACE_CANNOT_OPEN_FOR_GETCASECOUNT
+-无法打开数据集 %1 以获取其案例数量。
+
++KXEN_E_ERASEMODELD_NOT_IMPL
+-此类存储无法消除模型定义
+
++KXEN_E_NOT_ENOUGH_ROWS_FOR_THIS_STRATEGY
+-没有足够的行来使用此切割策略。
+
++KXEN_E_NOT_ABLE_TO_COMPUTE_ROWS_INFO
+-计算数据集的大小时出错。
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_DESC
+-%1 包含 Automated Analytics 说明。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_MODEL
+-%1 包含 Automated Analytics 模型。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_KXADMIN
+-%1 包含 Automated Analytics 模型的目录。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_KEYVALUE
+-%1 包含 Automated Analytics 配置文件。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_TRY_TO_OVERLOAD_THE_KXEN_VARIABLE_POOL
+-%1 包含 Automated Analytics 变量池使用的元数据。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_INFOS
+-%1 包含 Automated Analytics 使用的元数据。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_INDEX
+-%1 包含 Automated Analytics 使用的元数据。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_WITH_PARAMETER
+-%1 包含 Automated Analytics 使用的数据。 无法使用数据覆盖 Automated Analytics 专用资源库。
+
++KXEN_E_NOT_A_KXEN_DESC
+-%1 已存在，且不是 Automated Analytics 说明。
+
++KXEN_E_NOT_A_KXEN_MODEL
+-%1 已存在，且不是 Automated Analytics 模型。
+
++KXEN_E_NOT_A_KXEN_KXADMIN
+-%1 已存在，且不是 Automated Analytics 模型的目录。
+
++KXEN_E_NOT_A_KXEN_KEYVALUE
+-%1 已存在，且不是 Automated Analytics 配置文件。
+
++KXEN_E_NOT_A_KXEN_VARIABLE_POOL
+-%1 已存在，且不是有效的 Automated Analytics 变量池数据文件。
+
++KXEN_E_NOT_A_KXEN_INFOS
+-%1 已存在，且不是有效的 Automated Analytics 信息文件。
+
++KXEN_E_NOT_A_KXEN_INDEX
+-%1 已存在，且不是有效的 Automated Analytics 索引文件。
+
++KXEN_E_NOT_A_KXEN_WITH_PARAMETER
+-%1 已存在，且不是有效的 Automated Analytics 文件。
+
++KXEN_E_DATASET_IS_EMPTY
+-数据集 %1 存在，但为空。
+-这可能是由于随机选择设置错误造成的。
+
++KXEN_W_CABSTRACTMODEL_TOO_MANY_THREADS
+-已超过系统允许的线程数量。
+
++KXEN_W_CABSTRACTSTORE_PRIVATE_REPOSITORY
+-尝试修改专用资源库“%1”
+
++KXEN_W_CABSTRACTSTORE_SPACE_DOES_NOT_EXIST
+-数据集 %1 不存在。
+
++KXEN_W_CABSTRACTSTORE_CANNOT_DROPSPACE
+-无法删除数据集 %1。
+
++KXEN_E_CONTAINER_JUST_CHANGED
+-某个用户刚保存完此容器。
+-此模型版本编号现在无效。
+-您需要重新保存。
+
++KXEN_E_CONNECTOR_JUST_CHANGED
+-某个用户刚保存完此连接器。
+-此模型版本编号现在无效。
+-您需要重新保存。
+
++KXEN_E_MODEL_JUST_CHANGED
+-某个用户刚保存完此模型。
+-此模型版本编号现在无效。
+-您需要重新保存。
+
++KXEN_E_MODEL_REPOSITORY_BUSY_NO_INFO
+-Automated Analytics 资源库 %1 已经使用并锁定。
+-请在几分钟后重新尝试上次操作。
+
++KXEN_E_MODEL_REPOSITORY_PERMISSION_DENIED
+-您无权写入资源库 %1。
+
++KXEN_E_MODEL_REPOSITORY_BUSY
+-Automated Analytics 资源库 %1 已经使用并由 %2 锁定。
+
+#Note for translator: %3: name of the user; %2: name of the server; %1: date of the blockage; %4: type of operation 
++KXEN_E_MODEL_REPOSITORY_BUSY_2_FULL_INFO
+-服务器 %2 上的用户 %3，自 %1 起（按操作：“%4”）。
+-请在几分钟后重试上一项操作。
+
++KXEN_E_MODEL_REPOSITORY_BUSY_2
+-服务器 %2，自 %1 起（按操作：“%4”）。
+-请在几分钟后重试上一项操作。
+
++KXEN_W_BUSY_LOOP
+-资源库正忙，正在重新尝试...
+
++KXEN_E_SPACE_NOT_FOUND
+-空间 %1 不存在。
+
++KXEN_W_DATASET_SOME_BADVALUE
+-在“%1”数据集中发现一些错误的或无效的值。
+-请检查详细日志，描述可能错误。
+
++KXEN_W_SPACE_SOME_BADVALUE
+-读取“%1”的数据时发现一些错误的或无效的值。
+-请检查详细日志，描述可能错误。
+
++KXEN_W_DATASET_MORE_BADVALUE
+-在“%1”数据集中发现更多错误的或无效的值，
+-不再发布任何消息。
+
++KXEN_W_SPACE_MORE_BADVALUE
+-读取“%1”的数据时发现更多错误的或无效的值，
+-不再发布任何消息。
+
+#Note for translator: do not translate 'integer' and 'number'
++KXEN_W_CASEITER_READ_BADVALUE_DETAIL
+-行 %2 上变量“%1”的值与存储不兼容。
+-已将值视为空。
+-详细信息为 %3。
+-（例如考虑将“integer”存储更改为“number”）
+
++KXEN_W_CASEITER_PHYSICAL_BADVALUE_DETAIL
+-针对行 %2 上的变量“%1”物理存储的值具有错误的格式或者无法读取。
+-已将值视为空。
+-详细信息为 %3。
+
+#Note for translator: do not translate 'integer' and 'number'
++KXEN_W_CASEITER_READ_BADVALUE
+-行 %2 上变量“%1”的值“%3”与存储不兼容。
+-已将值视为空。
+-（例如考虑将“integer”存储更改为“number”）
+
++KXEN_W_CASEITER_READ_BADVALUE_LATITUDE
+-行 %3 上地理定位变量“%2”的纬度值（%1）无效。
+-地理定位变量的纬度值应在 90 度到 -90 度之间。
+-已将值视为空。
+
++KXEN_W_CASEITER_READ_BADVALUE_LONGITUDE
+-行 %3 上地理定位变量“%2”的经度值（%1）无效。
+-地理定位变量的经度值应在 90 度到 -90 度之间。
+-已将值视为空。
+
++KXEN_E_MAPPING_CANNOT_OVERWRITE_ON_BAD_LAYOUT
+-现有空间布局与预期不匹配。
+-存在 %1 个要清除的未预期字段。  
+
++KXEN_E_MAPPING_FIELDS_MULTI_USED
+-某些字段已多次使用。
+
++KXEN_E_MAPPING_MANDATORY_VARIABLES_NOT_MAPPED
+-某些强制变量未成功映射
+
++KXEN_I_DATASET_IS
+-针对数据集 %1（%2）
+
+#note for translator: do not translate beginRead and nextRead
++KXEN_E_ABSTRACTSPACE_NO_SUCCESFULL_BEGINREAD
+-必须在 nextRead 之前执行空间 %1 上的成功 beginRead。
+
++KXEN_E_ABSTRACTSPACE_NO_SUCCESFULL_BEGINWRITE
+-必须在 nextWrite 之前执行空间 %1 上的成功 beginWrite。
+
++KXEN_E_ABSTRACTSPACE_NO_VARIABLE
+-使用之前空间 %1 必须具有一些变量。
+
++KXEN_I_ALL_MANDATORY_VARIABLES_MAPPED
+-所有强制变量已成功映射
+
++KXEN_I_ALL_VARIABLES_MAPPED
+-所有变量已映射
+
++KXEN_I_VARIABLESMAPPEDAUTONAME
+-通过其名称自动映射的变量： %1
+
++KXEN_I_VARIABLESMAPPEDAUTOPOS
+-通过其位置自动映射的变量： %1
+
++KXEN_I_VARIABLESMAPPEDUSERNAME
+-通过用户定义的名称映射的变量： %1
+
++KXEN_E_VARIABLE_INVALID_TARGET
+-变量 %1 无法作为目标。
+
++KXEN_I_FIELDSFORMAP
+-可用的物理字段： %1
+
++KXEN_I_MANDATORYVARIABLESMAPPED
+-已成功映射的强制变量： %1
+
++KXEN_I_OPTIONAL_VARIABLES_MAPPED
+-已成功映射的可选变量： %1
+
++KXEN_I_OPTIONAL_VARIABLES_SKIPPED
+-未映射的可选变量： %1
+
++KXEN_I_OPTIONALVARIABLESMAPPED
+-已成功映射的可选变量： %1
+
++KXEN_I_VARIABLESMAPPEDWITHCONVERSION
+-通过转换映射的变量： %1
+
++KXEN_I_VARIABLESMAPPEDWITHOUTCONVERSION
+-未通过任何转换映射的变量： %1
+
++KXEN_I_VARIABLESNOTMAPPED
+-未映射的变量： %1
+
++KXEN_I_VARIABLESTOMAP
+-要映射的变量： %1
+
++KXEN_E_MAPPING_BYPOS_FORBIDDEN_IN_WRITE
+-某些变量无法通过其名称自动映射，
+-且写入到此空间时无法使用通过位置的映射。
+
++KXEN_E_MAPPING_BY_POS_AND_NB_FIELDS_NOT_MATCH
+-已使用通过位置自动映射，但映射的
+-字段数量不匹配，因此 %1 字段仍然未映射。
+
++KXEN_E_MAPPING_BY_POS_FORBIDDEN_CONVERSION
+-%1 字段具有需要转换的存储。 对于通过位置自动映射，这是不允许的
+-。
+
++KXEN_W_SPACE_OPEN_NONAME
+-空间必须具有非空名称
+
++KXEN_E_CFIELDSBUCKET_DUPLICATE_FIELD_NAME
+-名为“%1”的字段重复。
+
++KXEN_W_CABSTRACTSPACE_GUESSVARIABLE_NO_ROW
+-空间 %1 中没有行
+-分析流程可能已判断出错误的类型和变量存储。
+
++KXEN_I_LOGICAL_TO_PHYSICAL
+-将逻辑变量映射到物理字段 %1
+
++KXEN_I_PHYSICAL_TO_LOGICAL
+-将物理字段映射到逻辑变量 %1
+
++KXEN_E_VARIABLES_MAPPED_NON_COMPATIBLE
+-已映射的变量，但具有不兼容的转换 %1
+
++KXEN_I_MAPPING_SUCCESS_SHORT_INFO
+-映射成功
+-%1
+
++KXEN_I_MAPPING_SUCCESS_FULL_INFO
+-映射成功
+-%1
+
++KXEN_E_MAPPING_ERROR
+-映射失败
+-%1
+
++KXEN_W_CABSTRACTCASEMODIFIER_TEST_ERROR
+-案例修改器中出现无效内部测试错误。
+
++KXEN_W_INPUTVARWRONGTYPE
+-输入变量 %1 类型错误
+
++KXEN_W_TARGETVARWRONGTYPE
+-目标变量 %1 类型错误
+
++KXEN_W_NOSPACEROLE
+-模型中没有角色 %1 的空间
+
++KXEN_W_NOMODEL
+-没有模型和上一元素!
+
++KXEN_W_CABSTRACTCASEMODIFIER_INSERTTODATA_NULLARG
+-insertToData 的参数为空
+
++KXEN_W_CABSTRACTCASEMODIFIER_REMOVETODATA_NULLTODATA
+-removeToData 的参数为空
+
++KXEN_W_VARPROBLEM
+-变量 %1 出现问题
+
++KXEN_W_CABSTRACTMODEL_OPENNEWSTORE_FOUNDSTORE
+-已经打开新存储。
+
++KXEN_W_CABSTRACTMODEL_OPENNEWSTORE_NEWSTORE
+-已成功打开新存储。
+
++KXEN_W_CCONNECTOR_SAVE_TOKXADMIN
+-无法使用“%1”将数据操作保存到“%2”。
+
++KXEN_W_CABSTRACTMODEL_SAVEVARIABLEDESC_TOKXADMIN
+-无法将说明保存在“%1”上。
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_IMPOSSIBLEROLE
+-此模型的角色“%1”不可用。
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_ROLEEXIST
+-角色“%1”已存在，无法进行创建。
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_NOSTORE
+-用于创建角色“%1”的存储索引错误。
+
++KXEN_W_CABSTRACTMODEL_NULLSPACE
+-以下数据集已丢失其引用： %1.
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CABSTRACTMODEL_NOTRANSFORM
+-以下协议中找不到转换： %1.
+
++KXEN_W_NOROLEREADSPACEDESCRIPTION
+-读取空间描述时无法找到角色“%1”。
+
++KXEN_W_NEWPROTOCOL_ROLEEXIST
+-以下协议已存在，不能创建： %1.
+
++KXEN_W_CABSTRACTMODEL_PROTOCOLNOTFOUND
+-协议“%1”未找到。
+
++KXEN_W_CABSTRACTMODEL_POPTRANSFORMFROMPROTOCOL_CANNOTPOPFIRST
+-无法从协议中弹出首次转换。
+
++KXEN_W_CABSTRACTMODEL_POPTRANSFORMFROMPROTOCOL_STRANGE
+-自协议“%1”的弹出转换出现奇怪问题。
+
++KXEN_W_GETTRANSFORMINPROTOCOL_ROLENOTFOUND
+-以下协议为空： %1.
+
++KXEN_W_CABSTRACTMODEL_CHECK_STRANGEPROTOCOL
+-检查以下协议时发生意外错误： %1.
+
++KXEN_W_CABSTRACTMODEL_CHECK_ROLESNOGOOD
+-协议“%1”的角色无效。
+
++KXEN_W_CABSTRACTMODEL_CHECK_TYPESNOGOOD
+-协议“%1”的类型无效。
+
++KXEN_W_CABSTRACTMODEL_CHECK_TARGETNOGOOD
+-协议“%1”的目标无效。
+
++KXEN_W_CABSTRACTMODEL_CHECK_MODIFIERDOESNOTACCEPTMODE
+-此修改器的模式无效。
+
++KXEN_W_CABSTRACTMODEL_CHECK_PROTOCOLNB
+-此模型（%1）存在过多协议。
+
++KXEN_W_CABSTRACTMODEL_SEND_CHECK
+-检查内部状态。
+
++KXEN_W_CABSTRACTMODEL_SEND_LEARNING
+-开始 %1 的学习。
+
++KXEN_W_CABSTRACTMODEL_SEND_FILTEROUTLIER
+-开始 %1 的异常值过滤。
+
++KXEN_W_CABSTRACTMODEL_SEND_ADAPTING
+-开始 %1 的调整。
+
++KXEN_W_CABSTRACTMODEL_SEND_TESTING
+-开始 %1 的测试。
+
++KXEN_W_CABSTRACTMODEL_SEND_APPLY
+-开始应用模型。 请稍候...
+
++KXEN_W_CABSTRACTMODEL_SEND_MODENOTKNOWN
+-已发送未知模式!
+
++KXEN_W_CABSTRACTMODEL_CHECKROLES_UNKNOWN
+-角色“%1”未找到。
+
++KXEN_W_CHECKTARGET_NOTFOUND
+-未找到目标。
+
++KXEN_W_CHECKTARGET_SECONDTARGET
+-第二目标变量已找到“%1”。
+
++KXEN_W_CHECKTARGET_NOVARIABLEIDX
+-变量 %1 未找到。
+
++KXEN_W_CHECKTARGET_NOVARIABLE
+-在“%1”中未找到变量。
+
++KXEN_W_PROTOCOLTOPARAMETER_ERROR
+-无法将协议“%1”转换为参数。
+
++KXEN_W_PROTOCOLTOPARAMETER_FORCE
+-无法强制 %1 的参数。
+
++KXEN_W_PROTOCOLTOPARAMETER_STRANGENULL
+-奇怪的 NULL 协议。
+
++KXEN_W_SPACEROLETOPARAMETER_ERROR
+-“%1”的参数角色错误。
+
++KXEN_W_SPACEROLETOPARAMETER_FORCE
+-无法强制“%1”的参数。
+
++KXEN_W_SPACEROLETOPARAMETER_STRANGE
+-奇怪的 NULL 协议。
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_NOPARAM
+-spaceRolesFromParameter 中未找到参数“%1”。
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_STRANGE
+-spaceRolesFromParameter 中出现意外错误。
+
++KXEN_W_READVARIABLEDESC_BEGINSTAT
+-现在计算统计信息。
+
++KXEN_W_READVARIABLEDESC_STATPROBLEM
+-变量 # %1 的统计信息存在问题。
+
++KXEN_W_CABSTRACTSPACE_READVARIABLEDESC_NOSPACE
+-空间“%1”未找到。
+
++KXEN_W_CABSTRACTSPACE_SAVEVARIABLEDESC_NOSPACE
+-无法打开“%1”来保存描述。
+
++KXEN_W_CABSTRACTSPACE_SAVEVARIABLEDESC_TOKXADMIN
+-无法将描述保存在“%1”中。
+
++KXEN_W_CABSTRACTSPACE_FILLSTATISTICS_BEGIN
+-现在计算统计信息
+
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_STRINGNOTNOMINAL
+-变量 %1（字符串）应为名义变量。
+
++KXEN_W_CABSTRACTSPACE_FILLDISCSTAT_NBREAD
+-估算离散统计信息： 已读取 %1 个案例
+
++KXEN_W_CABSTRACTSPACE_FILLCONTSTAT_NBREAD
+-估算连续统计信息： 已读取 %1 个案例
+
++KXEN_W_CABSTRACTSPACE_FILLSTAT_NBREAD
+-估算统计信息： 已读取 %1 个案例
+
++KXEN_W_CABSTRACTMODEL_SAVE_NOTLEARNED
+-无法保存尚未学习的模型。
+
++KXEN_W_MISSING
+-缺少变量 %1 的值，其中 %2 是 %3。
+
++KXEN_W_MISSING_SKIP
+-缺少已跳过的变量 %1（%3：%4）的值。
+
++KXEN_Q_USER
+-用于打开“%1”的用户
+
++KXEN_Q_PASSWORD
+-用于打开“%1”的密码
+
++KXEN_W_CABSTRACTTRANSFORM_CHECKTYPES_INSERTCCODER
+-已在处理链中插入 Consistent Coder 模块。
+
++KXEN_W_CABSTRACTTRANSFORM_CHECKTYPES_INSERTTEXTQUANT
+-已在处理链中插入 Text Coder 模块。
+
++KXEN_W_CABSTRACTTRANSFORM_CHECKTYPES_INSERTDATECODER
+-已在处理链中插入 Date Coder 模块。
+
++KXEN_W_ABSTRACTTRANSFORM_TEST_PROGRESS
+-应用模型
+
++KXEN_W_CABSTRACTSPACE_ENDVARIABLESTAT_ENDSTAT
+-变量 %1 的统计信息评估中出现问题
+-（可能没有足够的点计算适当提升曲线）。
+
++KXEN_W_TOTALTIME
+-总计经过时间： %1 秒。
+
++KXEN_W_MODELCOMMIT_CANTFINDPREVIOUS
+-无法找到用于提交模型“%1”的先前保存的版本
+
++KXEN_W_CONNECTORCOMMIT_CANTFINDPREVIOUS
+-无法找到用于提交数据操作“%1”的先前保存的版本
+
++KXEN_W_MODELCOMMIT_RETRIEVESTORE
+-用于提交模型“%1”的存储参数无效
+
+#Note for translator: do not translate 'continuous', 'date' and 'number'
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_CONTNOTNUMBERORDATE
+-描述错误： “continuous”应与“date”或“number”（%1）结合使用
+
+#Note for translator: do not translate 'ordinal' and 'number'
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_ORDNOTNUMBER
+-描述错误： “ordinal”应与“number”（%1）结合使用
+
++KXEN_W_ABSTRACTTRANSFORM_TEST_NBREAD
+-应用模型：(已读取（%1）个案例...
+
++KXEN_W_CABSTRACTMODEL_COMMITEXISTINGSAVE
+-此模型已存在，是否确定要将其保存为版本“%1”?
+
++KXEN_W_CABSTRACTMODEL_OPENSTOREFORROLE_FAILED
+-无法打开“%1”数据集的存储
+
++KXEN_W_PARAMETER_SETVALUE_READONLY
+-无法更改参数“%1”的只读值。
+
++KXEN_W_PARAMETER_INVALIDENUM
+-参数“%1”（“%2”)的枚举值无效。
+
++KXEN_E_INVALID_ENUM_CANDIDATES
+-可能的枚举值有： %1
+
++KXEN_W_PARAMETER_GETPARAMETER_NOTFOUND
+-无法找到参数“%1”。
+
++KXEN_W_WITHPARAMETER_RESTORE_SPACENOTFOUND
+-无法打开文件“%1”。
+
++KXEN_W_WITHPARAMETER_RESTORE_NOPARAMETERFOUND
+-未找到版本为 %2 的“%1”的信息。
+-模型资源库可能已损坏。
+
++KXEN_W_CABSTRACTMODEL_SPACENOTFOUND
+-无法打开“%1”，未找到。
+
++KXEN_W_CABSTRACTMODEL_NEEDORDERVARIABLE
+-切割策略 %1 需要顺序变量。
+
++KXEN_W_CABSTRACTMODEL_NOTREADY
+-未准备好此操作的模型。
+
++KXEN_E_CABSTRACTSTORE_LSMODELDGET_IMPOSSIBLEPLACE
+-不存在模型描述“%1”。
+
++KXEN_E_CABSTRACTSTORE_LSCONNECTORGET_IMPOSSIBLEPLACE
+-不存在数据操作说明“%1”。
+
++KXEN_W_DUPLICATEVARNAME
+-变量“%1”重复（等级“%2”）。
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_CHANGEEXISTINGROLE
+-是否替换现有数据集“%1”?
+
+#Note for translator: do not translate 'POST'
++KXEN_W_CABSTRACTMODEL_POST_STILLRUNNING
+-“POST”消息已发送到此模型。
+
++KXEN_W_CSTATISTICSBUILDER_RUN_BEGIN
+-正在计算统计信息...
+
++KXEN_W_CPROTOCOL_GET_PROFITCURVE_NOVAR
+-未找到变量“%1”。
+
++KXEN_E_CABSTRACTSTORE_RESTOREMODELD_INCOMPVERSION
+-在版本 %2 中无法恢复版本 %1 的模型
+
++KXEN_E_CABSTRACTSTORE_RESTOREMODELD_INVALID_SPACE
+-模型 %1 无法恢复，因为空间 %2 不存在。
+
++KXEN_E_CABSTRACTSTORE_RESTORECONNECTOR_INCOMPVERSION
+-在版本 %2 中无法恢复版本 %1 的数据操作
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_INVALIDWEIGHTTYPE
+-权重变量必须为“continuous”
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_INVALIDWEIGHTSTORAGE
+-权重变量必须为“number”
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_INVALIDWEIGHTASTARGET
+-目标变量也不能是权重
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_TOOMANYWEIGHTS
+-只能存在一个权重变量
+
++KXEN_W_CABSTRACTSPACE_FILLDISCSTAT_MISSINGCONTTARGET
+-连续目标变量无法具有缺失的值（行 %1）
+
++KXEN_E_CABSTRACTMODEL_EVALPERIODEXPIRED
+-评估期到期。 请与 SAP 支持人员联系。
+
++KXEN_W_CABSTRACTMODEL_EVALPERIODREMAINING
+-您还剩余 %1 天的时间来评估此软件。
+
++KXEN_W_CABSTRACTSPACE_GUESSDESCRIPTION_VARCOUNT
+-推测 %1 的描述时未找到变量。
+
++KXEN_W_CABSTRACTMODEL_OPENNEWSTORE_CANTCREATESTORE
+-无法创建类“%1”的存储。
+
++KXEN_W_CSTATBUILDER_ORDINALTOCONTINUOUS
+-警告： 变量 %1 已声明为”ordinal”，
+-但看起来像“continuous”。
+-学习过程可能会很慢，您应更正描述。
+
++KXEN_W_SAVEDESCRIPTION_REPLACE_EXISTING
+-是否替换“%1”中的现有描述?
+
++KXEN_E_ABSTRACTTRANSFORM_BADLICENSE
+-错误： “%1”的许可无效。
+
++KXEN_E_ABSTRACTMODEL_KMX_BADLICENSE
+-错误： KMX/%1 的许可无效。
+
++KXEN_E_CABSTRACTMODEL_GENERATEXML_CANNOTOPEN
+-错误： 无法打开用于 XML 生成的文件“%1”。
+
++KXEN_E_WITHPARAMETER_CANTOPEN
+-错误： 无法打开文件“%1”。
+
++KXEN_E_WITHPARAMETER_CASEITERBEGIN
+-错误： 无法在文件“%1”中读取。
+
++KXEN_W_CSTATISTICBUILDER_RUNFIRST_PROGRESS
+-计算初始统计信息
+
++KXEN_W_CSTATISTICBUILDER_RUN_PROGRESS
+-计算验证/测试统计信息
+
++KXEN_W_CPERFSTATBUILDER_NEXTFIRST_PROGRESS
+-计算参考绩效
+
++KXEN_W_CPERFSTATBUILDER_NEXT_PROGRESS
+-计算其他绩效
+
++KXEN_W_CSTATISTICSBUILDER_DEVIATIONTARGET
+-数据集 %2 上的目标 %1 存在巨大偏差： 模型将会变得可疑
+
++KXEN_E_VARIABLE_NUMBER_KEY
+-警告： 将变量“%1”声明为数字和键。
+-您可能会损失精度（考虑使用整型或字符串键）。
+
++KXEN_E_CSTATBUILDER_NULLWEIGHT
+-错误： 权重变量总值不能为空。
+
++KXEN_E_CSTATBUILDER_NEGATIVEWEIGHT
+-错误： 不允许负权重（行 %1）。
+
++KXEN_W_CSIMULATOR_MISSINGOPTION
+-“部署”存储的配置中缺少选项“%1”。
+-未针对部署加载模型
+
++KXEN_W_BUILDSQL_PASS
+-构建 SQL 传递%1
+
++KXEN_W_BUILDSQL_PROGRESS
+-正在构建 SQL 表达式...
+
++KXEN_W_OUTOFRANGE
+-变量“%1”（%3：%4）的值（%2）很奇怪
+
++KXEN_W_OUTOFRANGE_SKIP
+-变量“%1”（%3：%4）的值（%2）很奇怪，已忽略大小写。
+
++KXEN_W_RREGRESSION_UNDETECTEDCONST
+-对变量“%1”进行编码时遇到问题。
+-请检查描述或跳过模型中的变量。
+
++KXEN_W_RREGRESSION_CONSTANT_MODEL
+-常量模型已生成。
+
++KXEN_E_RREGRESSION_CONFLICTING_VARIABLE
+-变量名称“%1”与内部 Automated Analytics 构建变量冲突。 通常名称以“c_”开头的变量会出现这种情况。 重命名此变量会解决此问题。
+
++KXEN_W_SPACE_READ
+-正在读取数据...
+
++KXEN_W_VARIABLE_KIPROBLEM
+-计算“%1”和目标“%2”的 Ki 时出现问题（数据集过小或为常量目标?）
+
++KXEN_W_CABSTRACTTRANSFORM_GETSIMULATIONOUTPUT_NOVARIABLE
+-要模拟的变量语法错误
+
++KXEN_W_CABSTRACTTRANSFORM_GETSIMULATIONOUTPUT_BADVARNAME
+-要模拟的输出变量“%1”未知
+
++KXEN_W_CSTATBUILDER_ENDTGTDISCSTATPB
+-离散目标“%1”存在统计问题（错误地强制了目标键?）
+
++KXEN_W_CABSTRACTSPACE_AUTHORIZATIONPB
+-此演示版本无法处理此数据集。
+-请联系 SAP 代表。
+
++KXEN_W_CABSTRACTSPACE_NEEDSTARTDESCRIPTION
+-您需要在调用 endDescription 之前调用 startDescription。
+
++KXEN_W_CABSTRACTSPACE_NEEDENDDESCRIPTION_BEGINREAD
+-调用 startDescription 之后，您需要在调用 beginRead 之前
+-调用 endDescription
+
++KXEN_W_CABSTRACTSPACE_NEEDENDDESCRIPTION_BEGINWRITE
+-调用 startDescription 之后，您需要在调用 beginWrite 之前
+-调用 endDescription
+
++KXEN_W_CABSTRACTSPACE_FILLSTATISTICS_NODESC
+-没有用于计算数据集统计信息的描述集。
+
+#Note for translator: do not translate "FP-Tree"
++KXEN_W_FPTREE_MEMORY_USED
+-FP-Tree，使用的内存大小： (%1)
+
+#Note for translator: do not translate "FP-Tree"
++KXEN_W_FPTREE_COMPRESSION_LEVEL
+-FP-Tree，压缩级别： (%1)
+
++KXEN_W_FPTREE_MIN_SUPPORT
+-最小支持度： (%1)
+
++KXEN_W_FPTREE_NUMBER_TRANSACTIONS
+-(已找到（%1）项事务
+
++KXEN_W_FPTREE_RULES_MIN_SUPPORT
+-最小支持度： (%1)
+
++KXEN_W_FPTREE_NUMBER_RULES
+-(已找到（%1）个规则
+
++KXEN_W_FPTREE_RULE
+-规则： (%1)
+
++KXEN_W_FPV_NUMBER_TRANSACTIONS
+-(已找到（%1）项事务
+
++KXEN_W_FPV_MIN_SUPPORT
+-最小支持度： (%1)
+
++KXEN_W_FPV_NUMBER_RULES_CHUNK
+-(已在块（%2）中找到（%1）个规则
+
++KXEN_W_FPV_NUMBER_ITEMS
+-(已找到（%1）个项目
+
++KXEN_W_FPV_APPLY
+-正在开始应用 FPV...
+
++KXEN_W_FPV_RULE
+-规则： (%1)
+
++KXEN_W_FPV_NUMBER_RULES
+-(已找到（%1）个规则
+
++KXEN_W_FPV_NUMBER_FREQUENTITEMSETS
+-(已找到（%1）个项目集，其支持度大于最小支持度
+
++KXEN_W_FPV_NUMBER_INTERSECTIONS
+-(已计算（%1）个交集
+
++KXEN_W_FPV_RULES_ACTIVATED
+-使用的规则： (%1)
+
++KXEN_W_FPV_GOOD_RULE
+-好的规则： (%1)
+
++KXEN_W_FPV_BAD_RULE
+-坏的规则： (%1)
+
++KXEN_I_FPV_REAJUSTRULESSUPPORT
+-在使用块后重新调整支持度规则...
+
++KXEN_I_FPV_REAJUSTRULESSUPPORT_PROGRESS
+-在使用块后重新调整支持度规则...
+
++KXEN_I_FPV_REAJUSTRULESSUPPORT_NBREAD
+-重新调整支持度：(已读取（%1）个会话
+
++KXEN_I_FPV_SEQUENCESCOMPUTING
+-计算关联规则的序列统计信息
+
++KXEN_I_FPV_SEQUENCESCOMPUTING_PROGRESS
+-计算关联规则的序列统计信息
+
++KXEN_I_FPV_SEQUENCESCOMPUTING_NBREAD
+-序列计算：(已读取（%1）个会话
+
++KXEN_W_FPV_CHUNKANALYSIS
+-导入会话并创建规则： （%2）上的块（%1）
+
++KXEN_W_FPVBUILDER_GETTRANSACTIONS
+-正在导入会话...
+
++KXEN_W_FPVBUILDER_GETTRANSACTIONS_PROGRESS
+-正在导入会话...
+
++KXEN_W_FPVBUILDER_BUILDINGRULES_PROGRESS
+-正在搜索关联规则... 
+
++KXEN_I_FPV_GENERATEFPCHUNKS_RULESGENERATIONSTATUS
+-创建规则： （%2）上的块（%1），%4 上的项目编号 %3 被视为后项
+
++KXEN_I_FPV_GENERATEFP_RULESGENERATIONSTATUS
+-创建规则： %2 上的项目编号 %1 被视为后项
+
++KXEN_W_FPVBUILDER_GETTRANSACTIONS_NBREAD
+-(已导入（%1）个会话
+
++KXEN_W_FPVBUILDER_STARTREAJUSTMENT
+-正在使用块后重新调整支持度规则...
+
++KXEN_W_FPV_PRUNING_ITEMSETS_NOT_FREQUENT
+-正在低频率修剪项目集...
+
++KXEN_I_ARULESENGINE_GUESSRULESSIZE
+-推测参数： 固定于（%1）的规则最大大小
+
++KXEN_I_ARULESENGINE_GUESSCHUNKSIZE
+-推测参数： 固定于（%1）的块大小，含（%2）会话
+
++KXEN_E_ARULESENGINE_NOVALIDCATEGORYFOUND
+-生成关联规则时出现错误： 未找到
+-变量（%1）中的值（%2）的有效类别。
+
++KXEN_W_KAR_KARDONOTUSEMISSINFO
+-仅当使用关联规则
+-替换缺失值时参数“UseMissInfo”才可用。 
+-在不使用此参数的情况下，训练将继续。
+
++KXEN_W_KAR_AUTOMATICSETTINGS_NOTAVAILABLE
+-仅当在“说明性统计信息”内使用
+-关联规则引擎时，参数“AutomaticParametersSettings”才可用。
+-在不使用此参数的情况下，训练将继续。
+
++KXEN_W_KAR_SKIPDERIVEDRULES_ONLYSUPPORTWITH_SEARCHMETHOD2
+-仅当使用搜索方法
+-2（即，稍微修改 FPV 算法）时，参数 SkipDerivedRules 才可用。
+
++KXEN_W_KAR_INVALIDMAXLENGTH_CHANGETO_
+-最大规则长度无效。 已修改为（%1）。
+
+#note for translator: do not translate "False"
++KXEN_W_KAR_SKIPREDUCIBLEITEMSETSDEACTIVED_SINCE314
+-从版本
+-3.1.4 起选项“跳过可缩减项目集”已取消激活。该选项设置为 False 时，关联规则学习将继续
+-。
+
++KXEN_W_KAR_CHUNK_SIZE_TOO_SMALL
+-当前块大小（%1）可能过小，有可能引发偏差
+-结果。 考虑增加块大小或使用“推测块
+-大小”功能。
+
++KXEN_W_FREQUENTITEMSET
+-常用项目集：(%2)，支持度 =（%1）
+
++KXEN_E_ARULESENGINE_UNKNOWNRULEID
+-应用时规则中指定的要禁用的规则（%1）不存在!
+
++KXEN_W_CPROTOCOLPROFITCURVE_WRONGUSERPROFIT
+-变量 %1 的类别 %2 的用户利润应最大
+-（含 Automated Analytics 约定）
+
++KXEN_W_SPACE_OPEN_MODENOTIMPLEMENTED
+-数据集“%1”无法用于此用途。
+-无法针对此类数据存储实施某些功能（模式“%2”）。
+
++KXEN_E_CABSTRACTMODEL_ADVANCEDVERSION
+-无法使用此版本的工具重新加载版本 %1 的模型。
+
++CABSTRACTSPACE_COMMITEXISTINGCONNECTOR
+-此分析数据集已存在。 单击“是”将其保存为版本“%1”或单击“否”覆盖前一版本。
+
++KXEN_W_CONNECTOR_SQL
+-相关 SQL 表达式为 %1。
+
+#Note for translator:  JOIN refers to a SQL statement
++KXEN_E_CONNECTOR_INVALIDJOINSTORAGE
+-类型 %1 和 %2 不兼容。 无法将其用于 JOIN 语句。
+
+#Note for translator:  JOIN refers to a SQL statement
++KXEN_E_CONNECTOR_INVALIDJOINEXPRESSION
+-%1 和 %2 之间的 JOIN 语句无效。左侧条款与唯一表无关。
+
+#Note for translator:  JOIN refers to a SQL statement
++KXEN_E_CONNECTOR_INVALIDSECONDJOINTYPE
+-%1 和 %2 之间的 JOIN 语句无效。第二条条款类型不兼容。
+
++KXEN_E_CONNECTOR_BADSPACESPEC
+-表 %2（别名 %1）无效。
+
++KXEN_E_CONNECTOR_BADFILTER
+-复制名为“%1”的过滤器。
+
++KXEN_W_MISSING_USED_SPACE
+-表“%1”用于此分析数据集。 
+-此表在当前数据库中未找到。 
+
++KXEN_W_MISSING_FIELDS_IN_USED_SPACE
+-以下字段用于分析数据集且在
+-表“%1”中未找到： %2。
+-请在当前数据库中检查表布局。 
+
++KXEN_W_FIELDS_ADDED_IN_USED_SPACE
+-已从‘%1’中将以下字段导入到分析数据集: %2.
+
+
++KXEN_W_CONFIRM_IMPORT_OF_ADDED_FIELDS_IN_USED_SPACE
+-自上次访问后已将一些新字段添加至“%1”。
+-要继续，单击“是”将其导入或单击“否”忽略。
+
+
++KXEN_E_CONNECTOR_BADGROUP
+-复制名为“%1”的分组表达式。
+
++KXEN_E_CONNECTOR_UNKNOWNFIELDFORGROUP
+-字段 %1 对于分组表达式是无效的。
+
++KXEN_W_CABSTRACTSPACE_GUESSVARIABLEDESC_TRYREADKXDESC
+-读取默认描述“%1”。
+
++KXEN_W_CABSTRACTSPACE_GUESSVARIABLEDESC_ERROR
+-无法为 %1 推测适当的说明。
+-（最可能的原因是： 表为空，因此不包含有效信息）
+
++KXEN_W_CTRANSFORM_ERASEVAR
+-将变量 %1 从协议中移除。
+
++KXEN_W_CWITHVARIABLES_VARIABLESTOPARAMETER_ERROR
+-将变量 %1 转换为其参数结构时出现问题。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CWITHVARIABLES_VARIABLESTOPARAMETER_FORCE
+-将变量 %1 插入到参数结构中时出现问题。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CWITHVARIABLES_VARIABLESTOPARAMETER_STRANGE
+-浏览变量 %1 的变量列表时出现问题。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CWITHVARIABLES_NEEDSTARTDESCRIPTION
+-无需先调用 startDescription 就可以使用 addVariableDesc
+-，调用之后将弃用 endDescription。 
+
++KXEN_E_DESERIALIZE_EMPTY
+-试图反序列化空字符串中的 Automated Analytics 对象！
+
++KXEN_E_DESERIALIZE_INVALID_LINE
+-反序列化时出现错误行 %1。 应该强制行只占用一个字段。
+
++KXEN_E_DESERIALIZE_INVALID_FORMAT
+-试图反序列化无效字符串中的 Automated Analytics 对象！
+
++KXEN_E_DESERIALIZE_TRANSFORM_NOT_SUPPORTED
+-转换“%1”本身不支持反序列化，或者
+-使用了不支持的功能。
+
++KXEN_E_SERIALIZE_TRANSFORM_NOT_SUPPORTED
+-转换“%1”本身不支持序列化，或者
+-使用了不支持的功能。
+
++KXEN_W_INTERNALTOPARAMETERERROR
+-将 %1 转换为其参数结构时出现问题。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_VARIABLE_SMALLCOMPRESS_NOSTAT
+-尝试压缩无统计信息的变量 %1。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_TARGETINFO_WRONGORDINALGROUP
+-更改变量 %2 的组 %1 的名称。
+
++KXEN_E_CSIMULATOR_NOTLOADEDMODEL
+-请求模拟未知模型 %1。
+
++KXEN_E_CSIMULATOR_MORETHANONESTORE
+-过多部署存储声明。
+
++KXEN_W_CSIMULATOR_OPENNEWSTORE
+-打开部署存储。
+
++KXEN_W_CRREGRESSION_LEARN_R2
+-R2 值： %1
+
++KXEN_W_CRREGRESSION_TEST_R2
+-R2 测试值： %1
+
++KXEN_W_CRREGRESSION_LEARN_EXTNAMESPROBLEM
+-计算贡献变量的名称时出现问题。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CRREGRESSION_LEARN_NOSOLUTION
+-分类/回归引擎未找到解决方案。
+
++KXEN_W_CPROTOCOL_GETPROFITCURVE_NOSTAT
+-无计算 %1 利润曲线的有效统计信息。
+
++KXEN_W_CPROTOCOL_GETPROFITCURVE_NO_VAR_STAT
+-（%1）利润曲线不可针对变量%2进行计算。 特定‘%3’数据集不存在。
+
+
++KXEN_W_CPROTOCOL_TRANSFORMTOPARAMETERERROR
+-将转换 %1 转为参数时出现问题。
+
++KXEN_W_CPROTOCOL_ROLE_IDX2BIG
+-等级 %1 对于角色过高（最大值为 %2）
+
++KXEN_W_CPROTOCOL_FILLVARIABLES_NOSPACE
+-无适当空间前提下无法创建变量
+
++KXEN_W_CPROTOCOL_FILLVARIABLES_NOLASTTRANSFORM
+-无适当转换前提下无法创建变量
+
++KXEN_W_CABSTRACTSPACE_NOSTATFORCODE
+-变量 %1 无有效统计信息
+
++KXEN_W_CPERFSTATBUILDER_NULLWEIGHT
+-计算统计信息时出现问题。
+-错误： 权重变量总值不能为零。
+
++KXEN_W_CCONTAINER_NOSTORE
+-访问内部存储时出现问题
+
++KXEN_W_CABSTRACTMODEL_SAVE_TOPARAMPB
+-转换为参数结构时出现问题
+
++KXEN_W_CABSTRACTMODEL_SAVE_APPENDDESCPB
+-声明新保存的对象时出现问题
+
++KXEN_E_CONNECTOR_BADALIAS
+-将别名 %1 误认为 %2
+
++KXEN_E_CONNECTOR_BADSTORAGE
+-存储 %1 未知
+
++KXEN_E_CONNECTOR_BADVALUETYPE
+-值类型 %1 未知
+
++KXEN_E_CONNECTOR_BADFIELDEXPR
+-表达式 %1 未知
+
++KXEN_E_CONNECTOR_BADFIELDSPACE
+-空间 %1 未知
+
++KXEN_E_CONNECTOR_BADFUNCARGNB
+-函数 %1 的参数（%2）数量错误
+
++KXEN_E_CONNECTOR_BADFUNCNAME
+-函数 %1 未知
+
++KXEN_E_CONNECTOR_BADVALUE
+-值“%2”与“%1”的声明存储不兼容
+
++KXEN_E_CONNECTOR_BADVALUE3
+-值“%2”与“%1”的声明存储（“%3”）不兼容
+
++KXEN_E_CONNECTOR_NORMALIZATION_MONOTONICPOINTS
+-规范化 %1 时出现问题
+-%2 应该小于 %3
+
++KXEN_E_CONNECTOR_NORMALIZATION_WRONGINPUTSTORAGE
+-规范化 %1 时出现问题
+-存储应为数字或整数（找到 %2）
+
++KXEN_W_CONNECTORCOMMIT_GREATERVERSIONFOUND
+-问题： 数据操作 %1 存在高级版本 %2
+-请联系负责模型/数据操作资源库的人员
+
++KXEN_E_NOCODINGSTRATEGY
+-无法找到版本 %1
+
+#Note for translator: do not translate 'learning'
++KXEN_W_CABSTRACTTRANSFORM_LEARN_WRONGSTATE
+-问题： 转换状态应为“learning”
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CABSTRACTTRANSFORM_APPLY_REPLACE_EXISTING
+-是否要替换 %1 的旧版本?
+
++KXEN_W_CABSTRACTTRANSFORM_APPLY_REPLACE_EXISTING2
+-更新输出索引出现问题：
+-不应该出现大于 %1 的索引
+
++KXEN_W_CABSTRACTCASEMODIFIER_UPDATEININDICES_NOVAR
+-试图在协议无声明的变量时
+-更新转换的输入索引
+
++KXEN_W_CABSTRACTTRANSFORM_SETWRONGSTATE
+-试图更改将 %1 转换为 %2 的状态。
+-用户无法更改状态
+
++KXEN_W_CABSTRACTTRANSFORM_SIMULATIONVALUE_BADVARNAME
+-要模拟的变量 %1 未知
+
++KXEN_W_CABSTRACTTRANSFORM_RUNSIMULATION_NOCASE
+-无有效矢量值进行模拟
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CABSTRACTTRANSFORM_RUNSIMULATION_NOPROTOCOL
+-无有效协议进行模拟
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CABSTRACTSTORE_OPENNEWSPACE_NEWFAIL
+-无法打开 %1
+
++KXEN_E_CABSTRACTSTORE_LSMODELDGET_CANTFIND
+-未找到 %1（版本 %2）的说明
+
++KXEN_W_CABSTRACTSTORE_WRONGSTORECLASS
+-类 %1 未知。 请检查配置文件
+
++KXEN_E_CABSTRACTSTORE_RESTORECONNECTOR
+-创建数据操作时出现内存问题
+-请减少内存消耗
+
++KXEN_E_CABSTRACTSTORE_RESTORECONTAINER
+-创建类 %1 的容器时出现内存问题
+-请减少内存消耗
+
++KXEN_E_CABSTRACTSTORE_RESTOREMODEL
+-无法创建类 %1 的模型
+
++KXEN_W_NOCONNECTORSTORE
+-访问内部数据操作资源库时出现问题
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_E_INVALID_CONNECTOR_STORE_SPECIFICATION
+-试图打开元数据资源库时出现错误。
+-请确保数据源名称（“%1”）、类型（“%2”）和访问权限有效。
+
+
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_MISSINGIDX
+-无等级为 %1  的变量!
+
++KXEN_W_CABSTRACTSPACE_SAVEDESC_CANTCREATESTORE
+-保存说明时无法创建类 %1 的存储
+
++KXEN_W_CABSTRACTSPACE_CONNECTORSPACENAME
+-无法创建数据操作 %1（名称已存在）
+
++KXEN_W_CABSTRACSPACE_SAVEINCONNECTOR
+-无法在现有数据操作 %1 中保存数据操作
+
++KXEN_W_CABSTRACTSPACE_GETCASESCOUNT_NOVAR0
+-无法通过任何变量获取行数。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CABSTRACTSPACE_GETCASECOUNT_UPDATELASTROW
+-仅有 %1 行
+
++KXEN_W_CABSTRACTSPACE_INVALIDROWS
+-数据集 %1 的已跳过的/最后的行无效
+
++KXEN_W_ABSTRACTSPACE_BEGIN_FIRSTROWSKIPPB
+-跳过第一行时出现问题
+
++KXEN_W_CABSTRACTSPACE_OPENNOTOPENSTORE
+-在存储 %2 未打开时试图打开 %1
+
++KXEN_W_CABSTRACTSPACE_OPENWRONGMODE
+-用于打开 %1 的模式 %2 无效
+
++KXEN_W_CABSTRACTMODEL_UNKNOWNMODE
+-发送至模型的模式无效
+
++KXEN_W_CABSTRACTMODEL_NEWPROTOCOL_NAMEEXISTS
+-名为 %1 的协议已存在!
+
++KXEN_W_CABSTRACTMODEL_BADTRANSFORMCLASSNAME
+-无效的转换类 %1!
+
++KXEN_W_CABSTRACTMODEL_PROTOCOL_IDX2BIG
+-协议索引 %1 过大（最大： %2)
+
++KXEN_W_CABSTRACTMODEL_ADDCCODER
+-将编码器插入协议 %1 中时出现问题
+
++KXEN_W_CABSTRACTMODEL_CHECK_NOGOOD
+-转换一致性的问题
+
++KXEN_W_CABSTRACTMODEL_CHECK_NOPROTOCOL
+-检查模型时无有效协议
+
++KXEN_E_CABSTRACTMODEL_GENERATE_UNKNOWNCODETYPE
+-无法生成类型 %1 的代码
+
++KXEN_W_CABSTRACTMODEL_SIMULATIONNOTREADY
+-模型未做好模拟准备!
+
++KXEN_W_CABSTRACTMODEL_WRONGCLASSNAME
+-模型类 %1 未知!
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_UNKNOWNSTORE
+-无法使用 %2 创建类 %1 的存储!
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_NOSPACE
+-创建数据集 %1 时出现问题
+
++KXEN_W_CABSTRACTMODEL_GETSIMULATIONOUTPUT_WRONGPROTOCOLNB
+-无法用多个协议模拟!
+
++KXEN_W_CABSTRACTMODEL_AUTOSAVE_SAVEFAIL
+-无法自动保存模型 %1
+-请检查详细日志。
+
++KXEN_W_CABSTRACTMODEL_AUTOSAVE_DONE
+-模型 %1 已保存。
+
++KXEN_W_CABSTRACTMODEL_INTERMEDIATE_AUTOSAVEFAIL
+-无法自动保存中间模型 %1
+-请检查详细日志。
+
++KXEN_E_DATASETS_DESCRIPTION_DIFFER
+-数据集“%1”和“%2”的说明应该相同。
+
++KXEN_W_CABSTRACTTRANSFORM_UPDATEOUTINDICES_WRONGINDICES
+-等级 %1 的输出变量出现内部问题
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_E_CABSTRACTTRANSFORM_NOPROTOCOL
+-内部问题： 没有与转换相关的协议。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_VARIABLEBANDCOUNT_RESET
+-变量“%1”的段数已重置为 %2
+
++KXEN_W_VARIABLEPRIORITY_RESET
+-变量“%1”的优先级已重置为 %2
+
++KXEN_W_OUTPUTSMGR_VHDLR_SUB_CMPTR_INVALID_TARGET_CAT_NAME
+-不存在变量“%2”的类别“%1”。
+
++KXEN_W_OUTPUTSMGR_GENERATE_VHANDLERS
+-准备输出计算机。
+
++KXEN_W_OUTPUTSMGR_VHANDLERS_GENERATE_ERROR
+-准备输出计算机时出现错误。
+
++KXEN_W_PEFSTATBUILDER_EMPTYSCORE
+-评分变量“%1”不能包含空值。
+
++KXEN_E_RULEDURATION_BADVALUE
+-针对规则 %2 的持续时间提供的值 %1 不是有效数字
+
++KXEN_E_CABSTRACTMODEL_IMPOSSIBLE_ADDTRANSFORM
+-无法在已检查/已训练的模型上添加/推送新的转换!
+
++KXEN_W_CABSTRACTSPACE_CYCLIC_REF_IN_CONNECTOR
+-数据操作无法保存为 %1。
+-这取决于相同名称的数据操作。
+
++KXEN_E_CONNECTOR_SELF_REFERENCING_AS_EVENT_OR_MERGE
+-此数据操作将其本身引用为 %1。
+-可以通过合并或者聚合实现此操作。
+
++KXEN_E_CONNECTOR_CYCLIC_REF_IN_CONNECTOR_TREE
+-检测到相互依赖性。
+-“%2”类型的数据操作“%1”取决于具有相同名称的另一个数据操作。
+
++KXEN_E_WRONGTERATRANSLATION
+-生成 Teradata SQL 时以下数字的格式设置不正确： %1。
+-请与 SAP 支持人员联系。
+
++KXEN_E_RESTOREPARAMETER_UNKNOWNPARENT
+-恢复未知的父参数 ID %1 时出错。
+-要加载的数据可能损坏。
+
++KXEN_E_RESTOREPARAMETER_DUPLICATE
+-恢复节点“%2”重复参数“%1”时出错。
+-要加载的数据可能损坏。
+
++KXEN_W_PARAMETER_INVALID_STORAGE
+-变量“%1”的存储或类型已更改
+
++KXEN_E_CONNECTOR_MULTIPLE_EXT_SPACE_NOT_SUPPORTED
+-不允许聚合函数参考多个外部表。
+-表“%1”和“%2”不能同时使用。
+
++KXEN_E_NUMERICAL_VALUE_OVER_FLOW
+-行 %2 中变量 %1 的溢出值。
+
++KXEN_E_TEXTUAL_IS_NOT_AVAILABLE
+-变量 %1 的值存储 %2 在此 SAP BusinessObjects Predictive Analytics 版本中
+-不可用。
+
++KXEN_NAME_CATEGORY
+-类别
+
++KXEN_NAME_SCORE
+-评分
+
++KXEN_NAME_EMPTY
+-空
+
++KXEN_W_INDATAAPPLY
+-启动优化的应用进程。
+
++KXEN_W_INDATAAPPLY_SAME_APPLYIN_APPLYOUT
+-输入和输出应用数据集应不相同。
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_W_INDATAAPPLY_NOT_SAME_ODBCSOURCE
+-输入和输出应用数据集中的 ODBC 存储不相同。
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_W_INDATAAPPLY_WITH_NOSUBSAMPLING
+-在输入应用数据集中已定义子采样。
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_W_INDATAAPPLY_NO_KMX_DEFINED
+-没有可用于 ODBC 存储的代码生成器。
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_W_INDATAAPPLY_NO_KMX_LICENSE_AVAILABLE
+-没有可用于此 ODBC 存储上应用的代码生成器许可。
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_W_INDATAAPPLY_NO_PROTOCOL
+-数据库内应用的状态错误
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_W_INDATAAPPLY_NO_CODE_FOR_TRANSFORM
+-此模型无法通过代码生成器导出。
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_W_INDATAAPPLY_NO_KEY_FOR_MODEL
+-未找到模型的主键。
+-无法执行优化的应用。
+-将使用标准应用进程代替。
+
++KXEN_E_INDATAAPPLY
+-优化的数据库内应用进程失败。
+-将使用标准应用进程代替。
+
++KXEN_E_RELOAD_64BITS_IN_32BITS
+-当前模型无法恢复：
+-它基于 64 位架构构建，
+-而您使用的是 32 位架构。
+
++KXEN_W_ABSTRACTTRANSFORM_NULL_KEYS
+-在输出中存在 %1 行含有空键值。 因此这些行未写入。
+
++KXEN_E_PROBA_OF_GOOD_EVENTS
+-“好”事件概率计算失败
+
++KXEN_W_ABSTRACTCASEITER_MORE_PHYSICAL_FIELDS_THAN_LOGICAL_VARIABLES
+-在空间 %2 中，数据集中的物理字段比说明中声明的变量多 %1 个。 
+
++KXEN_E_COMPONENT_NOTABLETOGENERATECODE
+-以下组件 %1 无法生成代码。
+
++CABSTRACTSPACE_SAVECONN_AS_TABLE_DROP_PREVIOUS
+-无法将数据操作保存为“%1”。
+-具有相同名称的表已存在。
+-要继续，请单击“是”将其删除或单击“否”自动查找有效名称。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_NEW_TABLE_NAME
+-数据操作具体化表名称已更改（“%1”=>“%2”）。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_INIT_TABLE_NAME
+-数据操作将具体化为“%1”。
+
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PROCESS_CACHE_INFO
+-处理数据操作具体化信息。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_REFRESH_CACHE
+-刷新数据操作具体化。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_DROP_CACHE
+-禁止数据操作具体化（%1）。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_MISSING_CACHE
+-数据操作具体化表“%1”已删除。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PERSIST_STARTED
+-数据操作 %1 具体化已开始。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PERSIST_DONE
+-数据操作 %1 已成功具体化为 %2。
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PERSIST_FAILED
+-数据操作 %1 具体化失败。
+
++KXEN_W_CDATACACHMANAGER_STORECREATIONFAILED
+-缓存级别为 %2 的类型 %1 的存储创建失败。
+
++KXEN_W_CDATACACHMANAGER_STOREOPENFAILED
+-无法打开位于 %3 的缓存级别为 %2 的类型 %1 存储。
+
++KXEN_W_CDATACACHMANAGER_SPACECREATIONFAILED
+-缓存级别为 %2 的类型 %1 的空间创建失败。
+
++KXEN_W_CDATACACHMANAGER_SPACEOPENFAILED
+-无法打开位于 %3 的缓存级别为 %2 的类型 %1 的空间。
+
++KXEN_W_CDATACACHE_IMPOSSIBLETOBUILDCACHE
+-数据集 %1 的缓存构建失败。
+-可能是因为数据缓存配置错误。
+-已取消激活数据缓存管理器。
+-请验证数据缓存配置（写入访问...）或联系管理员。
+
++KXEN_W_CDATACACHMANAGER_CACHEACTIVATE
+-数据集 %1 上的缓存已激活。
+
++KXEN_W_CDATACACHMANAGER_NORMALENDCACHING
+-%1 已加载到缓存中： 在 L1 中有 %2 个元素，在 L2 中有 %3 个元素。
+
++KXEN_W_CDATACACHMANAGER_SWITCH_FROM_L1_TO_L2
+-对于数据集 %1，缓存 L1 已满，将使用缓存 L2。
+
++KXEN_W_CDATACACHMANAGER_CACHED_SWITCH_FROM_L1_TO_L2
+-对于数据集 %1，L1 读取已完成，将使用缓存 L2。
+
++KXEN_W_CDATACACHMANAGER_CACHED_CACHEACTIVATE
+-已激活使用缓存的数据集 %1。
+
++KXEN_W_CDATACACHMANAGER_NORMALENDCACHED
+-已完成使用数据集 %1，在 L1 中有 %2 个元素，在 L2 中有 %3 个元素。
+
++KXEN_W_CDATACACHMANAGER_ESTIMATION_SPACE_NEEDED_IN_L1
+-空间 %1 无法缓存。 L1 的大小必须为 %2 MB。
+-此模型的缓存大小可能很充足，但是其他模型也可能需要缓存。
+-模型仍可以训练，但是需要联系管理员来调整配置。
+
++KXEN_W_CDATACACHMANAGER_ESTIMATION_SPACE_NEEDED_IN_L1_OR_L2
+-空间 %1 无法缓存。 L1 的大小必须为 %2 MB 或者 L2 的大小必须为 %3 MB。
+-此模型的缓存大小可能很充足，但是其他模型也可能需要缓存。
+-模型仍可以训练，但是需要联系管理员来调整配置。
+
++KXEN_E_DATACACHE_NO_WRITE_ACCESS_FOR_L1
+-您无权将 L1 缓存写入 %1 中。
+-请联系管理员。
+
++KXEN_E_DATACACHE_NO_WRITE_ACCESS_FOR_L2
+-您无权将 L2 缓存写入 %1中。
+-请联系管理员。
+
++KXEN_W_INDATABASEAPPLY_TRANSFER_TO_TEMPORARY_TABLE
+-在数据库内应用的内部临时表中将 %1 字段传输到 %2 字段
+
++KXEN_E_SAME_VARIABLE_NAME_AS_INPUT
+-应生成变量“%1”，但它已存在于参考数据集中。
+
++KXEN_W_CRREGRESSION_CORRELATION_PB
+-计算相关性时出现问题。
+-不应出现这种情况，请与 SAP 支持人员联系。
+
++KXEN_W_CACHEMEMORYSTORE_OUTOFMEMORY
+-您没有足够的内存来缓存此数据，在行 %1 处停止
+
++KXEN_W_CACHEMEMORYSTORE_OUTOFMEMORY_COMPRESS
+-您没有足够的内存压缩列 %1
+
++KXEN_W_CACHEMEMORYSTORE_COMPRESS_FINISH
+-数据压缩已完成。 
+
++KXEN_W_CACHEMEMORYSTORE_COMPRESS_START
+-数据压缩已开始。
+
++KXEN_E_SMARTOUTPUTS_CONSTANT_FLAG_INVALID_STORAGE
+-值“%1”与 %3 的数据存储（%2）不兼容
+
++KXEN_E_CONSTANT_OUTPUT_INCOMPAT_STORAGE
+-已为输出“%4”分配“%2”，而预期的是“%3”。
+
++KXEN_E_SEGMENT_OVERLAP
+-由于与另一个段重叠，该段 %1 出错。
+
++KXEN_E_SEGMENT_WRONG_BOUND
+-由于下限定义错误，该段 %1 出错。
+
++KXEN_E_CONNECTOR_FEATURE_BADLICENSE
+-错误： 此类型数据操作（%1）许可无效。
+
++KXEN_E_AGGREGATE_FEATURE_BADLICENSE
+-错误： 基于数据透视的或者多期间聚合的许可无效。
+
++KXEN_E_CONNECTOR_EMPTY_FREE_EXPRESSION
+-无效自由表达式： 不允许使用空表达式。 
+
++KXEN_I_APPLY_ON_ADS_DISCARDED_FIELDS
+-应用引擎已检测到“%1”放弃的变量： [%2]
+
++KXEN_E_APPLY_ON_ODBCSCRIPT_NEEDS_MATERIALIZATION
+-禁用具体化选项时，
+-应用输入数据过于复杂，无法加载。
+
++KXEN_I_BEST_KMEANS_ENGINE_SELECTION_PROCESS
+-选择最佳引擎
+
++KXEN_I_TARGET_BEST_KMEANS_ENGINE_SELECTION_PROCESS
+-最佳引擎选择： 已针对目标“%1找到“%2”。
+
++KXEN_I_BUILDSQL_PASS_CURRENT_ENGINE
+-为“%2”的引擎“%1”计算 SQL 表达式
+
++KXEN_I_KMEANS_ALLOCATE_ENGINES_FOR_TARGET_START
+-正在为“%1”准备引擎...
+
++KXEN_E_CLUSTERS_COUNT_SPEC_FOR_TARGET_NOTFOUND
+-未找到（目标）“%1”的簇计数说明。
+
++KXEN_E_CLUSTERS_COUNT_SPEC_FOR_TARGET_UNORDERED
+-为“%3”指定的簇计数范围无效： [%1;%2]
+
++KXEN_E_CLUSTERS_COUNT_SPEC_FOR_TARGET_INVALID_MIN
+-为“%2”指定的最小簇计数无效： %1
+
++KXEN_E_OLAPCUBE_INVALIDSPACE
+-无法打开“%1”以重新加载 OLAP 立方体数据。
+
++KXEN_E_OLAPCUBE_INCOMPATIBLE_DATA
+-从“%1”重新加载 OLAP 立方体数据时发现错误格式。
+-空间可能已损坏。
+
++KXEN_W_CABSTRACTSTORE_CANNOT_CREATESUBSTORE
+-创建存储 %1 失败。
+
++KXEN_W_CABSTRACTSTORE_CANNOT_DROPSTORE
+-删除存储 %1 失败。
+
++KXEN_E_K2S_HOMOGENEOUS_ENCODING_NOT_APPLICABLE
+-无法使用同类编码。 变量 %1 不连续。
+
++KXEN_E_KMEANS_NO_HOMOGENEOUS_INPUTS
+-无法使用同类编码。 某些输入变量不连续。
+
++KXEN_E_DATASET_ALREADY_RECORD
+-数据集 %1 已读取。
+
++KXEN_E_INVALID_CONNECTOR_TYPE
+-针对数据操作不存在类型‘%1’。
+
++KXEN_E_BAD_CONNECTOR_TYPE
+-数据操作类型“%1”不是此次使用的预期类型。
+
++KXEN_E_BAD_TIMESTAMP_STORAGE
+-带时戳的总体使用的时戳字段存储不是所期望的存储： %1，而不是 %2。
+
++KXEN_E_INVALID_TIMESTAMPFIELDNAME
+-给定时戳字段 %1 不存在。
+
++KXEN_E_SAME_ID_FOR_CONNECTOR_DIFFERENT_TYPES
+-标识符“%1”已用于不属于“%2”类型的数据操作。
+
++KXEN_W_COMPLEX_CONNECTOR_DETECDED_BUT_SQLSCRIPT_NOT_ALLOWED
+-'%1'已检测为复杂数据操作，但是不会将其转换为 SQL 脚本，因为此选项当前已取消激活。
+
++KXEN_W_BAD_DATE_TYPE_CONVERSION
+-对于变量 %1，值“%2”未成功转换为“日期”。
+
+#Note for translator: GBO = Good/Bad Odds ratio; PDO = Points to double the odds"
++KXEN_E_NOSOLUTION_RISKMODE
+-由 GBO （“%2”）定义的预期概率（“%1”）
+-大于观察到的最大概率（“%3”）。
+-因此，根据初始参数（GBO/RiskScore/PDO）无法找到
+-风险模型。
+-可为大于“%4”的初始 GBO 找到一个模型。
+
+#Note for translator: GBO = Good/Bad Odds ratio; PDO = Points to double the odds
++KXEN_W_RISK_CHANGE_INITIAL_VALUE
+-已修改初始风险值，
+-用于提高内部风险转换性能。
+-初始 RiskScore “%1”已更改为“%2”
+-初始“%3”已更改为“%4”
+
++KXEN_E_CASESETCHUNKMGR_UNABLE_TO_OPEN_STORE
+-无法打开用于写入的临时目录“%1”。 是否确定目录存在并可写入?
+
+#Note for translator: do not translate Explain in 'Explain mode'
++KXEN_W_EXPLAIN_BAD_CONFIG_DEFAULT_DESC
+-此请求的成本估算为 #VALUE#。 是否要执行？
+-Automated Analytics 请求此类确认，因为出现了配置问题，
+-且请求的动态分类已不可用。
+-请联系管理员检查 Explain 模式设置。
+
++KXEN_E_NB_CHAR_IS_TOO_SMALL
+-参数 NbCharByRow
+-的值“%1”不足以显示“%2”。
+
++KXEN_E_VALUEHANDLER_NOTRAINING
+-训练数据集不存在。
+
++KXEN_E_VALUEHANDLER_NOAPPLYIN
+-应用数据集不存在。
+
++KXEN_E_VALUEHANDLER_TRAINING_DIFFERENT_OF_APPLYIN
+-训练数据集与应用数据集不同。
+
++KXEN_E_VALUEHANDLER_BROWSINGTYPE_TRAINING_DIFFERENT_OF_APPLYIN
+-用于训练数据集的切割策略与
+-用于应用数据集的切割策略不同。
+
++KXEN_W_CCASEITER_INVALID_KEY
+-空间 %1 的行 %2 包含无效键值。
+
++KXEN_W_CCASEITER_NUMBER_OF_INVALID_KEY
+-空间 %1 包含带有无效键值的 %2 行。
+
++KXEN_E_PCCM_UNKNOWN_TARGET_KEY
+-使用外部提供的统计信息构建利润曲线时，
+-搜索目标键值“%1”失败，这可能意味着输入
+-数据有误。
+
++KXEN_E_PCCM_UNKNOWN_VARIABLE_KEY
+-使用外部提供的统计信息构建利润曲线时，
+-搜索与目标键值“%2”相关的变量键值“%1”
+-失败，这可能意味着输入数据有误。
+
++KXEN_E_PCCM_ERRONEOUS_LINE_FORMAT
+-变量或者目标的输入统计信息
+-包含错误的行格式：
+-'%2”
+-格式应符合以下其中一种模式：
+-回归案例：'%3”
+-分类案例： '%4'
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_MISSING_VARIABLE_X_TARGET
+-使用外部提供的统计信息构建利润曲线时，
+-变量数据似乎与加“%1”标签的数据集不一致：
+-变量统计信息缺少多个交叉加权计数的目标类别，
+-其对继续构建利润曲线至关重要。
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_MISSING_TARGET
+-使用外部提供的统计信息构建利润曲线时，
+-目标数据似乎与加“%1”标签的数据集不一致：
+-变量统计信息包含的目标类别多于目标
+-统计信息。
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_MISSING_TARGET_STATS
+-使用外部提供的统计信息构建利润曲线时，
+-目标数据似乎与加“%1”标签的数据集不一致：
+-此特定数据集的目标类别少于数据集“%2”。
+
++KXEN_E_INCONSISTANT_TARGET_KEY_WEIGHT
+-读取利润曲线数据时，在目标统计信息中找到的目标键值（%1）总权重与在数据集 %3 上变量交叉统计信息中找到的不一致。
+
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_NO_UNICITY
+-使用外部提供的统计信息构建利润曲线时，
+-数据似乎与加“%1”标签的数据集不一致：
+-标签“%2”对于此数据集不唯一。
+
++KXEN_E_PCCM_NOT_SUPPORTED_CURVE_TYPE
+-此类型的目标不支持利润曲线“%1”的类型。
+
++KXEN_E_PCCM_NEGATIVE_WEIGHT
+-使用外部提供的统计信息构建利润曲线时，
+-变量或者目标的类别权重似乎为负：
+-数据集“%3”中标签“%2”的“%1”的权重。
+
++KXEN_E_SAVE_TO_EMPTY_TABLE
+-尝试保存到无标签表。
+
++KXEN_E_SAVE_CONNECTOR_EMPTY_NAME_NOT_ALLOWED
+-不能使用空标识符保存“%1”类型的数据操作。
+
++KXEN_E_SAVE_CONNECTOR_EMPTY_DEST_NAME_NOT_ALLOWED
+-用于存储数据操作“%1”（属于“%2”类型）的表名称不能为空。
+
++KXEN_E_GAIN_CHART_WRONG_VALUE_TYPE
+-名为 %1 的变量已选定为增益图
+-生成的值，但是此变量不连续。
+
++KXEN_GAIN_CHART_OVERALL
+-正在计算增益图...
+
++KXEN_GAIN_CHART_GATHER_PROGRESS
+-正在收集验证数据集中的数据...
+
++KXEN_GAIN_CHART_BUILD_PROGRESS
+-正在构建增益图...
+
++KXEN_E_KI_COMPUTATION
+-为数据集“%1”计算的 KI 最终值大于 1。
+-用于同步数据集的新策略不应出现此情况。
+
++KXEN_I_ENGINE_DOPREPAREFILLSTATISTICS
+-为“%2”上的统计信息计算准备引擎“%1”。
+
++KXEN_E_INCOMPATIBLE_ENCODING_STRATEGY_FOR_PERFBUILDER
+-说明性统计信息构建器不支持指定的编码策略（%1）。
+
++KXEN_E_INCOMPATIBLE_DISTANCE_FOR_PERFBUILDER
+-说明性统计信息构建器不支持指定距离（%1）。
+
++KXEN_E_SUPERVISED_AND_UNSUPERVISED_ESTIMATORS_CANNOT_BE_MIXED
+-簇索引评估变量应都为相同类型（无论是监督还是无监督）
+
++KXEN_E_CLUSTER_INDEX_VAR_OF_WRONG_TYPE
+-簇索引评估变量 %1 包含错误类型/存储（%2）; 其类型应为 %3。
+
++KXEN_E_PCCM_VARIABLE_HAS_NO_TARGET_INFO
+-计算利润曲线时出现错误： 变量“%1”不具有
+-可用的目标（例如，如果指定的变量是
+-目标本身就可能出现这种情况）。
+
++KXEN_E_PCCM_UNKNOWN_TARGET_NAME
+-计算利润曲线时出现错误： 指定的目标“%1”
+-不可用于变量“%2”。
+
+
++KXEN_E_CONNECTOR_NO_ORIGINAL_CONNECTOR_STORE_INFO
+-数据操作“%1”没有足够的信息来检查是否应从 %2 加载。
+-请确保此元数据资源库的信息是准确的。
+
+
++KXEN_E_CONNECTOR_STORE_MISMATCH
+-元数据资源库定义中检测到不一致。
+-数据操作“%1”正从 %3 而非 %2 中加载。
+
++KXEN_E_SQLITE_INSERT_ERROR
+-尝试插入数据时 SQLite 内部出现错误，
+-出现以下消息: '%1'.
+
++KXEN_E_AUTHENT_ERROR_CANT_OPEN_STORE
+-无法打开包含密码空间的存储 %1。
+-密码更改失败。
+
++KXEN_E_AUTHENT_ERROR_CANT_OPEN_SPACE
+-无法打开包含密码的空间 %1。
+-密码更改失败。
+
++KXEN_E_AUTHENT_ERROR_FAIL_APPEND_NEW_PASSWORD
+-在空间中附加新密码失败。
+-密码更改失败。
+
++KXEN_E_AUTHENT_ERROR_FAIL_ERASE_OLD_PASSWORD
+-消除旧密码失败。
+-密码更改失败。
+-请联系管理员。=======
+
++KXEN_E_INVALID_OP_TRAINEDMODEL
+-无法在训练模型上操作。
+
++KXEN_M_CURRENT_PASSWORD
+-提供当前密码：
+
++KXEN_M_NEW_PASSWORD
+-新密码：
+
++KXEN_M_RETYPE_NEW_PASSWORD
+-重新键入新密码：
+
++KXEN_M_RETYPE_NEW_PASSWORD_BECAUSE_DIFF
+-密码不相同。 请重新键入新密码：
+
++KXEN_M_CHANGEPASSWORDDONE
+-密码已更改。
+
++KXEN_E_CONNECTOR_FEATURE_VALID_LICENSE_REQUIRED
+-数据操作“%1”需要以下许可：%2”。
+-生成的代码可能不完整。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_MUST_HAVE_LABEL
+-外部可执行文件 %1 的参数 %2 必须具有标签。
+-外部可执行文件 %1 将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_MUST_HAVE_LABEL
+-外部可执行文件 %1 必须具有标签。
+-将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_TYPE
+-外部可执行文件 %1 的 %2 参数的“%3”类型无效。
+-对于有效类型的列表，请参阅文档。
+-以下外部可执行文件将不可用： %1 .
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_MUST_HAVE_TYPE
+-外部可执行文件 %1 的参数 %2 必须具有类型。
+-外部可执行文件 %1 将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_DEFAULT_VALUE
+-外部可执行文件 %1 的参数 %2 的默认值“%3”与类型不兼容。
+-外部可执行文件 %1 将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_ALLOWED_VALUE
+-在允许值的列表中，外部可执行文件 %1 的参数 %2 的值“%3”与类型不兼容。
+-外部可执行文件 %1 将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_BADNUMBER_ALLOWED_VALUE
+-在允许值的列表中，外部可执行文件 %1 的参数 %2 的值“%3”必须具有 %3 允许的值。
+-但是值 %4 未定义。
+-外部可执行文件 %1 将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_INFORMATION
+-没有任何有关外部可执行文件 %1 的信息。
+-外部可执行文件 %1 将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_EXTERNALEXECUTABLENAME
+-外部可执行文件 %1 没有名称。 
+-将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_FOLDER
+-外部可执行文件 %1 没有文件夹。 
+-将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_VALUE
+-外部可执行文件 %1 的参数 %2 的值“%3”与类型不兼容。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_NOT_INITIALIZE
+-无法执行外部可执行文件 %1，因为参数 %2 未初始化，且没有默认值。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_EXECUTIONCOMMAND
+-外部可执行文件 %1 没有执行命令。 
+-将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_INVALID_NAME_FOR_EXECUTION
+-外部可执行文件 %1 不存在。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADNUMBEROFUSER
+-外部可执行文件 %1 必须具有 %2 用户，但是用户 %3 未定义。 
+-将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADNUMBEROFLANGUAGE
+-外部可执行文件 %1 必须具有 %2 语言，但是语言 %3 未定义。 
+-将不可用。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ALREADYRUN
+-外部可执行文件已运行。 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADLANGUAGEFORDESCRIPTION
+-外部可执行文件 %1 没有任何针对语言 %2 的描述。 
+-将使用默认说明。 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADLANGUAGEFORLABEL
+-外部可执行文件 %1 没有任何针对语言 %2 的标签。 
+-将使用默认标签。 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_BADLANGUAGEFORLABEL
+-外部可执行文件 %1 的参数 %2 没有任何针对语言 %3 的标签。
+-将使用默认标签。 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_BADLANGUAGEFORDESCRIPTION
+-外部可执行文件 %1 的参数 %2 没有任何针对语言 %3 的描述。
+-将使用默认说明。 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTIONINTERF_INVALIDSTREAM
+-参数 %1 对于此调用无效。
+-允许的值为“StdOut”和“StdErr”。
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_NOTINITIALIZE
+-外部可执行文件未初始化。 无法执行。
+
++KXEN_E_READVARIABLEDESC_HAS_NO_KEY
+-在描述中未找到任何键值。
+-此外，无法添加虚拟“KxIndex”变量
+-，原因是名为“KxIndex”的变量已存在于说明中。
+
++KXEN_E_MAPPING_VIRTUAL_WITH_PHYSICAL
+-在描述中未找到任何键。
+-已自动添加“KxIndex”变量，
+-但名为“KxIndex”的变量已存在于数据集中。
+-为避免出现此问题，您必须将变量“KxIndex”添加到初始说明
+-中。
+
++KXEN_E_MODEL_HAS_NO_KEY
+-未针对模型定义任何键。
+-Automated Analytics 模型至少需要一个键。
+
++KXEN_E_CONNITEM_GUESSED_ID_LENGTH_ERROR
+-无法从“%1”生成符合最大
+-长度限制的新标识符。
+
++KXEN_E_ERROR_CANNOT_DROP_SPACE_WITH_NAME_EMPTY
+-如果空间的名称为空，则无法删除此空间。
+
++KXEN_E_APPLY_CONSISTENCY
+-在应用进程期间，未请求输出表中存在的变量 %2。
+-
+-但是，变量 %1 基于此变量。
+-因此，要确保这些变量值之间的一致性，已停止
+-应用进程。
+
++KXEN_W_INCONSISTENCY_NATIVE_STORAGE
+-在变量 %1 的逻辑与本机信息
+-之间发现不一致。
+-逻辑存储为 %2，尽管本机存储为 %3。
+
++KXEN_W_CONNECTOR_TABLE_SAMPLING_NOT_ALLOWED_ON_SUBSELECT
+-将忽略随机子采样请求，因为数据操作 %1 的主表也是数据操作（%2）。 
+-您可以使用基于随机函数的过滤器来实现相同的结果。
+
++KXEN_W_IDB_SCORE_DEV_DEVIATION_FOUND
+-检测到输入应用数据集上的变量 %1 出现巨大偏差。
+
++KXEN_I_INDATAAPPLY_PROLOG_START
+-正在准备优化应用进程的结束步骤...
+
++KXEN_I_INDATAAPPLY_PROLOG_END
+-已完成准备优化应用进程的结束步骤
+
++KXEN_I_INDATAAPPLY_PROLOG_END_WITH_ERRORS
+-已完成准备优化应用进程的结束步骤。%1 失败。
+
++KXEN_I_INDATAAPPLY_PROLOG_STEP
+-准备优化应用进程的结束步骤： 当前步骤为“%1” 
+
++KXEN_W_INDATAAPPLY_OPTIONAL_STEP_PREPARE_FAILURE
+-在优化应用进程的最后一步，步骤 %2 失败，将忽略。
+-接收的错误消息为 %3。
+
++KXEN_I_INDATAAPPLY_EPILOG_START
+-正在执行优化应用进程的结束步骤...
+
++KXEN_I_INDATAAPPLY_EPILOG_END
+-已完成执行优化应用进程的结束步骤
+
++KXEN_I_INDATAAPPLY_EPILOG_END_WITH_ERRORS
+-已完成执行优化应用进程的结束步骤。%1 失败。
+
++KXEN_I_INDATAAPPLY_EPILOG_STEP
+-执行优化应用进程的结束步骤： 当前步骤为“%1”
+
++KXEN_I_INDATAAPPLY_EXECUTE_STEP
+-执行优化应用进程的中间步骤： %1
+
++KXEN_W_INDATAAPPLY_OPTIONAL_STEP_FAILURE
+-在优化应用进程的最后一步，步骤 %2 失败，将忽略。
+-接收的错误消息为 %3。
+
++KXEN_W_SCORE_DEVIATION_WRONG_APPLYIN_TYPE
+-此类型的输入应用数据集不支持检测优化的评分偏差。
+
++KXEN_W_GAIN_CHART_WRONG_APPLYIN_TYPE
+-此类型的输入应用数据集不支持计算优化增益图。
+
++KXEN_W_IDB_SCORE_DEV_MANDATORY_WEIGHT_VAR_NOT_FOUND
+-输入的输入应用数据集不具有权重变量。 评分偏差为预期偏差，但会将其忽略。
+
++KXEN_W_IDB_GAINCHARTS_VALUE_VARIBLE_NOT_FOUND_IN_APPLY_IN
+-未在输入应用数据集中找到值变量 %1。 会将其从增益图中排除。
+
++KXEN_E_CANT_GET_AR_FROM_MODEL
+-模型中没有可以用于创建新分析数据集的分析记录。
+
++KXEN_E_CONNECTOR_BAD_ARGUMENT_TYPE
+-函数表达式参数“%1”无效（属于类型“%2”）。
+
++KXEN_E_MAX_CORR_TABLES_BAD_VALUE
+-选项“分组前数据透视条件最大重用次数”值不能为 0。
+
++KXEN_E_WRONG_ENTITY_FOR_TSP
+-带时戳的总体与分析记录基于不同实体： %1，而不是 %2。 
+
++KXEN_E_COMPOUND_TSP_DIFFERENT_NUMBER_OF_FIELD
+-组合基于带时戳的总体进行构建，后者具有不同数量的可见字段 %1 和 %2。
+
++KXEN_E_CORRELATED_UNDERLYING_TABLE_DOESNT_MATCH
+-创建相关表时基础表不匹配。
+
++KXEN_E_WRONG_MAPPING_POSITION
+-映射信息未同步。
+
++KXEN_E_COMPOSITION_ALREADY_EXIST_IN_SPACE
+-定义复合变量“%1”时出错： 数据中
+-已存在具有相同名称的变量。
+
++KXEN_E_COMPOSITE_NOT_FOUND
+-在复合变量“%1”的定义中未找到变量“%2”。
+
+#Note for translator: do not translate 'checkDatasets'
++KXEN_W_CABSTRACTMODEL_CHECK_COMPOSITES_IN_DATASETS
+-模型和数据中的复合变量数量不同。
+-考虑进行“checkDatasets”API 调用。
+
++KXEN_W_VPOOL_COMPONENT_OUT_OF_COMPOSITE
+-从元数据恢复复合变量“%1”期间出现问题。
+-组件“%2”应在位置“%3”，该值大于变量复合大小。 
+-已忽略此组件。
+
++KXEN_W_VPOOL_DUPLICATE_COMPONENT
+-从元数据恢复复合变量“%1”期间出现问题。 
+-组件“%2”应在位置“%3”，但另一变量（“%4”）已在此位置。 
+-已保留变量“%4”。
+
++KXEN_E_APPLYOUT_EXIST
+-无法创建输出应用数据集“%1” （此数据集已存在）。
+
++KXEN_W_VPOOL_DIFFERENT_COMPOSITE_WITH_SAME_NAME
+-从元数据恢复复合变量“%1”期间出现问题。 
+-无法使用相同名称恢复不同复合变量。 
+-第一个“%1”变量的类型为“%2”，大小为“%3”。 
+-第二个“%1”变量的类型为“%4”，大小为“%5”。 
+-已保留第一个。 将不使用与第二个相关的信息。
+
++KXEN_W_OBSOLETE_FIELDS_NOT_SAVED
+-以下已弃用字段未保存： %1.
+
++KXEN_W_MISSING_OR_MISMATCHING_DATA_MANIPUALTION
+-未找到数据操作“%1”。 可能已删除或不是预期类型（“%2”）。
+
++KXEN_E_CANNOT_GET_TIMESTAMPFIELD
+-无法创建分析数据集，应确保带时戳的总体 %1 在元数据资源库中。
+
++KXEN_E_SET_SIMULATION_VALUE_ERROR
+-无法模拟由 Automated Analytics 创建的变量的值（日期部分和复合变量）。 这些值将自动计算。
+
++KXEN_E_CLEAR_SIMULATION_VALUE_ERROR
+-无法清除由 Automated Analytics 创建的变量的模拟值（日期部分和复合变量）。 
+
++KXEN_E_DUPLICATE_ITEM_IN_USER_STRUCTURE
+-此用户结构包含重复项目（%1）。
+
++KXEN_E_INVALID_CONTINUOUS_STRUCTURE
+-此用户结构包含无效项目。
+
++KXEN_E_DUPLICATE_KXOTHER_IN_USER_STRUCTURE
+-此用户结构包含重复 KxOther 组。
+
++KXEN_E_INVALID_ORDINAL_STRUCTURE
+-此用户结构包含无效项目。
+
++KXEN_E_COMPOSITE_TARGET_NOT_ALLOWED
+-复合变量不能用作 Automated Analytics 模型中的目标。
+
++KXEN_E_COMPONENT_TARGET_NOT_ALLOWED
+-目标变量不能用作复合变量的组件。
+
++KXEN_E_TARGET_VALUE_NOT_SUPPORTED_IN_REGRESSION
+-回归或分类模型中不支持目标“%1”（通常是有序目标和复合目标）的值类型。
+
++KXEN_E_TARGET_VALUE_TYPE_NOT_ALLOWED
+-当前上下文中不允许使用目标“%1”的值类型。
+
++KXEN_E_RELOAD_FAILURE
+-无法重新加载模型
+
++KXEN_E_CONNECTOR_WRONG_SPACE_TYPE_HANAVIEW
+-%1 不能用作数据操作输入空间。 在此上下文中尚不支持 HANA 视图。
+
++KXEN_E_TARGET_VALUE_NOT_SUPPORTED_IN_CLUSTERING
+-聚类部件不支持以下目标变量的类型。
+
++KXEN_E_KEY_INTERSECTION_EXISTS
+-该应用输出数据集已包含应用输入数据集中的键，不能执行追加模式
+
++KXEN_W_HIVE_IN_APPEND_MODE
+-HIVE 数据库中的数据库内应用程序进程处于追加模式。
+
++KXEN_W_HIVE_IN_APPEND_MODE_INTERSECTION_TEST
+-HIVE 数据库中的数据库内应用程序进程的输入应用数据集和输出应用数据集之间的交集测试。
+
++KXEN_W_HIVE_IN_APPEND_MODE_NOINTERSECTION_TEST
+-已对 HIVE 数据库中的数据库内应用程序进程禁用输入应用数据集和输出应用数据集之间的交集测试。
+
++KXEN_I_LEARN_DELEGATION_START
+-委派学习阶段给 APL……
+
++KXEN_I_LEARN_DELEGATION_SUCCEEDED
+-学习阶段已成功委派给 APL。 
+
++KXEN_I_LEARN_DELEGATION_NO_FOUND
+-针对本模型未找到委派服务。
+
++KXEN_E_LEARN_DELEGATION_FAILED
+-学习阶段不可委派给 APL。 请联机查看完整的可搜索帮助以获取其他信息。
+
++KXEN_I_APL_LEARN_DELEGATION_FORWARD_MSG_WRAPPER
+-（APL 委派）‘%1’ 
+
++KXEN_I_IDBM_STATS_COMPUTATION_DELEGATION_STARTED
+-正在开始统计信息计算委派...
+
++KXEN_I_IDBM_STATS_COMPUTATION_DELEGATION_TIME
+-统计信息计算委派在 %1 秒内完成。
+
++KXEN_E_IDBM_STATS_COMPUTATION_DELEGATION_FAILED
+-统计信息计算委派失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_PREPARE_STARTED
+-正在开始统计信息计算委派的准备阶段...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_PREPARE_TIME
+-统计信息计算委派的准备阶段已在 %1 秒内执行。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_PREPARE_FAILED
+-统计信息计算委派的准备阶段失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE_STARTED
+-正在开始统计信息计算委派和结果提取...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE_TIME
+-统计信息计算委派和结果提取在 %1 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE_FAILED
+-在处理 %1 秒后统计信息计算委派和结果提取失败。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_STARTED
+-统计信息委派阶段： 磁贴定义处理步骤已开始。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_TIME
+-统计信息委派阶段： 磁贴定义处理已在 %1 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_FAILED
+-统计信息委派阶段： 磁贴定义处理失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_STARTED
+-统计信息委派阶段： 权重量子处理步骤已开始。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_TIME
+-统计信息委派阶段： 权重量子处理已在 %1 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_FAILED
+-统计信息委派阶段： 权重量子处理失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_STARTED
+-统计信息委派阶段： 变量库统计信息处理已开始。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_TIME
+-统计信息委派阶段： 变量库统计信息处理已在 %1 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_FAILED
+-统计信息委派阶段： 变量库统计信息处理失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CATEGORIES_STARTED
+-统计信息委派阶段： 变量库统计信息更新已开始。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CATEGORIES_TIME
+-统计信息委派阶段： 变量库统计信息更新已在 %1 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__CATEGORIES_FAILED
+-统计信息委派阶段： 变量库统计信息更新失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CAT_CROSS_STATS_STARTED
+-统计信息委派阶段： 变量库统计信息更新已开始。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CAT_CROSS_STATS_TIME
+-统计信息委派阶段： 变量库统计信息更新已在 %1 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__CAT_CROSS_STATS_FAILED
+-统计信息委派阶段： 变量库统计信息更新失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_FETCH_FINALIZE_STARTED
+-正在开始统计信息计算委派的结束/清除阶段...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_FINALIZE_TIME
+-统计信息计算委派的结束/清除阶段已在 %1 秒内执行。
+
++KXEN_E_IDBM_RAW_STATS_FETCH_FINALIZE_FAILED
+-统计信息计算委派的结束/清除阶段失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_COMPUTATION_DELEGATION_STARTED
+-%1 处理： 计算委派到数据源。
+
++KXEN_I_IDBM_RAW_STATS_COMPUTATION_DELEGATION_TIME
+-%1 处理： 计算委派在 %2 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_COMPUTATION_DELEGATION_FAILED
+-%1 处理： 计算委派失败（在处理 %2 秒后）。
+
++KXEN_I_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_STARTED
+-%1 处理： 结果提取已开始。
+
++KXEN_I_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_TIME
+-%1 处理： 结果提取在 %2 秒内完成。
+
++KXEN_E_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_FAILED
+-%1 处理： 结果提取失败（在处理 %2 秒后）。
+
++KXEN_E_IDBM_INTERNAL_ERROR
+-意外数据库内建模内部错误。
+-请联系 SAP 支持。
+-错误详细信息： %1
+
++KXEN_I_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_PROGRESS
+-正在从数据源提取统计信息...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_PROGRESS
+-正在从数据源提取权重量子...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_PROGRESS
+-正在从数据源提取磁贴定义...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_PROGRESS
+-正在从数据源提取变量统计信息...
+
++KXEN_I_IDBM_ENCODED_ESTIMATION_DATA_TO_UPDATE_MEAN_VARIANCE_PROGRESS
+-正在将估计数据集编码...
+
++KXEN_I_IDBM_ENCODED_ESTIMATION_DATA_TO_UPDATE_MEAN_VARIANCE_TIME
+-正在生成编码数据以更新均值和方差...
+
++KXEN_I_IDBM_ENCODED_ESTIMATION_DATA_TO_UPDATE_MEAN_VARIANCE_FAILED
+-数据库内建模： 未能生成编码数据以更新均值和方差。
+
++KXEN_I_IDBM_COVARIANCE_PROGRESS
+-正在计算协方差矩阵。
+
++KXEN_I_IDBM_COVARIANCE_TIME
+-协方差矩阵在 %1 秒内完成计算。
+
++KXEN_I_IDBM_COVARIANCE_FAILED
+-协方差矩阵计算失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_CANDIDATE_SCORE_PROGRESS
+-正在计算候选项得分。
+
++KXEN_I_IDBM_CANDIDATE_SCORE_TIME
+-候选项得分在 %1 秒内完成计算。
+
++KXEN_I_IDBM_CANDIDATE_SCORE_FAILED
+-候选项得分计算失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_PERFORMANCE_INDICATORS_PROGRESS
+-正在计算绩效指标。
+
++KXEN_I_IDBM_PERFORMANCE_INDICATORS_TIME
+-绩效指标在 %1 秒内完成计算。
+
++KXEN_I_IDBM_PERFORMANCE_INDICATORS_FAILED
+-绩效指标计算失败（在处理 %1 秒后）。
+
++KXEN_I_IDBM_SPARK_CONNECT_PROGRESS
+-正在与 YARN 协商资源分配。
+
++KXEN_I_IDBM_SPARK_EXEC_XSTATS_PROGRESS
+-正在对交叉统计信息执行 Spark 作业。
+
++KXEN_I_IDBM_SPARK_EXEC_COVARIANCE_PROGRESS
+-正在对协方差矩阵执行 Spark 作业。
+
++KXEN_I_IDBM_SPARK_EXEC_EVAL_PERF_PROGRESS
+-正在对候选项绩效评估执行 Spark 作业。
+
++KXEN_E_IDBM_SPARK_CONTEXT_CREATION_TIMEOUT
+-等候 %1 秒后，仍无法连接到 Spark 群集。
+
++KXEN_E_IDBM_SPARK_CONNECTION_FAILED
+-无法连接到 Spark Cluster。 请查看日志了解更多详细信息。
+
++KXEN_E_SPARK_INTERNAL_ERROR
+-意外 Spark 内部错误。
+-请联系 SAP 支持。
+-错误详细信息： %1
+
++KXEN_E_DATA_PARSE_FAILED
+-无法将 %1 分析为 %2
+
+#Note for translator: Required jar file to perform In-database Modeling is missing: (jar file name)
++KXEN_E_IDBM_MISSING_JARS
+-缺少执行数据库内建模所需的 JAR 文件： %1
+
+#Note for translator: The winutils.exe file required by Spark on Windows is missing from (directory name)
++KXEN_E_IDBM_MISSING_WINUTILS
+-%1 缺少 Windows 上 Spark 所需的 winutils.exe 文件
+
+#Note for translator: Spark configuration XML file is missing from the installation: (name of XML file e.g. core-site.xml)
++KXEN_E_IDBM_MISSING_HADOOP_XML
+-安装中缺少 Spark 配置 XML 文件： %1
+
+#Note for translator: (modeling component/transform name) transform type is not yet supported by In-database Modeling.
++KXEN_W_IDBM_UNSUPPORTED_TRANSFORM
+-'%1 转换类型尚不受数据库内建模支持。
+
++KXEN_I_IDBM_AUTO_ACTIVATION
+-数据库内建模已自动激活（按照配置文件中的设置）。
+
+#Note for translator: The system has detected (a number) unsupported feature(s) in In-database Modeling.
++KXEN_W_IDBM_UNSUPPORTED_FEATURES_DETECTED
+-系统在数据库内建模中检测到 %1 个不受支持的功能。
+-将切换到标准训练过程。
+
++KXEN_W_SWITCH_FROM_IDBM_TO_STANDARD_LEARN
+-引擎正在继续标准训练过程。
+
++KXEN_W_IDBM_CUSTOM_CUTTING_STRATEGY_NOT_SUPPORTED
+-数据库内建模尚不支持使用 SQL 查询自定义切割策略。
+
++KXEN_W_IDBM_COMPOSITE_VARIABLES_NOT_SUPPORTED
+-数据库内建模尚不支持复合变量。
+
++KXEN_W_IDBM_USER_STRUCTURES_NOT_SUPPORTED
+-数据库内建模尚不支持用户定义的变量结构。
+
+#Note for translator: In-database Modeling does not yet support the (a feature name) feature (set in the description of (variable name))
++KXEN_W_IDBM_INCOMPATIBLE_VARIABLE_USAGE
+-数据库内建模不支持“%1”功能（在 %2 的说明中设置）。
+
++KXEN_I_IDBM_FINALIZE_STATISTICS_UPDATE_STARTED
+-正在对变量统计信息更新进行最终处理...
+
+#Note for translator: Variable statistics update finalized in (a number) seconds.
++KXEN_I_IDBM_FINALIZE_STATISTICS_UPDATE_TIME
+-变量统计信息更新已在 %1 秒内完成最终处理。
+
++KXEN_E_IDBM_FINALIZE_STATISTICS_UPDATE_FAILED
+-变量统计信息更新最终处理失败（在处理 %1 秒后）。
+
++KXEN_E_EXPECT_IDBM_FILESTORE_NATIVESPARK_PAIRING
+-要求输入数据源与 Spark 连接关联。
+
++KXEN_W_IDBM_STORE_TYPE_NOT_SUPPORTED
+-输入数据源（%1）不提供本机建模服务。
+
+
++KXEN_W_LEARN_STAT_IDBM_NOT_YET_SUPPORTED
+-此数据源尚不支持本机统计信息计算。
+
++KXEN_W_LEARN_STAT_IDBM_START
+-正在对统计计算使用数据库内建模...
+
+#Note for translator: Input dataset statistics computed using In-database Modeling in (a number) seconds.
++KXEN_W_LEARN_STAT_IDBM_END_TIME
+-在 %1 秒内输入使用数据库内建模计算的数据集统计信息。
+
+
+#Note for translator: The input dataset has some unsupported advanced settings(list of settings).
++KXEN_W_IDBM_SPACE_ADV_PARAMS_NOT_SUPPORTED
+-输入数据集有某些不受支持的高级设置（%1）。
+
+#Note for translator: In-database Modeling does not yet support the (a feature name) feature (used in the (component class) component)
++KXEN_W_IDBM_INCOMPATIBLE_TRANSFORM_FEATURE_USAGE
+-数据库内建模不支持“%1”功能（在 %2 组件中使用）。
+
+
+#Note for translator:The (model) %1 feature is not supported in In-database Modeling
++KXEN_W_IDBM_UNSUPPORTED_MODEL_FEATURE
+-以下功能/设置在此模型的数据库内建模模式中不受支持： %1.
+
+
+#Note for translator:The (protocol) %1 feature is not supported in In-database Modeling
++KXEN_W_IDBM_UNSUPPORTED_PROTOCOL_FEATURE
+-以下功能/设置在此模型的数据库内建模模式中不受支持： %1.
+
+
+#Note for translator: The <feature name> feature is not supported in In-database Modeling.
++KXEN_W_IDBM_GENERIC_UNSUPPORTED_FEATURE
+-%1 功能/设置在数据库内建模模式中不受支持。
+
++KXEN_I_IDBM_RESCALING_SCORE_TIME
+-在 %1 秒内执行了内部评分重新调整。
+
++KXEN_I_IDBM_RESCALING_SCORE_FAILED
+-在处理 %1 秒后内部评分重新调整失败。
+
++KXEN_I_IDBM_RESCALING_SCORE_PROGRESS
+-正在重新调整内部评分...
+
+#Note for translator: learnAndApply mode chains up the learn and the apply steps lazily by considering that ApplyIn matches the Training dataset
++KXEN_E_CABSTRACTMODEL_CHECK_LEARNANDAPPLY
+-LearnAndApply 模式仅适用于发送() 调用，不适用于检查() 调用。 

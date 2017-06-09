@@ -1,0 +1,383 @@
++S_KXTOOL__OK
+-成功
+
++S_KXTOOL__FALSE
+-負のテストを予期
+
++E_KXTOOL__UNEXPECTED
+-予期しない内部エラー: サポートにお問い合わせください。
+
++E_KXTOOL__INTERNAL_ERROR
+-内部エラー
+
++E_KXTOOL__NOTIMPL
+-実装されていない機能
+
++E_KXTOOL__OUTOFMEMORY
+-メモリ不足です
+
++E_KXTOOL__INVALIDARG
+-1 つ以上の引数が無効です
+
++E_KXTOOL__NOINTERFACE
+-指定されたインタフェースはサポートされていません
+
++E_KXTOOL__POINTER
+-無効なポインタ
+
++E_KXTOOL__HANDLE
+-無効なハンドル
+
++E_KXTOOL__ABORT
+-操作 %1 が中止されました
+
++E_KXTOOL__FAIL
+-失敗: 1 つまたはいくつかの指定されたパラメータが無効です。
+
++E_KXTOOL__ACCESSDENIED
+-オブジェクト %1 へのアクセスが拒否されました
+
++E_KXTOOL__NOMOREDATA
+-これ以上データがありません
+
++E_KXOBJC__INVALIDST
+-オブジェクト %2 の無効な状態 %1
+
++E_KXOBJC__INVALIDST_NA
+-無効な状態
+
++E_SYSTEM__THREADPB
+-スレッドの問題 %1
+
++E_SYSTEM__THREADPB_NA
+-スレッドの問題
+
++E_SYSTEM__MUTEXPB
+-ミューテックスの問題 %1
+
++E_SYSTEM__MUTEXPB_NA
+-ミューテックスの問題
+
++E_SYSTEM__2BIG
+-引数リストが長すぎます。
+
++E_SYSTEM__ACCES
+-オブジェクト %1 へのアクセスが拒否されました
+
++E_SYSTEM__ACCES_NA
+-オブジェクト %1 へのアクセスが拒否されました
+
++E_SYSTEM__AGAIN
+-プロセスがもうないか、メモリ不足か、またはネストレベルの上限に達しました
+
++E_SYSTEM__BADF
+-無効なファイル番号 %1
+
++E_SYSTEM__CHILD
+-生成されたプロセスがありません
+
++E_SYSTEM__DEADLOCK
+-リソースのデッドロックが発生します
+
++E_SYSTEM__DOM
+-数学的な関数での定義域のエラー
+
++E_SYSTEM__EXIST
+-ファイル %1 が存在します
+
++E_SYSTEM__EXIST_NA
+-ファイルが存在します
+
++E_SYSTEM__INVAL
+-無効な引数 %1
+
++E_SYSTEM__INVAL_NA
+-無効な引数
+
++E_SYSTEM__MFILE
+-開いているファイル %1 が多すぎます
+
++E_SYSTEM__MFILE_NA
+-開いているファイルが多すぎます
+
++E_SYSTEM__NOENT
+-指定されたファイルまたはディレクトリ %1 がありません
+
++E_SYSTEM__NOENT_NA
+-指定されたファイルまたはディレクトリがありません
+
++E_SYSTEM__NOMEM
+-メモリ不足です
+
++E_SYSTEM__NOSPC
+-デバイスに空きスペースがありません
+
++E_SYSTEM__RANGE
+-結果が大き過ぎます
+
++E_SYSTEM__XDEV
+-デバイス間のリンク
+
++E_KXOBJC__INCOMPVALUESTORAGE
+-変数 %1 に対して互換性のない値 (%2) および保存形式 (%3) です。
+
++E_KXOBJC__BADSTORAGE
+-変数 %1 に対して無効な保存形式 (%2) です。
+
++E_KXOBJC__BADVALUE
+-変数 %1 に対して無効な値 (%2) です。
+
++E_KXOBJC__NOCONTEXT
+-コンテキストのオブジェクトが見つかりません。
+
++E_KXOBJC__BADSYNCHRO
+-パラメータツリーをこれ以上同期できません。
+
++E_SYSTEM__UTF16WRITE_NOTSUPPORTED
+-ファイル %1 に対して UTF-16 形式を使用した書き込みはサポートされていません。
+
++E_SYSTEM__NUMERICAL
+-数値エラーです。
+
++E_SYSTEM__CANCELOPERATION
+-操作がキャンセルされました。
+
++KXEN_E_WRONGSTRINGFORVARIANTSET
+-文字列 '%1' からバリアントのセットの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_WRONGSTRINGFORSEGMENT
+-文字列 %1 からセグメントの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_WRONGSTRINGFORCOMPOSITE
+-文字列 %1 からコンポジットの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_WRONGSEGMENTBOUNDS
+-%1 と %2 間でセグメントの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_WRONG_DIRAC_SEGMENT
+-無効なディラックセグメントの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_WRONG_SEGMENT_INTEGER_SPEC
+-無効な整数セグメントの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_WRONG_SEGMENT_SPEC
+-誤った仕様でセグメントの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_WRONG_SEGMENT_EMPTY_BOUNDS
+-空の範囲でセグメントの作成を試みました。
+-これは通常発生しません。サポートにお問い合わせください。
+
++E_SYSTEM__BADVALUE
+-無効な値 (%1)
+
++E_SYSTEM__BADVALUE_NA
+-無効な値
+
++KXEN_E_REGEXP_ERROR
+-予期しない正規表現のエラー (表現: %2、エラーコード: %1)
+
++KXEN_E_REGEXP_BADSYNTAX
+-正規表現での誤った構文 (表現: %1、エラー: %2)
+
+#NOTR
++KXEN_E_REGEXP_NULL
+-Null regexp
+
+#NOTR
++KXEN_E_REGEXP_BADOPTION
+-Bad option
+
+#NOTR
++KXEN_E_REGEXP_BADMAGIC
+-Bad magic number
+
++KXEN_E_REGEXP_UNKNOWN_NODE
+-不明なノードです。
+
++KXEN_E_REGEXP_NOMEMORY
+-メモリ不足です。
+
++KXEN_E_REGEXP_NOSUBSTRING
+-部分文字列がありません。
+
+#NOTR
++KXEN_E_REGEXP_MATCHLIMIT
+-Limit match
+
+#NOTR
++KXEN_E_REGEXP_CALLOUT
+-Callout
+
++KXEN_E_REGEXP_BADUTF8
+-正規表現のエラー: ソースは有効な UTF-8 ではありません (ソース: %2、エラーコード: %1)
+
+#NOTR
++KXEN_E_REGEXP_BADUTF8_OFFSET
+-Bad UTF-8 offset
+
+#NOTR
++KXEN_E_REGEXP_PARTIAL
+-Partial
+
+#NOTR
++KXEN_E_REGEXP_BADPARTIAL
+-Bad partial
+
+#NOTR
++KXEN_E_REGEXP_INTERNAL
+-Internal
+
+#NOTR
++KXEN_E_REGEXP_BADCOUNT
+-Bad account
+
+#NOTR
++KXEN_E_REGEXP_DFA_UITEM
+-Dfa uitem
+
+#NOTR
++KXEN_E_REGEXP_DFA_UCOND
+-Dfa ucond
+
+#NOTR
++KXEN_E_REGEXP_DFA_UMLIMIT
+-Dfa umlimit
+
+#NOTR
++KXEN_E_REGEXP_DFA_WSSIZE
+-Dfa wssize
+
+#NOTR
++KXEN_E_REGEXP_DFA_RECURSE
+-Dfa recurse
+
++KXEN_E_REGEXP_UNKNOWN_ERROR
+-不明なエラー
+
++KXEN_E_LOGCONF_CANNOTCREATE
+-クラス '%1' のアペンダを作成できません。
+
++KXEN_E_LOGCONF_CANNOTPROCESS
+-アペンダ '%1' のログ構成キー '%2' を処理できません。
+
++KXEN_E_RESOURCE_BUSY
+-リソース %1 はすでに %2 によって使用され、ロックされています。
+
++KXEN_E_RESOURCE_BUSY_2_FULL_INFO
+-%1 以降のサーバ %2 のユーザ %3
+-最後の操作を数分以内に再実行してください。
+
+#Note for translator:
+#This message is displayed after the following string : The repository <Name of repository> is already used and locked by <Name of user> on
++KXEN_E_RESOURCE_BUSY_2
+-%1 以降のサーバ %2
+-最後の操作を数分以内に再実行してください。
+
++KXEN_E_ERR_MULTI_INSTANCE_LOCK_FILE_UNEXPECTED
+-リソースロック %1 を設定できません。
+-理由は、%2 です。
+-これは通常発生しません。サポートにお問い合わせください。
+
++E_BUSY
+-リソースがロックされ、ビジーです。
+
++KXEN_E_RESOURCE_BUSY_NO_INFO
+-リソース %1 は使用され、ロックされています。
+-最後の操作を数分以内に再実行してください。
+
++KXEN_E_AUTHENT_ACCESDENIED
+-このユーザアカウントのアクセスが拒否されました。
+
++KXEN_E_AUTHENT_MAXTRIES
+-認証回数が許容される上限に達しました。
+
++KXEN_E_AUTHENT_ERROR
+-ユーザアカウントとパスワードは認証されませんでした (%1)。
+
++E_KXTOOL__PROCESS_CREATE
+-プロセス生成時のエラー: %1
+
++E_KXTOOL__TIMEOUT
+-サブプロセスを開始する際のタイムアウト
+
++E_KXTOOL__CONCURRENCY
+-無効な同時アクセスです。
+-この現象は通常発生しません。サポートにお問い合わせください。
+
++E_KXTOOL__APIMOREDATA
+-この呼び出しについて使用できるデータがさらにあります。
+-これは通常発生しません。サポートにお問い合わせください。
+
++KXEN_E_AUTHENT_VOIDARG
+-Void 認証システムを設定しようとしています (オプションは使用できません)。
+
+#Note for translator: PAM stands for 'Pluggable Authentication Module'
++KXEN_E_AUTHENT_SYSARG
+-PAM を有効にせずにシステム認証を設定しようとしています (オプションは使用できません)。
+
++KXEN_E_AUTHENT_AUTOSYSARG
+-PAM を有効にせずに自動システム認証を設定しようとしています (オプションは使用できません)。
+
++KXEN_E_CONFIG_INVALID_OPTION
+-不明な設定: オプション '%1'
+
++KXEN_E_CONFIG_INVALID_OPTION_FOR_WINDOWS
+-Windows はオプション '%1' をサポートしていません。
+
++KXEN_E_FILEWRITE
+-ファイル '%1' への書き込みエラー: %2 %2
+
++KXEN_E_FILECURSOR
+-ファイル '%1' へのアクセスエラー: %2 %2
+
++KXEN_E_CHARSET_NOTSUPPORTED
+-文字セット '%1' と UTF-8 との変換はオペレーティングシステムでサポートされていません。
+
++KXEN_E_INTERNAL_ERROR
+-予期しない内部エラー
+-SAP サポートにお問い合わせください。
+-エラーの詳細: %1
+
++KXEN_E_AUTHENT_CANT_CHANGE_PWD
+-この認証方法ではパスワードを変更できません。
+
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_ERROR
+-パスワード変更時の不明なエラー
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_USER
+-不明なユーザ
+
++KXEN_E_AUTHENT_ERROR_FAIL_TO_IDENTIFY
+-ユーザ %1 の認証に失敗しました。
+
+
++KXEN_E_AUTHENT_INVALIDTOKEN
+-無効なトークンを使用しようとしています。
+
++KXEN_E_AUTHENT_DISCUSSION_TOO_OLDTOKEN
+-長時間アクティブではなかったために履歴が削除されています。
+
++KXEN_E_NETWORK_ACCESS
+-ユーザ '%2' についてネットワークリソース '%1' へのアクセスが拒否されました。
+
++KXEN_E_NETWORKCONNECTION_NOTALLOWED
+-ログオンでのネットワークリソースへのアクセスが許可されていません。
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND_IN_LIB
+-エラー:  外部関数 '%1' はライブラリ '%2' にありません。
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND
+-エラー:  外部関数 '%1' は外部ライブラリにありません。
+
++KXEN_E_JAVA_INTERNAL_ERROR
+-予期しない Java 内部エラー
+-SAP サポートにお問い合わせください。
+-エラーの詳細: %1

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CATCH Questionnaire-form</title>
+<link rel="stylesheet" href="style.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+
+<div id="header">
+	<img id="sap-logo" src="assets/SAP-min.png">
+	<h1 id="title">CATCH</h1>
+
+	<div class="col-1of1>" id="number-players">
+		<p class="col-1of4" id="p1">player 1</p>
+		<p class="col-1of4" id="p2">player 2</p>
+		<p class="col-1of4" id="p3">player 3</p>
+		<p class="col-1of4" id="p4">player 4</p>
+	</div>
+</div>
+
+<div class="nav">
+	<ul class="dot-nav">
+		<li>
+		<a href="#one" class="active" scroll-data="one"></a>
+		</li>
+    <li>
+      <a href="#two" scroll-data="two"></a>
+    </li>
+    <li>
+      <a href="#three" scroll-data="three"></a>
+    </li>
+      <li>
+      <a href="#four" scroll-data="four"></a>
+    </li>
+    <li>
+      <a href="#five" scroll-data="five"></a>
+    </li>
+    <li>
+      <a href="#six" scroll-data="six"></a>
+    </li>
+    <li>
+      <a href="#seven" scroll-data="seven"></a>
+    </li>
+  <ul>
+</div>
+
+<!--Question 1-->
+
+<div class="main">
+<section id="one" data-anchor="one" class="page-block">
+
+	<p class="q-title" id="q1">What is your name?</p>
+	<!--add input bar for answer--> 
+	<input type="text" id="name" name="name" placeholder="Your name.."> 
+
+	<a class="arrow-wrap">
+		<div class="section-down-arrow-wrap" onclick="arrow1()"></div>
+	</a>
+
+</section>
+
+<!--Question 2-->
+<section id="two" data-anchor="two" class="page-block">
+
+<p class="q-title" id="q2">How old are you?</p>
+
+<div class="col-1of1" id="q2-options">
+	<div class="col-1of5">
+		<input type="button" id="q2-a" class="q2Click" onclick="" name="19" value="19 and under">
+		<div class="q-button" ></div>
+	</div>
+
+	<div class="col-1of5">
+		<input type="button" id="q2-b" class="q2Click" onclick="" name="25" value="20-29"> <!--button--> 
+		<div class="q-button" ></div>
+	</div>
+
+	<div class="col-1of5">
+		<input type="button" id="q2-c" class="q2Click" onclick="" name="35" value="30-39"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of5">
+		<input type="button" id="q2-d" class="q2Click" onclick="" name="45" value="40-49"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of5">
+		<input type="button" id="q2-e" class="q2Click" onclick="" name="50" value="50+"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<!--arrow to scroll down-->
+	<a class="arrow-wrap">
+		<div class="section-down-arrow-wrap" onclick="arrow2()"></div>
+	</a>
+</div>
+
+</section>
+
+<!--Question 3-->
+<section id="three" data-anchor="three" class="page-block">
+<p class="q-title" id="q3">How often do you play video games?</p>
+
+<div class="col-1of1" id="q3-options">
+	<div class="col-1of4">
+		<input type="button" id="q3-a" class="q3Click" onclick="" name="q3everday" value="Everday"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of4">
+		<input type="button" id="q3-b" class="q3Click" onclick="" name="q3week" value="At least once a week"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of4">
+		<input type="button" id="q3-c" class="q3Click" onclick="" name="q3awhile" value="Once in awhile"><!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of4">
+		<input type="button" id="q3-d" class="q3Click" onclick="" name="q3no" value="I don't play games"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+	<!--arrow to scroll down-->
+	<a class="arrow-wrap">
+		<div class="section-down-arrow-wrap" onclick="arrow3()"></div>
+	</a>
+</div>
+</section>
+
+<!--Question 4-->
+<section id="four" data-anchor="four" class="page-block">
+<p class="q-title" id="q4">When I go grocery shopping...</p>
+
+<div class="col-1of1" id="q4-options">
+	<div class="col-1of2">
+		<input type="button" id="q4-a" class="q4Click" onclick="" name="q4forgetful" value="I make a list because I am forgetful"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of2">
+		<input type="button" id="q4-b" class="q4Click" onclick="" name="q4remember" value="I remember everything I need to buy">  <!--button--> 
+		<div class="q-button"></div>
+	</div>
+	<!--arrow to scroll down-->
+	<a class="arrow-wrap">
+		<div class="section-down-arrow-wrap" onclick="arrow4()"></div>
+	</a>
+</div>
+</section>
+
+<!--Question 5-->
+<section id="five" data-anchor="five" class="page-block">
+<p class="q-title" id="q5">Do you play sports?</p>
+
+<div class="col-1of1" id="q3-options">
+	<div class="col-1of4">
+		<input type="button" class="q5Click" id="q5-a" onclick="" name="q5everday" value="Almost everyday"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of4">
+		<input type="button" class="q5Click" id="q5-b" onclick="" name="q5week" value="Once a week"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of4">
+		<input type="button" class="q5Click" id="q5-c" onclick="" name="q5awhile" value="Once in awhile">  <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of4">
+		<input type="button" class="q5Click" id="q5-d" onclick="" name="q5no" value="I don't play sports"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+	<!--arrow to scroll down-->
+	<a class="arrow-wrap">
+		<div class="section-down-arrow-wrap" onclick="arrow5()"></div>
+	</a>
+</div>
+
+</section>
+
+<!--Question 6-->
+<section id="six" data-anchor="six" class="page-block">
+<p class="q-title" id="q6">Do you drive?</p>
+
+<div class="col-1of1" id="q4-options">
+	<div class="col-1of2">
+		<input type="button" class="q6Click" id="q6-a" onclick="" name="q6yes" value="Yes"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of2">
+		<input type="button" class="q6Click" id="q6-b" onclick="" name="q6no" value="No"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+	<!--arrow to scroll down-->
+	<a class="arrow-wrap">
+		<div class="section-down-arrow-wrap" onclick="arrow6()"></div>
+	</a>
+</div>
+</section>
+
+<!--Question 7-->
+<section id="seven" data-anchor="seven" class="page-block">
+<p class="q-title" id="q7">Are you dependent on caffeine to stay focus?</p>
+
+<div class="col-1of1" id="q7-options">
+	<div class="col-1of3">
+		<input type="button" class="q7Click" id="q7-a" onlick="" name="q7yes" value="Yes"> <!--button--> 
+		<div class="q-button"></div>
+	</div>
+
+	<div class="col-1of3">
+		<input type="button" class="q7Click" id="q7-b" onlick="" name="q7no" value="No"><!--button--> 
+		<div class="q-button"></div>
+	</div>
+	<div class="col-1of3">
+		<input type="button" class="q7Click" id="q7-c" onlick="" name="q7sometimes" value="Sometimes"><!--button--> 
+		<div class="q-button"></div>
+	</div>
+</div>
+	<div class="col-1of1">
+		<button id="submit-button" class="button" onclick="validateForm()">Next</button>
+	</div>
+</section>
+</div> <!--end of main-->
+
+
+
+<script src="index.js"></script>
+
+
+</body>
+
+</html>

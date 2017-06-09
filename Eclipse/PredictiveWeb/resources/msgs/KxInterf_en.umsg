@@ -1,0 +1,11 @@
++E_KXINTF__EMPTY
+-Empty Interface
+
++KXEN_W_CKXENSIMPLEMODEL_GETPOSSIBLESPACEROLEIDX_IDX2BIG
+-The index %1 is larger than the number of data sets (%2) in the model.
+
++KXEN_E_GLOBALCONFIG_CANNOTCREATEFILESTORE
+-Unable to create file store for log configuration
+
++KXEN_E_GLOBALCONFIG_INVALIDLICENSEFILEKEY
+-The license key %1 found in the current license file is invalid.

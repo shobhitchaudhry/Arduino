@@ -1,0 +1,11 @@
++E_KXINTF__EMPTY
+-空のインタフェース
+
++KXEN_W_CKXENSIMPLEMODEL_GETPOSSIBLESPACEROLEIDX_IDX2BIG
+-インデックス %1 がモデル内のデータセット数 (%2) を超えています。
+
++KXEN_E_GLOBALCONFIG_CANNOTCREATEFILESTORE
+-ログ構成用のファイルストアを作成できません。
+
++KXEN_E_GLOBALCONFIG_INVALIDLICENSEFILEKEY
+-現在のライセンスファイルで無効なライセンスキー %1 が見つかりました。

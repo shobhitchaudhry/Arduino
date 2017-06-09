@@ -1,0 +1,11 @@
++E_KXINTF__EMPTY
+-Interfase vacía
+
++KXEN_W_CKXENSIMPLEMODEL_GETPOSSIBLESPACEROLEIDX_IDX2BIG
+-El índice %1 es mayor que el número de conjuntos de datos (%2) en el modelo.
+
++KXEN_E_GLOBALCONFIG_CANNOTCREATEFILESTORE
+-No es posible crear un almacenamiento de fichero para la configuración de log.
+
++KXEN_E_GLOBALCONFIG_INVALIDLICENSEFILEKEY
+-La clave de licencia %1 encontrada en el fichero de licencia actual no es válida.

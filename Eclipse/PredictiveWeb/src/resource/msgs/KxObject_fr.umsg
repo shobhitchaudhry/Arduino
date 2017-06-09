@@ -1,0 +1,2595 @@
++KXEN_E_CABSTRACTSTORE_DO_NOT_SUPPORT_DROP_SPACE
+-Il est impossible de déposer des objets dans le stockage %1.
+
++KXEN_E_INPUT_FIELD_BADCHECK
+-Erreur interne : le champ d'entrée %1 a été mal préparé.
+
++KXEN_E_OUTPUT_FIELD_BADCHECK
+-Erreur interne : le champ de sortie %1 a été mal préparé.
+
++KXEN_W_ABSTRACTTRANSFORM_NULL_SUBKEYS
+-Sur les %2 enregistrements lus, %1 ont généré des clefs partiellement nulles.
+-Ces enregistrements n'ont pas été écrits.
+
++KXEN_W_ABSTRACTTRANSFORM_TOO_MUCH_NULL_SUBKEYS
+-Plus de %1 enregistrement ont généré des clefs partiellement nulles.
+-Ces enregistrements n'ont pas été écrits.
+-Veuillez consulter le log pour plus de détails.
+
++KXEN_W_ABSTRACTTRANSFORM_DETAIL_NULL_SUBKEYS
+-L'enregistrement %1 a généré un résultat avec des clefs partiellement nulles.
+-Ce résultat n'a pas été écrit.
+-L'enregistrement d'entrée peut être identifié par la clef (%2).
+
++KXEN_W_ABSTRACTTRANSFORM_DETAIL_NO_OUTPUT
+-L'enregistrement %1 n'a généré aucun résultat. 
+-Cet enregistrement peut être identifié par la clé (%2).
+
++KXEN_W_ABSTRACTTRANSFORM_TOO_MUCH_NO_OUTPUTS
+-Plus de %1 enregistrements n'ont pas généré de résultat.
+-Veuillez consulter les logs pour plus de détails.
+
++KXEN_W_ABSTRACTTRANSFORM_FINAL_NO_OUTPUTS
+-Sur les %1 enregistrements lus, %2 n'ont pas généré de résultats.
+
++KXEN_E_INVALID_COMPOSITE_MISSING_COMPONENT
+-Une variable composée %1 a été définie. Cependant, son composant %2
+- est introuvable dans les données.
+
++KXEN_E_MAPPING_COMPOSED_VARIABLE_MAPPED
+-Des variables composées ont le même nom que des champs dans les données
+
++KXEN_I_COMPOSED_VARIABLES
+-Liste des variables composées
+
++KXEN_I_CDATACACHMANAGER_CURRENT_SIZE_IN_L1
+-%1 occupe %1 Mo dans le cache de données.
+
++KXEN_I_CDATACACHMANAGER_CURRENT_SIZE_IN_L1_L2
+-%1 occupe %2 Mo dans le cache de données L1 et %3 Mo dans le cache de données L2.
+
++KXEN_W_CFILECASEITER_READ_TOOMUCHLESSFIELDS
+-Le nombre de valeurs attendu (%1) n'a pas été trouvé dans au moins %2 lignes.
+
++KXEN_W_CREADCASEITER_READ_FOUNDMOREFIELDSTHANVARS
+-À la ligne %3, %2 valeurs ont été trouvées au lieu de %1.
+
++KXEN_W_CREADCASEITER_READ_TOOMUCHMOREFIELDS
+-Au moins %2 lignes avec plus de %1 valeurs ont été lues.
+-Vérifier la description, elle peut être fausse.
+
++KXEN_W_CREADCASEITER_READ_TOOMUCHLESSFIELDS
+-Au moins %2 lignes avec moins de %1 valeurs ont été lues.
+-Vérifier la description, elle peut être fausse.
+
++KXEN_W_EXPLAIN_SMALL_FORCED_USER_DEFAULT_DESC
+-Le coût de cette requête a été estimé à #VALUE#. Les requêtes avec un coût < #MAX#
+-ont été approuvées explicitement par l'utilisateur.
+
++KXEN_W_EXPLAIN_MEDIUM_FORCED_USER_DEFAULT_DESC
+-Le coût de cette requête a été estimé à #VALUE#. Voulez-vous l'exécuter ?
+-Automated Analytics demande une telle confirmation parce que l'utilisateur a demandé explicitement la confirmation de toutes les requêtes
+-avec un coût > #MIN#.
+
++KXEN_W_EXPLAIN_TOO_FAST
+-Aucun coût n'a été estimé par la base de données.
+-La requête est probablement très légère.
+
+#Note for translator: do not translate Explain in 'Explain mode'
+
++KXEN_W_EXPLAIN_RUN_TIME_ERROR_DEFAULT_DESC
+-Le coût de cette requête a été estimé à #VALUE#. Voulez-vous l'exécuter ?
+-Automated Analytics demande une telle confirmation car un problème d'exécution s'est produit 
+-et le classement dynamique n'a pas pu être effectué.
+-Veuillez contacter l'administrateur pour configurer le mode "Explain".
+
++KXEN_W_EXPLAIN_BAD_CONFIG_ERROR_DEFAULT_DESC
+-Le coût de cette requête a été estimé à #VALUE#. Voulez-vous l'exécuter ?
+-Automated Analytics demande cette confirmation parce que le mode "Explain" n'a pas été configuré correctement.
+-Vérifiez la configuration du mode "Explain" avec votre administrateur.
+
++KXEN_W_ABSTRACT_CASEITER_NO_MORE_DATA
+-Fin des données de l'espace %1.
+
++KXEN_W_ABSTRACT_FILTERING_NO_MORE_DATA
+-Fin des données filtrées de l'espace %1.
+
++KXEN_W_ABSTRACT_FILTERING_DATA
+-L'espace %1 est filtré
+
++KXEN_E_INVALID_OPERAND_IN_FILTER
+-Le test %1 %2 ne peut être appliqué sur la valeur '%3'.
+
++KXEN_E_FILTER_UNKNOWN_OPERAND
+-L'opérateur de filtre %1 est inconnu.
+
++KXEN_E_VARIABLE_UNKNOWN_IN_FILTER
+-Le filtre utilise une variable %1 qui n'existe pas dans l'espace %2.
+
++KXEN_E_FILTER_UNKNOWN_SIMPLE_FILTER
+-L'opérateur de filtre %1 est inconnu.
+
++KXEN_W_SCRIPT_SETUP_FAIL
+-Erreur d'exécution de la phase de paramétrage du script %1.
+
++KXEN_E_NATIVE_EXPLAIN_MODE_NON_IMPLEMENTED
+-%1 ne fournit pas le mode 'Explain'.
+-Veuillez vérifier avec votre administrateur la définition du mode 'Explain'.
+
++KXEN_E_SIMULATED_EXPLAIN_MODE_NON_IMPLEMENTED
+-%1 ne fournit pas le mode 'Explain'
+-et le moteur Automated Analytics n'implémente pas son propre mode 'Explain' pour ce type de données.
+-Veuillez vérifier avec votre administrateur la définition du mode 'Explain'.
+
++KXEN_E_EXPLAIN_FIELD_NOT_STRING
+-Le champ %2 utilisé pour le mode 'Explain' de %1 n'est pas une chaîne de caractères.
+-La liste des champs utilisables est %3.
+
++KXEN_E_EXPLAIN_MODE_DEACTIVATED
+-Il n'y a pas de mode 'Explain' pour %1.
+
++KXEN_W_EXPLAIN_DEFAULT_CONFIG_DEFAULT_DESC
+-Le coût de cette requête est estimé à #VALUE#. Voulez-vous l'exécuter ?
+-Automated Analytics demande cette confirmation parce que le mode "Explain" est disponible pour notre base de données
+-mais n'a pas été configuré.
+-Veuillez contacter votre administrateur pour configurer le mode "Explain".
+
++KXEN_E_EXPLAIN_CLASS_NO_WORKLOAD
+-Pas d'attribut Workload pour la classe %4 du mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_CLASS_WORKLOAD_UNKNOWN
+-La valeur %3 de l'attribut Workload pour la classe %4 est incorrecte pour le mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_CLASS_NO_DESC
+-Pas de description pour la classe %4 du mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_NO_VALUE
+-Aucune valeur numérique utilisable dans le champ %2 par le mode 'Explain' pour %1.
+
++KXEN_E_EXPLAIN_NO_MATCH
+-Pas de classe correspondante pour le champ %2 et la valeur %3 pour le mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_TOO_MANY_MATCH
+-Plus de une classe correspond pour le champ %2 et la valeur %3 pour le mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_CLASS_OPTION_EMPTY_VALUE
+-Pas de valeur définie pour l'option %3 pour la classe %4 du mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_CLASS_BAD_SYNTAX_IN_OPTION
+-Syntaxe incorrecte pour l'option %2 du mode 'Explain' de %1.
+
++KXEN_E_NO_EXPLAIN_CLASSES
+-Aucune classe n'a été définie pour le mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_CLASSES_NO_EXPLAINFIELD_OPERATOR
+-Le champ de sélection pour le mode 'Explain' de %1 n'a pas été défini.
+
++KXEN_E_EXPLAIN_CLASSES_UNKNOWN_EXPLAINFIELD_OPERATOR
+-Opérateur inconnu pour le mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_CLASSES_TOO_MANY_0_MIN
+-Au moins deux classes n'ont pas de minimum défini pour le mode 'Explain' de %1.
+
++KXEN_E_EXPLAIN_CLASSES_TOO_MANY_NONE_MAX
+-Au moins deux classes n'ont pas de maximum défini pour le mode 'Explain' de %1.
+
++KXEN_E_BAD_EXPLAIN_CLASSES
+-Il y a un problème avec la définition du mode 'Explain' pour %1.
+-Veuillez la vérifier avec votre administrateur.
+
++KXEN_E_UNKNOWN_EXPLAIN_FIELD
+-Nom de champ de prédiction inconnu pour le mode "Explain" de %1.
+-La liste des champs Explain utilisables est %2.
+
++KXEN_E_EXPLAIN_FIELD_BAD_TYPE
+-Le champ %2 utilisé pour définir le mode 'Explain' de %1 n'est pas de type numérique.
+-La liste des champs utilisables est %3.
+
++KXEN_E_EXPLAIN_CLASS_BAD_MINMAX
+-Les limites min. et max. semblent avoir été inversées pour la classe %4 du mode 'Explain' de %1.
+
++KXEN_E_LOCK_KXADMIN_STORE_NOTOPEN
+-Le référentiel de métadonnées Automated Analytics n'est pas ouvert.
+
++KXEN_W_MODEL_REPOSITORY_SAVE_CONTAINER
+-Enregistrement du container %1
+
++KXEN_W_MODEL_REPOSITORY_ERASE_VARIABLE_SPOOL
+-Effacement de certaines définitions de variables dans le variable spool
+
++KXEN_W_VARIABLE_POOL_NOT_DEFINED
+-Aucun référentiel de métadonnées n'est défini pour la source de données (%1).
+
++KXEN_W_VARIABLE_POOL_UNKNOWN_VARIABLE
+-Pendant l'enregistrement de la description d'une variable dans le référentiel de métadonnées, la variable (%1) n'est pas présente dans l'espace.
+
++KXEN_W_CONNECTOR_TABLE_NAME_CONFLICT
+-Cette manipulation de données a un nom qui entre en conflit avec celui d'une table existante.
+
++KXEN_E_INVALID_CONNECTOR_NAME
+-Le nom utilisé pour cette manipulation de données n'est pas valide. Les points ne sont pas des caractères valides dans les noms de manipulations de données.
+
++KXEN_W_MODEL_REPOSITORY_ERASE_CONNECTOR
+-Effacement de la manipulation de données %1
+
++KXEN_W_MODEL_REPOSITORY_ERASE_CONTAINER
+-Effacement du container %1
+
++KXEN_W_MODEL_REPOSITORY_ERASE_MODEL
+-Effacement du modèle %1
+
++KXEN_W_MODEL_REPOSITORY_SAVE_MODEL
+-Enregistrement du modèle %1
+
++KXEN_W_MODEL_REPOSITORY_SAVE_CONNECTOR
+-Enregistrement de la manipulation de données %1
+
++KXEN_E_DATASPACE_CANNOT_WRITE_L1
+-Le jeu de données %1 ne peut pas être mis en mémoire cache dans L1 %2. Il n'y a probablement plus de place disponible dans le référentiel des caches.
+-Le modèle peut toujours être entraîné mais contactez votre administrateur pour améliorer votre configuration.
+
++KXEN_E_DATASPACE_CANNOT_WRITE_L2
+-Le jeu de données %1 ne peut pas être mis en mémoire cache dans L2 %2. Il n'y a probablement plus de place disponible dans le référentiel des caches.
+-Le modèle peut toujours être entraîné mais contactez votre administrateur pour améliorer votre configuration.
+
++KXEN_E_DATASPACE_CANNOT_WRITE
+-Impossible de mettre en mémoire cache le jeu de données %1. Il n'y a probablement plus d'espace disponible.
+-Contactez votre administrateur.
+
++KXEN_E_SPACE_TOO_MUCH_SKIPPEDLINES
+-Le nombre d'enregistrements à sauter (%1) est supérieur au nombre d'enregistrements (%2) de l'espace %3.
+
++KXEN_W_CABSTRACTSPACE_COMPUTECOUNT
+-Calcul du nombre d'enregistrements de %1.
+
++KXEN_W_CABSTRACTSPACE_SLOWCOUNT
+-Automated Analytics doit déterminer le nombre d'enregistrements de %1 mais ne peut le faire d'une façon efficace.
+-Cette opération peut prendre du temps.
+
++KXEN_W_CUSERSPACE_CANNOT_ADAPT_TO_VARIABLES
+-Impossible de modifier la structure des données de %1
+
++KXEN_E_SERIOUS_MAPPING_ERROR
+-Le fichier %1 n'a pas la structure attendue par Automated Analytics.
+-Vérifiez par exemple que le caractère <tab> n'a pas été remplacé par le caractère <space>.
+
++KXEN_E_SPACE_CANNOT_OPEN_FOR_GETCASECOUNT
+-Impossible de récupérer le nombre d'enregistrements du jeu de données %1.
+
++KXEN_E_ERASEMODELD_NOT_IMPL
+-Ce type de Store ne peut gérer l'effacement d'un modèle
+
++KXEN_E_NOT_ENOUGH_ROWS_FOR_THIS_STRATEGY
+-Il n'y a pas assez d'enregistrements pour pouvoir utiliser cette stratégie de découpage.
+
++KXEN_E_NOT_ABLE_TO_COMPUTE_ROWS_INFO
+-Une erreur est survenue lors du calcul de la taille du jeu de données.
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_DESC
+-%1 contient une description Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_MODEL
+-%1 contient un modèle Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_KXADMIN
+-%1 contient un catalogue des modèles Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_KEYVALUE
+-%1 contient un fichier de configuration Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_TRY_TO_OVERLOAD_THE_KXEN_VARIABLE_POOL
+-%1 contient des métadonnées utilisées par la bibliothèque de variables Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_INFOS
+-%1 contient des métadonnées utilisées par Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_INDEX
+-%1 contient des métadonnées utilisées par Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_TRY_TO_OVERLOAD_A_KXEN_WITH_PARAMETER
+-%1 contient des données utilisées par Automated Analytics. Vous ne pouvez pas écraser le référentiel privé Automated Analytics avec des données.
+
++KXEN_E_NOT_A_KXEN_DESC
+-%1 existe déjà et n'est pas une description au format Automated Analytics.
+
++KXEN_E_NOT_A_KXEN_MODEL
+-%1 existe déjà et n'est pas un modèle au format Automated Analytics.
+
++KXEN_E_NOT_A_KXEN_KXADMIN
+-%1 existe déjà et n'est pas un catalogue de modèles Automated Analytics.
+
++KXEN_E_NOT_A_KXEN_KEYVALUE
+-%1 existe déjà et n'est pas un fichier de configuration au format Automated Analytics.
+
++KXEN_E_NOT_A_KXEN_VARIABLE_POOL
+-%1 existe déjà mais n'est pas un fichier de données Automated Analytics valide pour la bibliothèque de variables.
+
++KXEN_E_NOT_A_KXEN_INFOS
+-%1 existe déjà mais n'est pas un fichier d'information Automated Analytics valide.
+
++KXEN_E_NOT_A_KXEN_INDEX
+-%1 existe déjà mais n'est pas un fichier d'index Automated Analytics valide.
+
++KXEN_E_NOT_A_KXEN_WITH_PARAMETER
+-%1 existe déjà mais n'est pas un fichier Automated Analytics valide.
+
++KXEN_E_DATASET_IS_EMPTY
+-Le jeu de données %1 existe, mais est vide.
+-Ceci peut être dû à une mauvaise configuration de la sélection aléatoire.
+
++KXEN_W_CABSTRACTMODEL_TOO_MANY_THREADS
+-Le nombre de threads autorisés sur le système est dépassé.
+
++KXEN_W_CABSTRACTSTORE_PRIVATE_REPOSITORY
+-Tentative de modification d'un référentiel privé '%1'.
+
++KXEN_W_CABSTRACTSTORE_SPACE_DOES_NOT_EXIST
+-Les données %1 n'existent pas.
+
++KXEN_W_CABSTRACTSTORE_CANNOT_DROPSPACE
+-%1 n'a pas pu être détruit.
+
++KXEN_E_CONTAINER_JUST_CHANGED
+-Quelqu'un vient juste d'enregistrer le même connecteur.
+-Votre numéro de version pour ce modèle n'est pas valide.
+-Vous devez recommencer l'enregistrement.
+
++KXEN_E_CONNECTOR_JUST_CHANGED
+-Quelqu'un vient juste d'enregistrer le même connecteur.
+-Votre numéro de version pour ce modèle n'est pas valide.
+-Vous devez recommencer l'enregistrement.
+
++KXEN_E_MODEL_JUST_CHANGED
+-Quelqu'un vient juste d'enregistrer le même modèle
+-Votre numéro de version pour ce modèle n'est pas valide.
+-Vous devez recommencer l'enregistrement.
+
++KXEN_E_MODEL_REPOSITORY_BUSY_NO_INFO
+-Le référentiel Automated Analytics %1 est en cours d'utilisation et bloqué.
+-Essayez de recommencer la dernière opération dans quelques instants.
+
++KXEN_E_MODEL_REPOSITORY_PERMISSION_DENIED
+-Vous n'avez pas les droits pour écrire dans le référentiel %1.
+
++KXEN_E_MODEL_REPOSITORY_BUSY
+-Le référentiel Automated Analytics %1 est déjà utilisé et bloqué par %2
+
+#Note for translator: %3: name of the user; %2: name of the server; %1: date of the blockage; %4: type of operation 
++KXEN_E_MODEL_REPOSITORY_BUSY_2_FULL_INFO
+-L'utilisateur %3 sur le serveur %2 depuis %1 par l'opération : '%4'.
+-Relancez la dernière opération dans quelques minutes.
+
++KXEN_E_MODEL_REPOSITORY_BUSY_2
+-Le serveur %2 depuis %1 par l'opération : '%4'.
+-Relancez la dernière opération dans quelques minutes.
+
++KXEN_W_BUSY_LOOP
+-Le référentiel Automated Analytics est occupé, nouvelle tentative...
+
++KXEN_E_SPACE_NOT_FOUND
+-L'espace %1 n'existe pas.
+
++KXEN_W_DATASET_SOME_BADVALUE
+-Des valeurs incohérentes avec la description ont été rencontrées %1dans le jeu de données '
+-'. Vérifier la description, elle peut être fausse.
+
++KXEN_W_SPACE_SOME_BADVALUE
+-Des valeurs incohérentes avec la description ont été rencontrées dans les données de %1.
+-Vérifier le log, la description peut être fausse.
+
++KXEN_W_DATASET_MORE_BADVALUE
+-D'autres valeurs incohérentes ont été rencontrées dans le jeu de%1données '
+-', elles ne seront plus signalées.
+
++KXEN_W_SPACE_MORE_BADVALUE
+-D'autres valeurs incohérentes ont été rencontrées dans le jeu de%1données '
+-', elles ne seront plus signalées.
+
+#Note for translator: do not translate 'integer' and 'number'
++KXEN_W_CASEITER_READ_BADVALUE_DETAIL
+-La valeur de la variable '%1' à la ligne %2 n'est pas compatible avec le stockage.
+-La valeur est considérée comme vide.
+-Diagnostic détaillé : %3.
+-(Envisagez de passer le type de 'integer' à 'number', par exemple.)
+
++KXEN_W_CASEITER_PHYSICAL_BADVALUE_DETAIL
+-La valeur actuelle de la variable '%1' à la ligne %2 ne peut être lue ou a un mauvais format.
+-La valeur est considérée comme vide.
+-Diagnostic détaillé : %3(Envisagez de passer le type de 'integer' à 'number', par exemple.)
+
+#Note for translator: do not translate 'integer' and 'number'
++KXEN_W_CASEITER_READ_BADVALUE
+-La valeur '%3' de la variable %1 à la ligne %2 n'est pas compatible avec le type.
+-La valeur nulle a été utilisée.
+-(Envisagez de passer le type de 'integer' à 'number', par exemple)
+
++KXEN_W_CASEITER_READ_BADVALUE_LATITUDE
+-La valeur de la latitude (%1) de la variable géolocalisée '%2' à la ligne %3 n'est pas valide.
+-La valeur de la latitude d'une variable géolocalisée doit être comprise entre 90 et -90 degrés.
+-La valeur est considérée comme vide.
+
++KXEN_W_CASEITER_READ_BADVALUE_LONGITUDE
+-La valeur de la longitude (%1) de la variable géolocalisée '%2' à la ligne %3 n'est pas valide.
+-La valeur de la longitude d'une variable géolocalisée doit être comprise entre 180 et -180 degrés.
+-La valeur est considérée comme vide.
+
++KXEN_E_MAPPING_CANNOT_OVERWRITE_ON_BAD_LAYOUT
+-La structure d'un espace existant est trop différente de celle attendue.
+-Il y a %1 champs imprévus qui vont être effacés.  
+
++KXEN_E_MAPPING_FIELDS_MULTI_USED
+-Certains champs sont utilisés plusieurs fois.
+
++KXEN_E_MAPPING_MANDATORY_VARIABLES_NOT_MAPPED
+-Des variables obligatoires n'ont pas pu être mappées.
+
++KXEN_I_DATASET_IS
+-Pour le jeu de données %1 (%2)
+
+#note for translator: do not translate beginRead and nextRead
++KXEN_E_ABSTRACTSPACE_NO_SUCCESFULL_BEGINREAD
+-beginRead sur l'espace %1 doit avoir été fait avant d'appeler nextRead.
+
++KXEN_E_ABSTRACTSPACE_NO_SUCCESFULL_BEGINWRITE
+-beginWrite sur l'espace %1 doit avoir été fait avant d'appeler nextWrite.
+
++KXEN_E_ABSTRACTSPACE_NO_VARIABLE
+-L'espace %1 doit avoir des variables avant de pouvoir être utilisé.
+
++KXEN_I_ALL_MANDATORY_VARIABLES_MAPPED
+-Toutes les variables obligatoires ont été correctement mappées
+
++KXEN_I_ALL_VARIABLES_MAPPED
+-Toutes les variables ont été mappées.
+
++KXEN_I_VARIABLESMAPPEDAUTONAME
+-Variables automatiquement mappées par leur nom : %1
+
++KXEN_I_VARIABLESMAPPEDAUTOPOS
+-Variables automatiquement mappées par leur position : %1
+
++KXEN_I_VARIABLESMAPPEDUSERNAME
+-Variables mappées avec un nom défini par l'utilisateur : %1
+
++KXEN_E_VARIABLE_INVALID_TARGET
+-La variable %1 ne peut pas être définie comme cible.
+
++KXEN_I_FIELDSFORMAP
+-Champs physiques disponibles : %1
+
++KXEN_I_MANDATORYVARIABLESMAPPED
+-Variables obligatoires correctement mappées : %1
+
++KXEN_I_OPTIONAL_VARIABLES_MAPPED
+-Variables facultatives correctement mappées : %1
+
++KXEN_I_OPTIONAL_VARIABLES_SKIPPED
+-Variables facultatives non mappées : %1
+
++KXEN_I_OPTIONALVARIABLESMAPPED
+-Variables facultatives correctement mappées : %1
+
++KXEN_I_VARIABLESMAPPEDWITHCONVERSION
+-Variables mappées avec une conversion : %1
+
++KXEN_I_VARIABLESMAPPEDWITHOUTCONVERSION
+-Variables mappées sans aucune conversion : %1
+
++KXEN_I_VARIABLESNOTMAPPED
+-Variables non mappées : %1
+
++KXEN_I_VARIABLESTOMAP
+-Variables à mapper : %1
+
++KXEN_E_MAPPING_BYPOS_FORBIDDEN_IN_WRITE
+-Des variables n'ont pas pu être automatiquement mappées par leur nom et
+-un mapping par position ne peut pas être utilisé pour cet espace.
+
++KXEN_E_MAPPING_BY_POS_AND_NB_FIELDS_NOT_MATCH
+-Un mapping par position doit être utilisé et le nombre de champs
+-ne correspond pas au nombre de variables. %1 champs ne peuvent être mappés.
+
++KXEN_E_MAPPING_BY_POS_FORBIDDEN_CONVERSION
+-%1 champs ont un stockage qui nécessite une conversion. Ce n'est pas autorisé
+-pour un mappage automatique par position.
+
++KXEN_W_SPACE_OPEN_NONAME
+-Un espace doit avoir un nom
+
++KXEN_E_CFIELDSBUCKET_DUPLICATE_FIELD_NAME
+-Le champ de nom "%1" est dupliqué.
+
++KXEN_W_CABSTRACTSPACE_GUESSVARIABLE_NO_ROW
+-Pas de lignes dans l'espace %1
+-Il est possible que le processus d'analyse ait inféré de mauvais types et contenants pour les variables.
+
++KXEN_I_LOGICAL_TO_PHYSICAL
+-Variables logiques mappées sur des champs physiques (écriture) %1
+
++KXEN_I_PHYSICAL_TO_LOGICAL
+-Champs physiques mappés sur des variables logiques (lecture) %1
+
++KXEN_E_VARIABLES_MAPPED_NON_COMPATIBLE
+-Variables mappées avec des conversions impossibles : %1
+
++KXEN_I_MAPPING_SUCCESS_SHORT_INFO
+-Mapping correct
+-%1
+
++KXEN_I_MAPPING_SUCCESS_FULL_INFO
+-Mapping correct
+-%1
+
++KXEN_E_MAPPING_ERROR
+-Mapping incorrect
+-%1
+
++KXEN_W_CABSTRACTCASEMODIFIER_TEST_ERROR
+-Test interne non valide dans un 'Case Modifier'
+
++KXEN_W_INPUTVARWRONGTYPE
+-Variable d'entrée '%1' de mauvais type
+
++KXEN_W_TARGETVARWRONGTYPE
+-Variable cible '%1' de mauvais type
+
++KXEN_W_NOSPACEROLE
+-Pas d'espace de rôle '%1' dans le modèle
+
++KXEN_W_NOMODEL
+-Pas de modèle, et pas d'élément précédent!
+
++KXEN_W_CABSTRACTCASEMODIFIER_INSERTTODATA_NULLARG
+-Argument nul pour 'insertToData'
+
++KXEN_W_CABSTRACTCASEMODIFIER_REMOVETODATA_NULLTODATA
+-Argument nul pour 'removeToData'
+
++KXEN_W_VARPROBLEM
+-Un problème a été rencontré pour la variable '%1'
+
++KXEN_W_CABSTRACTMODEL_OPENNEWSTORE_FOUNDSTORE
+-Nouvel entrepôt déjà ouvert
+
++KXEN_W_CABSTRACTMODEL_OPENNEWSTORE_NEWSTORE
+-Ouverture réussie d'un nouvel entrepôt
+
++KXEN_W_CCONNECTOR_SAVE_TOKXADMIN
+-Impossible d'utiliser '%1' pour l'enregistrement d'une manipulation de données dans '%2'.
+
++KXEN_W_CABSTRACTMODEL_SAVEVARIABLEDESC_TOKXADMIN
+-Impossible d'enregistrer une description sur '%1'
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_IMPOSSIBLEROLE
+-Rôle impossible ('%1') pour ce modèle.
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_ROLEEXIST
+-Un rôle '%1' existe déjà, création impossible.
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_NOSTORE
+-Index de Store non valide pour la création du rôle '%1'
+
++KXEN_W_CABSTRACTMODEL_NULLSPACE
+-Le jeu de données suivant a perdu sa référence : %1.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CABSTRACTMODEL_NOTRANSFORM
+-Aucune transformation trouvée dans le protocole suivant : %1.
+
++KXEN_W_NOROLEREADSPACEDESCRIPTION
+-Impossible de trouver le rôle '%1' pour la lecture de la description.
+
++KXEN_W_NEWPROTOCOL_ROLEEXIST
+-Le protocole suivant existe déjà, impossible de le créer : %1.
+
++KXEN_W_CABSTRACTMODEL_PROTOCOLNOTFOUND
+-Protocole '%1' non trouvé
+
++KXEN_W_CABSTRACTMODEL_POPTRANSFORMFROMPROTOCOL_CANNOTPOPFIRST
+-Impossible d'enlever la première transformation du protocole
+
++KXEN_W_CABSTRACTMODEL_POPTRANSFORMFROMPROTOCOL_STRANGE
+-Problème inattendu dans popTransformFromProtocol '%1'
+
++KXEN_W_GETTRANSFORMINPROTOCOL_ROLENOTFOUND
+-Le protocole suivant est vide : %1.
+
++KXEN_W_CABSTRACTMODEL_CHECK_STRANGEPROTOCOL
+-Une erreur inattendue est survenue lors de vérification du protocole suivant : %1.
+
++KXEN_W_CABSTRACTMODEL_CHECK_ROLESNOGOOD
+-Rôles non valides pour le protocole '%1'
+
++KXEN_W_CABSTRACTMODEL_CHECK_TYPESNOGOOD
+-Types non valides pour le protocole '%1'
+
++KXEN_W_CABSTRACTMODEL_CHECK_TARGETNOGOOD
+-Variable cible non valide pour le protocole '%1'
+
++KXEN_W_CABSTRACTMODEL_CHECK_MODIFIERDOESNOTACCEPTMODE
+-Mode non valide pour un 'Transform'
+
++KXEN_W_CABSTRACTMODEL_CHECK_PROTOCOLNB
+-Trop de protocoles pour ce modèle (%1)
+
++KXEN_W_CABSTRACTMODEL_SEND_CHECK
+-Vérification de la chaîne de traitement
+
++KXEN_W_CABSTRACTMODEL_SEND_LEARNING
+-Début de l'apprentissage pour %1
+
++KXEN_W_CABSTRACTMODEL_SEND_FILTEROUTLIER
+-Début du filtrage des valeurs anormales %1
+
++KXEN_W_CABSTRACTMODEL_SEND_ADAPTING
+-Début de l'adaptation pour %1
+
++KXEN_W_CABSTRACTMODEL_SEND_TESTING
+-Début du test pour %1
+
++KXEN_W_CABSTRACTMODEL_SEND_APPLY
+-Début d'application du modèle. Patientez...
+
++KXEN_W_CABSTRACTMODEL_SEND_MODENOTKNOWN
+-Mode inconnu pour 'send' !
+
++KXEN_W_CABSTRACTMODEL_CHECKROLES_UNKNOWN
+-Rôle '%1' non trouvé
+
++KXEN_W_CHECKTARGET_NOTFOUND
+-Pas de variable cible définie
+
++KXEN_W_CHECKTARGET_SECONDTARGET
+-Deuxième variable cible non trouvée '%1'
+
++KXEN_W_CHECKTARGET_NOVARIABLEIDX
+-Variable %1 non trouvée
+
++KXEN_W_CHECKTARGET_NOVARIABLE
+-Pas de variable dans '%1'
+
++KXEN_W_PROTOCOLTOPARAMETER_ERROR
+-Impossible de convertir le protocole '%1' en paramètres
+
++KXEN_W_PROTOCOLTOPARAMETER_FORCE
+-Impossible de forcer les paramètres pour %1
+
++KXEN_W_PROTOCOLTOPARAMETER_STRANGENULL
+-Protocole nul inattendu
+
++KXEN_W_SPACEROLETOPARAMETER_ERROR
+-Mauvaise conversion de rôle en paramètres pour '%1'
+
++KXEN_W_SPACEROLETOPARAMETER_FORCE
+-Mauvaise conversion de paramètres pour '%1'
+
++KXEN_W_SPACEROLETOPARAMETER_STRANGE
+-Protocole nul inattendu
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_NOPARAM
+-Paramètre '%1' non trouvé dans spaceRolesFromParameter.
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_STRANGE
+-Erreur inattendue pour spaceRolesFromParameter
+
++KXEN_W_READVARIABLEDESC_BEGINSTAT
+-Calcul des statistiques
+
++KXEN_W_READVARIABLEDESC_STATPROBLEM
+-Problème dans les statistiques de la variable %1
+
++KXEN_W_CABSTRACTSPACE_READVARIABLEDESC_NOSPACE
+-Espace '%1' non trouvé
+
++KXEN_W_CABSTRACTSPACE_SAVEVARIABLEDESC_NOSPACE
+-Impossible de créer '%1' pour enregistrer la description
+
++KXEN_W_CABSTRACTSPACE_SAVEVARIABLEDESC_TOKXADMIN
+-Impossible d'enregistrer une description sur '%1'
+
++KXEN_W_CABSTRACTSPACE_FILLSTATISTICS_BEGIN
+-Calcul des statistiques
+
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_STRINGNOTNOMINAL
+-La variable %1 ('string') devrait être nominale
+
++KXEN_W_CABSTRACTSPACE_FILLDISCSTAT_NBREAD
+-Estimation des statistiques discrètes : %1 cas lus
+
++KXEN_W_CABSTRACTSPACE_FILLCONTSTAT_NBREAD
+-Estimation des statistiques continues : %1 cas lus
+
++KXEN_W_CABSTRACTSPACE_FILLSTAT_NBREAD
+-Estimation des statistiques : %1 cas lus
+
++KXEN_W_CABSTRACTMODEL_SAVE_NOTLEARNED
+-Impossible d'enregistrer un modèle sans apprentissage.
+
++KXEN_W_MISSING
+-Valeur manquante pour la variable '%1' (%2: %3)
+
++KXEN_W_MISSING_SKIP
+-Valeur manquante pour la variable '%1' (%3: %4), cas ignoré
+
++KXEN_Q_USER
+-Nom d'utilisateur pour '%1'
+
++KXEN_Q_PASSWORD
+-Mot de passe pour '%1'
+
++KXEN_W_CABSTRACTTRANSFORM_CHECKTYPES_INSERTCCODER
+-Module 'Consistent Coder' inséré dans la chaîne de traitement
+
++KXEN_W_CABSTRACTTRANSFORM_CHECKTYPES_INSERTTEXTQUANT
+-Module 'Text Coder' inséré dans la chaîne de traitement
+
++KXEN_W_CABSTRACTTRANSFORM_CHECKTYPES_INSERTDATECODER
+-Module 'Date Coder' inséré dans la chaîne de traitement
+
++KXEN_W_ABSTRACTTRANSFORM_TEST_PROGRESS
+-Application du Modèle
+
++KXEN_W_CABSTRACTSPACE_ENDVARIABLESTAT_ENDSTAT
+-Problème dans l'évaluation des statistiques pour la variable %1
+-(probablement pas assez de points pour calculer une courbe de profit)
+
++KXEN_W_TOTALTIME
+-Temps total écoulé : %1 secondes.
+
++KXEN_W_MODELCOMMIT_CANTFINDPREVIOUS
+-Impossible de trouver la version précédente du modèle '%1'
+
++KXEN_W_CONNECTORCOMMIT_CANTFINDPREVIOUS
+-Impossible de trouver la version précédente de la manipulation de données '%1'
+
++KXEN_W_MODELCOMMIT_RETRIEVESTORE
+-Mauvais argument (store) pour l'enregistrement du modèle '%1'
+
+#Note for translator: do not translate 'continuous', 'date' and 'number'
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_CONTNOTNUMBERORDATE
+-Description de l'erreur : 'continuous' doit être utilisé avec 'date' ou 'number' (%1)
+
+#Note for translator: do not translate 'ordinal' and 'number'
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_ORDNOTNUMBER
+-Description de l'erreur : 'ordinal' doit être utilisé seulement avec 'number' (%1)
+
++KXEN_W_ABSTRACTTRANSFORM_TEST_NBREAD
+-Application du modèle : (%1) cas lus...
+
++KXEN_W_CABSTRACTMODEL_COMMITEXISTINGSAVE
+-Ce modèle existe déjà. Voulez-vous en enregistrer une version '%1' ?
+
++KXEN_W_CABSTRACTMODEL_OPENSTOREFORROLE_FAILED
+-Impossible d'ouvrir la source pour le jeu de données '%1'
+
++KXEN_W_PARAMETER_SETVALUE_READONLY
+-Impossible de changer la valeur du paramètre '%1' (lecture seule)
+
++KXEN_W_PARAMETER_INVALIDENUM
+-Valeur énumérée impossible pour le paramètre '%1' ('%2')
+
++KXEN_E_INVALID_ENUM_CANDIDATES
+-Les valeurs possibles pour l'énumération sont : %1
+
++KXEN_W_PARAMETER_GETPARAMETER_NOTFOUND
+-Impossible de trouver le paramètre '%1'
+
++KXEN_W_WITHPARAMETER_RESTORE_SPACENOTFOUND
+-Impossible d'ouvrir '%1'
+
++KXEN_W_WITHPARAMETER_RESTORE_NOPARAMETERFOUND
+-Aucune information trouvée pour '%1', version %2.
+-Le modèle est probablement corrompu.
+
++KXEN_W_CABSTRACTMODEL_SPACENOTFOUND
+-Impossible d'ouvrir '%1', non trouvé
+
++KXEN_W_CABSTRACTMODEL_NEEDORDERVARIABLE
+-La stratégie de découpage %1 a besoin d'une variable d'ordre.
+
++KXEN_W_CABSTRACTMODEL_NOTREADY
+-Le modèle n'est pas prêt pour cette action.
+
++KXEN_E_CABSTRACTSTORE_LSMODELDGET_IMPOSSIBLEPLACE
+-Impossible de trouver la description de modèle '%1'
+
++KXEN_E_CABSTRACTSTORE_LSCONNECTORGET_IMPOSSIBLEPLACE
+-Impossible de trouver la description de la manipulation de données '%1'
+
++KXEN_W_DUPLICATEVARNAME
+-Variable '%1' répétée (rang '%2')
+
++KXEN_W_CABSTRACTMODEL_CREATESPACEROLE_CHANGEEXISTINGROLE
+-Remplacer le jeu de données '%1' ?
+
+#Note for translator: do not translate 'POST'
++KXEN_W_CABSTRACTMODEL_POST_STILLRUNNING
+-Un message 'POST' est déjà en cours sur ce modèle.
+
++KXEN_W_CSTATISTICSBUILDER_RUN_BEGIN
+-Calcul des statistiques
+
++KXEN_W_CPROTOCOL_GET_PROFITCURVE_NOVAR
+-Variable '%1' inconnue
+
++KXEN_E_CABSTRACTSTORE_RESTOREMODELD_INCOMPVERSION
+-Un modèle version %1 ne peut pas être rechargé en version %2.
+
++KXEN_E_CABSTRACTSTORE_RESTOREMODELD_INVALID_SPACE
+-Le modèle %1 ne peut être rechargé, car l'espace de données %2 n'existe pas.
+
++KXEN_E_CABSTRACTSTORE_RESTORECONNECTOR_INCOMPVERSION
+-Une manipulation de données de la version %1 ne peut pas être rechargée en version %2.
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_INVALIDWEIGHTTYPE
+-Une variable de poids doit être de type 'continuous'.
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_INVALIDWEIGHTSTORAGE
+-Une variable de poids doit être de type 'number'.
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_INVALIDWEIGHTASTARGET
+-La variable cible ne peut être la variable de poids.
+
++KXEN_W_CPROTOCOL_FROMPARAMETER_TOOMANYWEIGHTS
+-Une seule variable de poids est possible.
+
++KXEN_W_CABSTRACTSPACE_FILLDISCSTAT_MISSINGCONTTARGET
+-Une variable cible continue ne peut avoir de valeur manquante (ligne %1).
+
++KXEN_E_CABSTRACTMODEL_EVALPERIODEXPIRED
+-Période d'évaluation expirée. Contactez le support SAP.
+
++KXEN_W_CABSTRACTMODEL_EVALPERIODREMAINING
+-Il vous reste %1 jour(s) pour évaluer ce logiciel.
+
++KXEN_W_CABSTRACTSPACE_GUESSDESCRIPTION_VARCOUNT
+-Pas de variable trouvée lors de l'analyse de %1
+
++KXEN_W_CABSTRACTMODEL_OPENNEWSTORE_CANTCREATESTORE
+-Impossible de créer un entrepôt de type '%1'
+
++KXEN_W_CSTATBUILDER_ORDINALTOCONTINUOUS
+-Avertissement :  la variable '%1' a été déclarée comme 'ordinal',
+-mais semble être de type 'continuous'.
+-L'apprentissage peut être long, vous devriez corriger la description.
+
++KXEN_W_SAVEDESCRIPTION_REPLACE_EXISTING
+-Remplacer la description '%1' ?
+
++KXEN_E_ABSTRACTTRANSFORM_BADLICENSE
+-Erreur : Licence non valide pour '%1'.
+
++KXEN_E_ABSTRACTMODEL_KMX_BADLICENSE
+-Erreur : Licence non valide pour KMX/%1.
+
++KXEN_E_CABSTRACTMODEL_GENERATEXML_CANNOTOPEN
+-Erreur : impossible d'ouvrir le fichier '%1' pour la génération XML.
+
++KXEN_E_WITHPARAMETER_CANTOPEN
+-Erreur : Impossible d'ouvrir le fichier '%1'.
+
++KXEN_E_WITHPARAMETER_CASEITERBEGIN
+-Erreur : impossible de lire dans le fichier '%1'.
+
++KXEN_W_CSTATISTICBUILDER_RUNFIRST_PROGRESS
+-Calcul des statistiques initiales
+
++KXEN_W_CSTATISTICBUILDER_RUN_PROGRESS
+-Calcul des statistiques validation/test
+
++KXEN_W_CPERFSTATBUILDER_NEXTFIRST_PROGRESS
+-Calcul de la performance de référence
+
++KXEN_W_CPERFSTATBUILDER_NEXT_PROGRESS
+-Calcul des performances additionnelles
+
++KXEN_W_CSTATISTICSBUILDER_DEVIATIONTARGET
+-Fort écart pour la cible %1 dans le jeu de données %2 : le modèle sera suspect.
+
++KXEN_E_VARIABLE_NUMBER_KEY
+-Avertissement :  la variable '%1' est déclarée comme "number" et "key".
+-Vous risquez de perdre en précision (utilisez plutôt des clés "integer" ou "string").
+
++KXEN_E_CSTATBUILDER_NULLWEIGHT
+-Erreur : la somme des valeurs pour une variable de poids ne peut pas être nulle.
+
++KXEN_E_CSTATBUILDER_NEGATIVEWEIGHT
+-Erreur : les poids négatifs ne sont pas autorisés (ligne %1).
+
++KXEN_W_CSIMULATOR_MISSINGOPTION
+-Option '%1' manquante dans la configuration de la source 'Déploiement'
+-Pas de modèle chargé pour le déploiement
+
++KXEN_W_BUILDSQL_PASS
+-Expressions SQL, étape %1
+
++KXEN_W_BUILDSQL_PROGRESS
+-Génération des expressions SQL...
+
++KXEN_W_OUTOFRANGE
+-Valeur aberrante (%2) pour la variable '%1' (%3: %4)
+
++KXEN_W_OUTOFRANGE_SKIP
+-Valeur aberrante (%2) pour la variable '%1' (%3: %4), cas ignoré
+
++KXEN_W_RREGRESSION_UNDETECTEDCONST
+-Problème dans le codage de la variable '%1'
+-Vérifiez sa description ou excluez-la du modèle.
+
++KXEN_W_RREGRESSION_CONSTANT_MODEL
+-Automated Analytics a généré un modèle constant.
+
++KXEN_E_RREGRESSION_CONFLICTING_VARIABLE
+-Le nom de variable '%1' est en conflit avec une variable interne créée par Automated Analytics. C'est généralement le cas pour les variables dont les noms commencent par "c_". Le renommage de cette variable règle ce problème.
+
++KXEN_W_SPACE_READ
+-Lecture des données...
+
++KXEN_W_VARIABLE_KIPROBLEM
+-Problème dans le calcul du KI de '%1' par rapport à '%2' (jeu de données trop réduit ou cible constante)
+
++KXEN_W_CABSTRACTTRANSFORM_GETSIMULATIONOUTPUT_NOVARIABLE
+-Problème de syntaxe sur le nom d'une variable demandée dans la simulation
+
++KXEN_W_CABSTRACTTRANSFORM_GETSIMULATIONOUTPUT_BADVARNAME
+-Variable demandée '%1' inconnue pour simulation
+
++KXEN_W_CSTATBUILDER_ENDTGTDISCSTATPB
+-Problème de statistique sur variable cible '%1' (Mauvaise clé forcée ?)
+
++KXEN_W_CABSTRACTSPACE_AUTHORIZATIONPB
+-Cette version de démonstration ne peut traiter ce jeu de données.
+-Contactez votre représentant SAP.
+
++KXEN_W_CABSTRACTSPACE_NEEDSTARTDESCRIPTION
+-Vous devez appeler un startdescription avant d'appeler un endDescription.
+
++KXEN_W_CABSTRACTSPACE_NEEDENDDESCRIPTION_BEGINREAD
+-Vous devez appeler un endDescription après un startDescription avant
+-d'appeler un beginRead
+
++KXEN_W_CABSTRACTSPACE_NEEDENDDESCRIPTION_BEGINWRITE
+-Vous devez appeler un endDescription après un startDescription avant
+-d'appeler un beginWrite
+
++KXEN_W_CABSTRACTSPACE_FILLSTATISTICS_NODESC
+-Une description est nécessaire pour calculer les statistiques d'un jeu de données.
+
+#Note for translator: do not translate "FP-Tree"
++KXEN_W_FPTREE_MEMORY_USED
+-FP-Tree, taille de la mémoire utilisée : (%1)
+
+#Note for translator: do not translate "FP-Tree"
++KXEN_W_FPTREE_COMPRESSION_LEVEL
+-FP-Tree, niveau de compression : (%1)
+
++KXEN_W_FPTREE_MIN_SUPPORT
+-Support minimal : (%1)
+
++KXEN_W_FPTREE_NUMBER_TRANSACTIONS
+-(%1) transactions trouvées
+
++KXEN_W_FPTREE_RULES_MIN_SUPPORT
+-Support minimal : (%1)
+
++KXEN_W_FPTREE_NUMBER_RULES
+-(%1) règles trouvées
+
++KXEN_W_FPTREE_RULE
+-Règle : (%1)
+
++KXEN_W_FPV_NUMBER_TRANSACTIONS
+-(%1) transactions trouvées
+
++KXEN_W_FPV_MIN_SUPPORT
+-Support minimal : (%1)
+
++KXEN_W_FPV_NUMBER_RULES_CHUNK
+-(%1) règles trouvées dans le bloc (%2)
+
++KXEN_W_FPV_NUMBER_ITEMS
+-((%1) éléments trouvés
+
++KXEN_W_FPV_APPLY
+-Début de l'application de FPV...
+
++KXEN_W_FPV_RULE
+-Règle : (%1)
+
++KXEN_W_FPV_NUMBER_RULES
+-(%1) règles trouvées
+
++KXEN_W_FPV_NUMBER_FREQUENTITEMSETS
+-((%1) jeux d'éléments trouvés dont le support est supérieur au support minimum
+
++KXEN_W_FPV_NUMBER_INTERSECTIONS
+-((%1) intersections calculées
+
++KXEN_W_FPV_RULES_ACTIVATED
+-Règles utilisées : (%1)
+
++KXEN_W_FPV_GOOD_RULE
+-Bonne règle : (%1)
+
++KXEN_W_FPV_BAD_RULE
+-Mauvaise règle : (%1)
+
++KXEN_I_FPV_REAJUSTRULESSUPPORT
+-Réajustement du support des règles après l'utilisation de blocs...
+
++KXEN_I_FPV_REAJUSTRULESSUPPORT_PROGRESS
+-Réajustement du support des règles après l'utilisation de blocs...
+
++KXEN_I_FPV_REAJUSTRULESSUPPORT_NBREAD
+-Réajustement du support : (%1) sessions lues
+
++KXEN_I_FPV_SEQUENCESCOMPUTING
+-Calcul des statistiques de séquence pour les règles d'association
+
++KXEN_I_FPV_SEQUENCESCOMPUTING_PROGRESS
+-Calcul des statistiques de séquence pour les règles d'association
+
++KXEN_I_FPV_SEQUENCESCOMPUTING_NBREAD
+-Calcul des séquences : (%1) sessions lues
+
++KXEN_W_FPV_CHUNKANALYSIS
+-Importation de sessions et création de règles : bloc (%1) dans (%2)
+
++KXEN_W_FPVBUILDER_GETTRANSACTIONS
+-Importation de sessions...
+
++KXEN_W_FPVBUILDER_GETTRANSACTIONS_PROGRESS
+-Importation de sessions...
+
++KXEN_W_FPVBUILDER_BUILDINGRULES_PROGRESS
+-Recherche des règles... 
+
++KXEN_I_FPV_GENERATEFPCHUNKS_RULESGENERATIONSTATUS
+-Création de règles : bloc (%1) sur (%2), élément nº%3 sur %4 considéré comme conséquent
+
++KXEN_I_FPV_GENERATEFP_RULESGENERATIONSTATUS
+-Création de règles : élément nº%1 sur %2 considéré comme conséquent
+
++KXEN_W_FPVBUILDER_GETTRANSACTIONS_NBREAD
+-(%1) sessions importées
+
++KXEN_W_FPVBUILDER_STARTREAJUSTMENT
+-Réajustement du support après l'utilisation de blocs...
+
++KXEN_W_FPV_PRUNING_ITEMSETS_NOT_FREQUENT
+-Suppression des jeux d'éléments peu fréquents...
+
++KXEN_I_ARULESENGINE_GUESSRULESSIZE
+-Paramètres de détermination : taille maximum des règles fixée à (%1)
+
++KXEN_I_ARULESENGINE_GUESSCHUNKSIZE
+-Paramètres de détermination : taille de bloc fixé à (%1) avec (%2) sessions
+
++KXEN_E_ARULESENGINE_NOVALIDCATEGORYFOUND
+-Erreur rencontrée lors de la génération des règles d'association : Aucune catégorie valide 
+-trouvée pour la valeur (%2) dans la variable (%1).
+
++KXEN_W_KAR_KARDONOTUSEMISSINFO
+-Le paramètre "UseMissInfo" est disponible seulement pour l'utilisation des règles d'association afin de
+-remplacer les valeurs manquantes. 
+-L'apprentissage continuera sans l'utilisation de ce paramètre.
+
++KXEN_W_KAR_AUTOMATICSETTINGS_NOTAVAILABLE
+-Le paramètre "AutomaticParametersSettings" n'est accessible que lorsque
+-les règles d'association sont générées à l'intérieur du module de "Statistiques Descriptives".
+-La phase d'apprentissage continue sans tenir compte de ce paramètre.
+
++KXEN_W_KAR_SKIPDERIVEDRULES_ONLYSUPPORTWITH_SEARCHMETHOD2
+-Le paramètre SkipDerivedRules n'est disponible que lorsque la méthode de 
+-recherche n°2 est appliquée (SearchMethod=2). Cette dernière correspond à un algorithme FPV modifié.
+
++KXEN_W_KAR_INVALIDMAXLENGTH_CHANGETO_
+-La longueur maximale d'une règle n'est pas valide. Elle a été modifiée en (%1).
+
+#note for translator: do not translate "False"
++KXEN_W_KAR_SKIPREDUCIBLEITEMSETSDEACTIVED_SINCE314
+-L'option "Éviter les jeux d'éléments réductibles" a été désactivée depuis la version
+-3.1.4. L'apprentissage des règles d'association se 
+-poursuivra avec cette option forcée à False.
+
++KXEN_W_KAR_CHUNK_SIZE_TOO_SMALL
+-La taille du bloc actuel (%1) peut être trop petite, entraînant potentiellement des résultats
+-biaisés. Vous pouvez augmenter la taille du bloc ou utiliser la fonctionnalité 'Deviner taille du
+-bloc'.
+
++KXEN_W_FREQUENTITEMSET
+-Jeu d'éléments fréquent : (%2), Support = (%1)
+
++KXEN_E_ARULESENGINE_UNKNOWNRULEID
+-La règle (%1), spécifiée dans les règles à désactiver lors de l'application, n'existe pas.
+
++KXEN_W_CPROTOCOLPROFITCURVE_WRONGUSERPROFIT
+-Le profit de la catégorie %2 de la variable %1 devrait être le plus grand.
+-(avec les conventions Automated Analytics)
+
++KXEN_W_SPACE_OPEN_MODENOTIMPLEMENTED
+-Impossible d'utiliser '%1' pour cet usage.
+-Certaines fonctions (mode '%2') ne sont peut-être pas possibles avec ce type de source de données.
+
++KXEN_E_CABSTRACTMODEL_ADVANCEDVERSION
+-Impossible de recharger un modèle de version %1 dans cette version de l'outil.
+
++CABSTRACTSPACE_COMMITEXISTINGCONNECTOR
+-La table d'analyse existe déjà. Cliquez sur 'Oui' pour l'enregistrer comme version '%1' ou 'Non' pour écraser la version précédente.
+
++KXEN_W_CONNECTOR_SQL
+-La requête associée est %1.
+
+#Note for translator:  JOIN refers to a SQL statement
++KXEN_E_CONNECTOR_INVALIDJOINSTORAGE
+-Les types %1 et %2 ne sont pas compatibles. Ils ne peuvent pas être utilisés dans une instruction JOIN.
+
+#Note for translator:  JOIN refers to a SQL statement
++KXEN_E_CONNECTOR_INVALIDJOINEXPRESSION
+-L'instruction JOIN entre %1 et %2 n'est pas valide. Le terme de gauche n'est pas associé à une table unique.
+
+#Note for translator:  JOIN refers to a SQL statement
++KXEN_E_CONNECTOR_INVALIDSECONDJOINTYPE
+-L'instruction JOIN entre %1 et %2 n'est pas valide. Le type du deuxième terme n'est pas compatible.
+
++KXEN_E_CONNECTOR_BADSPACESPEC
+-La table %2 nommée %1 n'est pas valide.
+
++KXEN_E_CONNECTOR_BADFILTER
+-Duplication du filtre nommé %1.
+
++KXEN_W_MISSING_USED_SPACE
+-La table '%1' est utilisée dans cette table d'analyse. 
+-Cette table n'a pas été trouvée dans la base de données actuelle. 
+
++KXEN_W_MISSING_FIELDS_IN_USED_SPACE
+-Les champs suivants sont utilisés dans la table d'analyse et n'ont pas été trouvés dans 
+-la table '%1' : %2.
+-Vérifiez la structure de la table dans la base de données actuelle. 
+
++KXEN_W_FIELDS_ADDED_IN_USED_SPACE
+-Les champs suivants ont été importés dans la table d'analyse à partir de '%1' : %2.
+
+
++KXEN_W_CONFIRM_IMPORT_OF_ADDED_FIELDS_IN_USED_SPACE
+-De nouveaux champs ont été trouvés dans '%1'.
+-Pour continuer, cliquez sur 'Oui' pour les importer dans la table d'analyse ou sur 'Non' pour les ignorer.
+
+
++KXEN_E_CONNECTOR_BADGROUP
+-Duplication de l'expression de groupement nommée %1
+
++KXEN_E_CONNECTOR_UNKNOWNFIELDFORGROUP
+-Le champ %1 n'est pas valide pour une expression de groupement
+
++KXEN_W_CABSTRACTSPACE_GUESSVARIABLEDESC_TRYREADKXDESC
+-Lecture de la description par défaut '%1'
+
++KXEN_W_CABSTRACTSPACE_GUESSVARIABLEDESC_ERROR
+-Impossible de déterminer une description correcte pour %1.
+-(Cause la plus probable : la table est vide et ne contient donc aucune information valide.)
+
++KXEN_W_CTRANSFORM_ERASEVAR
+-Suppression de la variable %1 du protocole
+
++KXEN_W_CWITHVARIABLES_VARIABLESTOPARAMETER_ERROR
+-Problème de traduction de la variable %1 en structure de paramètres.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CWITHVARIABLES_VARIABLESTOPARAMETER_FORCE
+-Problème de déclaration de la variable %1 en structure de paramètres.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CWITHVARIABLES_VARIABLESTOPARAMETER_STRANGE
+-Problème de lecture de liste de variables pour la variable %1.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CWITHVARIABLES_NEEDSTARTDESCRIPTION
+-Un appel à addVariableDesc doit désormais être précédé d'un appel à startDescription 
+-et être suivi par un appel à endDescription. 
+
++KXEN_E_DESERIALIZE_EMPTY
+-Tentative de restauration d'un objet Automated Analytics à partir d'une chaîne vide !
+
++KXEN_E_DESERIALIZE_INVALID_LINE
+-Ligne erronée %1 lors de la désérialisation. Les lignes devraient être forcées de contenir un seul champ.
+
++KXEN_E_DESERIALIZE_INVALID_FORMAT
+-Tentative de restauration d'un objet Automated Analytics à partir d'une chaîne non valide !
+
++KXEN_E_DESERIALIZE_TRANSFORM_NOT_SUPPORTED
+-Soit la transformation '%1' elle-même ne prend pas en charge la restauration,
+-soit elle utilise une fonctionnalité qui ne la prend pas en charge.
+
++KXEN_E_SERIALIZE_TRANSFORM_NOT_SUPPORTED
+-Soit la transformation '%1' elle-même ne prend pas en charge pas la sérialisation,
+-soit elle utilise une fonctionnalité qui ne la prend pas en charge.
+
++KXEN_W_INTERNALTOPARAMETERERROR
+-Problème de traduction de l'objet %1 en structure de paramètres
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_VARIABLE_SMALLCOMPRESS_NOSTAT
+-Tentative de compression d'une variable %1 sans statistiques.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_TARGETINFO_WRONGORDINALGROUP
+-Changement du nom du groupe %1 de la variable %2.
+
++KXEN_E_CSIMULATOR_NOTLOADEDMODEL
+-Demande de simulation sur le modèle %1 qui est inconnu.
+
++KXEN_E_CSIMULATOR_MORETHANONESTORE
+-Trop de déclarations de répertoire de déploiement
+
++KXEN_W_CSIMULATOR_OPENNEWSTORE
+-Ouverture du répertoire de déploiement
+
++KXEN_W_CRREGRESSION_LEARN_R2
+-Valeur du R2 :  %1
+
++KXEN_W_CRREGRESSION_TEST_R2
+-Valeur du R2 sur le jeu de test : %1
+
++KXEN_W_CRREGRESSION_LEARN_EXTNAMESPROBLEM
+-Problème dans le calcul des noms des variables de contributions.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CRREGRESSION_LEARN_NOSOLUTION
+-Le moteur de classement/régression n'a trouvé aucune solution.
+
++KXEN_W_CPROTOCOL_GETPROFITCURVE_NOSTAT
+-Pas de statistiques valides pour calculer la courbe de profit de %1.
+
++KXEN_W_CPROTOCOL_GETPROFITCURVE_NO_VAR_STAT
+-Impossible de calculer la courbe de profit (%1) pour la variable %2. Le jeu de données '%3' que vous avez spécifié n'existe pas.
+
+
++KXEN_W_CPROTOCOL_TRANSFORMTOPARAMETERERROR
+-Problème lors du transfert de la transformation %1 en structure de paramètres
+
++KXEN_W_CPROTOCOL_ROLE_IDX2BIG
+-Le rang %1 est trop grand pour un rôle (maximum de %2)
+
++KXEN_W_CPROTOCOL_FILLVARIABLES_NOSPACE
+-Impossible de créer les variables sans espace adéquat
+
++KXEN_W_CPROTOCOL_FILLVARIABLES_NOLASTTRANSFORM
+-Impossible de créer les variables sans une transformation adéquate
+
++KXEN_W_CABSTRACTSPACE_NOSTATFORCODE
+-Pas de statistiques valides pour la variable %1
+
++KXEN_W_CPERFSTATBUILDER_NULLWEIGHT
+-Problème de calcul des statistiques.
+-Erreur : la somme des valeurs de la variable de poids ne peut pas être nulle.
+
++KXEN_W_CCONTAINER_NOSTORE
+-Problème lors de l'accès au répertoire interne
+
++KXEN_W_CABSTRACTMODEL_SAVE_TOPARAMPB
+-Problème lors du transfert en structure de paramètres
+
++KXEN_W_CABSTRACTMODEL_SAVE_APPENDDESCPB
+-Problème lors de la déclaration du nouvel enregistrement
+
++KXEN_E_CONNECTOR_BADALIAS
+-Alias %1 inconnu pour la classe %2
+
++KXEN_E_CONNECTOR_BADSTORAGE
+-Le type %1 est inconnu.
+
++KXEN_E_CONNECTOR_BADVALUETYPE
+-Le type de variable %1 est inconnu.
+
++KXEN_E_CONNECTOR_BADFIELDEXPR
+-L'expression %1 est inconnue.
+
++KXEN_E_CONNECTOR_BADFIELDSPACE
+-L'espace %1 est inconnu.
+
++KXEN_E_CONNECTOR_BADFUNCARGNB
+-Mauvais nombre d'arguments (%2) pour la fonction %1
+
++KXEN_E_CONNECTOR_BADFUNCNAME
+-La fonction %1 est inconnue.
+
++KXEN_E_CONNECTOR_BADVALUE
+-La valeur '%2' est incompatible avec le type déclaré de '%1'.
+
++KXEN_E_CONNECTOR_BADVALUE3
+-La valeur '%2' est incompatible avec le type déclaré ('%3') de '%1'.
+
++KXEN_E_CONNECTOR_NORMALIZATION_MONOTONICPOINTS
+-Problème dans la normalisation %1
+-%2 devrait être inférieur à %3.
+
++KXEN_E_CONNECTOR_NORMALIZATION_WRONGINPUTSTORAGE
+-Problème dans la normalisation %1
+-Le type devrait être 'nombre' ou 'entier' (et non %2).
+
++KXEN_W_CONNECTORCOMMIT_GREATERVERSIONFOUND
+-Problème : Une version supérieure %2 existe pour la manipulation de données %1
+-. Veuillez contacter la personne responsable du référentiel de modèles/de la manipulation de données.
+
++KXEN_E_NOCODINGSTRATEGY
+-Impossible de retrouver la version %1
+
+#Note for translator: do not translate 'learning'
++KXEN_W_CABSTRACTTRANSFORM_LEARN_WRONGSTATE
+-Problème : l'état de la transformation devrait être 'apprentissage'.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CABSTRACTTRANSFORM_APPLY_REPLACE_EXISTING
+-Voulez-vous remplacer l'ancienne version de %1 ?
+
++KXEN_W_CABSTRACTTRANSFORM_APPLY_REPLACE_EXISTING2
+-Problème lors de la mise à jour des indices de sorties
+-Un indice est supérieur à %1.
+
++KXEN_W_CABSTRACTCASEMODIFIER_UPDATEININDICES_NOVAR
+-Tentative de mise à jour des indices d'une transformation
+-dans un protocole sans variable
+
++KXEN_W_CABSTRACTTRANSFORM_SETWRONGSTATE
+-Tentative de changer l'état de la transformation %1 à %2.
+-L'utilisateur n'a pas le droit de changer l'état.
+
++KXEN_W_CABSTRACTTRANSFORM_SIMULATIONVALUE_BADVARNAME
+-La variable %1 est inconnue pour cette simulation.
+
++KXEN_W_CABSTRACTTRANSFORM_RUNSIMULATION_NOCASE
+-Vecteur de valeurs non valide pour la simulation
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CABSTRACTTRANSFORM_RUNSIMULATION_NOPROTOCOL
+-Protocole non valide pour la simulation
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CABSTRACTSTORE_OPENNEWSPACE_NEWFAIL
+-Impossible d'ouvrir %1
+
++KXEN_E_CABSTRACTSTORE_LSMODELDGET_CANTFIND
+-La description de %1 (version %2) n'a pu être trouvée.
+
++KXEN_W_CABSTRACTSTORE_WRONGSTORECLASS
+-La classe %1 est inconnue. Vérifiez votre fichier de configuration.
+
++KXEN_E_CABSTRACTSTORE_RESTORECONNECTOR
+-Problème de mémoire lors de la création de la manipulation de données
+-Réduisez votre utilisation mémoire.
+
++KXEN_E_CABSTRACTSTORE_RESTORECONTAINER
+-Problème mémoire lors de la création du conteneur de classe %1
+-Réduisez votre utilisation mémoire.
+
++KXEN_E_CABSTRACTSTORE_RESTOREMODEL
+-Impossible de créer le modèle de classe %1
+
++KXEN_W_NOCONNECTORSTORE
+-Problème lors de l'accès au référentiel des manipulations de données interne
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_E_INVALID_CONNECTOR_STORE_SPECIFICATION
+-Une erreur est survenue lors de l'ouverture du référentiel de métadonnées.
+-Assurez-vous de la validité de nom(%1), type(%2) et droits d'accès.
+
+
++KXEN_W_CABSTRACTSPACE_READDESCRIPTION_MISSINGIDX
+-Impossible de trouver la variable de rang %1
+
++KXEN_W_CABSTRACTSPACE_SAVEDESC_CANTCREATESTORE
+-Impossible de créer le répertoire de classe %1 pour enregistrer la description
+
++KXEN_W_CABSTRACTSPACE_CONNECTORSPACENAME
+-Impossible de créer la manipulation de données %1 (le nom existe déjà)
+
++KXEN_W_CABSTRACSPACE_SAVEINCONNECTOR
+-Impossible d'enregistrer la manipulation dans une manipulation existante %1
+
++KXEN_W_CABSTRACTSPACE_GETCASESCOUNT_NOVAR0
+-Impossible d'obtenir le nombre de lignes à partir de n'importe quelle variable.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CABSTRACTSPACE_GETCASECOUNT_UPDATELASTROW
+-Il n'y a que %1 lignes.
+
++KXEN_W_CABSTRACTSPACE_INVALIDROWS
+-Les nombres de lignes à passer est trop grand dans le jeu de données %1.
+
++KXEN_W_ABSTRACTSPACE_BEGIN_FIRSTROWSKIPPB
+-Problème pour ignorer les premières lignes
+
++KXEN_W_CABSTRACTSPACE_OPENNOTOPENSTORE
+-Tentative d'ouverture de %1 alors que son répertoire (%2) n'est pas ouvert
+
++KXEN_W_CABSTRACTSPACE_OPENWRONGMODE
+-Le mode %2 utilisé pour ouvrir %1 n'est pas valide.
+
++KXEN_W_CABSTRACTMODEL_UNKNOWNMODE
+-Le mode envoyé au modèle n'est pas valide
+
++KXEN_W_CABSTRACTMODEL_NEWPROTOCOL_NAMEEXISTS
+-Un protocole %1 existe déjà !
+
++KXEN_W_CABSTRACTMODEL_BADTRANSFORMCLASSNAME
+-Nom de classe %1 non valide pour une transformation !
+
++KXEN_W_CABSTRACTMODEL_PROTOCOL_IDX2BIG
+-L'indice de protocole %1 est trop grand (maximum : %2)
+
++KXEN_W_CABSTRACTMODEL_ADDCCODER
+-Problème lors de l'insertion du codeur dans le protocole %1
+
++KXEN_W_CABSTRACTMODEL_CHECK_NOGOOD
+-Problème de cohérence d'une transformation
+
++KXEN_W_CABSTRACTMODEL_CHECK_NOPROTOCOL
+-Pas de protocole valide lors de la vérification du modèle
+
++KXEN_E_CABSTRACTMODEL_GENERATE_UNKNOWNCODETYPE
+-Génération du code %1 impossible
+
++KXEN_W_CABSTRACTMODEL_SIMULATIONNOTREADY
+-Le modèle n'est pas prêt pour une simulation.
+
++KXEN_W_CABSTRACTMODEL_WRONGCLASSNAME
+-La classe %1 est inconnue pour créer un modèle !
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_UNKNOWNSTORE
+-Impossible de créer un répertoire de type %1 avec %2
+
++KXEN_W_CABSTRACTMODEL_SPACEROLESFROMPARAMETER_NOSPACE
+-Problème lors de la création du jeu de données %1
+
++KXEN_W_CABSTRACTMODEL_GETSIMULATIONOUTPUT_WRONGPROTOCOLNB
+-Impossible de faire des simulations avec plus d'un protocole !
+
++KXEN_W_CABSTRACTMODEL_AUTOSAVE_SAVEFAIL
+-L'enregistrement automatique du modèle %1 a échoué. 
+-Vérifier le log.
+
++KXEN_W_CABSTRACTMODEL_AUTOSAVE_DONE
+-Le modèle %1 a été enregistré.
+
++KXEN_W_CABSTRACTMODEL_INTERMEDIATE_AUTOSAVEFAIL
+-L'enregistrement automatique du modèle intermédiaire %1 a échoué. 
+-Vérifiez le log.
+
++KXEN_E_DATASETS_DESCRIPTION_DIFFER
+-Les jeux de données '%1' et '%2' doivent avoir la même description.
+
++KXEN_W_CABSTRACTTRANSFORM_UPDATEOUTINDICES_WRONGINDICES
+-Problème interne avec la variable de sortie de rang %1
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_E_CABSTRACTTRANSFORM_NOPROTOCOL
+-Problème interne : aucun protocole n'a été associé à la transformation.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_VARIABLEBANDCOUNT_RESET
+-Le nombre de segments de la variable '%1' a été remis à %2.
+
++KXEN_W_VARIABLEPRIORITY_RESET
+-La priorité de la variable '%1' a été réinitialisée à %2.
+
++KXEN_W_OUTPUTSMGR_VHDLR_SUB_CMPTR_INVALID_TARGET_CAT_NAME
+-La catégorie '%1' n'existe pas pour la variable '%2'.
+
++KXEN_W_OUTPUTSMGR_GENERATE_VHANDLERS
+-Préparation des composants de calcul des sorties
+
++KXEN_W_OUTPUTSMGR_VHANDLERS_GENERATE_ERROR
+-Une erreur est survenue lors de la préparation des composants de calcul des sorties
+
++KXEN_W_PEFSTATBUILDER_EMPTYSCORE
+-La variable de score '%1' ne peut contenir de valeur vide.
+
++KXEN_E_RULEDURATION_BADVALUE
+-La valeur %1 associée à une durée de règle %2 n'est pas un nombre valide.
+
++KXEN_E_CABSTRACTMODEL_IMPOSSIBLE_ADDTRANSFORM
+-Impossible d'ajouter un composant sur un modèle vérifié ou entraîné
+
++KXEN_W_CABSTRACTSPACE_CYCLIC_REF_IN_CONNECTOR
+-Cette manipulation de données ne peut pas être enregistrée comme %1.
+-Elle dépend d'une manipulation de données du même nom.
+
++KXEN_E_CONNECTOR_SELF_REFERENCING_AS_EVENT_OR_MERGE
+-Cette manipulation de données fait référence à elle-même en utilisant l'alias %1.
+-Un agrégat ou une jointure pourraient en être la raison.
+
++KXEN_E_CONNECTOR_CYCLIC_REF_IN_CONNECTOR_TREE
+-Une interdépendance a été détectée.
+-La manipulation de données '%1' de type '%2' dépend d'une autre manipulation portant le même nom.
+
++KXEN_E_WRONGTERATRANSLATION
+-Le nombre suivant a été mis en forme de manière incorrecte lors de la génération du code SQL Teradata : %1.
+-Contactez le support SAP.
+
++KXEN_E_RESTOREPARAMETER_UNKNOWNPARENT
+-Erreur lors du chargement, le paramètre parent '%1' est inconnu.
+-Les données à charger sont probablement corrompues.
+
++KXEN_E_RESTOREPARAMETER_DUPLICATE
+-Erreur de restauration, le paramètre '%1' est dupliqué pour le noeud '%2'.
+-. Les données à charger sont peut-être corrompues.
+
++KXEN_W_PARAMETER_INVALID_STORAGE
+-Le stockage ou le type de la variable '%1' a changé.
+
++KXEN_E_CONNECTOR_MULTIPLE_EXT_SPACE_NOT_SUPPORTED
+-Une fonction d'agrégat ne peut faire référence à plus d'une table externe.
+-Les tables '%1' et '%2' ne peuvent donc pas être utilisées conjointement.
+
++KXEN_E_NUMERICAL_VALUE_OVER_FLOW
+-Débordement de capacité pour la variable %1 à la ligne %2
+
++KXEN_E_TEXTUAL_IS_NOT_AVAILABLE
+-La valeur de stockage %2 pour la variable %1 n'est pas disponible
+- pour cette version de SAP BusinessObjects Predictive Analytics.
+
++KXEN_NAME_CATEGORY
+-Catégorie
+
++KXEN_NAME_SCORE
+-Score
+
++KXEN_NAME_EMPTY
+-Vide
+
++KXEN_W_INDATAAPPLY
+-Le processus d'application optimisée commence.
+
++KXEN_W_INDATAAPPLY_SAME_APPLYIN_APPLYOUT
+-Les jeux de données d'application d'entrée et de sortie doivent être différents.
+-Le processus optimisé d'application ne peut pas être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_W_INDATAAPPLY_NOT_SAME_ODBCSOURCE
+-L'ODBC Store des jeux de données d'application d'entrée et de sortie sont différents.
+-Le processus optimisé d'application ne peut pas être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_W_INDATAAPPLY_WITH_NOSUBSAMPLING
+-Un sous-échantillonnage a été défini sur le jeu de données d'application en entrée.
+-Le processus optimisé d'application ne peut pas être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_W_INDATAAPPLY_NO_KMX_DEFINED
+-Aucun générateur de code n'est défini pour votre entrepôt de base de données.
+-Le processus optimisé d'application ne peut pas être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_W_INDATAAPPLY_NO_KMX_LICENSE_AVAILABLE
+-Aucune licence de générateur de code n'est disponible pour l'application optimisée dans cet entrepôt de base de données.
+-Le processus optimisé d'application ne peut pas être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_W_INDATAAPPLY_NO_PROTOCOL
+-Etat non valide pour l'application in-database.
+-Le processus optimisé d'application ne peut être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_W_INDATAAPPLY_NO_CODE_FOR_TRANSFORM
+-Ce modèle ne peut pas être exporté avec le générateur de code.
+-Le processus optimisé d'application ne peut être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_W_INDATAAPPLY_NO_KEY_FOR_MODEL
+-Le modèle n'a pas de clé.
+-Le processus d'application optimisé ne peut être exécuté.
+-Le mode d'application standard va être utilisé.
+
++KXEN_E_INDATAAPPLY
+-Le processus optimisé d'application in-database a échoué.
+-Le mode d'application standard va être utilisé.
+
++KXEN_E_RELOAD_64BITS_IN_32BITS
+-Le modèle actuel ne peut être rechargé :
+-il a été construit sur une architecture 64 bits,
+-alors que vous travaillez sur une architecture 32 bits.
+
++KXEN_W_ABSTRACTTRANSFORM_NULL_KEYS
+-Il y a %1 lignes avec des clés nulles dans la sortie. Par conséquent, ces lignes n'ont pas été écrites.
+
++KXEN_E_PROBA_OF_GOOD_EVENTS
+-Le calcul de la probabilité des "bons" événements a échoué.
+
++KXEN_W_ABSTRACTCASEITER_MORE_PHYSICAL_FIELDS_THAN_LOGICAL_VARIABLES
+-Dans la source %2, il y a %1 champ(s) physique(s) de plus dans le jeu de données que de variables déclarées dans la description. 
+
++KXEN_E_COMPONENT_NOTABLETOGENERATECODE
+-Le composant %1 n'est pas capable de générer du code.
+
++CABSTRACTSPACE_SAVECONN_AS_TABLE_DROP_PREVIOUS
+-Impossible d'enregistrer la manipulation de données comme '%1'.
+-Une table de même nom existe déjà.
+-Pour continuer, cliquez sur 'Oui' pour l'écraser ou 'Non' pour lui affecter automatiquement un nom valide.
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_NEW_TABLE_NAME
+-La table de matérialisation du connecteur pour la manipulation de données a changé de nom ('%1' =>  '%2');
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_INIT_TABLE_NAME
+-La manipulation de données sera matérialisée dans la table '%1'.
+
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PROCESS_CACHE_INFO
+-Traitement des informations de matérialisation de la manipulation de données
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_REFRESH_CACHE
+-Rafraîchissement de la matérialisation de la manipulation de données
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_DROP_CACHE
+-Suppression de la matérialisation de la manipulation de données (%1)
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_MISSING_CACHE
+-La table de matérialisation de la manipulation de données '%1' a été supprimée
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PERSIST_STARTED
+-La matérialisation de la manipulation de données %1 a commencé.
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PERSIST_DONE
+-La manipulation de données %1 a été matérialisée avec succès dans %2.
+
++KXEN_W_CCONNCONTAINERPERSISTENCERUNNER_PERSIST_FAILED
+-La matérialisation de la manipulation de données %1 a échoué.
+
++KXEN_W_CDATACACHMANAGER_STORECREATIONFAILED
+-La création d'un entrepôt de stockage de type %1 pour le cache de niveau %2 a échoué.
+
++KXEN_W_CDATACACHMANAGER_STOREOPENFAILED
+-Échec d'ouverture du lieu de stockage de type %1 pour le cache de niveau %2 situé à '%3'
+
++KXEN_W_CDATACACHMANAGER_SPACECREATIONFAILED
+-La création d'un espace de type %1 pour le cache de niveau %2 a échoué.
+
++KXEN_W_CDATACACHMANAGER_SPACEOPENFAILED
+-Échec d'ouverture de l'espace de type %1 pour le cache de niveau %2 situé à '%3'
+
++KXEN_W_CDATACACHE_IMPOSSIBLETOBUILDCACHE
+-La construction du cache a échoué pour le jeu de données %1.
+-La raison peut être une mauvaise configuration du cache.
+-Le gestionnaire de cache a été désactivé.
+-Veuillez vérifier votre configuration de cache (droits d'accès en écriture) ou contacter votre administrateur.
+
++KXEN_W_CDATACACHMANAGER_CACHEACTIVATE
+-Le cache sur le jeu de données %1 est activé.
+
++KXEN_W_CDATACACHMANAGER_NORMALENDCACHING
+-%1 a été chargé dans le cache : il y a %2 éléments dans L1 et %3 dans L2.
+
++KXEN_W_CDATACACHMANAGER_SWITCH_FROM_L1_TO_L2
+-Pour le jeu de données %1, le cache L1 est plein, le cache L2 va être utilisé.
+
++KXEN_W_CDATACACHMANAGER_CACHED_SWITCH_FROM_L1_TO_L2
+-Pour le jeu de données %1, la lecture dans L1 est terminée, le cache L2 va maintenant être utilisé.
+
++KXEN_W_CDATACACHMANAGER_CACHED_CACHEACTIVATE
+-Le jeu de données  %1 caché est maintenant activé.
+
++KXEN_W_CDATACACHMANAGER_NORMALENDCACHED
+-L'utilisation en lecture du jeu de données %1 est terminée, il y avait %2 éléments dans L1 et %3 dans L2.
+
++KXEN_W_CDATACACHMANAGER_ESTIMATION_SPACE_NEEDED_IN_L1
+-L'espace de stockage %1 n'a pas pu être mis en cache. La taille de L1 doit être de %2Mo.
+-La taille du cache peut être suffisante pour ce modèle mais d'autres modèles ont peut-être aussi besoin du cache.
+-Le modèle peut toujours être entraîné mais contactez votre administrateur pour paramétrer votre configuration.
+
++KXEN_W_CDATACACHMANAGER_ESTIMATION_SPACE_NEEDED_IN_L1_OR_L2
+-L'espace de stockage %1 n'a pas pu être mis en cache. La taille de L1 doit être de %2Mo ou la taille de L2 doit être de %3Mo.
+-La taille du cache peut être suffisante pour ce modèle mais d'autres modèles ont peut-être aussi besoin du cache.
+-Le modèle peut toujours être entraîné mais contactez votre administrateur pour paramétrer votre configuration.
+
++KXEN_E_DATACACHE_NO_WRITE_ACCESS_FOR_L1
+-Vous n'avez pas les droits pour écrire le cache L1 dans le répertoire %1.
+-Veuillez contacter votre administrateur.
+
++KXEN_E_DATACACHE_NO_WRITE_ACCESS_FOR_L2
+-Vous n'avez pas les droits pour écrire le cache L2 dans le répertoire %1.
+-Veuillez contacter votre administrateur.
+
++KXEN_W_INDATABASEAPPLY_TRANSFER_TO_TEMPORARY_TABLE
+-Transfert %1 champs vers %2 champs dans la table interne du processus d'application directe.
+
++KXEN_E_SAME_VARIABLE_NAME_AS_INPUT
+-La variable '%1', qui devrait être générée, est présente dans le jeu de données de référence.
+
++KXEN_W_CRREGRESSION_CORRELATION_PB
+-Problème dans le calcul des corrélations.
+-Cela ne devrait pas arriver, contactez le support SAP.
+
++KXEN_W_CACHEMEMORYSTORE_OUTOFMEMORY
+-Il n'y a plus de mémoire disponible, et cela à partir de la ligne %1.
+
++KXEN_W_CACHEMEMORYSTORE_OUTOFMEMORY_COMPRESS
+-Vous n'avez pas assez de mémoire pour compresser la colonne %1.
+
++KXEN_W_CACHEMEMORYSTORE_COMPRESS_FINISH
+-La compression des données est terminée. 
+
++KXEN_W_CACHEMEMORYSTORE_COMPRESS_START
+-Début de la compression des données
+
++KXEN_E_SMARTOUTPUTS_CONSTANT_FLAG_INVALID_STORAGE
+-La valeur '%1' est incompatible avec le format de stockage ('%2') de '%3'.
+
++KXEN_E_CONSTANT_OUTPUT_INCOMPAT_STORAGE
+-La sortie '%4' a été affectée à '%2'. Le type attendu est '%3'.
+
++KXEN_E_SEGMENT_OVERLAP
+-Le segment %1 est corrompu car il chevauche un autre segment.
+
++KXEN_E_SEGMENT_WRONG_BOUND
+-Le segment %1 est corrompu car la définition de sa borne gauche n'est pas correcte.
+
++KXEN_E_CONNECTOR_FEATURE_BADLICENSE
+-Erreur : licence non valide pour ce type de manipulation de données (%1).
+
++KXEN_E_AGGREGATE_FEATURE_BADLICENSE
+-Erreur : licence non valide pour les agrégats multi-période ou à base de pivots.
+
++KXEN_E_CONNECTOR_EMPTY_FREE_EXPRESSION
+-Expression libre non valide : l'expression vide n'est pas autorisée. 
+
++KXEN_I_APPLY_ON_ADS_DISCARDED_FIELDS
+-Le moteur d'application a détecté '%1' variables refusées : [%2]
+
++KXEN_E_APPLY_ON_ODBCSCRIPT_NEEDS_MATERIALIZATION
+-Le jeu de données d'entrée ne peut pas être chargé quand l'option de matérialisation 
+-est désactivée.
+
++KXEN_I_BEST_KMEANS_ENGINE_SELECTION_PROCESS
+-Sélection des meilleurs moteurs
+
++KXEN_I_TARGET_BEST_KMEANS_ENGINE_SELECTION_PROCESS
+-Sélection du meilleur moteur : trouvé '%2' pour la cible '%1'.
+
++KXEN_I_BUILDSQL_PASS_CURRENT_ENGINE
+-Calcul des expressions SQL pour le moteur '%1' de la cible '%2'
+
++KXEN_I_KMEANS_ALLOCATE_ENGINES_FOR_TARGET_START
+-Préparation de moteur de calcul pour la cible '%1'...
+
++KXEN_E_CLUSTERS_COUNT_SPEC_FOR_TARGET_NOTFOUND
+-Les nombres souhaités de prototypes n'ont pas été spécifiés pour (la cible) '%1'.
+
++KXEN_E_CLUSTERS_COUNT_SPEC_FOR_TARGET_UNORDERED
+-Intervalle de nombres de clusters spécifié non valide pour '%3' : [%1;%2]
+
++KXEN_E_CLUSTERS_COUNT_SPEC_FOR_TARGET_INVALID_MIN
+-Nombre de clusters minimal spécifié non valide pour '%2' : %1
+
++KXEN_E_OLAPCUBE_INVALIDSPACE
+-Impossible d'ouvrir '%1' pour recharger les données OLAP.
+
++KXEN_E_OLAPCUBE_INCOMPATIBLE_DATA
+-Format non valide de la structure de cube OLAP lors du chargement depuis '%1'.
+-Cet espace a pu être corrompu.
+
++KXEN_W_CABSTRACTSTORE_CANNOT_CREATESUBSTORE
+-La création de l'entrepôt %1 a échoué.
+
++KXEN_W_CABSTRACTSTORE_CANNOT_DROPSTORE
+-La suppression de l'entrepôt %1 a échoué.
+
++KXEN_E_K2S_HOMOGENEOUS_ENCODING_NOT_APPLICABLE
+-Impossible d'utiliser le codage naturel. La variable %1 n'est pas "continuous".
+
++KXEN_E_KMEANS_NO_HOMOGENEOUS_INPUTS
+-Impossible d'utiliser le codage naturel. Certaines variables d'entrée ne sont pas "continuous".
+
++KXEN_E_DATASET_ALREADY_RECORD
+-Le jeu de données %1 a déjà été lu.
+
++KXEN_E_INVALID_CONNECTOR_TYPE
+-Le type '%1' est inconnu pour les manipulations de données.
+
++KXEN_E_BAD_CONNECTOR_TYPE
+-Le type de manipulation de données '%1' n'est pas le type attendu pour cette utilisation.
+
++KXEN_E_BAD_TIMESTAMP_STORAGE
+-Le type de stockage du champ d'horodatage de la population estampillée ne correspond pas à celui attendu : %1 au lieu de %2.
+
++KXEN_E_INVALID_TIMESTAMPFIELDNAME
+-Le champ d'horodatage %1 fourni n'existe pas.
+
++KXEN_E_SAME_ID_FOR_CONNECTOR_DIFFERENT_TYPES
+-L'identifiant '%1' est déjà utilisé par une manipulation de données qui n'est pas de type '%2'.
+
++KXEN_W_COMPLEX_CONNECTOR_DETECDED_BUT_SQLSCRIPT_NOT_ALLOWED
+-''%1' a été détectée comme manipulation de données complexe mais ne sera pas traduite en script SQL car cette option est actuellement désactivée.
+
++KXEN_W_BAD_DATE_TYPE_CONVERSION
+-Pour la variable %1, la conversion de la valeur '%2' au format date a échoué.
+
+#Note for translator: GBO = Good/Bad Odds ratio; PDO = Points to double the odds"
++KXEN_E_NOSOLUTION_RISKMODE
+-La probabilité souhaitée ('%1') définie par votre GBO ('%2') est plus grande
+-que la probabilité maximale observée ('%3').
+-Par conséquent, aucun modèle de risque ne peut être trouvé par rapport aux conditions
+-initiales (GBO/RiskScore/PDO).
+-Un modèle peut être trouvé pour un GBO initial supérieur à '%4'.
+
+#Note for translator: GBO = Good/Bad Odds ratio; PDO = Points to double the odds
++KXEN_W_RISK_CHANGE_INITIAL_VALUE
+-Vos valeurs initiales pour le mode "Risque" ont été changées
+-afin de garantir une bonne performance à la fonction de transformation du risque.
+-La valeur initiale du RiskScore '%1' a été changée en '%2'.
+-La valeur initiale du GBO '%3' a été changée en '%4'.
+
++KXEN_E_CASESETCHUNKMGR_UNABLE_TO_OPEN_STORE
+-Il est impossible d'ouvrir le répertoire temporaire '%1' pour l'écriture. Êtes-vous certain qu'il existe et qu'il est inscriptible ?
+
+#Note for translator: do not translate Explain in 'Explain mode'
++KXEN_W_EXPLAIN_BAD_CONFIG_DEFAULT_DESC
+-Le coût de cette requête a été estimé à #VALUE#. Voulez-vous l'exécuter ?
+-Automated Analytics demande une telle confirmation car un problème de configuration s'est produit 
+-et le classement dynamique de la requête est impossible.
+-Veuillez contacter l'administrateur pour configurer le mode "Explain".
+
++KXEN_E_NB_CHAR_IS_TOO_SMALL
+-La valeur '%1' du paramètre 'NbCharByRow'
+-est trop petite pour afficher '%2'.
+
++KXEN_E_VALUEHANDLER_NOTRAINING
+-Le jeu de données d'apprentissage n'existe pas.
+
++KXEN_E_VALUEHANDLER_NOAPPLYIN
+-Le jeu de données d'application n'existe pas.
+
++KXEN_E_VALUEHANDLER_TRAINING_DIFFERENT_OF_APPLYIN
+-Le jeu de données d'apprentissage est différent du jeu de données d'application.
+
++KXEN_E_VALUEHANDLER_BROWSINGTYPE_TRAINING_DIFFERENT_OF_APPLYIN
+-La stratégie de découpage du jeu de données d'apprentissage est différente de la 
+-stratégie de découpage du jeu de données d'application.
+
++KXEN_W_CCASEITER_INVALID_KEY
+-La ligne %2 de l'espace %1 contient une clef non valide.
+
++KXEN_W_CCASEITER_NUMBER_OF_INVALID_KEY
+-L'espace %1 contient %2 lignes ayant des clefs non valides.
+
++KXEN_E_PCCM_UNKNOWN_TARGET_KEY
+-Lors de la construction d'une courbe de profit basée sur des statistiques
+-externes, la recherche de la clé cible '%1' a échoué ;
+-cet échec est probablement dû à une erreur dans les données d'entrée.
+
++KXEN_E_PCCM_UNKNOWN_VARIABLE_KEY
+-Lors de la construction d'une courbe de profit basée sur des statistiques
+-externes, la recherche de la clé variable '%1', associée à la clé cible '%2'
+- a échoué ; cet échec est probablement dû à une erreur dans les données d'entrée.
+
++KXEN_E_PCCM_ERRONEOUS_LINE_FORMAT
+-Une des deux statistiques d'entrée pour la variable ou la cible
+-contient une ligne au format erroné :
+-'%2'
+-Le format doit correspondre à un des modèles suivants :
+-Cas d'une régression : '%3'
+-Cas de classement : '%4'
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_MISSING_VARIABLE_X_TARGET
+-Lors de la construction d'une courbe de profit basée sur des statistiques
+-externes, les données de la variable ne sont pas cohérentes pour le jeu de données labellisé '%1' :
+-' : il manque plus d'une catégorie de la cible dans les effectifs pondérés
+-croisés, ce qui est trop pour continuer à construire la courbe souhaitée.
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_MISSING_TARGET
+-Lors de la construction d'une courbe de profit basée sur des statistiques
+-externes, les données de la cible ne sont pas cohérentes pour le jeu de%1données labellisé '
+-' : les statistiques de la variable contiennent plus de
+-catégories pour la cible que les statistiques de celle-ci.
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_MISSING_TARGET_STATS
+-Lors de la construction d'une courbe de profit basée sur des statistiques
+-externes, les données de la cible ne sont pas cohérentes pour le jeu de données labellisé '%1' :
+-celui-ci contient moins de catégories cibles que le jeu de données labellisé '%2'.
+
++KXEN_E_INCONSISTANT_TARGET_KEY_WEIGHT
+-Pendant la lecture des données de la courbe de profit, le poids de la catégorie de référence de la cible (%1) trouvé dans les statistiques de la cible ne coïncide pas avec celui trouvé dans les statistiques croisées de la variable sur le jeu de données (%3).
+
+
++KXEN_E_PCCM_INCONSISTENT_STATISTICS_NO_UNICITY
+-Lors de la construction d'une courbe de profit basée sur des statistiques
+-externes, les données de la cible ne sont pas cohérentes pour le jeu de données%1labellisé '
+-' : le nom '%2' n'est pas unique pour ce jeu de données.
+
++KXEN_E_PCCM_NOT_SUPPORTED_CURVE_TYPE
+-Le type de courbe '%1' n'est pas prise en charge pour ce type de cible.
+
++KXEN_E_PCCM_NEGATIVE_WEIGHT
+-Lors de la construction d'une courbe de profit basée sur des statistiques
+-externes, le poids d'une catégorie pour la variable ou la cible semble être négatif :
+-poids de '%1' pour le label '%2' dans le jeu de données '%3'.
+
++KXEN_E_SAVE_TO_EMPTY_TABLE
+-Impossible d'enregistrer dans une table sans nom.
+
++KXEN_E_SAVE_CONNECTOR_EMPTY_NAME_NOT_ALLOWED
+-Une manipulation de données de type '%1' ne peut être enregistrée sans un nom.
+
++KXEN_E_SAVE_CONNECTOR_EMPTY_DEST_NAME_NOT_ALLOWED
+-L'enregistrement de la manipulation de données '%1' (de type '%2') est possible uniquement dans une table ayant été nommée.
+
++KXEN_E_GAIN_CHART_WRONG_VALUE_TYPE
+-La variable nommée '%1' est sélectionnée en tant que valeur pour la
+-génération de la table de gain, mais cette variable n'est pas continue.
+
++KXEN_GAIN_CHART_OVERALL
+-Calcul de la table de gain...
+
++KXEN_GAIN_CHART_GATHER_PROGRESS
+-Collecte des données du jeu de données de validation...
+
++KXEN_GAIN_CHART_BUILD_PROGRESS
+-Construction de la table de gain...
+
++KXEN_E_KI_COMPUTATION
+-La valeur finale du KI calculée pour le jeu de données '%1' est supérieure à 1.
+-Ceci ne devrait pas se produire avec la nouvelle stratégie utilisée pour synchroniser les jeux de données.
+
++KXEN_I_ENGINE_DOPREPAREFILLSTATISTICS
+-Préparation de la phase de calcul des statistiques sur '%1' pour le moteur '%2'.
+
++KXEN_E_INCOMPATIBLE_ENCODING_STRATEGY_FOR_PERFBUILDER
+-La stratégie de codage spécifiée ('%1') n'est pas prise en charge par le module de calcul des statistiques descriptives.
+
++KXEN_E_INCOMPATIBLE_DISTANCE_FOR_PERFBUILDER
+-La distance spécifiée ('%1') n'est pas prise en charge par le module de calcul des statistiques descriptives.
+
++KXEN_E_SUPERVISED_AND_UNSUPERVISED_ESTIMATORS_CANNOT_BE_MIXED
+-Les estimateurs d'index de cluster doivent tous être du même type (supervisé ou non supervisé).
+
++KXEN_E_CLUSTER_INDEX_VAR_OF_WRONG_TYPE
+-L'estimateur d'index de cluster %1 est mal typé (%2); il devrait être déclaré en tant que variable %3.
+
++KXEN_E_PCCM_VARIABLE_HAS_NO_TARGET_INFO
+-Une erreur s'est produite lors du calcul d'une courbe de profit : la variable '%1' n'a pas de
+-cible disponible (cela peut se produire si la variable spécifiée est elle-même la
+-cible, par exemple).
+
++KXEN_E_PCCM_UNKNOWN_TARGET_NAME
+-Une erreur s'est produite lors du calcul d'une courbe de profit : la cible spécifiée '%1' n'est pas
+-disponible pour la variable '%2'.
+
+
++KXEN_E_CONNECTOR_NO_ORIGINAL_CONNECTOR_STORE_INFO
+-La manipulation de données '%1' a été chargée depuis le référentiel de métadonnées %2.
+-Veuillez vous assurer de la cohérence de cette spécification.
+
+
++KXEN_E_CONNECTOR_STORE_MISMATCH
+-Une incohérence a été détectée dans la définition du référentiel de métadonnées.
+-La manipulation de données '%1' est en cours de chargement de %3 au lieu de %2.
+
++KXEN_E_SQLITE_INSERT_ERROR
+-Une erreur est survenue dans SQLite lors d'une tentative d'insertion de données,
+- avec le message suivant : '%1'.
+
++KXEN_E_AUTHENT_ERROR_CANT_OPEN_STORE
+-Impossible d'ouvrir l'entrepôt %1 contenant l'espace de données qui contient les mots de passe.
+-Le changement de mot de passe a échoué.
+
++KXEN_E_AUTHENT_ERROR_CANT_OPEN_SPACE
+-Impossible d'ouvrir l'espace %1 qui contient la liste des utilisateurs et des mots de passe.
+-Le changement de mot de passe a échoué.
+
++KXEN_E_AUTHENT_ERROR_FAIL_APPEND_NEW_PASSWORD
+-Échec lors de l'ajout du nouveau mot de passe dans l'espace.
+-Le changement de mot de passe a échoué.
+
++KXEN_E_AUTHENT_ERROR_FAIL_ERASE_OLD_PASSWORD
+-Échec lors de l'effaçage de l'ancien mot de passe dans l'espace de données.
+-Le changement de mot de passe a échoué.
+-Veuillez contacter votre administrateur
+
++KXEN_E_INVALID_OP_TRAINEDMODEL
+-Opération non valide pour un modèle entraîné.
+
++KXEN_M_CURRENT_PASSWORD
+-Mot de passe actuel :
+
++KXEN_M_NEW_PASSWORD
+-Nouveau mot de passe :
+
++KXEN_M_RETYPE_NEW_PASSWORD
+-Retaper le nouveau mot de passe :
+
++KXEN_M_RETYPE_NEW_PASSWORD_BECAUSE_DIFF
+-Les mots de passe sont différents. Retapez le nouveau mot de passe :
+
++KXEN_M_CHANGEPASSWORDDONE
+-Le mot de passe a été changé.
+
++KXEN_E_CONNECTOR_FEATURE_VALID_LICENSE_REQUIRED
+-La manipulation de données '%1' nécessite les licences suivantes : '%2'.
+-Le code généré peut être incomplet.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_MUST_HAVE_LABEL
+-Le paramètre %2 de l'exécutable externe %1 doit avoir un label.
+-L'exécutable externe %1 ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_MUST_HAVE_LABEL
+-L'exécutable externe %1 doit avoir un label.
+-Il ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_TYPE
+-Le type "%3" du paramètre %2 pour l'exécutable externe %1 n'est pas valide. 
+-Pour connaître la liste des types valides, consultez la documentation.
+-L'exécutable externe suivant ne sera pas disponible : %1 .
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_MUST_HAVE_TYPE
+-Le paramètre %2 de l'exécutable externe %1 doit avoir un type.
+-L'exécutable externe %1 ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_DEFAULT_VALUE
+-La valeur par défaut "%3" du paramètre %2 de l'exécutable externe %1 est incompatible avec le type.
+-L'exécutable externe %1 ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_ALLOWED_VALUE
+-Dans la liste des valeurs permises du paramètre %3 de l'exécutable externe %2, la valeur %1 est incompatible avec le type.
+-L'exécutable externe %1 ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_BADNUMBER_ALLOWED_VALUE
+-Dans la liste des valeurs autorisées, la valeur "%3" du paramètre %2 de l'exécutable externe %1 il doit y avoir %3 valeurs autorisées.
+-Cependant, la valeur %4 n'a pas été définie.
+-L'exécutable externe %1 ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_INFORMATION
+-Il n'y a pas d'information sur l'exécutable externe %1.
+-L'exécutable externe %1 ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_EXTERNALEXECUTABLENAME
+-L'exécutable externe %1 n'a pas de nom. 
+-Il ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_FOLDER
+-L'exécutable externe %1 n'a pas de dossier. 
+-Il ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_INVALID_VALUE
+-La valeur "%3" du paramètre %2 de l'exécutable externe %1 n'est pas valide.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_NOT_INITIALIZE
+-L'exécutable externe %1 ne peut pas être exécuté car le paramètre %2 n'est pas initialisé et n'a pas de valeur par défaut.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_NO_EXECUTIONCOMMAND
+-L'exécutable externe %1 n'a pas de commande d'exécution. 
+-Il ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_INVALID_NAME_FOR_EXECUTION
+-L'exécutable externe %1 n'existe pas.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADNUMBEROFUSER
+-L'exécutable externe %1 doit avoir %2 utilisateur(s) mais l'utilisateur %3 n'est pas défini. 
+-Il ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADNUMBEROFLANGUAGE
+-L'exécutable externe %1 doit avoir la langue %2 mais la langue %3 n'a pas été définie. 
+-Il ne sera pas disponible.
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ALREADYRUN
+-Un exécutable externe est déjà en cours d'exécution. 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADLANGUAGEFORDESCRIPTION
+-L'exécutable externe %1 n'a aucune description pour la langue %2. 
+-La description par défaut sera utilisée. 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_EXTERNALEXECUTABLEDEFINITION_BADLANGUAGEFORLABEL
+-L'exécutable externe %1 n'a aucun label pour la langue %2. 
+-Le label par défaut sera utilisé. 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_BADLANGUAGEFORLABEL
+-Le paramètre %2 de l'exécutable externe %1 n'a pas de label traduit pour la langue %3.
+-Le label par défaut sera utilisé. 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_ARGUMENT_BADLANGUAGEFORDESCRIPTION
+-Le paramètre %2 de l'exécutable externe %1 n'a pas de description traduite pour la langue %3.
+-La description par défaut sera utilisée. 
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTIONINTERF_INVALIDSTREAM
+-Le paramètre %1 n'est pas valide pour cet appel. 
+-Les valeurs possibles sont "StdOut" et "StdErr".
+
++KXEN_E_EXTERNALEXECUTABLEEXECUTION_NOTINITIALIZE
+-L'exécutable externe n'a pas été initialisé. Il n'a pas pu être exécuté.
+
++KXEN_E_READVARIABLEDESC_HAS_NO_KEY
+-Aucune clé n'a été trouvée dans votre description.
+-Et il est impossible d'ajouter une clé virtuelle 'KxIndex',
+-car une variable nommée 'KxIndex' est présente dans votre description.
+
++KXEN_E_MAPPING_VIRTUAL_WITH_PHYSICAL
+-Aucune clé n'a été trouvée dans votre description.
+-Une variable 'KxIndex' a été ajoutée automatiquement,
+-cependant une variable nommée 'KxIndex' existe dans vos données.
+-Vous devez ajouter cette variable 'KxIndex' dans votre description
+-afin d'éviter cette erreur.
+
++KXEN_E_MODEL_HAS_NO_KEY
+-Aucune clé n'a été définie pour votre modèle.
+-Tout modèle Automated Analytics nécessite au moins une clé.
+
++KXEN_E_CONNITEM_GUESSED_ID_LENGTH_ERROR
+-Le système n'a pas pu générer à partir de '%1' un identifiant respectant les
+-limites de longueur.
+
++KXEN_E_ERROR_CANNOT_DROP_SPACE_WITH_NAME_EMPTY
+-Il est impossible de supprimer un espace de données ne possédant pas de nom.
+
++KXEN_E_APPLY_CONSISTENCY
+-La variable %2, présente dans la table de sortie,
+-n'a pas été demandée lors du processus d'application.
+-Cependant, la variable %1 se base sur cette variable.
+-Par conséquent, afin de garantir la cohérence entre les valeurs des 2 variables,
+-le processus d'application ne s'effectuera pas.
+
++KXEN_W_INCONSISTENCY_NATIVE_STORAGE
+-Une incohérence a été trouvée entre les informations logiques et natives
+-de la variable %1.
+-Le stockage logique a été défini comme %2 alors que le stockage natif est %3.
+
++KXEN_W_CONNECTOR_TABLE_SAMPLING_NOT_ALLOWED_ON_SUBSELECT
+-La requête d'échantillonnage sera ignorée car la table principale de la manipulation de données %1 est aussi une manipulation de données (%2). 
+-Vous pouvez utiliser un filtre basé sur la fonction aléatoire pour obtenir le même résultat.
+
++KXEN_W_IDB_SCORE_DEV_DEVIATION_FOUND
+-Un fort écart a été détecté pour la variable %1 sur le jeu de données d'application.
+
++KXEN_I_INDATAAPPLY_PROLOG_START
+-Préparation des étapes finales du processus d'application optimisée...
+
++KXEN_I_INDATAAPPLY_PROLOG_END
+-Fin de la préparation des étapes finales du processus d'application optimisée
+
++KXEN_I_INDATAAPPLY_PROLOG_END_WITH_ERRORS
+-Préparation des étapes de finalisation du processus d'application optimisée. %1 échec(s).
+
++KXEN_I_INDATAAPPLY_PROLOG_STEP
+-Préparation des étapes de finalisation du processus d'application optimisée : l'étape actuelle est '%1'. 
+
++KXEN_W_INDATAAPPLY_OPTIONAL_STEP_PREPARE_FAILURE
+-Lors de la phase finale du processus d'application optimisée, l'étape %2 a échoué et sera ignorée.
+-Le message d'erreur reçu est %3.
+
++KXEN_I_INDATAAPPLY_EPILOG_START
+-Exécution des étapes finales du processus d'application optimisée...
+
++KXEN_I_INDATAAPPLY_EPILOG_END
+-Fin de l'exécution des étapes finales du processus d'application optimisée
+
++KXEN_I_INDATAAPPLY_EPILOG_END_WITH_ERRORS
+-L'exécution des étapes de finalisation du processus d'application optimisée s'est terminée avec %1 échec(s).
+
++KXEN_I_INDATAAPPLY_EPILOG_STEP
+-Exécution des étapes de finalisation du processus d'application optimisée : l'étape actuelle est '%1'.
+
++KXEN_I_INDATAAPPLY_EXECUTE_STEP
+-Exécution des étapes intermédiaires du processus d'application optimisée : %1
+
++KXEN_W_INDATAAPPLY_OPTIONAL_STEP_FAILURE
+-Lors de l'étape finale du processus d'application optimisée, l'étape %2 a échoué et sera ignorée.
+-Le message d'erreur reçu est %3.
+
++KXEN_W_SCORE_DEVIATION_WRONG_APPLYIN_TYPE
+-La détection automatique d'écarts lors du processus d'application optimisée n'est pas compatible avec le type de jeu de données d'application spécifié en entrée.
+
++KXEN_W_GAIN_CHART_WRONG_APPLYIN_TYPE
+-Le calcul de la table de gain lors du processus d'application optimisée n'est pas compatible avec le type de jeu de données d'application spécifié en entrée.
+
++KXEN_W_IDB_SCORE_DEV_MANDATORY_WEIGHT_VAR_NOT_FOUND
+-Le jeu de données d'application en entrée n'a pas de variable de poids. L'écart de score en attendait une mais l'ignorera.
+
++KXEN_W_IDB_GAINCHARTS_VALUE_VARIBLE_NOT_FOUND_IN_APPLY_IN
+-La variable de valeur %1 n'a pas été trouvée dans le jeu de données d'application en entrée. Elle sera exclue de la courbe de gain.
+
++KXEN_E_CANT_GET_AR_FROM_MODEL
+-Le modèle ne possède pas d'enregistrement analytique utilisable pour créer une table d'analyse temporelle.
+
++KXEN_E_CONNECTOR_BAD_ARGUMENT_TYPE
+-Argument d'expression fonctionnelle non valide '%1' (de type '%2').
+
++KXEN_E_MAX_CORR_TABLES_BAD_VALUE
+-L'option "Nombre d'agrégats avec pivots par groupement" n'accepte pas la valeur 0.
+
++KXEN_E_WRONG_ENTITY_FOR_TSP
+-La population estampillée n'est pas basée sur la même entité que l'enregistrement analytique : %1 au lieu de %2. 
+
++KXEN_E_COMPOUND_TSP_DIFFERENT_NUMBER_OF_FIELD
+-La composition se fait sur des populations estampillées qui n'ont pas le même nombre de champs visibles %1 et %2
+
++KXEN_E_CORRELATED_UNDERLYING_TABLE_DOESNT_MATCH
+-Les tables sous-jacentes ne correspondent pas lors de la création de la table corrélée.
+
++KXEN_E_WRONG_MAPPING_POSITION
+-Les informations de mapping ne sont pas synchronisées.
+
++KXEN_E_COMPOSITION_ALREADY_EXIST_IN_SPACE
+-Erreur de définition de la variable composée '%1' : une variable 
+-avec le même nom existe déjà dans les données.
+
++KXEN_E_COMPOSITE_NOT_FOUND
+-Impossible de trouver la variable '%2' utilisée dans la définition de la variable composée '%1'.
+
+#Note for translator: do not translate 'checkDatasets'
++KXEN_W_CABSTRACTMODEL_CHECK_COMPOSITES_IN_DATASETS
+-Nombre de variables composées différent dans le modèle et dans les données.
+-Utilisez l'appel de l'API 'checkDatasets'.
+
++KXEN_W_VPOOL_COMPONENT_OUT_OF_COMPOSITE
+-Un problème est survenu durant la restauration de la variable composite '%1' des métadonnées. 
+-Le composant '%2' est supposé être à la position '%3', cette valeur est plus grande que la taille de la variable composite. 
+-Ce composant a été ignoré.
+
++KXEN_W_VPOOL_DUPLICATE_COMPONENT
+-Un problème s'est produit pendant la restauration de la variable composite '%1' des métadonnées. 
+-Le composant '%2' est censé être à la position '%3' mais une autre variable ('%4') s'y trouve déjà. 
+-La variable '%4' a été conservée.
+
++KXEN_E_APPLYOUT_EXIST
+-Impossible de créer le jeu de données d'application de sortie '%1' (ce jeu de données existe déjà)
+
++KXEN_W_VPOOL_DIFFERENT_COMPOSITE_WITH_SAME_NAME
+-Un problème s'est produit pendant la restauration de la variable composite '%1' des métadonnées. 
+-Impossible de restaurer différents composites avec le même nom. 
+-La première variable '%1' est de type '%2' et a une taille de '%3'. 
+-La seconde variable '%1' est de type '%4' et a une taille de '%5'. 
+-La première variable a été conservée. Les informations relatives à la seconde variable ne seront pas utilisées.
+
++KXEN_W_OBSOLETE_FIELDS_NOT_SAVED
+-Les champs obsolètes suivants n'ont pas été enregistrés : %1.
+
++KXEN_W_MISSING_OR_MISMATCHING_DATA_MANIPUALTION
+-La manipulation de données '%1' n'a pas été trouvée. Soit elle a été supprimée, soit elle n'est pas du type attendu ('%2').
+
++KXEN_E_CANNOT_GET_TIMESTAMPFIELD
+-Création de la table d'analyse temporelle impossible, veuillez vérifier que la population estampillée %1 est bien présente dans le référentiel de métadonnées.
+
++KXEN_E_SET_SIMULATION_VALUE_ERROR
+-Impossible de simuler les valeurs de variables créées par Automated Analytics (composants de dates et composites). Ces valeurs sont calculées automatiquement.
+
++KXEN_E_CLEAR_SIMULATION_VALUE_ERROR
+-Impossible de supprimer les valeurs de simulation pour les variables créées par Automated Analytics (composants de dates et composites). 
+
++KXEN_E_DUPLICATE_ITEM_IN_USER_STRUCTURE
+-Cette structure contient un doublon (%1).
+
++KXEN_E_INVALID_CONTINUOUS_STRUCTURE
+-Cette structure utilisateur contient un élément non valide.
+
++KXEN_E_DUPLICATE_KXOTHER_IN_USER_STRUCTURE
+-Cette structure utilisateur contient un groupe KxOther dupliqué.
+
++KXEN_E_INVALID_ORDINAL_STRUCTURE
+-Cette structure utilisateur contient un élément non valide.
+
++KXEN_E_COMPOSITE_TARGET_NOT_ALLOWED
+-Une variable composite ne peut pas être utilisée comme cible dans un modèle Automated Analytics.
+
++KXEN_E_COMPONENT_TARGET_NOT_ALLOWED
+-Une variable cible ne peut pas être utilisée comme composante d'une variable composite.
+
++KXEN_E_TARGET_VALUE_NOT_SUPPORTED_IN_REGRESSION
+-Le type de valeur de la cible '%1' n'est pas pris en charge dans les modèles de régression ou de classement (cela concerne particulièrement les cibles ordinales ou composites).
+
++KXEN_E_TARGET_VALUE_TYPE_NOT_ALLOWED
+-Le type de valeur de la cible '%1' n'est pas autorisé dans ce contexte.
+
++KXEN_E_RELOAD_FAILURE
+-Échec lors du rechargement du modèle
+
++KXEN_E_CONNECTOR_WRONG_SPACE_TYPE_HANAVIEW
+-%1 ne peut pas être utilisé en tant qu'espace d'entrée de la manipulation des données. Les vues HANA ne sont pas encore prises en charge dans ce contexte.
+
++KXEN_E_TARGET_VALUE_NOT_SUPPORTED_IN_CLUSTERING
+-Le type des variables cible suivantes n'est pas pris en charge par le composant de regroupement.
+
++KXEN_E_KEY_INTERSECTION_EXISTS
+-Le jeu de données de sortie de l'application contient déjà la clé provenant du jeu de données d'entrée de l'application. Le mode de modification n'a pas pu être exécuté.
+
++KXEN_W_HIVE_IN_APPEND_MODE
+-Le processus de l'application in-database sur les bases de données HIVE est en mode de modification.
+
++KXEN_W_HIVE_IN_APPEND_MODE_INTERSECTION_TEST
+-Test d'intersection entre le jeu de données de l'application d'entrée et le jeu de données de l'application de sortie pour le processus de l'application in-database dans la base de données Hive
+
++KXEN_W_HIVE_IN_APPEND_MODE_NOINTERSECTION_TEST
+-Le test d'intersection entre le jeu de données de l'application d'entrée et le jeu de données de l'application de sortie a été désactivé pour le processus de l'application in-database dans la base de données Hive.
+
++KXEN_I_LEARN_DELEGATION_START
+-Délégation de la phase d'apprentissage à APL...
+
++KXEN_I_LEARN_DELEGATION_SUCCEEDED
+-La phase d'apprentissage a été déléguée à APL. 
+
++KXEN_I_LEARN_DELEGATION_NO_FOUND
+-Aucun service de délégation pour ce modèle.
+
++KXEN_E_LEARN_DELEGATION_FAILED
+-La phase d'apprentissage n'a pas pu être déléguée à APL. Veuillez rechercher dans l'aide complète disponible en ligne pour plus d'informations.
+
++KXEN_I_APL_LEARN_DELEGATION_FORWARD_MSG_WRAPPER
+-(Délégation APL) '%1' 
+
++KXEN_I_IDBM_STATS_COMPUTATION_DELEGATION_STARTED
+-Lancement de la délégation du calcul des statistiques...
+
++KXEN_I_IDBM_STATS_COMPUTATION_DELEGATION_TIME
+-La délégation du calcul des statistiques a été effectuée en %1 secondes.
+
++KXEN_E_IDBM_STATS_COMPUTATION_DELEGATION_FAILED
+-La délégation du calcul des statistiques a échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_FETCH_PREPARE_STARTED
+-Lancement de la phase de préparation de la délégation du calcul des statistiques...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_PREPARE_TIME
+-La phase de préparation de la délégation du calcul des statistiques a été exécutée en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_PREPARE_FAILED
+-La phase de préparation de la délégation du calcul des statistiques a échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE_STARTED
+-Lancement de la délégation du calcul des statistiques et de l'extraction des résultats...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE_TIME
+-La délégation du calcul des statistiques et l'extraction des résultats ont été effectuées en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE_FAILED
+-La délégation du calcul des statistiques et l'extraction des résultats ont échoué, après %1 secondes de traitement.
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_STARTED
+-Phase de délégation du calcul des statistiques : étape de traitement de définition de tuile lancée.
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_TIME
+-Phase de délégation du calcul des statistiques : traitement de la définition de tuile effectué en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_FAILED
+-Phase de délégation du calcul des statistiques : traitement de la définition de tuile échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_STARTED
+-Phase de délégation du calcul des statistiques : étape de traitement du poids de référence lancée.
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_TIME
+-Phase de délégation du calcul des statistiques : traitement du poids de référence effectué en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_FAILED
+-Phase de délégation du calcul des statistiques : traitement du poids de référence échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_STARTED
+-Phase de délégation du calcul des statistiques : traitement des statistiques de base de la variable lancé.
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_TIME
+-Phase de délégation du calcul des statistiques : traitement des statistiques de base de la variable effectué en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_FAILED
+-Phase de délégation du calcul des statistiques : traitement des statistiques de base de la variable échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CATEGORIES_STARTED
+-Phase de délégation du calcul des statistiques : mise à jour des statistiques de base de la variable lancée.
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CATEGORIES_TIME
+-Phase de délégation du calcul des statistiques : mise à jour des statistiques de base de la variable effectuée en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__CATEGORIES_FAILED
+-Phase de délégation du calcul des statistiques : mise à jour des statistiques de base de la variable échouée (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CAT_CROSS_STATS_STARTED
+-Phase de délégation du calcul des statistiques : mise à jour des statistiques de base de la variable lancée.
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__CAT_CROSS_STATS_TIME
+-Phase de délégation du calcul des statistiques : mise à jour des statistiques de base de la variable effectuée en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_AND_UPDATE__CAT_CROSS_STATS_FAILED
+-Phase de délégation du calcul des statistiques : mise à jour des statistiques de base de la variable échouée (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_FETCH_FINALIZE_STARTED
+-Lancement de la phase de finalisation/nettoyage de la délégation du calcul des statistiques.
+
++KXEN_I_IDBM_RAW_STATS_FETCH_FINALIZE_TIME
+-La phase de finalisation/nettoyage de la délégation du calcul des statistiques a été exécutée en %1 secondes.
+
++KXEN_E_IDBM_RAW_STATS_FETCH_FINALIZE_FAILED
+-La phase de finalisation/nettoyage de la délégation du calcul des statistiques a échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_COMPUTATION_DELEGATION_STARTED
+-Traitement de %1 : calcul délégué à la source de données.
+
++KXEN_I_IDBM_RAW_STATS_COMPUTATION_DELEGATION_TIME
+-Traitement de %1 : délégation du calcul effectuée en %2 secondes.
+
++KXEN_E_IDBM_RAW_STATS_COMPUTATION_DELEGATION_FAILED
+-Traitement de %1 : délégation du calcul échouée (après %2 secondes de traitement).
+
++KXEN_I_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_STARTED
+-Traitement de %1 : extraction des résultats lancée.
+
++KXEN_I_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_TIME
+-Traitement de %1 : extraction des résultats effectuée en %2 secondes.
+
++KXEN_E_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_FAILED
+-Traitement de %1 : extraction des résultats échouée (après %2 secondes de traitement).
+
++KXEN_E_IDBM_INTERNAL_ERROR
+-Erreur interne de modélisation in-database inattendue.
+-Veuillez contacter le support SAP.
+-Détail de l'erreur : %1
+
++KXEN_I_IDBM_RAW_STATS_TYPE_FETCH_AND_UPDATE_PROGRESS
+-Extraction des statistiques de la source de données...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__WEIGHT_PROGRESS
+-Extraction du poids de référence de la source de données...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__TILES_DEFINITION_PROGRESS
+-Extraction de la définition de tuile de la source de données...
+
++KXEN_I_IDBM_RAW_STATS_FETCH_AND_UPDATE__VARIABLES_PROGRESS
+-Extraction des statistiques de la variable de la source de données...
+
++KXEN_I_IDBM_ENCODED_ESTIMATION_DATA_TO_UPDATE_MEAN_VARIANCE_PROGRESS
+-Codage du jeu de données d'estimation...
+
++KXEN_I_IDBM_ENCODED_ESTIMATION_DATA_TO_UPDATE_MEAN_VARIANCE_TIME
+-Génération des données codées pour mettre à jour les moyennes et variances...
+
++KXEN_I_IDBM_ENCODED_ESTIMATION_DATA_TO_UPDATE_MEAN_VARIANCE_FAILED
+-Modélisation in-database : Échec de la génération des données codées pour mettre à jour les moyennes et variances.
+
++KXEN_I_IDBM_COVARIANCE_PROGRESS
+-Calcul de la matrice de covariance.
+
++KXEN_I_IDBM_COVARIANCE_TIME
+-Matrice de covariance calculée en %1 secondes.
+
++KXEN_I_IDBM_COVARIANCE_FAILED
+-calcul de la matrice de covariance échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_CANDIDATE_SCORE_PROGRESS
+-Calcul du score du candidat.
+
++KXEN_I_IDBM_CANDIDATE_SCORE_TIME
+-Score du candidat calculé en %1 secondes.
+
++KXEN_I_IDBM_CANDIDATE_SCORE_FAILED
+-Le calcul du score du candidat a échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_PERFORMANCE_INDICATORS_PROGRESS
+-Calcul des indicateurs de performance.
+
++KXEN_I_IDBM_PERFORMANCE_INDICATORS_TIME
+-Indicateurs de performance calculés en %1 secondes.
+
++KXEN_I_IDBM_PERFORMANCE_INDICATORS_FAILED
+-Le calcul des indicateurs de performance a échoué (après %1 secondes de traitement).
+
++KXEN_I_IDBM_SPARK_CONNECT_PROGRESS
+-Négociation de la distribution des ressources avec YARN.
+
++KXEN_I_IDBM_SPARK_EXEC_XSTATS_PROGRESS
+-Exécution du job Spark pour les statistiques croisées.
+
++KXEN_I_IDBM_SPARK_EXEC_COVARIANCE_PROGRESS
+-Exécution du job Spark pour la matrice de covariance.
+
++KXEN_I_IDBM_SPARK_EXEC_EVAL_PERF_PROGRESS
+-Exécution du job Spark pour l'évaluation des performances du candidat.
+
++KXEN_E_IDBM_SPARK_CONTEXT_CREATION_TIMEOUT
+-Connexion impossible au Cluster Spark après une attente de %1 secondes.
+
++KXEN_E_IDBM_SPARK_CONNECTION_FAILED
+-Impossible de se connecter au cluster Spark. Pour plus de détails, consultez les jounraux.
+
++KXEN_E_SPARK_INTERNAL_ERROR
+-Erreur interne Spark inattendue.
+-Veuillez contacter le support SAP.
+-Détail de l'erreur : %1
+
++KXEN_E_DATA_PARSE_FAILED
+-Impossible d'analyser %1 en tant que %2
+
+#Note for translator: Required jar file to perform In-database Modeling is missing: (jar file name)
++KXEN_E_IDBM_MISSING_JARS
+-Le fichier JAR requis pour effectuer la modélisation in-database est manquant : %1
+
+#Note for translator: The winutils.exe file required by Spark on Windows is missing from (directory name)
++KXEN_E_IDBM_MISSING_WINUTILS
+-Le fichier winutils.exe requis par Spark sur Windows est manquant dans %1
+
+#Note for translator: Spark configuration XML file is missing from the installation: (name of XML file e.g. core-site.xml)
++KXEN_E_IDBM_MISSING_HADOOP_XML
+-Le fichier XML de configuration Spark est manquant dans l'installation : %1
+
+#Note for translator: (modeling component/transform name) transform type is not yet supported by In-database Modeling.
++KXEN_W_IDBM_UNSUPPORTED_TRANSFORM
+-'Le type de transformation %1 n'est pas encore pris en charge par la modélisation in-database.
+
++KXEN_I_IDBM_AUTO_ACTIVATION
+-La modélisation in-database a été activée automatiquement (conformément aux paramètres trouvés dans les fichiers de configuration).
+
+#Note for translator: The system has detected (a number) unsupported feature(s) in In-database Modeling.
++KXEN_W_IDBM_UNSUPPORTED_FEATURES_DETECTED
+-Le système a détecté %1 fontionnalités non prises en charge dans la modélisation in-database.
+-Le système va passer au processus d'apprentissage standard.
+
++KXEN_W_SWITCH_FROM_IDBM_TO_STANDARD_LEARN
+-Le moteur poursuit avec le processus d'apprentissage standard.
+
++KXEN_W_IDBM_CUSTOM_CUTTING_STRATEGY_NOT_SUPPORTED
+-La modélisation in-database ne prend pas en charge la stratégie de découpage personnalisée avec les requêtes SQL.
+
++KXEN_W_IDBM_COMPOSITE_VARIABLES_NOT_SUPPORTED
+-La modélisation in-database ne prend pas encore en charge les variables composites.
+
++KXEN_W_IDBM_USER_STRUCTURES_NOT_SUPPORTED
+-La modélisation in-database ne prend pas encore en charge les structures de variables définies par l'utilisateur.
+
+#Note for translator: In-database Modeling does not yet support the (a feature name) feature (set in the description of (variable name))
++KXEN_W_IDBM_INCOMPATIBLE_VARIABLE_USAGE
+-La modélisation in-database ne prend pas la fonctionnalité '%1' en charge (définie dans la description de %2).
+
++KXEN_I_IDBM_FINALIZE_STATISTICS_UPDATE_STARTED
+-Finalisation de la mise à jour des statistiques de la variable...
+
+#Note for translator: Variable statistics update finalized in (a number) seconds.
++KXEN_I_IDBM_FINALIZE_STATISTICS_UPDATE_TIME
+-Mise à jour des statistiques de la variable finalisée en %1 secondes.
+
++KXEN_E_IDBM_FINALIZE_STATISTICS_UPDATE_FAILED
+-Finalisation de la mise à jour des statistiques de la variable échouée (après %1 secondes de traitement).
+
++KXEN_E_EXPECT_IDBM_FILESTORE_NATIVESPARK_PAIRING
+-La source de données d'entrée devait être associée à une connexion Spark.
+
++KXEN_W_IDBM_STORE_TYPE_NOT_SUPPORTED
+-La source de données d'entrée (%1) ne fournit pas de services de modélisation natifs.
+
+
++KXEN_W_LEARN_STAT_IDBM_NOT_YET_SUPPORTED
+-Le calcul des statistiques n'est pas encore pris en charge en mode natif par cette source de données.
+
++KXEN_W_LEARN_STAT_IDBM_START
+-Utilisation de la modélisation in-database pour le calcul des statistiques...
+
+#Note for translator: Input dataset statistics computed using In-database Modeling in (a number) seconds.
++KXEN_W_LEARN_STAT_IDBM_END_TIME
+-Statistiques de jeu de données d'entrée calculées à l'aide de la modélisation in-database en %1 secondes.
+
+
+#Note for translator: The input dataset has some unsupported advanced settings(list of settings).
++KXEN_W_IDBM_SPACE_ADV_PARAMS_NOT_SUPPORTED
+-Le jeu de données d'entrée possède des paramètres avancés non pris en charge (%1).
+
+#Note for translator: In-database Modeling does not yet support the (a feature name) feature (used in the (component class) component)
++KXEN_W_IDBM_INCOMPATIBLE_TRANSFORM_FEATURE_USAGE
+-La modélisation in-database ne prend pas la fonctionnalité '%1' en charge (utilisée dans le composant %2).
+
+
+#Note for translator:The (model) %1 feature is not supported in In-database Modeling
++KXEN_W_IDBM_UNSUPPORTED_MODEL_FEATURE
+-La fonctionnalité/le paramètre suivant(e) n'est pas pris(e) en charge dans le mode de modélisation in-database pour ce modèle : %1.
+
+
+#Note for translator:The (protocol) %1 feature is not supported in In-database Modeling
++KXEN_W_IDBM_UNSUPPORTED_PROTOCOL_FEATURE
+-La fonctionnalité/le paramètre suivant(e) n'est pas pris(e) en charge dans le mode de modélisation in-database pour ce modèle : %1.
+
+
+#Note for translator: The <feature name> feature is not supported in In-database Modeling.
++KXEN_W_IDBM_GENERIC_UNSUPPORTED_FEATURE
+-La fonctionnalité/le paramètre %1 n'est pas prise/pris en charge dans le mode de modélisation in-database.
+
++KXEN_I_IDBM_RESCALING_SCORE_TIME
+-La remise à l'échelle du score interne a été exécutée en %1 secondes.
+
++KXEN_I_IDBM_RESCALING_SCORE_FAILED
+-La remise à l'échelle du score interne a échoué après %1 10 secondes de traitement.
+
++KXEN_I_IDBM_RESCALING_SCORE_PROGRESS
+-Remise à l'échelle du score interne...
+
+#Note for translator: learnAndApply mode chains up the learn and the apply steps lazily by considering that ApplyIn matches the Training dataset
++KXEN_E_CABSTRACTMODEL_CHECK_LEARNANDAPPLY
+-Le mode LearnAndApply s'applique uniquement pour send() call, pas pour check() call. 

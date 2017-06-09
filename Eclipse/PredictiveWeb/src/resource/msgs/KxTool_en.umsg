@@ -1,0 +1,383 @@
++S_KXTOOL__OK
+-Success
+
++S_KXTOOL__FALSE
+-Expected negative test
+
++E_KXTOOL__UNEXPECTED
+-Unexpected internal error: please contact the support.
+
++E_KXTOOL__INTERNAL_ERROR
+-Internal error
+
++E_KXTOOL__NOTIMPL
+-Feature not implemented
+
++E_KXTOOL__OUTOFMEMORY
+-Ran out of memory
+
++E_KXTOOL__INVALIDARG
+-One or more arguments are not valid.
+
++E_KXTOOL__NOINTERFACE
+-This interface is not supported.
+
++E_KXTOOL__POINTER
+-Invalid pointer
+
++E_KXTOOL__HANDLE
+-Invalid handle
+
++E_KXTOOL__ABORT
+-Operation %1 aborted
+
++E_KXTOOL__FAIL
+-Failure: one or several parameters provided are not valid.
+
++E_KXTOOL__ACCESSDENIED
+-Access to object %1 has been denied.
+
++E_KXTOOL__NOMOREDATA
+-No more data available
+
++E_KXOBJC__INVALIDST
+-Wrong state %1 for object %2
+
++E_KXOBJC__INVALIDST_NA
+-Wrong state
+
++E_SYSTEM__THREADPB
+-Thread problem %1
+
++E_SYSTEM__THREADPB_NA
+-Thread problem
+
++E_SYSTEM__MUTEXPB
+-Mutex problem %1
+
++E_SYSTEM__MUTEXPB_NA
+-Mutex problem
+
++E_SYSTEM__2BIG
+-The argument list is too long.
+
++E_SYSTEM__ACCES
+-Permission to object %1 denied
+
++E_SYSTEM__ACCES_NA
+-Permission to object %1 denied
+
++E_SYSTEM__AGAIN
+-No more processes or not enough memory / maximum nesting level reached
+
++E_SYSTEM__BADF
+-Bad file number %1
+
++E_SYSTEM__CHILD
+-No spawned processes
+
++E_SYSTEM__DEADLOCK
+-Resource deadlock would occur
+
++E_SYSTEM__DOM
+-Domain error in a mathematical function
+
++E_SYSTEM__EXIST
+-File %1 exists
+
++E_SYSTEM__EXIST_NA
+-File exists
+
++E_SYSTEM__INVAL
+-Invalid argument %1
+
++E_SYSTEM__INVAL_NA
+-Invalid argument
+
++E_SYSTEM__MFILE
+-Too many opened files %1
+
++E_SYSTEM__MFILE_NA
+-Too many opened files
+
++E_SYSTEM__NOENT
+-No such file or directory %1
+
++E_SYSTEM__NOENT_NA
+-No such file or directory
+
++E_SYSTEM__NOMEM
+-Not enough memory
+
++E_SYSTEM__NOSPC
+-No space left on device
+
++E_SYSTEM__RANGE
+-Result too large
+
++E_SYSTEM__XDEV
+-Cross-device link
+
++E_KXOBJC__INCOMPVALUESTORAGE
+-Incompatible value (%2) and storage (%3) for variable %1
+
++E_KXOBJC__BADSTORAGE
+-Invalid storage (%2) for variable %1
+
++E_KXOBJC__BADVALUE
+-Invalid value (%2) for variable %1
+
++E_KXOBJC__NOCONTEXT
+-No context object found
+
++E_KXOBJC__BADSYNCHRO
+-The parameter tree is no longer synchronized!
+
++E_SYSTEM__UTF16WRITE_NOTSUPPORTED
+-The use of UTF-16 format for file %1 is not supported.
+
++E_SYSTEM__NUMERICAL
+-Numerical error
+
++E_SYSTEM__CANCELOPERATION
+-Operation cancelled
+
++KXEN_E_WRONGSTRINGFORVARIANTSET
+-Attempt to create a variant set from the string '%1'
+-This should not occur, please contact the support.
+
++KXEN_E_WRONGSTRINGFORSEGMENT
+-Attempt to create a segment from the string %1
+-This should not occur, please contact the support.
+
++KXEN_E_WRONGSTRINGFORCOMPOSITE
+-Attempt to create a composite from the string %1
+-This should not occur, please contact the support.
+
++KXEN_E_WRONGSEGMENTBOUNDS
+-Attempt to create a segment between %1 and %2.
+-This should not occur, please contact the support.
+
++KXEN_E_WRONG_DIRAC_SEGMENT
+-Attempt to create an invalid dirac segment.
+-This should not occur, please contact the support.
+
++KXEN_E_WRONG_SEGMENT_INTEGER_SPEC
+-Attempt to create an invalid integer segment.
+-This should not occur, please contact the support.
+
++KXEN_E_WRONG_SEGMENT_SPEC
+-Attempt to create a segment with a wrong specification.
+-This should not occur, please contact the support.
+
++KXEN_E_WRONG_SEGMENT_EMPTY_BOUNDS
+-Attempt to create a segment with empty bounds.
+-This should not occur, please contact the support.
+
++E_SYSTEM__BADVALUE
+-Invalid value (%1)
+
++E_SYSTEM__BADVALUE_NA
+-Invalid value
+
++KXEN_E_REGEXP_ERROR
+-Unexpected regular expression error (expression is: %2, error code is: %1)
+
++KXEN_E_REGEXP_BADSYNTAX
+-Bad syntax in regular expression (expression is: %1, error is: %2)
+
+#NOTR
++KXEN_E_REGEXP_NULL
+-Null regexp
+
+#NOTR
++KXEN_E_REGEXP_BADOPTION
+-Bad option
+
+#NOTR
++KXEN_E_REGEXP_BADMAGIC
+-Bad magic number
+
++KXEN_E_REGEXP_UNKNOWN_NODE
+-Unknown node
+
++KXEN_E_REGEXP_NOMEMORY
+-No memory
+
++KXEN_E_REGEXP_NOSUBSTRING
+-No substring
+
+#NOTR
++KXEN_E_REGEXP_MATCHLIMIT
+-Limit match
+
+#NOTR
++KXEN_E_REGEXP_CALLOUT
+-Callout
+
++KXEN_E_REGEXP_BADUTF8
+-Regular expression error: the source is not a valid UTF-8 (source is: %2, error code is: %1).
+
+#NOTR
++KXEN_E_REGEXP_BADUTF8_OFFSET
+-Bad UTF-8 offset
+
+#NOTR
++KXEN_E_REGEXP_PARTIAL
+-Partial
+
+#NOTR
++KXEN_E_REGEXP_BADPARTIAL
+-Bad partial
+
+#NOTR
++KXEN_E_REGEXP_INTERNAL
+-Internal
+
+#NOTR
++KXEN_E_REGEXP_BADCOUNT
+-Bad account
+
+#NOTR
++KXEN_E_REGEXP_DFA_UITEM
+-Dfa uitem
+
+#NOTR
++KXEN_E_REGEXP_DFA_UCOND
+-Dfa ucond
+
+#NOTR
++KXEN_E_REGEXP_DFA_UMLIMIT
+-Dfa umlimit
+
+#NOTR
++KXEN_E_REGEXP_DFA_WSSIZE
+-Dfa wssize
+
+#NOTR
++KXEN_E_REGEXP_DFA_RECURSE
+-Dfa recurse
+
++KXEN_E_REGEXP_UNKNOWN_ERROR
+-Unknown error
+
++KXEN_E_LOGCONF_CANNOTCREATE
+-Unable to create appender of class '%1'.
+
++KXEN_E_LOGCONF_CANNOTPROCESS
+-Unable to process log configuration key '%2' for appender '%1'.
+
++KXEN_E_RESOURCE_BUSY
+-The resource %1 is already used and locked by %2.
+
++KXEN_E_RESOURCE_BUSY_2_FULL_INFO
+-user %3 on server %2 since %1
+-Please retry the last operation in a few minutes.
+
+#Note for translator:
+#This message is displayed after the following string : The repository <Name of repository> is already used and locked by <Name of user> on
++KXEN_E_RESOURCE_BUSY_2
+-the server %2 since %1
+-Please retry the last operation in a few minutes.
+
++KXEN_E_ERR_MULTI_INSTANCE_LOCK_FILE_UNEXPECTED
+-The resource lock %1 cannot be set up.
+-Reason is %2.
+-This should not occur, please contact the support.
+
++E_BUSY
+-A resource is locked and busy.
+
++KXEN_E_RESOURCE_BUSY_NO_INFO
+-The resource %1 is used and locked.
+-Please retry the last operation in a few minutes.
+
++KXEN_E_AUTHENT_ACCESDENIED
+-Access denied for this user account.
+
++KXEN_E_AUTHENT_MAXTRIES
+-Maximum tries allowed to authenticate has been reached.
+
++KXEN_E_AUTHENT_ERROR
+-User login and password were not authenticated (%1).
+
++E_KXTOOL__PROCESS_CREATE
+-Error when creating process: %1
+
++E_KXTOOL__TIMEOUT
+-Timeout when trying to start sub process
+
++E_KXTOOL__CONCURRENCY
+-Invalid concurrent access
+-This should not occur, please contact the support.
+
++E_KXTOOL__APIMOREDATA
+-More data available for this call.
+-This should not occur, please contact the support.
+
++KXEN_E_AUTHENT_VOIDARG
+-Trying to configure a Void Authenticator (no option available)
+
+#Note for translator: PAM stands for 'Pluggable Authentication Module'
++KXEN_E_AUTHENT_SYSARG
+-Trying to configure a System Authenticator without PAM activated (no option available)
+
++KXEN_E_AUTHENT_AUTOSYSARG
+-Trying to configure an Automatic System Authenticator without PAM activated (no option available)
+
++KXEN_E_CONFIG_INVALID_OPTION
+-Unknown configuration: option '%1'
+
++KXEN_E_CONFIG_INVALID_OPTION_FOR_WINDOWS
+-Windows does not support the option '%1'
+
++KXEN_E_FILEWRITE
+-Error writing to file '%1': %2
+
++KXEN_E_FILECURSOR
+-Error accessing file '%1': %2
+
++KXEN_E_CHARSET_NOTSUPPORTED
+-Conversion between charset '%1' and UTF8 not supported by the operating system
+
++KXEN_E_INTERNAL_ERROR
+-Unexpected internal error
+-Please contact SAP support.
+-Error detail: %1
+
++KXEN_E_AUTHENT_CANT_CHANGE_PWD
+-This authentication method does not allow changing the password.
+
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_ERROR
+-Unknown error when changing password
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_USER
+-Unknown user
+
++KXEN_E_AUTHENT_ERROR_FAIL_TO_IDENTIFY
+-Authentication of user %1 has failed.
+
+
++KXEN_E_AUTHENT_INVALIDTOKEN
+-You have tried to discuss with an invalid token.
+
++KXEN_E_AUTHENT_DISCUSSION_TOO_OLDTOKEN
+-The conversation has been deleted because it was inactive for too long.
+
++KXEN_E_NETWORK_ACCESS
+-Access denied to network resource '%1' for user '%2'.
+
++KXEN_E_NETWORKCONNECTION_NOTALLOWED
+-Access to network resources with logon not allowed.
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND_IN_LIB
+-Error: External function '%1' not found in library '%2'.
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND
+-Error: External function '%1' not found in external library.
+
++KXEN_E_JAVA_INTERNAL_ERROR
+-Unexpected Java internal error
+-Please contact SAP support.
+-Error detail: %1

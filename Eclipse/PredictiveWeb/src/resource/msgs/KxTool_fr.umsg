@@ -1,0 +1,383 @@
++S_KXTOOL__OK
+-Réussite
+
++S_KXTOOL__FALSE
+-Test négatif attendu
+
++E_KXTOOL__UNEXPECTED
+-Erreur interne imprévue : contactez le support.
+
++E_KXTOOL__INTERNAL_ERROR
+-Erreur interne
+
++E_KXTOOL__NOTIMPL
+-Fonctionnalité non implémentée
+
++E_KXTOOL__OUTOFMEMORY
+-Mémoire épuisée
+
++E_KXTOOL__INVALIDARG
+-Un ou plusieurs arguments ne sont pas valides.
+
++E_KXTOOL__NOINTERFACE
+-Interface non prise en charge.
+
++E_KXTOOL__POINTER
+-Pointeur mémoire non valide
+
++E_KXTOOL__HANDLE
+-Poignée non valide
+
++E_KXTOOL__ABORT
+-Opération %1 abandonnée
+
++E_KXTOOL__FAIL
+-Échec : un ou plusieurs des paramètres fournis ne sont pas valides.
+
++E_KXTOOL__ACCESSDENIED
+-Demande d'accès à l'objet %1 refusée
+
++E_KXTOOL__NOMOREDATA
+-Plus de données disponibles
+
++E_KXOBJC__INVALIDST
+-État non valide %1 pour l'objet %2
+
++E_KXOBJC__INVALIDST_NA
+-État non valide
+
++E_SYSTEM__THREADPB
+-Problème de Thread %1
+
++E_SYSTEM__THREADPB_NA
+-Problème de Thread
+
++E_SYSTEM__MUTEXPB
+-Problème de Mutex %1
+
++E_SYSTEM__MUTEXPB_NA
+-Problème de Mutex
+
++E_SYSTEM__2BIG
+-Liste d'arguments trop longue
+
++E_SYSTEM__ACCES
+-Accès à l'objet %1 refusé
+
++E_SYSTEM__ACCES_NA
+-Accès à l'objet %1 refusé
+
++E_SYSTEM__AGAIN
+-Plus de processus, plus de mémoire disponible ou nombre maximum d'imbrications atteint
+
++E_SYSTEM__BADF
+-Mauvais descripteur de fichier %1
+
++E_SYSTEM__CHILD
+-Aucun processus créé
+
++E_SYSTEM__DEADLOCK
+-Risque d'interblocage de ressources
+
++E_SYSTEM__DOM
+-Erreur de domaine dans une fonction mathématique
+
++E_SYSTEM__EXIST
+-Le fichier %1 existe.
+
++E_SYSTEM__EXIST_NA
+-Le fichier existe.
+
++E_SYSTEM__INVAL
+-Argument %1 non valide
+
++E_SYSTEM__INVAL_NA
+-Argument non valide
+
++E_SYSTEM__MFILE
+-Trop de fichiers ouverts %1
+
++E_SYSTEM__MFILE_NA
+-Trop de fichiers ouverts
+
++E_SYSTEM__NOENT
+-Fichier ou répertoire %1 introuvable.
+
++E_SYSTEM__NOENT_NA
+-Fichier ou répertoire introuvable
+
++E_SYSTEM__NOMEM
+-Pas assez de mémoire
+
++E_SYSTEM__NOSPC
+-Plus de place libre sur le disque
+
++E_SYSTEM__RANGE
+-Résultat trop grand
+
++E_SYSTEM__XDEV
+-Lien entre périphériques
+
++E_KXOBJC__INCOMPVALUESTORAGE
+-Incompatibilité entre valeur (%2) et stockage (%3) pour la variable %1
+
++E_KXOBJC__BADSTORAGE
+-Stockage non valide (%2) pour la variable %1
+
++E_KXOBJC__BADVALUE
+-Valeur (%2) non valide pour la variable %1
+
++E_KXOBJC__NOCONTEXT
+-Pas de contexte relié à l'objet courant
+
++E_KXOBJC__BADSYNCHRO
+-L'arbre des paramètres n'est plus synchronisé !
+
++E_SYSTEM__UTF16WRITE_NOTSUPPORTED
+-Écriture au format UTF-16 non prise en charge pour le fichier %1
+
++E_SYSTEM__NUMERICAL
+-Erreur numérique
+
++E_SYSTEM__CANCELOPERATION
+-Opération annulée
+
++KXEN_E_WRONGSTRINGFORVARIANTSET
+-Tentative de création d'un ensemble de variantes depuis la chaîne '%1'.
+-Ceci ne devrait pas arriver, veuillez contacter le support.
+
++KXEN_E_WRONGSTRINGFORSEGMENT
+-Tentative de création d'un "variant" de type segment depuis %1
+-.Ceci ne devrait pas arriver, veuillez contacter le support.
+
++KXEN_E_WRONGSTRINGFORCOMPOSITE
+-Tentative de création d'un "variant" de type composite depuis %1
+-. Ceci ne devrait pas arriver, veuillez contacter le support.
+
++KXEN_E_WRONGSEGMENTBOUNDS
+-Tentative de création d'un segment entre %1 et %2.
+-Ceci ne devrait pas arriver, veuillez contacter le support.
+
++KXEN_E_WRONG_DIRAC_SEGMENT
+-Tentative de création d'un segment dirac non valide. 
+-Ceci ne devrait pas arriver, contactez le support.
+
++KXEN_E_WRONG_SEGMENT_INTEGER_SPEC
+-Tentative de création d'un segment d'entier non valide. 
+-Ceci ne devrait pas arriver, contactez le support.
+
++KXEN_E_WRONG_SEGMENT_SPEC
+-Tentative de création d'un segment avec une spécification erronée.
+-Ceci ne devrait pas arriver, contactez le support.
+
++KXEN_E_WRONG_SEGMENT_EMPTY_BOUNDS
+-Tentative de création d'un segment avec des limites vides.
+-Ceci ne devrait pas arriver, contactez le support.
+
++E_SYSTEM__BADVALUE
+-Valeur non valide (%1)
+
++E_SYSTEM__BADVALUE_NA
+-Valeur non valide
+
++KXEN_E_REGEXP_ERROR
+-Expression rationnelle : erreur inattendue (expression %2, code d'erreur : %1)
+
++KXEN_E_REGEXP_BADSYNTAX
+-Syntaxe incorrecte dans une expression rationnelle (expression : %1, erreur : %2)
+
+#NOTR
++KXEN_E_REGEXP_NULL
+-Null regexp
+
+#NOTR
++KXEN_E_REGEXP_BADOPTION
+-Bad option
+
+#NOTR
++KXEN_E_REGEXP_BADMAGIC
+-Bad magic number
+
++KXEN_E_REGEXP_UNKNOWN_NODE
+-Noeud introuvable
+
++KXEN_E_REGEXP_NOMEMORY
+-Mémoire insuffisante
+
++KXEN_E_REGEXP_NOSUBSTRING
+-Pas de sous-chaîne
+
+#NOTR
++KXEN_E_REGEXP_MATCHLIMIT
+-Limit match
+
+#NOTR
++KXEN_E_REGEXP_CALLOUT
+-Callout
+
++KXEN_E_REGEXP_BADUTF8
+-Erreur d'expression rationnelle : la source n'est pas de l'UTF-8 valide (source : %2, code d'erreur : %1).
+
+#NOTR
++KXEN_E_REGEXP_BADUTF8_OFFSET
+-Bad UTF-8 offset
+
+#NOTR
++KXEN_E_REGEXP_PARTIAL
+-Partial
+
+#NOTR
++KXEN_E_REGEXP_BADPARTIAL
+-Bad partial
+
+#NOTR
++KXEN_E_REGEXP_INTERNAL
+-Internal
+
+#NOTR
++KXEN_E_REGEXP_BADCOUNT
+-Bad account
+
+#NOTR
++KXEN_E_REGEXP_DFA_UITEM
+-Dfa uitem
+
+#NOTR
++KXEN_E_REGEXP_DFA_UCOND
+-Dfa ucond
+
+#NOTR
++KXEN_E_REGEXP_DFA_UMLIMIT
+-Dfa umlimit
+
+#NOTR
++KXEN_E_REGEXP_DFA_WSSIZE
+-Dfa wssize
+
+#NOTR
++KXEN_E_REGEXP_DFA_RECURSE
+-Dfa recurse
+
++KXEN_E_REGEXP_UNKNOWN_ERROR
+-Erreur inconnue
+
++KXEN_E_LOGCONF_CANNOTCREATE
+-Impossible de créer un log de classe '%1'
+
++KXEN_E_LOGCONF_CANNOTPROCESS
+-Impossible de traiter la clé de configuration '%2' pour le log '%1'
+
++KXEN_E_RESOURCE_BUSY
+-La ressource %1 est déjà utilisée et réservée par %2
+
++KXEN_E_RESOURCE_BUSY_2_FULL_INFO
+-L'utilisateur %3 est sur le serveur %2 depuis le %1
+-Essayez de recommencer la dernière opération dans quelques instants.
+
+#Note for translator:
+#This message is displayed after the following string : The repository <Name of repository> is already used and locked by <Name of user> on
++KXEN_E_RESOURCE_BUSY_2
+-Serveur %2 depuis %1
+-. Essayez de recommencer la dernière opération dans quelques instants.
+
++KXEN_E_ERR_MULTI_INSTANCE_LOCK_FILE_UNEXPECTED
+-La réservation de la ressource %1 n'a pu être effectuée.
+-Raison : %2.
+-Ceci ne devrait pas arriver, veuillez contacter le support.
+
++E_BUSY
+-Une ressource est bloquée ou en cours d'utilisation.
+
++KXEN_E_RESOURCE_BUSY_NO_INFO
+-La ressource %1 est bloquée en cours d'utilisation.
+-Essayez de recommencer la dernière opération dans quelques instants.
+
++KXEN_E_AUTHENT_ACCESDENIED
+-Permission refusée pour le compte utilisateur
+
++KXEN_E_AUTHENT_MAXTRIES
+-Le nombre maximum de tentatives d'authentification a été atteint.
+
++KXEN_E_AUTHENT_ERROR
+-L'identifiant utilisateur et le mot de passe n'ont pas été authentifiés (%1).
+
++E_KXTOOL__PROCESS_CREATE
+-Erreur pendant la création du processus :  %1
+
++E_KXTOOL__TIMEOUT
+-Impossible de récupérer les informations de l'instance.
+
++E_KXTOOL__CONCURRENCY
+-Accès concurrent interdit.
+-Ceci ne devrait pas arriver, veuillez contacter le support.
+
++E_KXTOOL__APIMOREDATA
+-Plus de donnée disponibles pour cet appel.
+-Ceci ne devrait pas arriver, veuillez contacter le support.
+
++KXEN_E_AUTHENT_VOIDARG
+-Tentative de configuration d'un "Void" Authenticator (pas d'option disponible)
+
+#Note for translator: PAM stands for 'Pluggable Authentication Module'
++KXEN_E_AUTHENT_SYSARG
+-Tentative de configuration d'un "System" Authenticator sans PAM activé (pas d'option disponible)
+
++KXEN_E_AUTHENT_AUTOSYSARG
+-Tentative de configuration d'un "Automatic System" Authenticator sans PAM activé (pas d'option disponible)
+
++KXEN_E_CONFIG_INVALID_OPTION
+-Configuration inconnue : option '%1'
+
++KXEN_E_CONFIG_INVALID_OPTION_FOR_WINDOWS
+-Option '%1' non prise en charge dans Windows
+
++KXEN_E_FILEWRITE
+-Erreur lors de l'écriture dans le fichier '%1' : %2
+
++KXEN_E_FILECURSOR
+-Erreur lors de l'accès au fichier '%1' %2
+
++KXEN_E_CHARSET_NOTSUPPORTED
+-Conversion entre le jeu de caractères '%1' et UTF8 non prise en charge par le système d'exploitation
+
++KXEN_E_INTERNAL_ERROR
+-Erreur interne inattendue
+-Veuillez contacter le support SAP.
+-Détail de l'erreur : %1
+
++KXEN_E_AUTHENT_CANT_CHANGE_PWD
+-Cette méthode d'authentification ne permet pas de changer le mot de passe.
+
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_ERROR
+-Erreur inconnue lors du changement de mot de passe
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_USER
+-Utilisateur inconnu
+
++KXEN_E_AUTHENT_ERROR_FAIL_TO_IDENTIFY
+-L'authentification de l'utilisateur %1 a échoué.
+
+
++KXEN_E_AUTHENT_INVALIDTOKEN
+-Vous avez essayé de discuter avec un jeton non valide.
+
++KXEN_E_AUTHENT_DISCUSSION_TOO_OLDTOKEN
+-La discussion a été supprimée car elle a été inactive pendant trop longtemps.
+
++KXEN_E_NETWORK_ACCESS
+-Accès à la ressource réseau '%1' refusé pour l'utilisateur '%2'
+
++KXEN_E_NETWORKCONNECTION_NOTALLOWED
+-L'accès aux ressources réseau authentifiées n'est pas autorisé.
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND_IN_LIB
+-Erreur : Fonction externe '%1' introuvable dans la bibliothèque '%2'.
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND
+-Erreur : Fonction externe '%1' introuvable dans la bibliothèque externe.
+
++KXEN_E_JAVA_INTERNAL_ERROR
+-Erreur interne Java inattendue
+-Contactez le support SAP.
+-Détail de l'erreur : %1

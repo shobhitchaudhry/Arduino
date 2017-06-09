@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CATCH Questionnaire-Prediction</title>
+<link rel="stylesheet" href="style.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+<div id="header">
+	<img id="sap-logo" src="assets/SAP-min.png">
+	<h1 id="title">CATCH</h1>
+</div>
+
+<div id="predict-content">
+	<div class="col-1of1">
+			<h2>Predicted Score</h2>
+	</div>
+
+	<div class="col-1of1" id="score-content">
+		<div class="col-1of4"  id="player1">
+			<p><b>Bob</b></p>
+			<p>300</p>
+		</div>
+
+		<div class="col-1of4" id="player2">
+			<p><b>Bob</b></p>
+			<p>300</p>
+		</div>
+
+		<div class="col-1of4"  id="player3">
+			<p><b>Bob</b></p>
+			<p>300</p>
+		</div>
+
+		<div class="col-1of4" id="player4" >
+			<p><b>Bob</b></p>
+			<p>300</p>
+		</div>
+	</div>
+
+
+</div>
+
+	
+</div>
+
+<div class="col-1of1">
+		<button id="pButton" class="button" onclick="hidepButton()">Play</button>
+		<div id="gameProText"><p>Game in Progress</p></div>
+</div>
+	<script type="text/javascript"> $("#gameProText").hide();</script>
+	<script src="index.js"></script>
+</body>
+
+</html>

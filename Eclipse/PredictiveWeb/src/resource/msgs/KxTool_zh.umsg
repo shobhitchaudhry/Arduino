@@ -1,0 +1,383 @@
++S_KXTOOL__OK
+-成功
+
++S_KXTOOL__FALSE
+-预期负测试
+
++E_KXTOOL__UNEXPECTED
+-意外内部错误： 请联系支持人员。
+
++E_KXTOOL__INTERNAL_ERROR
+-内部错误
+
++E_KXTOOL__NOTIMPL
+-未实施功能
+
++E_KXTOOL__OUTOFMEMORY
+-内存不足
+
++E_KXTOOL__INVALIDARG
+-一个或多个参数无效。
+
++E_KXTOOL__NOINTERFACE
+-此界面不受支持。
+
++E_KXTOOL__POINTER
+-指针无效
+
++E_KXTOOL__HANDLE
+-句柄无效
+
++E_KXTOOL__ABORT
+-操作 %1 已终止
+
++E_KXTOOL__FAIL
+-失败： 提供的一个或多个参数无效。
+
++E_KXTOOL__ACCESSDENIED
+-已拒绝对对象 %1 的访问。
+
++E_KXTOOL__NOMOREDATA
+-不存在其他可用数据
+
++E_KXOBJC__INVALIDST
+-对象 %2 的错误状态 %1
+
++E_KXOBJC__INVALIDST_NA
+-错误状态
+
++E_SYSTEM__THREADPB
+-线程问题 %1
+
++E_SYSTEM__THREADPB_NA
+-线程问题
+
++E_SYSTEM__MUTEXPB
+-互斥问题 %1
+
++E_SYSTEM__MUTEXPB_NA
+-互斥问题
+
++E_SYSTEM__2BIG
+-参数列表过长。
+
++E_SYSTEM__ACCES
+-已拒绝对象 %1 的权限
+
++E_SYSTEM__ACCES_NA
+-已拒绝对象 %1 的权限
+
++E_SYSTEM__AGAIN
+-不存在其他进程或内存不足/已达到最高嵌套级别
+
++E_SYSTEM__BADF
+-错误文件编号 %1
+
++E_SYSTEM__CHILD
+-未引发任何进程
+
++E_SYSTEM__DEADLOCK
+-将出现资源死锁
+
++E_SYSTEM__DOM
+-数学函数中的域错误
+
++E_SYSTEM__EXIST
+-存在文件 %1
+
++E_SYSTEM__EXIST_NA
+-存在文件
+
++E_SYSTEM__INVAL
+-参数 %1 无效
+
++E_SYSTEM__INVAL_NA
+-参数无效
+
++E_SYSTEM__MFILE
+-打开的文件过多 %1
+
++E_SYSTEM__MFILE_NA
+-打开的文件过多
+
++E_SYSTEM__NOENT
+-无此类文件或目录 %1
+
++E_SYSTEM__NOENT_NA
+-无此类文件或目录
+
++E_SYSTEM__NOMEM
+-内存不足
+
++E_SYSTEM__NOSPC
+-设备无可用空间
+
++E_SYSTEM__RANGE
+-结果过大
+
++E_SYSTEM__XDEV
+-跨设备链接
+
++E_KXOBJC__INCOMPVALUESTORAGE
+-变量 %1 的值（%2）存储（%3）不兼容
+
++E_KXOBJC__BADSTORAGE
+-变量 %1 的存储（%2）无效
+
++E_KXOBJC__BADVALUE
+-变量 %1 的值（%2）无效
+
++E_KXOBJC__NOCONTEXT
+-未找到上下文对象
+
++E_KXOBJC__BADSYNCHRO
+-参数树不再同步！
+
++E_SYSTEM__UTF16WRITE_NOTSUPPORTED
+-不支持对文件 %1 使用 UTF-16 格式。
+
++E_SYSTEM__NUMERICAL
+-数值错误
+
++E_SYSTEM__CANCELOPERATION
+-操作已取消
+
++KXEN_E_WRONGSTRINGFORVARIANTSET
+-尝试通过字符串“%1”创建变式集
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_WRONGSTRINGFORSEGMENT
+-尝试通过字符串 %1 创建段
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_WRONGSTRINGFORCOMPOSITE
+-尝试通过字符串 %1 创建复合
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_WRONGSEGMENTBOUNDS
+-尝试在 %1 和 %2 之间创建段。
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_WRONG_DIRAC_SEGMENT
+-尝试创建无效的 Dirac 段。
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_WRONG_SEGMENT_INTEGER_SPEC
+-尝试创建无效的 Dirac 段。
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_WRONG_SEGMENT_SPEC
+-尝试使用错误规范创建段。
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_WRONG_SEGMENT_EMPTY_BOUNDS
+-尝试使用空值边界创建段。
+-不应出现这种情况，请联系支持人员。
+
++E_SYSTEM__BADVALUE
+-无效值（%1）
+
++E_SYSTEM__BADVALUE_NA
+-无效值
+
++KXEN_E_REGEXP_ERROR
+-意外正则表达式错误（表达式为： %2，错误代码为：%1） %1)
+
++KXEN_E_REGEXP_BADSYNTAX
+-正则表达式的语法错误（表达式为： %1，错误为：%2） %2)
+
+#NOTR
++KXEN_E_REGEXP_NULL
+-Null regexp
+
+#NOTR
++KXEN_E_REGEXP_BADOPTION
+-Bad option
+
+#NOTR
++KXEN_E_REGEXP_BADMAGIC
+-Bad magic number
+
++KXEN_E_REGEXP_UNKNOWN_NODE
+-节点未知
+
++KXEN_E_REGEXP_NOMEMORY
+-无内存
+
++KXEN_E_REGEXP_NOSUBSTRING
+-无子字符串
+
+#NOTR
++KXEN_E_REGEXP_MATCHLIMIT
+-Limit match
+
+#NOTR
++KXEN_E_REGEXP_CALLOUT
+-Callout
+
++KXEN_E_REGEXP_BADUTF8
+-正则表达式错误： 源不是有效 UTF-8（源为： %2，错误代码为： %1).
+
+#NOTR
++KXEN_E_REGEXP_BADUTF8_OFFSET
+-Bad UTF-8 offset
+
+#NOTR
++KXEN_E_REGEXP_PARTIAL
+-Partial
+
+#NOTR
++KXEN_E_REGEXP_BADPARTIAL
+-Bad partial
+
+#NOTR
++KXEN_E_REGEXP_INTERNAL
+-Internal
+
+#NOTR
++KXEN_E_REGEXP_BADCOUNT
+-Bad account
+
+#NOTR
++KXEN_E_REGEXP_DFA_UITEM
+-Dfa uitem
+
+#NOTR
++KXEN_E_REGEXP_DFA_UCOND
+-Dfa ucond
+
+#NOTR
++KXEN_E_REGEXP_DFA_UMLIMIT
+-Dfa umlimit
+
+#NOTR
++KXEN_E_REGEXP_DFA_WSSIZE
+-Dfa wssize
+
+#NOTR
++KXEN_E_REGEXP_DFA_RECURSE
+-Dfa recurse
+
++KXEN_E_REGEXP_UNKNOWN_ERROR
+-未知错误
+
++KXEN_E_LOGCONF_CANNOTCREATE
+-无法创建类“%1”的附加器。
+
++KXEN_E_LOGCONF_CANNOTPROCESS
+-无法处理附加器“%1”的日志配置键“%2”。
+
++KXEN_E_RESOURCE_BUSY
+-资源 %1 已经由 %2 使用并锁定。
+
++KXEN_E_RESOURCE_BUSY_2_FULL_INFO
+-服务器 %2 上的用户 %3，自 %1 起
+-请在几分钟后重试上一项操作。
+
+#Note for translator:
+#This message is displayed after the following string : The repository <Name of repository> is already used and locked by <Name of user> on
++KXEN_E_RESOURCE_BUSY_2
+-服务器 %2，自 %1 起
+-请在几分钟后重试上一项操作。
+
++KXEN_E_ERR_MULTI_INSTANCE_LOCK_FILE_UNEXPECTED
+-无法设置资源锁 %1。
+-原因是 %2。
+-不应出现这种情况，请联系支持人员。
+
++E_BUSY
+-资源已锁定且处于忙碌状态。
+
++KXEN_E_RESOURCE_BUSY_NO_INFO
+-资源 %1 已经使用并锁定。
+-请在几分钟后重试上一项操作。
+
++KXEN_E_AUTHENT_ACCESDENIED
+-已拒绝此用户帐户的访问。
+
++KXEN_E_AUTHENT_MAXTRIES
+-已达到允许验证的最大尝试次数。
+
++KXEN_E_AUTHENT_ERROR
+-未验证用户登录和密码（%1）。
+
++E_KXTOOL__PROCESS_CREATE
+-创建进程时出错： %1
+
++E_KXTOOL__TIMEOUT
+-尝试启动子进程时超时
+
++E_KXTOOL__CONCURRENCY
+-并行访问无效
+-不应出现这种情况，请联系支持人员。
+
++E_KXTOOL__APIMOREDATA
+-此调用存在其他可用数据。
+-不应出现这种情况，请联系支持人员。
+
++KXEN_E_AUTHENT_VOIDARG
+-尝试配置 Void 验证器（无可用选项）
+
+#Note for translator: PAM stands for 'Pluggable Authentication Module'
++KXEN_E_AUTHENT_SYSARG
+-尝试在未激活可插入验证模块的情况下配置系统验证器（无可用选项）
+
++KXEN_E_AUTHENT_AUTOSYSARG
+-尝试在未激活可插入验证模块的情况下配置自动系统验证器（无可用选项）
+
++KXEN_E_CONFIG_INVALID_OPTION
+-未知配置： 选项“%1”
+
++KXEN_E_CONFIG_INVALID_OPTION_FOR_WINDOWS
+-Windows 不支持选项“%1”
+
++KXEN_E_FILEWRITE
+-写入文件“%1”时出错： %2
+
++KXEN_E_FILECURSOR
+-访问文件“%1”时出错： %2
+
++KXEN_E_CHARSET_NOTSUPPORTED
+-操作系统不支持在字符集“%1”和 UTF8 间进行转换
+
++KXEN_E_INTERNAL_ERROR
+-意外内部错误
+-请联系 SAP 支持。
+-错误详细信息： %1
+
++KXEN_E_AUTHENT_CANT_CHANGE_PWD
+-此验证方法不允许更改密码。
+
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_ERROR
+-更改密码时出现未知错误
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_USER
+-未知用户
+
++KXEN_E_AUTHENT_ERROR_FAIL_TO_IDENTIFY
+-用户 %1 的验证失败。
+
+
++KXEN_E_AUTHENT_INVALIDTOKEN
+-您尝试使用无效令牌展开对话。
+
++KXEN_E_AUTHENT_DISCUSSION_TOO_OLDTOKEN
+-对话已被删除，因为它处于不活动状态的时间过长。
+
++KXEN_E_NETWORK_ACCESS
+-已拒绝用户“%2”对网络资源“%1”的访问。
+
++KXEN_E_NETWORKCONNECTION_NOTALLOWED
+-不允许通过登录访问网络资源。
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND_IN_LIB
+-错误： 在库“%2”中找不到外部函数“%1”。
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND
+-错误： 在外部库中找不到外部函数“%1”。
+
++KXEN_E_JAVA_INTERNAL_ERROR
+-意外内部错误
+-请联系 SAP 支持。
+-错误详细信息： %1

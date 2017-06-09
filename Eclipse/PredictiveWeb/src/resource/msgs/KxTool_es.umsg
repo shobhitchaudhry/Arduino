@@ -1,0 +1,383 @@
++S_KXTOOL__OK
+-Correcto
+
++S_KXTOOL__FALSE
+-Test negativo previsto
+
++E_KXTOOL__UNEXPECTED
+-Error interno inesperado: Póngase en contacto con el soporte técnico.
+
++E_KXTOOL__INTERNAL_ERROR
+-Error interno
+
++E_KXTOOL__NOTIMPL
+-Funcionalidad no implementada
+
++E_KXTOOL__OUTOFMEMORY
+-Memoria agotada
+
++E_KXTOOL__INVALIDARG
+-Uno o más argumentos no son válidos.
+
++E_KXTOOL__NOINTERFACE
+-Esta interfase no se soporta.
+
++E_KXTOOL__POINTER
+-Puntero no válido
+
++E_KXTOOL__HANDLE
+-Controlador no válido
+
++E_KXTOOL__ABORT
+-Operación %1 cancelada
+
++E_KXTOOL__FAIL
+-Fallo: uno o más parámetros proporcionados no son válidos.
+
++E_KXTOOL__ACCESSDENIED
+-El acceso al objeto %1 se ha denegado.
+
++E_KXTOOL__NOMOREDATA
+-No hay más datos disponibles
+
++E_KXOBJC__INVALIDST
+-Estado incorrecto %1 para el objeto %2
+
++E_KXOBJC__INVALIDST_NA
+-Estado incorrecto
+
++E_SYSTEM__THREADPB
+-Problema de subproceso %1
+
++E_SYSTEM__THREADPB_NA
+-Problema de subproceso 
+
++E_SYSTEM__MUTEXPB
+-Problema de exclusión mutua %1
+
++E_SYSTEM__MUTEXPB_NA
+-Problema de exclusión mutua 
+
++E_SYSTEM__2BIG
+-La lista de argumentos es demasiado larga.
+
++E_SYSTEM__ACCES
+-Permiso para objeto %1 denegado.
+
++E_SYSTEM__ACCES_NA
+-Permiso para objeto %1 denegado.
+
++E_SYSTEM__AGAIN
+-No hay más procesos o memoria suficiente/se ha alcanzado el nivel de anidamiento máximo
+
++E_SYSTEM__BADF
+-Número de fichero incorrecto %1
+
++E_SYSTEM__CHILD
+-No hay procesos generados
+
++E_SYSTEM__DEADLOCK
+-Se producirá un interbloqueo de recurso
+
++E_SYSTEM__DOM
+-Error de dominio en una función matemática
+
++E_SYSTEM__EXIST
+-El fichero %1 existe
+
++E_SYSTEM__EXIST_NA
+-El fichero existe
+
++E_SYSTEM__INVAL
+-Argumento no válido %1
+
++E_SYSTEM__INVAL_NA
+-Argumento no válido 
+
++E_SYSTEM__MFILE
+-Demasiados ficheros abiertos %1
+
++E_SYSTEM__MFILE_NA
+-Demasiados ficheros abiertos 
+
++E_SYSTEM__NOENT
+-No existe ningún fichero ni directorio de este tipo %1
+
++E_SYSTEM__NOENT_NA
+-No existe ningún fichero ni directorio de este tipo 
+
++E_SYSTEM__NOMEM
+-Memoria no suficiente
+
++E_SYSTEM__NOSPC
+-No queda espacio libre en el dispositivo
+
++E_SYSTEM__RANGE
+-Resultado demasiado largo
+
++E_SYSTEM__XDEV
+-Vínculo para todos los dispositivos
+
++E_KXOBJC__INCOMPVALUESTORAGE
+-Valor incompatible (%2) y almacenamiento (%3) para variable %1
+
++E_KXOBJC__BADSTORAGE
+-Almacenamiento no válido (%2) para variable %1
+
++E_KXOBJC__BADVALUE
+-Valor no válido (%2) para variable %1
+
++E_KXOBJC__NOCONTEXT
+-No se ha encontrado ningún objeto de contexto
+
++E_KXOBJC__BADSYNCHRO
+-El árbol de parámetros ya no está sincronizado.
+
++E_SYSTEM__UTF16WRITE_NOTSUPPORTED
+-El uso del formato UTF-16 para el fichero %1 no se soporta.
+
++E_SYSTEM__NUMERICAL
+-Error numérico
+
++E_SYSTEM__CANCELOPERATION
+-Operación cancelada
+
++KXEN_E_WRONGSTRINGFORVARIANTSET
+-Se ha intentado crear un conjunto de variantes desde la cadena %1
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_WRONGSTRINGFORSEGMENT
+-Se ha intentado crear un segmento a partir de la cadena %1
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_WRONGSTRINGFORCOMPOSITE
+-Se ha intentado crear un compuesto a partir de la cadena %1
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_WRONGSEGMENTBOUNDS
+-Se ha intentado crear un segmento entre %1 y %2.
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_WRONG_DIRAC_SEGMENT
+-Se ha intentado crear un segmento dirac no válido.
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_WRONG_SEGMENT_INTEGER_SPEC
+-Se ha intentado crear un segmento entero no válido.
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_WRONG_SEGMENT_SPEC
+-Se ha intentado crear un segmento con una especificación errónea.
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_WRONG_SEGMENT_EMPTY_BOUNDS
+-Se ha intentado crear un segmento con vínculos vacíos.
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++E_SYSTEM__BADVALUE
+-Valor no válido (%1)
+
++E_SYSTEM__BADVALUE_NA
+-Valor no válido
+
++KXEN_E_REGEXP_ERROR
+-Error de expresión regular inesperado (la expresión es: %2, el código de error es: %1)
+
++KXEN_E_REGEXP_BADSYNTAX
+-Sintaxis incorrecta en expresión regular (la expresión es: %1, el error es: %2)
+
+#NOTR
++KXEN_E_REGEXP_NULL
+-Null regexp
+
+#NOTR
++KXEN_E_REGEXP_BADOPTION
+-Bad option
+
+#NOTR
++KXEN_E_REGEXP_BADMAGIC
+-Bad magic number
+
++KXEN_E_REGEXP_UNKNOWN_NODE
+-Nodo desconocido
+
++KXEN_E_REGEXP_NOMEMORY
+-No hay memoria
+
++KXEN_E_REGEXP_NOSUBSTRING
+-No hay subcadena
+
+#NOTR
++KXEN_E_REGEXP_MATCHLIMIT
+-Limit match
+
+#NOTR
++KXEN_E_REGEXP_CALLOUT
+-Callout
+
++KXEN_E_REGEXP_BADUTF8
+-Error de expresión regular: la fuente no es un UTF-8 válido (la fuente es: %2, el código de error es: %1).
+
+#NOTR
++KXEN_E_REGEXP_BADUTF8_OFFSET
+-Bad UTF-8 offset
+
+#NOTR
++KXEN_E_REGEXP_PARTIAL
+-Partial
+
+#NOTR
++KXEN_E_REGEXP_BADPARTIAL
+-Bad partial
+
+#NOTR
++KXEN_E_REGEXP_INTERNAL
+-Internal
+
+#NOTR
++KXEN_E_REGEXP_BADCOUNT
+-Bad account
+
+#NOTR
++KXEN_E_REGEXP_DFA_UITEM
+-Dfa uitem
+
+#NOTR
++KXEN_E_REGEXP_DFA_UCOND
+-Dfa ucond
+
+#NOTR
++KXEN_E_REGEXP_DFA_UMLIMIT
+-Dfa umlimit
+
+#NOTR
++KXEN_E_REGEXP_DFA_WSSIZE
+-Dfa wssize
+
+#NOTR
++KXEN_E_REGEXP_DFA_RECURSE
+-Dfa recurse
+
++KXEN_E_REGEXP_UNKNOWN_ERROR
+-Error desconocido
+
++KXEN_E_LOGCONF_CANNOTCREATE
+-No se puede crear el generador de mensajes '%1'.
+
++KXEN_E_LOGCONF_CANNOTPROCESS
+-No se puede procesar la clave de configuración del log '%2' para el generador de mensajes '%1'.
+
++KXEN_E_RESOURCE_BUSY
+-El recurso %1 ya se está utilizando y está bloqueado por %2.
+
++KXEN_E_RESOURCE_BUSY_2_FULL_INFO
+-el usuario %3 en el serivdor %2 desde %1
+-Vuelva a intentar la última operación en unos minutos.
+
+#Note for translator:
+#This message is displayed after the following string : The repository <Name of repository> is already used and locked by <Name of user> on
++KXEN_E_RESOURCE_BUSY_2
+-El servidor %2 desde %1
+-Vuelva a intentar la última operación en unos minutos.
+
++KXEN_E_ERR_MULTI_INSTANCE_LOCK_FILE_UNEXPECTED
+-El bloqueo de recursos %1 no puede configurarse.
+-El motivo es %2.
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++E_BUSY
+-Un recurso está bloqueado y no está disponible.
+
++KXEN_E_RESOURCE_BUSY_NO_INFO
+-El recurso %1 se está utilizando y está bloqueado.
+-Vuelva a intentar la última operación en unos minutos.
+
++KXEN_E_AUTHENT_ACCESDENIED
+-Acceso denegado para esta cuenta de usuario.
+
++KXEN_E_AUTHENT_MAXTRIES
+-Se ha alcanzado el número máximo de intentos permitidos de autenticación.
+
++KXEN_E_AUTHENT_ERROR
+-Inicio de sesión y contraseña de usuario no autenticados (%1).
+
++E_KXTOOL__PROCESS_CREATE
+-Error al crear el proceso: %1
+
++E_KXTOOL__TIMEOUT
+-Tiempo de espera al intentar iniciar el subproceso
+
++E_KXTOOL__CONCURRENCY
+-Acceso periódico no válido
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++E_KXTOOL__APIMOREDATA
+-Más datos disponibles para esta llamada.
+-Esto no debería ocurrir. Póngase en contacto con el soporte técnico.
+
++KXEN_E_AUTHENT_VOIDARG
+-Se está intentando configurar un autenticador nulo (ninguna opción disponible)
+
+#Note for translator: PAM stands for 'Pluggable Authentication Module'
++KXEN_E_AUTHENT_SYSARG
+-Se está intentando configurar un autenticador de sistema sin PAM activado (ninguna opción disponible)
+
++KXEN_E_AUTHENT_AUTOSYSARG
+-Se está intentando configurar un autenticador de sistema automático sin tener PAM activado (ninguna opción disponible)
+
++KXEN_E_CONFIG_INVALID_OPTION
+-Configuración desconocida: opción '%1'
+
++KXEN_E_CONFIG_INVALID_OPTION_FOR_WINDOWS
+-Windows no admite la opción '%1'
+
++KXEN_E_FILEWRITE
+-Error al escribir en el fichero '%1': %2
+
++KXEN_E_FILECURSOR
+-Error al acceder al fichero '%1': %2
+
++KXEN_E_CHARSET_NOTSUPPORTED
+-Conversión entre el juego de caracteres '%1' y UTF-8 no soportada por el sistema operativo
+
++KXEN_E_INTERNAL_ERROR
+-Error interno inesperado 
+-Póngase en contacto con el soporte técnico de SAP. 
+-Detalles del error: %1
+
++KXEN_E_AUTHENT_CANT_CHANGE_PWD
+-Este método de autenticación no permite modificar la contraseña.
+
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_ERROR
+-Error desconocido al modificar la contraseña
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_USER
+-Usuario desconocido
+
++KXEN_E_AUTHENT_ERROR_FAIL_TO_IDENTIFY
+-La autenticación de usuario %1 ha fallado.
+
+
++KXEN_E_AUTHENT_INVALIDTOKEN
+-Ha intentado conversar con un token no válido.
+
++KXEN_E_AUTHENT_DISCUSSION_TOO_OLDTOKEN
+-La conversación se ha borrado porque ha estado inactiva demasiado tiempo.
+
++KXEN_E_NETWORK_ACCESS
+-Acceso denegado al recurso de red '%1' para el usuario '%2'.
+
++KXEN_E_NETWORKCONNECTION_NOTALLOWED
+-Acceso a los recursos de red con entrada al sistema no permitida.
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND_IN_LIB
+-Error: No se ha encontrado la función externa "%1" en la biblioteca "%2".
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND
+-Error: No se ha encontrado la función interna "%1" en la biblioteca externa.
+
++KXEN_E_JAVA_INTERNAL_ERROR
+-Error interno Java inesperado 
+-Póngase en contacto con el soporte técnico de SAP. 
+-Detalles del error: %1

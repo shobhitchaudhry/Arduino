@@ -1,0 +1,11 @@
++E_KXINTF__EMPTY
+-Interface vide
+
++KXEN_W_CKXENSIMPLEMODEL_GETPOSSIBLESPACEROLEIDX_IDX2BIG
+-L'index %1 est plus grand que le nombre de jeux de données (%2) du modèle.
+
++KXEN_E_GLOBALCONFIG_CANNOTCREATEFILESTORE
+-Impossible de créer un fichier pour charger la configuration du journal
+
++KXEN_E_GLOBALCONFIG_INVALIDLICENSEFILEKEY
+-La clé de licence %1 trouvée dans le fichier de licence actuel n'est pas valide.

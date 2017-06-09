@@ -1,0 +1,11 @@
++E_KXINTF__EMPTY
+-Leere Schnittstelle
+
++KXEN_W_CKXENSIMPLEMODEL_GETPOSSIBLESPACEROLEIDX_IDX2BIG
+-Der Index %1 ist größer als die Anzahl der Datensets (%2) in dem Modell.
+
++KXEN_E_GLOBALCONFIG_CANNOTCREATEFILESTORE
+-Dateispeicher für Protokollkonfiguration kann nicht angelegt werden
+
++KXEN_E_GLOBALCONFIG_INVALIDLICENSEFILEKEY
+-Der in der aktuellen Lizenzdatei gefundene Lizenzschlüssel %1 ist ungültig.

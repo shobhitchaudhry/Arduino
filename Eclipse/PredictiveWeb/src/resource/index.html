@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simple Jersey</title>
+<link rel="stylesheet" href="formStyle.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+	
+</script>
+</head>
+<body>
+	<div>
+		<script src="index.js"></script>
+		<div class="container">
+			<form id="contact" action="" method="">
+				<h3>Information Form</h3>
+				<h4>This will help us predict and keep track of your scores</h4>
+				<fieldset>
+					<input placeholder="Your name" type="text" tabindex="1" name="firstName"
+						required autofocus>
+				</fieldset>
+				<fieldset>
+					<input placeholder="Your Age" type="number" tabindex="2" name="age"
+						required>
+				</fieldset>
+				<fieldset>
+					<h4>Your Gender (optional):</h4>
+					<input type="radio" name="gender" value="1" checked tabindex="3">
+					Male<br> <input type="radio" name="gender" value="0">
+					Female<br> <input type="radio" name="gender" value="1">
+					Other
+				</fieldset>
+				<fieldset>
+					<h4>Do you drive?</h4>
+					<input type="radio" name="drive" value="1" checked tabindex="4">
+					Yes<br> <input type="radio" name="drive" value="0"> No<br>
+				</fieldset>
+
+				<fieldset>
+					<h4>Do you drink coffee?</h4>
+					<input type="radio" name="coffee" value="1" checked tabindex="5">
+					Yes<br> <input type="radio" name="coffee" value="0">
+					No<br>
+				</fieldset>
+				<fieldset>
+
+					<button onclick="addPlayer()" type="button" name="AddPlayer"
+						id="contact-add-player" data-submit="...Sending">Add
+						Another Player</button>
+
+					<button onclick="getPredictions()" type="button" name="submit"
+						id="contact-submit" data-submit="...Sending">Get
+						Predictions</button>
+				</fieldset>
+				<p class="copyright"></p>
+			</form>
+		</div>
+
+		<div id="predictions" style="display: none;" align="center">
+			<h2>PREDICTIONS</h2>
+			<table border="1" style="padding:10px;">
+				<tr>
+					<th>Level</th>
+					<th>Prediction</th>
+					<th>Result</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td id="predictions-level1">100</td>
+					<td id="results-level1">-</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td id="predictions-level2">100</td>
+					<td id="results-level2">-</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td id="predictions-level3">100</td>
+					<td id="results-level3">-</td>
+				</tr>
+			</table>
+			<button onclick="startGame()" type="button" name="submit"
+				id="start-game" data-submit="...Sending">Start Game</button>
+		</div>
+	</div>
+</body>
+</html>

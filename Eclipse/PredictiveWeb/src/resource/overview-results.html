@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CATCH Questionnaire-Player1</title>
+<link rel="stylesheet" href="results.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+	function getPredictions() {
+		$.ajax({
+			url : "http://localhost:8080/dynamic/entry-point/getLeaderBoard",
+			type : 'GET',
+			success : function(data) {
+				global = data;
+				document.getElementById("leaderboard").innerHTML = data;
+			},
+			error : function(data, status, er) {
+				console.log("error: " + data + " status: " + status + " er:" + er);
+			}
+		});
+	}
+	getPredictions();
+</script>
+
+<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+	<section class="col-1of3">
+		<h1>Top 10 Results</h1>
+		<!--table section-->
+		<table id="leaderboard">
+
+		</table>
+
+		<img id="sap-logo" src="assets/SAP-min.png">
+		<!--SAP logo at the bottom left corner-->
+	</section>
+
+	<section class="col-1of3" id="greenbg">
+		<h1 id="a-title">Analysis</h1>
+		<!--graph section  please use white color for text and graphs here-->
+	</section>
+
+	<section class="col-1of3">
+		<h1>Metrics</h1>
+		<!--table section-->
+	</section>
+
+</body>
+
+</html>

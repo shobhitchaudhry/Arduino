@@ -1,0 +1,11 @@
++E_KXINTF__EMPTY
+-Пустой интерфейс
+
++KXEN_W_CKXENSIMPLEMODEL_GETPOSSIBLESPACEROLEIDX_IDX2BIG
+-Индекс %1 больше числа наборов данных (%2) в модели.
+
++KXEN_E_GLOBALCONFIG_CANNOTCREATEFILESTORE
+-Невозможно создать файловое хранилище для конфигурации журнала
+
++KXEN_E_GLOBALCONFIG_INVALIDLICENSEFILEKEY
+-Лицензионный ключ %1, найденный в текущем файле лицензии, недействителен.

@@ -1,0 +1,3095 @@
++KXEN_E_HANA_CONNECTION_BAD_SYNTAX
+-Die Syntax des SAP-HANA-Verbindungs-Teilstrings in %1 ist nicht korrekt. 
+-Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_HANA_ODBC_DRIVER_NOT_INSTALLED
+-Der SAP-ODBC-Treiber ist nicht richtig installiert. 
+-Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_HANA_CONNECTION_STRING_MISSING_SERVERNODE
+-Der Parameter SERVERNODE fehlt im folgenden Verbindungsstring: %1.
+
++KXEN_E_CP_DRIVER_KIND_COLLISION
+-Private Eigenschaft CP_DRIVER_KIND des Objekts %1 wurde in KxInfosMetadata durch Benutzereigenschaft CP_DRIVER_KIND überschrieben.
+
++KXEN_E_NO_ODBCINSTLIB_NOTFOUND
+-Auf dieser Plattform wurde keine ODBCInst-Implementierung gefunden.
+
++KXEN_E_HANA_MODELING_SHOULD_BE_24_CUBE
+-Das folgende SAP-HANA-Modellierungsobjekt ist kein Cube, wie erwartet: %1. 
+- Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_HANA_MODELING_UNKNOWN_TYPE
+-Das SAP-HANA-Modellierungsobjekt %1 hat den folgenden, nicht unterstützten Typ: %2. 
+- Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_HANA_MODELING_UNKNOWN_ATTRIBUTE_VIEW_NAME_IN_CATALOG
+-SAP HANA Attributsicht %1 ist nicht in Katalog %2 enthalten.
+
++KXEN_E_SUPPORT_CREATE_SPACE
+-Es ist nicht möglich, Objekte im Speicher %1 anzulegen.
+
++KXEN_W_HANA_MODELING_FULLGUESS
+-Intern: Vollständiger Vorschlag für SAP-HANA-Sicht %1
+
++KXEN_E_HANA_MODELING_SQL_REPOSITORY_INVALID_STMT
+-Unbekannter Anfrage-Code (%1) in SQL-Repository.
+
++KXEN_E_HANA_MODELING_BAD_COLUMN_NUMBER_IN_SIMPLE_SQL
+-SQL-Anfrage %2 stellt keine Spalte mit der Nummer %1 bereit.
+
++KXEN_E_HANA_MODELING_UNKNOWN_COLUMN_IN_SIMPLE_SQL
+-SQL-Anfrage %2 stellt keine Spalte mit dem Namen %1 bereit.
+
++KXEN_E_HANA_MODELING_MISSING_ANSWER_FOR_MANDATORY_VARIABLES
+-Einige obligatorische Variablen (%1) sind in der SAP-HANA-Sicht %2.%3 nicht definiert.
+
++KXEN_E_HANA_MODELING_NO_LOV_INPUT_VARIABLE
+-Werteliste wurde für folgende SAP-HANA-View angefordert: %1.%2 Allerdings wurde der Variablenname nicht definiert.
+
++KXEN_E_HANA_MODELING_UNKNOWN_LOV_INPUT_VARIABLE
+-Werteliste wurde für die SAP-HANA-Sicht %1.%2 angefragt, aber die Variable %3 ist für diese SAP-HANA-Sicht unbekannt.
+
++KXEN_E_HANA_MODELING_VALUE1_UNDEFINED_VALUE1_DEFINED
+-Erster Operand des Operators %1 muss definiert sein (beachten Sie, dass der zweite Operand bis %2 definiert wurde).
+
++KXEN_E_HANAVIEW_INPUT_VARIABLE_NOT_DESCRIBED
+-Werte für Variable %1 wurden definiert, aber dieser Variablenname ist für diese SAP-HANA-View unbekannt.
+
++KXEN_E_HANA_MODELING_INVALID_OR_UNKNOWN_OPERATOR
+-Operator %1 ist unbekannt oder in diesem Kontext ungültig.
+
++KXEN_E_HANA_MODELING_INVALID_MODE
+-In einer SAP-HANA-Sicht (%1.%2) können Sie keine Datensätze ändern, aktualisieren oder neu einfügen.
+
++KXEN_E_HANA_MODELING_UNKNOWN_CUBE_NAME_IN_CATALOG
+-Die SAP-HANA-View %1 ist im Katalog %2 nicht vorhanden.
+
++KXEN_W_BULK_NOT_COMPATIBLE_HUGE_ORACLE_INTEGER
+-Die Unterstützung sehr großer Ganzzahlen aus Oracle ist nicht kompatibel mit dem Massenmodus.
+-Das Schreiben in die Tabelle %1 wirkt sich negativ auf die Leistung aus.
+
+#Note for translator: This type (<Name of the type>) is not properly managed by Greenplum's ODBC driver.
++KXEN_W_ODBC_GREENPLUM_TIME_WITH_TIME_ZONE
+-Der Typ %1 wird vom ODBC-Treiber von Greenplum nicht korrekt verwaltet.
+
++KXEN_E_FASTLOAD_NEED_USERNAME
+-Die Angabe des Benutzernamens und Kennworts für Teradata ist erforderlich.
+
+#Note for translator: The DBMS <Name of the DBMS> used by connection <Name of the connection> cannot manage Automated Analytics Metadata Repository.
++KXEN_E_DBMS_NOT_SUPPORTING_KXLOCKS
+-Das DBMS %2, das von der Verbindung %1 verwendet wird, kann Automated-Analytics-Metadaten-Repository nicht verwalten.
+
+#Note for translator: The DBMS <Name of the DBMS> used by connection <Name of the connection> does not support insertions/updates of rows with values.
++KXEN_E_DBMS_NOT_SUPPORTING_CASE_PUMP
+-Das DBMS %2, das von der Verbindung %1 verwendet wird, unterstützt Einfügungen/Aktualisierungen von Zeilen mit Werten nicht.
+
+#Note for translator: Intermediate temporary table for <name of a data manipulation> uses indexes.
++KXEN_W_ODBC_USE_INDEXED_TEMP_TABLE
+-Temporäre Zwischentabelle für %1 verwendet Indizes.
+
++KXEN_W_ODBC_USE_INDEXED_TABLE
+-Zwischentabelle für %1 verwendet Indizes.
+
++KXEN_W_ODBC_USE_INDEXED_TABLE_AS
+-Tabelle %1 wurde mit Indizes gesichert.
+
+#Note for translator: 1 is the exact version of the FastLoad protocol. For example, it can be 13.1 or 14.0 or 14.10
++KXEN_W_FASTLOAD_PROTOCOL_DETECTED
+-FastLoad-Protokoll %1 wurde erkannt.
+
+#Note for translator: <number> variables have been automatically excluded for the target <variable name>. 
++KXEN_W_VARIABLE_EXCLUSION_TOO_MANY
+-%2 Variablen wurden für das Ziel %1 automatisch ausgeschlossen. 
+-Wenn ein Modell gefunden wird, prüfen Sie die statistischen Berichte auf weitere Informationen über die ausgeschlossenen Variablen.
+
++KXEN_W_LEARN_WEIGHT_QUANTUM
+-Das Gewichtungsquantum für das aktuelle Modell ist %1.
+
++KXEN_E_WRONG_VARIABLE_SELECTION_SPECIFICATION
+-Inkompatible Variablenauswahlargumente: Das Maximum für die endgültige Anzahl der Variablen darf nicht das Minimum für die endgültige Anzahl der Variablen unterschreiten.
+
++KXEN_E_BAD_REASON_CODE_SETTINGS_BELOW_MIN
+-Das Kriterium "Unterhalb" darf nicht zusammen mit der Schwelle "Minimum" verwendet werden.
+
++KXEN_E_BAD_REASON_CODE_SETTINGS_ABOVE_MAX
+-Das Kriterium "Oberhalb" darf nicht zusammen mit der Schwelle "Maximum" verwendet werden.
+
++KXEN_W_FASTLOAD_SIMPLE_SYNCHRONOUS
+-Einfache synchrone Implementierung von fastwrite wurde ausgewählt.
+
+#Note for translator: Unable to create named pipe <name of the pipe>: <error message>.
++KXEN_E_FASTLOAD_CANNOT_CREATE_CHANNEL
+-Benannte Pipe %1 kann nicht angelegt werden: %2.
+
+#Note for translator: Unable to connect to named pipe <name of the pipe>: <error message>.
++KXEN_E_FASTLOAD_CANNOT_CONNECT_CHANNEL
+-Verbindung zu benannter Pipe %1 nicht möglich: %2.
+
+#Note for translator: Unable to decode KxFastLoadBridge Message: <content of the message>.
+#Do not translate KxFastLoadBridge
++KXEN_E_FASTLOAD_CANNOT_GET_CONTROL_MESSAGE_HEADER
+-KxFastLoadBridge-Nachricht kann nicht dekodiert werden: %1. 
+- Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_FASTLOAD_CANNOT_GET_CONTROL_MESSAGE_INFO_LENGTH
+-KxFastLoadBridge-Nachrichteninhalt kann nicht dekodiert werden: %1. 
+- Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_FASTLOAD_BAD_CONTROL_MESSAGE_SYNTAX
+-Länge der KxFastLoadBridge-Nachricht kann nicht dekodiert werden: %1. 
+- Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_FASTLOAD_CANNOT_GET_CONTROL_MESSAGE_INFO_CONTENT
+-Abruf des gesamten erwarteten Inhalts der KxFastLoadBridge-Nachricht nicht möglich: %1. 
+- Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_FASTLOAD_CANNOT_SEND_BUFFER
+-Datenblock kann nicht an KxFastLoadBridge gesendet werden: %1. 
+- Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_FASTLOAD_CANNOT_SEND_EOD
+-Ende der Zeilen kann nicht an KxFastLoadBridge signalisiert werden: %1
+-Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_FASTLOAD_DIALOG_WITHOUT_VERSION
+-Version von KxFastLoadBridge kann nicht abgerufen werden.
+-Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_W_FASTLOAD_INFO_MESSAGE
+-KxFastLoadBridge: %1.
+
+#Note for translator: Do not translate FastLoad (product name)
+#%1 is the name of the library that manage communications between SAP BusinessObjects Predictive Analytics & FastLoad. Typically it is ‘KxFastLoadBridge.dll’ or ‘KxFastLoadBridge.so’
++KXEN_W_FASTLOAD_KXFASTLOADBRIDGE
+-Automated Analytics ist mit FastLoad über %1 verbunden.
+
++KXEN_E_FASTLOAD_DBMS_RESTART
+-Ein DBMS-Neustart wurde von FastLoad signalisiert.
+-Dieser Zustand wird von Automated Analytics nicht verwaltet.
+-Sie müssen importierte Daten (sofern vorhanden) löschen und Ihren Prozess fortsetzen.
+
++KXEN_W_FASTLOAD_INMOD_INIT
+-Initialisierung der FastLoad-Verbindung mit Automated Analytics.
+
++KXEN_E_FASTLOAD_INMOD_HOST_RESTART
+-Ein Neustart des Datenbankhosts wurde von FastLoad signalisiert.
+-Dieser Zustand wird von Automated Analytics nicht verwaltet.
+-Sie müssen importierte Daten (sofern vorhanden) löschen und Ihren Prozess fortsetzen.
+
++KXEN_W_FASTLOAD_INMOD_CHECKPOINT
+-Eine Checkpoint-Anforderung wurde von FastLoad gesendet.
+-Dies wird von Automated Analytics ignoriert.
+
++KXEN_W_FASTLOAD_INMOD_DBMS_RESTART
+-Ein DBMS-Neustart wurde von FastLoad signalisiert.
+-Dieser Zustand wird von Automated Analytics nicht verwaltet.
+-Sie müssen importierte Daten (sofern vorhanden) löschen und Ihren Prozess fortsetzen.
+
++KXEN_W_FASTLOAD_INMOD_CLEANUP
+-Beenden und Bereinigen von FastLoad durchgeführt.
+
++KXEN_I_FASTLOAD_START
+-FastLoad-Sitzung wurde gestartet.
+
++KXEN_I_FASTLOAD_STOP
+-FastLoad-Sitzung wurde beendet.
+
++KXEN_I_FASTLOAD_START_PHASEI
+-FastLoad-Beschaffungsphase wurde gestartet.
+
++KXEN_I_FASTLOAD_START_PHASEII
+-FastLoad-Anwendungsphase wurde gestartet.
+-Abhängig von der Konfiguration der Teradata-Datenbank (Hardware und Verwendung) 
+-kann dieser Schritt einige Zeit dauern.
+
++KXEN_W_FASTLOAD_CURRENT_PERFORMANCES
+-Aktuelle Leistungen: %2 Datensätze eingefügt - %3 Datensätze pro Sekunde.
+
++KXEN_W_FASTLOAD_ROWS_INSERTED
+-%2 Datensätze wurden gesendet.
+
++KXEN_W_FASTLOAD_GLOBAL_ROWS_PER_S
+-Gesamtdurchsatz beläuft sich auf %2 Datensätze pro Sekunde.
+
++KXEN_W_FASTLOAD_GLOBAL_SENT_ROWS_PER_S
+-Durchsatz der Beschaffungsphase beläuft sich auf %2 Datensätze pro Sekunde.
+
++KXEN_W_FASTLOAD_QUEUE_FULL_TIME
+-Pufferwarteschlange voll während %2 Sekunden.
+
++KXEN_W_FASTLOAD_EMPTY_QUEUE_TIME
+-Pufferwarteschlange leer während %2 Sekunden.
+
++KXEN_W_FASTLOAD_TOP_MAX_IN_QUEUE
+-%2 maximale Blöcke in Pufferwarteschlange.
+
++KXEN_W_FASTLOAD_CURRENT_QUEUE_SIZE
+-Aktuell sind %2 Blöcke in der Pufferwarteschlange.
+
++KXEN_W_FASTLOAD_TOTAL_BLOCKS_SENT
+-%2 Blöcke wurden an FastLoad gesendet.
+
++KXEN_W_FASTLOAD_FINAL_PERFORMANCES
+-****************************************
+-Endleistungen:
+
++KXEN_W_FASTLOAD_TOTAL_TIME
+-Gesamtzeit für das Importieren der Daten: %2 s.
+
++KXEN_W_FASTLOAD_PHASEI_TIME
+-Zeit für das Senden der Datensätze an Teradata (Beschaffungsphase von FastLoad): %2s
+
++KXEN_W_FASTLOAD_PHASEII_TIME
+-Zeit für das Speichern der Datensätze in Teradata (Anwendungsphase von FastLoad): %2s
+
++KXEN_W_FASTLOAD_PHASE1_END
+-FastLoad signalisiert das Ende der Beschaffungsphase.
+-%1 Datensätze wurden gelesen.
+-%2 Datensätze wurden abgelehnt.
+-%4 Datensätze wurden an DBMS gesendet.
+
++KXEN_W_FASTLOAD_PHASE2_END
+-%1 Datensätze wurden in Teradata in der Anwendungsphase gespeichert.
+
++KXEN_W_FASTLOAD_ERROR_LOG1
+-%2 Datensätze haben einen Fehler generiert.
+-Fehler werden in der Tabelle %1 gespeichert und müssen von einem Datenbankadministrator geprüft werden.
+
++KXEN_W_FASTLOAD_ERROR_LOG2
+-%2 Datensätze haben einen Fehler generiert.
+-Fehler werden in der Tabelle %1 gespeichert und müssen von einem Datenbankadministrator geprüft werden.
+
++KXEN_E_FASTLOAD_NOMORE_ROOM
+-Kein freier Speicherplatz mehr in der Teradata-Datenbank verfügbar.
+-Sie müssen die Tabelle %1 löschen, der Datenbank Speicherplatz hinzufügen und Ihren Vorgang fortsetzen.
+
++KXEN_E_FASTLOAD_DBS_ERROR
+-Teradata-DBMS hat beim Laden der Tabelle %1 den schwerwiegenden DBMS-Fehler %6 signalisiert. 
+-Bitte wenden Sie sich an den SAP-Support und stellen Sie den Inhalt der Dateien 
+-%4 und %5 sowie die Definition der folgenden Tabellen bereit: %1.
+-Beachten Sie, dass die folgenden Tabellen vor einem weiteren Import gelöscht werden müssen: %1,%2 & %3.
+
++KXEN_E_FASTLOAD_CLI_ERROR
+-Teradata-DBMS hat beim Laden der folgenden Tabelle den schwerwiegenden Befehlszeilenfehler %6 signalisiert: %1.
+-Bitte wenden Sie sich an den SAP-Support und stellen Sie den Inhalt der Dateien 
+-%4 und %5 sowie die Definition der folgenden Tabellen bereit: %1.
+-Beachten Sie, dass die folgenden Tabellen vor einem weiteren Import gelöscht werden müssen: %1, %2 und %3.
+
++KXEN_E_FASTLOAD_RECORDS_REJECTED
+-Teradata-DBMS hat beim Laden der folgenden Tabelle %6 Datensätze abgelehnt: %1.
+-Bitte wenden Sie sich an den SAP-Support und stellen Sie den Inhalt der Dateien 
+-%4 und %5 sowie die Definition der folgenden Tabelle bereit: %1.
+
++KXEN_E_FASTLOAD_BAD_RECORDS_LOG1
+-Teradata-DBMS hat beim Laden der Tabelle %1 %6 Datensätze mit Problemen signalisiert.
+-Einige Felder dieser Datensätze enthalten anstelle der eigentlichen Werte NULL-Werte oder abgeschnittene Werte.
+-Bitte wenden Sie sich an den SAP-Support und stellen den Inhalt der Dateien
+-%4 und %5 sowie die Definition der folgenden Tabelle bereit: %1.
+
++KXEN_E_FASTLOAD_BAD_RECORDS_LOG2
+-Teradata-DBMS hat beim Laden der Tabelle %1 %6 Datensätze mit Problemen signalisiert.
+-Einige Felder dieser Datensätze enthalten anstelle der eigentlichen Werte NULL-Werte oder abgeschnittene Werte.
+-Bitte wenden Sie sich an den SAP-Support und stellen den Inhalt der Dateien
+-%4 und %5 sowie die Definition der folgenden Tabelle bereit: %1.
+
++KXEN_W_FASTLOAD_EXIT_WARNING
+-Teradata hat am Ende der FastLoad-Sitzung eine Warnungskondition signalisiert.
+-Dies ist kein schwerwiegender Fehler, aber Sie sollten sich dennoch an den SAP-Support wenden und den Inhalt folgender Dateien bereitstellen: 
+-%4 und %5.
+
++KXEN_E_FASTLOAD_USER_ERROR
+-Teradata hat in der FastLoad-Sitzung einen schwerwiegenden Benutzerfehler signalisiert.
+-Bitte wenden Sie sich an den SAP-Support und stellen Sie den Inhalt der Dateien 
+-%4 und %5 sowie die Definition der folgenden Tabelle bereit: %1.
+-Beachten Sie, dass folgende Tabelle möglicherweise erst gelöscht werden muss, bevor sie wieder verwendet werden kann: %1.
+
++KXEN_E_FASTLOAD_FATAL_ERROR
+-Teradata hat einen schwerwiegenden Fehler in der FastLoad-Sitzung signalisiert.
+-Bitte wenden Sie sich an den SAP-Support und stellen den Inhalt der Dateien
+-%4 und %5 sowie die Definition folgender Tabelle bereit: %1.
+
++KXEN_E_FASTLOAD_UNKNOWN_ERROR
+-Teradata hat den schwerwiegenden Fehler %6 in der FastLoad-Sitzung signalisiert.
+-Bitte wenden Sie sich an den SAP-Support und stellen den Inhalt der Dateien
+-%4 und %5 sowie die Definition folgender Tabelle bereit: %1.
+
++KXEN_E_FASTLOAD_CANNOT_CREATE_SCRIPT
+-Das FastLoad-Skript %2 kann im Ordner %1 nicht angelegt werden.
+-Berechtigungen mit diesem Pfad sollten geprüft werden.
+
++KXEN_E_FASTLOAD_INVALID_EXPLICIT_PATH_KXFASTLOADBRIDGE
+-Folgender expliziter Pfad wurde für die KxFastLoad-Bibliothek angegeben und enthält Leerzeichen: %1.
+-Wegen eines Fehlers im Teradata-Tool FastLoad kann dieser Pfad nicht verwendet werden.
+-Bitte wenden Sie sich an den SAP-Support oder verwenden Sie einen Pfad ohne Leerzeichen.
+
++KXEN_E_FASTLOAD_BAD_EXPLICIT_PATH_KXFASTLOADBRIDGE
+-%1 ist der explizit angegebene Pfad für das KxFastLoadBridge-Modul.
+-Er wurde nicht gefunden.
+-Prüfen Sie den Wert der Option "%2".
+
++KXEN_E_FASTLOAD_INVALID_DEFAULT_PATH_KXFASTLOADBRIDGE
+-Der Standardpfad %1 zur KxFastLoadBridge-Bibliothek enthält Leerzeichen.
+-Wegen eines Fehlers im Teradata-Tool FastLoad kann dieser Pfad nicht verwendet werden.
+-Wenden Sie sich an den SAP-Support.
+
++KXEN_E_FASTLOAD_BAD_DEFAULT_PATH_KXFASTLOADBRIDGE
+-Folgender Standardpfad zum KxFastLoadBridge-Modul nicht gefunden: %1.
+-
+-Bitte wenden Sie sich an den SAP-Support oder definieren 
+-Sie den zu verwendenden Pfad mittels folgender Option: "%2".
+
++KXEN_E_FASTLOAD_NOT_LAUNCHED
+-Das Tool %2 kann nicht gestartet werden.
+-Standardpfad soll "%1" sein und kann mit der Option "%3" geändert werden.
+
++KXEN_E_FASTLOAD_ENDED_ABNORMALLY
+-Das FastLoad-Tool wurde erfolgreich gestartet, ist jedoch mit dem Statuscode %1 fehlgeschlagen.
+-Bitte wenden Sie sich an den SAP-Support und stellen Sie den Inhalt der Dateien %2, %3 und %4 bereit.
+
++KXEN_W_BULK_CANNOT_GET_ACTIVATION_STATUS
+-‎‎‏‏Die Einrichtung des Massenmodus für die ODBC-Verbindung %1 wurde nicht gefunden.
+-Einfügungen werden verarbeitet. Lassen Sie dennoch die Einrichtung Ihrer ODBC-Verbindung
+-von Ihrem Administrator überprüfen.
+
++KXEN_W_BULK_MODE_ACTIVATED
+-Einfügungen im Massenmodus sind für die ODBC-Verbindung %1 aktiviert.
+
++KXEN_W_BULK_MODE_NOT_ACTIVATED
+-Einfügungen im Massenmodus sind für die ODBC-Verbindung %1 nicht aktiviert.
+-Einfügungen werden nicht mit maximaler Geschwindigkeit verarbeitet.
+-Lassen Sie die Einrichtung Ihrer ODBC-Verbindung von Ihrem Administrator überprüfen.
+
++KXEN_W_BULK_FIX_DATA_DIRECT_ISSUES
+-Ein DataDirect-Problem mit Feldnamen in Anführungszeichen 
+-(z.B. ein SQL-Schlüsselwort oder "Einkommensmonat") wurde erkannt.
+-Die fehlerhaften Felder werden umbenannt, während das Einfügen der Daten im Massenmodus verarbeitet wird.
+
++KXEN_W_BULK_POST_FIX_DATA_DIRECT_ISSUES
+-Ein DataDirect-Problem mit Feldnamen in Anführungszeichen 
+-(z.B. ein SQL-Schlüsselwort oder "Einkommensmonat") wurde erkannt.
+-Das Einfügen wurde beendet, die Felder wurden umbenannt, und 
+-die Tabelle kann verwendet werden.
+
++KXEN_E_BULK_DATA_DIRECT_ISSUE_TABLE_NAME
+- Ein DataDirect-Problem mit Tabellennamen in Anführungszeichen
+-(wie ein SQL-Schlüsselwort oder "Steuersätze") wurde erkannt.
+-Das Einfügen im Massenmodus ist 
+-mit solchen Tabellen nicht möglich. 
+-Wir empfehlen, einen dem Standard entsprechenden Tabellennamen zu verwenden oder Ihre
+-ODBC-Verbindung ohne Massenmodus einzurichten (diese wird jedoch langsamer).
+
++KXEN_W_BULK_DEFERRED_START_KEY_CREATION
+-Anlegen der Primärschlüssel von %1 hat sich verzögert und wird jetzt gestartet.
+
++KXEN_W_BULK_DEFERRED_END_KEY_CREATION
+-Hinzufügen von Primärschlüsseln zu %1 abgeschlossen.
+
++KXEN_W_ODBC_BULK_INSERT_START
+-ODBC-Blockeinfügung in %1 wurde aktiviert und vorbereitet.
+
++KXEN_W_BULK_CURRENT_PERFORMANCES
+-Aktuelle Leistungen: %2 eingefügte Datensätze - %3 Datensätze pro Sekunde
+
++KXEN_W_BULK_FINAL_PERFORMANCES
+-Gesamtleistungen von Masseneinfügung in %1:
+
++KXEN_W_BULK_GLOBAL_IMPORT_TIME
+-Gesamtimportzeit: %2
+
++KXEN_W_BULK_GLOBAL_TRANSACTION_TIME
+-Gesamttransaktionszeit: %2
+
++KXEN_W_BULK_GLOBAL_EXECUTE_TIME
+-Gesamtzeit zum Einfügen der Datensätze: %2
+
++KXEN_W_BULK_FINALIZE_TIME
+-Fertigstellungszeit für Tabelle %1: %2
+
++KXEN_W_BULK_ROW_GENERATION_TIME
+-Gesamtzeit zum Generieren der Datensätze: %2
+
++KXEN_W_BULK_ROWS_INSERTED
+-Anzahl der eingefügten Datensätze: %2
+
++KXEN_W_BULK_GLOBAL_ROWS_PER_S
+-Gesamtanzahl der Datensätze pro Sekunde: %2
+
++KXEN_W_BULK_INSERT_ROWS_PER_S
+-Gesamtanzahl der Einfügungen pro Sekunde: %2
+
++KXEN_E_TABLE_NAME_TOO_LONG_FOR_DBMS
+-Tabellenname %1 ist für dieses DBMS zu lang.
+-Dieses DBMS unterstützt nur %2 Zeichen für einen Tabellennamen.
+
++KXEN_E_SCHEMA_NAME_TOO_LONG_FOR_DBMS
+-Schemaname %1 ist für dieses DBMS zu lang.
+-Dieses DBMS unterstützt nur %2 Zeichen für einen Schemanamen.
+
++KXEN_W_ODBC_POSTGRES_TIME_WITH_TIME_ZONE
+-Der Typ TIME WITH TIME ZONE wird vom PostgreSQL-ODBC-Treiber nicht korrekt verwaltet. 
+-Wir empfehlen, diesen Typ in den Typ TIMESTAMP oder in den Typ TIME WITHOUT ZONE zu konvertieren.
+
++KXEN_E_SQLSERVER2008_NEED_RECENT_NATIVE_CLIENT
+-Die SQL-Server-2008-Verbindung benötigt mindestens Version 10 des SQL-Server-Native-Client-Treibers,
+-um neue Datentypen (time, datetime2, datetimeoffset) ordnungsgemäß verwalten zu können.
+-Bitte wenden Sie sich zur Installation eines geeigneten ODBC-Treibers an den SAP-Support.
+
++KXEN_E_ODBC_CONNECTOR_LICENSE
+-Die von %2 verwendete Lizenz für %1-Konnektivität ist ungültig oder nicht verfügbar.
+
++KXEN_E_CANNOT_FIND_NEW_TEMP_VIEW_NAME
+-Erstellen eines neuen Namens für temporäre Sicht
+-auf Basis des Namens '%1' nicht möglich.
+
++KXEN_E_CANNOT_FIND_NEW_TEMP_TABLE_NAME
+-Erstellen eines neuen Namens für temporäre Tabelle
+-auf Basis des Namens '%1' nicht möglich.
+
++KXEN_W_ODBCWARNING
+-Nachricht aus ODBC: %1
+
++KXEN_W_RTG_LEARN_NOOUTPUTVAR
+-Zum Generieren einer Liste von eindeutigen Werten muss mindestens ein Eingabefeld definiert sein.
+
++KXEN_W_ODBC_FILTERING_DATA
+-Daten von %1 in SQL werden gefiltert
+
++KXEN_E_CANNOT_RECONNECT_ODBC_STORE
+-Mit Benutzer %2 kann die Verbindung mit der Datenbank %1 nicht wiederhergestellt werden.
+-Wenden Sie sich an Ihren Datenbankadministrator.
+
++KXEN_W_CONNECTOR_CAN_USE_LIMITED_RESULTSET
+-Datenmanipulation %1 kann durch Begrenzen der Ergebnismenge auf %2 Zeilen optimiert werden.
+
++KXEN_W_CONNECTOR_CANNOT_USE_LIMITED_RESULTSET
+-Datenmanipulation %1 kann durch Begrenzen der Ergebnismenge auf %2 Zeilen nicht optimiert werden.
+
++KXEN_E_ODBC_UNDETECTED_METACHAR_ISSUE
+-Die Liste der Felder von %1 stimmt nicht mit den Feldern überein, die von 'SELECT * FORM %1' zurückgegeben werden.
+-Wahrscheinlich liegt dies daran, dass der Datenbanktyp/ODBC-Treiber Unterstriche oder Prozentzeichen im Tabellennamen nicht korrekt verarbeitet.
+-Als Behelfslösung können Sie entweder 'SELECT * FROM %1' als Tabellenname eingeben oder eine Sicht für %1 definieren.
+
++KXEN_E_CODBCSPACE_LIST_OF_FIELDS_DIFFERENT_THAN_SELECT
+-Die Liste der Felder von %1 stimmt nicht mit den Feldern überein, die von 'SELECT * FROM %1' zurückgegeben werden.
+-Bitte wenden Sie sich an den SAP-Support und stellen Sie Informationen zu Ihrem Datenbanktyp/ODBC-Treiber und zur Tabelle %1 bereit.
+
++KXEN_E_ODBC_ORACLE_TOO_MUCH_COLUMNS
+-Mit dieser Version von Oracle (%2) wird eine Ergebnismenge mit mehr als 1000 Spalten nicht korrekt verwaltet:
+-Zurückgegebene Daten sind generell beschädigt.
+-Diese Ergebnismenge hat %1 Spalten und kann nicht verwendet werden.
+
++KXEN_W_SCRIPT_CLEAN_INTERMEDIATES
+-Zwischenentitäten des Skripts %1 werden bereinigt.
+
++KXEN_W_SCRIPT_CREATE_INTERMEDIATES
+-Zwischenentitäten des Skripts %1 werden angelegt.
+
++KXEN_W_SCRIPT_MISS_SOME_INTERMEDIATE
+-Einige Zwischenentitäten fehlen im Skript %1.
+
++KXEN_W_SCRIPT_ALL_INTERMEDIATES_HERE
+-Alle Zwischenentitäten sind im Skript %1 vorhanden
+
++KXEN_E_SCRIPT_ENTITY_NO_NAME
+-Eine Zwischenentität hat keinen Namen im Skript %1.
+
++KXEN_E_SCRIPT_ENTITY_NO_TYPE
+-Eine Zwischenentität hat keinen Typ im Skript %1.
+
++KXEN_E_SCRIPT_MISSING_TAG
+-Ungültige Syntax im Skript %1: Tag %2 fehlt.
+
++KXEN_W_SCRIPT_CLEAN_AFTER_SUCCESS
+-Angelegte Objekte werden nach erfolgreicher Ausführung des Skripts %1 gelöscht.
+
++KXEN_W_SCRIPT_CLEAN_AFTER_FAIL
+-Angelegte Objekte werden nach fehlgeschlagener Ausführung des Skripts %1 gelöscht.
+
++KXEN_W_SCRIPT_CREATE_FAIL
+-Fehler beim Anlegen eines Objekts in Skript %1.
+
++KXEN_E_SCRIPT_SELECT_FAIL
+-SELECT-Anweisung in Skript %1 fehlgeschlagen. Grund:
+-%2
+
++KXEN_E_CANNOTCREATE_ODBCSTATEMENT
+-Ein ODBC-Objekt kann im Speicher %1 nicht erfolgreich angelegt werden.
+-Dies weist auf eine fehlerhafte Installation oder Einrichtung der ODBC-Software hin.
+
++KXEN_E_CCACHEMEMORYSPACE_CANNOTAPPEND
+-Der Cache-Speicherplatz %1 kann Appends nicht verwalten.
+
++KXEN_W_CCACHEMEMORYSPACE_CREATE_CANNOTCREATE
+-Der Cache-Speicherplatz %1 kann nicht bereitgestellt werden.
+
++KXEN_E_ODBC_TYPE_NOT_MANAGED_BY_ODBC_DRIVER
+-Das Feld %1 hat den Typ %2, der vom aktuellen ODBC-Treiber nicht verwaltet wird.
+
++KXEN_E_CODBCSPACE_TERADATA_INCOHERENT_LIST_OF_FIELDS
+-Es gibt %1 Felder, wenn Ist-Daten angefordert werden (%1),
+-und %2 Felder, wenn die Struktur dieser Tabelle angefragt wird.
+-In Teradata kann dies wegen eines Feldnamens vorkommen, der mit einem Leerzeichen beginnt.
+-Zum Beispiel: " Dauer"
+-Einige Teradata-ODBC-Treiber können dies nicht verwalten.
+-Ändern Sie die Feldnamen, oder verwenden Sie "SELECT * FROM...".
+-Sie können auch eine Datenmanipulation für die Arbeit mit dieser Tabelle anlegen und verwenden.
+
++KXEN_E_CODBCSPACE_LIST_OF_FIELDS_CHANGED
+-Es gibt %1 Felder, wenn Ist-Daten angefordert werden (%1),
+-und %2 Felder, wenn die Struktur dieser Tabelle angefordert wird.
+-Automated Analytics kann dieses Datenset nicht verwalten.
+
++KXEN_W_ODBC_CANNOT_COUNT
+-Fehler beim Zählen der Zeilen mit %1
+
++KXEN_E_CUSERWRITEITER_ERROR
+-Beim Schreiben in ein Datenset in dem von %1 verwalteten Speicher ist ein Fehler aufgetreten,
+-und die aktuelle Aktion wurde beendet.
+
++KXEN_E_CUSERREADITER_ERROR
+-Beim Lesen aus einem Datenset in dem von %1 verwalteten Speicher ist ein Fehler aufgetreten,
+-und die aktuelle Aktion wurde beendet.
+
++KXEN_E_CUSERSPACE_ERROR
+-Beim Zugriff auf ein Datenset in dem von %1 verwalteten Speicher ist ein Fehler aufgetreten,
+-und die aktuelle Aktion wurde beendet.
+
++KXEN_E_CUSERSTORE_ERROR
+-Beim Zugriff auf den von %1 verwalteten Speicher ist ein Fehler aufgetreten,
+-und die aktuelle Aktion wurde beendet.
+
++KXEN_E_ODBCSPACE_ALTERTABLE
+-Das Layout der Tabelle %1 kann nicht geändert werden.
+
++KXEN_W_CODBCSPACE_ORDER_IGNORED_WITH_SELECT
+-Die Reihenfolge einer Variablen wird ignoriert, wenn das Datenset das Ergebnis einer SELECT-Anweisung ist.
+
++KXEN_E_CELOG_REFIDCOLUMN_NOTDEFINED
+-Die ID-Spalte in der Ereignisprotokollierung-Referenztabelle muss definiert sein.
+
++KXEN_E_CMEMORYSPACE_CANNOCREATE
+-Speicherplatz %1 kann nicht bereitgestellt werden.
+
++KXEN_W_ODBC_REPEATED_ERROR_REQUEST_ROW
+-ODBC-Fehler beim Anfordern von Zeile %1 aufgetreten:
+-%2
+
++KXEN_E_ODBC_REPEATED_ERROR_REQUEST_ROW
+-Zu viele ODBC-Fehler beim Anfordern von Zeilen:
+-%1
+
++KXEN_E_USERDATAACCESS_CANNOT_CREATE_SPACE
+-Der Benutzerdatenzugriff %1 kann keinen Datenraum instanziieren.
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_ODBC_CANNOT_LOCK
+-Modell-Repository in %1 kann nicht gesperrt werden.
+-Grund: %2
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_ODBC_CANNOT_UNLOCK
+-Modell-Repository in %1 kann nicht entsperrt werden.
+-Grund: %2
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_ODBC_TABLE_NAME_TOO_LONG
+-Tabellenname %1 ist zu lang.
+-Dieser Datenbanktyp unterstützt nur Tabellennamen mit einer Länge von unter %2 Zeichen.
+
++KXEN_E_ODBC_SCHEMA_NAME_TOO_LONG
+-Schemaname %1 ist zu lang.
+-Dieser Datenbanktyp unterstützt nur Schemanamen mit einer Länge von unter %2 Zeichen.
+
++KXEN_E_ODBCSTORE_SQL_ONCATALOG_UNEXPECTED_FAILED
+-Die SQL-Anforderung, die zum Abrufen der Tabellenliste für %1 verwendet wird, hat eine unerwartete Ausnahme generiert.
+-Diese Anforderung ist für Ihre Installation spezifisch und befindet sich in der Konfigurationsdatei,
+-Zeile "ODBCStoreSQLMapper.%1.SQLOnCatalog..."
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+-Diese Liste zeigt alle in %1 verfügbaren Tabellen an.
+
++KXEN_E_ODBCSTORE_SQLONCATALOG_ERROR
+-Die SQL-Anforderung, die zum Abrufen der Tabellenliste für %1 verwendet wird, ist nicht korrekt.
+-Diese Anforderung ist für Ihre Installation spezifisch und befindet sich in der Konfigurationsdatei,
+-Zeile "ODBCStoreSQLMapper.%1.SQLOnCatalog..."
+-Diese Liste zeigt alle Tabellen an, die in %1 verfügbar sind.
+
++KXEN_E_ODBC_ERROR_STORE_NO_NAME
+-Fehler: Es wurde versucht, einen ODBC-Speicher zu öffnen, der keinen Namen hat
+
++KXEN_E_ODBC_ERROR_STORE_NOT_OPEN
+-Fehler: Es wurde versucht, einen ODBC-Speicher zu verwenden, der nicht korrekt geöffnet wurde.
+
++KXEN_W_CRREGRESSION_LEARN_NBINPUTINFO
+-Anzahl der Eingaben: %1, Reihenfolge: %2
+
++KXEN_W_CRREGRESSION_LEARN_NBINPUTKEYINFO
+-Anzahl der Eingaben: %1, Reihenfolge: %2, Zielschlüssel: %3
+
++KXEN_W_CRREGRESSION_LEARN_NOINPUT
+-Fehler: Keine Eingaben zum Lernen gefunden.
+
++KXEN_W_CRREGRESSION_LEARN_NOINPUT_FILTERED
+-Keine aussagekräftige Variable zum Aufbau eines verlässlichen Modells gefunden.
+
++KXEN_W_CRREGRESSION_LEARN_NBEXTENDED
+-Anzahl der erweiterten Variablen: %1
+
++KXEN_W_CRREGRESSION_LEARN_NBREAD
+-%1 Fälle gelesen
+
++KXEN_W_CRREGRESSION_LEARN_STACKPROBLEM
+-Problem in der Lernstapelinitialisierung
+
++KXEN_W_CRREGRESSION_LEARN_BEGINVALIDATION
+-Validierungsphase wird gestartet
+
++KXEN_W_CRREGRESSION_LEARN_STATUSKI
+-Lernstatus: lambda=%1, KI=%2
+
++KXEN_W_CRREGRESSION_LEARN_BESTLAMBDA
+-Jetzt Lernen mit bestem lambda=%1
+
++KXEN_W_LEARN_KIKR
+-Indikator für Validierung:
+-Qualität:    KI=%1
+-Robustheit: KR=%2
+
++KXEN_W_LEARN_TESTKI
+-Qualitätsindikator für Test: KI=%1
+
++KXEN_I_ASYM_LEARN_LIFT_ESTIM
+-Lift für Schätzung bei Zielhäufigkeit '%2': %3
+
++KXEN_I_ASYM_LEARN_LIFT_VALID
+-Lift für Validierung bei Zielhäufigkeit '%2': %3
+
++KXEN_I_ASYM_LEARN_LIFT_TEST
+-Lift für Test bei Zielhäufigkeit '%2': %3
+
++KXEN_I_ASYM_LEARN_LIFT_APPLYIN
+-Lift für Anwendungs-Eingabedatenset bei Zielhäufigkeit '%2': %3
+
++KXEN_W_CRREGRESSION_LEARN_TRAININGTIME
+-Klassifikations-/Regressions-Trainingszeit: %1 Sekunden
+
++KXEN_E_FAILED_TO_RELOAD_REGRESSION_PARAMETERS
+-Wegen eines unerwarteten Fehlers kann dieses Regressionsmodell nicht erneut geladen werden. 
+
++KXEN_W_CFILECASEITER_READ_EXPECTEDVSREAD
+-Weniger Felder (%2) als erwartete Variablen (%1) in Zeile (%3) gefunden.
+
++KXEN_W_CFILESPACE_OPEN_SETSEPARATORS
+-Trennzeichen wird auf %1 gesetzt
+
++KXEN_W_CFILESPACE_OPEN_NOTOPENSTORE
+-Öffnen der Datei nicht möglich, wenn der Speicher nicht geöffnet ist
+
++KXEN_W_CFILESTORE_OPEN_ISNODIR
+-Datei '%1' kann nicht als Speicher geöffnet werden
+
++KXEN_W_CFILESTORE_OPEN_CEXCEPTION
+-Unerwartete Ausnahme beim Öffnen des Speichers
+
++KXEN_W_CCCODER_LEARN_ESTIMCOUNT
+-Komprimierung der Variable '%1' für Schätzung: von %2 bis %3 Kategorien
+
++KXEN_W_CCCODER_LEARN_VALIDCOUNT
+-Komprimierung der Variable '%1' für Validierung: von %2 bis %3 Kategorien
+
++KXEN_I_CCCODER_LEARN_CATEGORYCOUNT_GROUPCOUNT
+-Komprimierung der Gruppe der Variablen '%1': von %2 Kategorien bis %3 Gruppen
+
++KXEN_W_LEARN_TRAININGTIME
+-Lernzeit: %1 Sekunden
+
++KXEN_W_CRREGRESSION_LEARN_ESTIMATION_L1L2LInf
+-Standardfehler bei Schätzung: L1=%1   L2=%2   LInf=%3
+
++KXEN_W_CRREGRESSION_LEARN_VALIDATION_L1L2LInf
+-Standardfehler bei Validierung: L1=%1   L2=%2   LInf=%3
+
++KXEN_W_CRREGRESSION_LEARN_TEST_L1L2LInf
+-Standardfehler bei Test:       L1=%1   L2=%2   LInf=%3
+
++KXEN_W_CRREGRESSION_LEARN_FINISHED
+-Klassifikations-/Regressions-Lernphase abgeschlossen
+
++KXEN_W_CSSEGMENTER_LEARN_FINISHED
+-Segmentierungs-/Clustering-Lernphase abgeschlossen
+
++KXEN_W_CCCODER_LEARN_FINISHED
+-Datenkodierungs-Lernphase abgeschlossen
+
++KXEN_W_CELOG_LEARN_FINISHED
+-Ereignisprotokollierungs-Lernphase abgeschlossen
+
++KXEN_W_CSVMCLASSIFICATION_LEARN_FINISHED
+-SVM-Lernphase abgeschlossen
+
++KXEN_W_CSTATTRANSFORM_LEARN_FINISHED
+-Statistikerstellungs-Lernphase abgeschlossen
+
++KXEN_W_CCCODER_LEARN_BESTZ
+-Bester Komprimierungsindex für Variable '%1': %2 (%3 Kategorien)
+
++KXEN_W_CCCODER_LEARN_KRKIEKIV
+-Komprimierungsindikatoren: KR=%1  KI Schätzung=%2  KI Validierung=%3
+
++KXEN_W_CCCODER_LEARN_UNKNOWNSTRATEGY
+-Ungültige unbekannte Strategie in Datenkodierung
+
++KXEN_E_CCCODER_TARGETPB
+-Weniger als 2 Kategorien (%2) für Zielvariable '%3' in Datenset '%1' gefunden.
+-Nicht genug beobachtete Zielkategorien zum Erstellen eines Modells vorhanden.
+
++KXEN_E_CCCODER_CTARGETPB
+-Durch den auf die Zielvariable '%2' angewendeten Gruppierungsprozess wurde
+-nur ein Segment für Datenset '%1' generiert.
+
++KXEN_W_CCODER_DEVIATIONS_ON_VARIABLES
+-Signifikante Abweichung in Datenset %1 gefunden: Modell wird zweifelhaft sein. Folgende Variablen haben Abweichungen: %2. Sie können die Unterteilungsstrategie ändern oder diese Variablen aus dem Modell ausschließen. 
+
++KXEN_W_CCODER_DEVIATIONINPUTS
+-Signifikante Abweichung für %2 Variablen in Datenset %1 gefunden: Modell wird zweifelhaft sein. Sie können die Unterteilungsstrategie ändern oder die Variablen mit der größten Abweichung aus dem Modell ausschließen (statistische Berichte/Abweichungen). 
+
+
++KXEN_E_MONOTONIC_CONTINUOUS_TARGET
+-Stetige Zielvariable '%1' ist monoton.
+-Ändern Sie die Reihenfolge der Zeilen des analytischen Datensets.
+
++KXEN_W_CTRANSFORM_LEARN_TARGETNOTBOOLEAN
+-Nicht-boolesche Zielvariable '%1' ist ungültig. 
+-%2 Kategorien gefunden.
+
++KXEN_W_CRREGRESSION_LEARN_CORRELATION
+-Starke Korrelation zwischen '%1' und '%2': %3
+
++KXEN_W_CSVMCLASSIFICATION_OPTIMIZEONE_UNARYTARGET
+-Ziel muss mehr als einen Wert enthalten.
+
++KXEN_W_CCCODER_UNBALANCEDTARGET
+-Unvollständige Datensets:
+-Einige Kategorien des Ziels der Schätzung wurden in der Validierung nicht gefunden.
+
++KXEN_W_CFILESPACE_GUESS_DUPLICATEVARNAME
+-Fehler: Variablennamendublette '%1' in Kopffeld %2 gefunden.
+
++KXEN_W_CRREGRESSION_LEARN_MEMORYERROR_ORDER
+-Speicherzuordnungsfehler in Klassifikations-/Regressionsmodell.
+-Die verwendete Polynomordnung ist für dieses Datenset wahrscheinlich zu hoch.
+
++KXEN_W_CRREGRESSION_LEARN_MEMORYERROR_VARIABLE
+-Speicherzuordnungsfehler in Klassifikations-/Regressionsmodell
+-Zu viele Variablen
+
++KXEN_W_CFILECASEITER_READ_FOUNDMOREFIELDSTHANVARS
+-Mehr Felder (%2) als erwartete Variablen (%1) in Zeile (%3) gefunden.
+
++KXEN_W_CCCODER_LEARN_BESTVAR
+-Bester einzelner KI für Variablen: %1 = %2 (Validierung) %3 (Schätzung)
+
++KXEN_E_CELOG_NOPERIODS
+-Einige Periodendefinitionen fehlen.
+
++KXEN_W_CELOG_POPULATE_NBREAD
+-Aggregate werden erstellt: %1 Transaktionen gelesen
+
++KXEN_W_CELOG_POPULATE_PROGRESS
+-Aggregate werden erstellt
+
+#Note for translator: %1 stands for the number of entries added.
++KXEN_W_CELOG_ENTRY_NBREAD
+-Interne Ereignisprotokollierungstabelle wird erstellt: %1 Einträge hinzugefügt
+
++KXEN_W_CELOG_ENTRY_PROGRESS
+-Interne Ereignisprotokollierungstabelle wird erstellt
+
++KXEN_W_CRREGRESSION_LEARN_CLASSIFICATIONRATE
+-Klassifikationsrate für Validierung: %1 +/- %2 (bei %3 Prozent)
+
++KXEN_W_ELOG_NOVARSINEVENTSSPACE
+-Datenset %1 wurde noch nicht beschrieben.
+
++KXEN_E_ELOG_APPLYINNOTFOUND
+-Ereignisprotokollierung: Anwendungsdatenset fehlt.
+
++KXEN_E_ELOG_DUPLICATEDPREFIX
+-Dupliziertes Ereignisprotokollpräfix: '%1'
+
++KXEN_W_KMEANS_LEARNING_PASS
+-Prototypoptimierungsübergabe %1/4
+
++KXEN_W_KMEANS_LEARN_NBREAD
+-%1 Fälle gelesen
+
++KXEN_W_CSSEGMENTER_GENERATE_EXPRESSION
+-Generierung der Ausdrücke...
+
++KXEN_W_CKMEANS_LEARN_FINISHED
+-Segmentierungs-/Clustering-Lernphase abgeschlossen
+
++KXEN_W_CRREGRESSION_LEARN_PROGRESS
+-Lernphase für Klassifikation/Regression wird ausgeführt...
+
++KXEN_E_LEARN_NOEVENTDATASET
+-Ereignisdatenset '%1' nicht gefunden
+
++KXEN_W_KMEANS_LEARN_PROGRESS
+-Lernen der Prototyp-Engine wird ausgeführt...
+
++KXEN_W_STATBUILDER_TEST_PROGRESS
+-Daten werden übertragen
+
++KXEN_W_STATBUILDER_SEND_APPLY
+-Datenübertragung beginnt. Bitte warten...
+
++KXEN_E_STATBUILDER_RELOAD_FAILURE
+-Problem beim erneuten Laden des gesicherten Modells.
+
++KXEN_W_CSSEGMENTER_LEARN_KIKR
+-Indikator für Validierung:
+-Qualität:    KI=%1
+-Robustheit: KR=%2
+
++KXEN_W_CSSEGMENTER_TEST_KI
+-Qualitätsindikator für Test: KI=%1
+
++KXEN_E_CELOG_COLUMN_NOTFOUND
+-Spalte '%1' in Ereignisprotokollierungs-Transaktionstabelle nicht gefunden.
+
++KXEN_E_CELOG_REFIDCOLUMN_NOTFOUND
+-ID-Spalte '%1' in Ereignisprotokollierungs-Referenztabelle nicht gefunden.
+
++KXEN_E_CELOG_LOGIDCOLUMN_NOTFOUND
+-ID-Spalte '%1' in Ereignisprotokollierungs-Transaktionstabelle nicht gefunden.
+
++KXEN_E_CELOG_LOGDATECOLUMN_NOTFOUND
+-Datumsspalte '%1' in Ereignisprotokollierungs-Transaktionstabelle nicht gefunden.
+
++KXEN_E_CELOG_PARAM_STARTENDPERIOD
+-Ungültige Periodenangabe für Ereignisprotokollierung: "Start" später als "Ende".
+
++KXEN_E_ODBCOPEN_TYPEPBM
+-Dieser Typ von ODBC-Quelle kann nicht verwendet werden.
+-Keine korrekte Typzuordnung gefunden.
+
++KXEN_W_CCODER_COMPRESSION_PROGRESS
+-Variablen werden komprimiert
+
++KXEN_W_CELOG_ADDENTRIES_DUPLICATEKEY
+-Warnung:  Schlüsseldublette in Referenzdatendatei '%1' gefunden
+
++KXEN_W_TRANSFORM_NOMODEL
+-Fehler: Kein Modell gefunden.
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_E_FILLSTATS_PROBLEM
+-Fehler: Problem beim Erfassen der Statistik
+
++KXEN_E_CSECOD_UNORDEREDDATE_FORSEQUENCE
+-Datumsereignisse für Sequenz-ID '%1' sind nicht sortiert.
+-Die Sequenzkodierungs-Engine erfordert sortierte Ereignisse.
+
++KXEN_W_CSECOD_DATEVAR_NOTDECLAREDORDERED
+-Die Datumsspalte '%1' ist in der Beschreibung nicht als "sortiert" deklariert.
+-Die Sequenzkodierungs-Engine erfordert sortierte Ereignisse.
+
++KXEN_W_CSECOD_LEARN_NODATASET
+-Datenset '%1' nicht gefunden
+
++KXEN_W_CSECOD_ARGNOTFOUNDFORFUNC
+-Ungültiges Argument '%1' für Funktion '%2'
+
++KXEN_W_CSECOD_LEARN_FINISHED
+-Lernphase der Sequenzkodierungs-Engine abgeschlossen
+
++KXEN_E_CSECOD_LEARN_FAILED
+-Lernphase für Sequenzkodierung fehlgeschlagen, da keine übereinstimmenden Transaktionen gefunden wurden.
+
++KXEN_W_CSECOD_SEQID_MISMATCH
+-Fehler: Die Referenzspaltenbeschreibung der Trainingsdatei weicht von 
+-der entsprechenden Beschreibung der Ereignisdatei ab. 
+
++KXEN_W_CSECOD_POPULATE_NBREAD
+-Übergangsvektoren werden erstellt: %1 Transaktionen gelesen
+
++KXEN_W_CSECOD_POPULATE_PROGRESS
+-Übergangsvektoren werden erstellt
+
++KXEN_W_CSECOD_CHECK_NBREAD
+-Transaktionsdatei wird geprüft: %1 Transaktionen gelesen
+
++KXEN_W_CSECOD_CHECK_PROGRESS
+-Transaktionsdatei wird geprüft
+
++KXEN_W_CSECOD_ENTRY_NBREAD
+-Interne Sequenzkodierungstabelle wird erstellt: %1 Einträge hinzugefügt
+
++KXEN_W_CSECOD_ENTRY_PROGRESS
+-Interne Sequenzkodierungstabelle wird erstellt
+
++KXEN_W_CSECOD_ADDENTRIES_DUPLICATEKEY
+-Warnung:  Schlüsseldublette '%1' in Referenzdatendatei gefunden
+
++KXEN_E_CSECOD_OPERATION_NOT_FOUND
+-Kritischer Fehler: Operation nicht gefunden.
+
++KXEN_E_CSECOD_MEMORY_FAILURE
+-Kritischer Fehler: Nicht genügend Speicherplatz für die Ausführung der Sequenzkodierungs-Engine.
+
++KXEN_E_CSECOD_APPLYINNOTFOUND
+-Sequenzkodierung: Das Anwendungsdatenset fehlt.
+
++KXEN_E_CSECOD_DUPLICATEDPREFIX
+-Dupliziertes Sequenzkodierungspräfix: '%1'
+
++KXEN_E_CSECOD_REFID_NOTFOUND
+-Fehler: Referenz-ID-Spalte '%1' in Sequenzkodierungs-Transaktionsdatei nicht gefunden.
+
++KXEN_E_CSECOD_DATETIME_NOTFOUND
+-Fehler: Datums-/Uhrzeitspalte '%1' für Sequenzkodierung nicht gefunden.
+
++KXEN_E_CSECOD_DATE_NOTDATETIME
+-Fehler: Uhrzeitspalte (%1) der Sequenzkodierungs-Transaktionsdatei hat nicht den Typ "datetime".
+
++KXEN_E_CSECOD_FIRSTPASS
+-Fehler: Problem beim Lesen der Sequenzkodierungs-Transaktionsdatei (erste Übergabe)
+
++KXEN_E_CSECOD_FIRSTPASS_NOMATCH
+-Fehler: Keine Transaktion stimmt mit dem Referenzdatenset überein.
+
++KXEN_E_CSECOD_UPDATEFIRSTPASS
+-Fehler: Problem beim Aktualisieren der berechneten Werte für die Sequenzkodierung (erste Übergabe, Zeile %1)
+
++KXEN_E_CSECOD_STOPREQUEST
+-Die Sequenzkodierungs-Engine wurde durch Benutzeranforderung gestoppt.
+
++KXEN_E_CSECOD_MISSINGVALUE
+-Fehler: Fehlender Wert für Sequenzkodierung ('%1')
+
++KXEN_E_CSECOD_BADROLE
+-Fehler: Rolle '%1' wird von der Sequenzkodierungs-Engine nicht unterstützt
+
++KXEN_E_CSECOD_BADVARIABLE
+-Fehler: Falscher Variablenname '%1' in Sequenzkodierung
+
++KXEN_E_CSECOD_MODALITY_NOTFOUND
+-Fehler: Modalität '%1' von der Sequenzkodierungs-Engine für Spalte '%2' nicht gefunden.
+-In Ihrer Transaktionsdatei muss ein Fehler vorliegen. Vielleicht haben Sie
+-eine falsche Beschreibungsdatei angegeben, oder Sie wenden ein Modell
+-auf eine Transaktionsdatei mit einer anderen Struktur als in der Lernphase an.
+
++KXEN_W_CSECOD_ONE_STATE_ONLY
+-Warnung:  Variable '%1' ist konstant.
+
++KXEN_W_KSVM_LEARN_PROGRESS
+-Lernen von SV Maschine wird ausgeführt...
+
++KXEN_E_DBBERKELEY_ERROR
+-Berkeley-Datenbankfehler: %1
+
++KXEN_W_MISSING_VALUE
+-Warnung:  Für Variable %1 fehlen Werte.
+-Die Sequenzkodierung ist in diesem Fall nicht zweckdienlich.
+
++KXEN_W_CATEGORIES_COUNT
+-Die Sequenzkodierungs-Engine hat %1 Zustandsspalten für Variable %2 beibehalten.
+
++KXEN_W_CATEGORIES_TRANS
+-Die Sequenzkodierungs-Engine hat %1 Übergangsspalten für Variable %2 beibehalten.
+
++KXEN_W_CKMEANS_E_CANNOT_GENERATE_VARIABLE
+-Generieren der Variablen %1 durch Clustering-/Segmentierungs-Engine fehlgeschlagen.
+
++KXEN_W_RREGRESSION_E_CANNOT_GENERATE_VARIABLE
+-Generieren der Variablen %1 durch Klassifikations-/Regressions-Engine fehlgeschlagen.
+
+#NOTR
++KXEN_W_CSVMCLASSIFICATION_IGNOREDWRONGC
+-Invalid value for SVM parameter 'C' ignored
+
++KXEN_W_CSVMCLASSIFICATION_IGNOREDWRONGC1
+-Ein ungültiger Wert für SVM-Parameter 'C1' wurde ignoriert.
+
++KXEN_E_ELOG_ADDENTRIES_DUPLICATEIDFOUND
+-%1 doppelte Identifikatoren in Referenztabelle gefunden
+
++KXEN_E_CUSERSTORE_BADLICENSE
+-Fehler: Ungültige Lizenz für '%1' (Datentyp: %2)
+
++KXEN_W_CCCODER_TARGETNOMSTAT
+-Statistik für diskretes Ziel '%1':
+
++KXEN_W_CCCODER_TARGETNOMSTATCAT
+-Für %1 wurde '%2' %3 Mal gefunden.
+
++KXEN_W_CCCODER_TARGETCONTSTAT
+-Statistik für stetiges Ziel '%1':
+
++KXEN_W_CCCODER_TARGETCONTSTATDETAIL
+-Für %1 ist der Durchschnitt %2, Standardabweichung ist %3.
+
++KXEN_W_CUSERSPACE_OPEN_MODENOTIMPLEMENTED
+-Fehler: Dieser Benutzerspeicher kann den Raum %1 im Modus %2 nicht öffnen.
+
++KXEN_W_CUSERSPACE_BEGIN_FIRSTROWSKIPPB
+-Fehler: Es wird versucht, mehr Zeilen zu überspringen, als im Raum enthalten sind
+
++KXEN_W_CRREGRESSION_LEARN_CLASSIFICATIONRATE_APPLYIN
+-Klassifikationsrate für Anwendungsdatenset: %1 +/- %2 (bei %3 Prozent)
+
++KXEN_W_CRREGRESSION_LEARN_APPLYIN_L1L2LInf
+-Standardfehler für Anwendungsdatenset: L1=%1   L2=%2   LInf=%3
+
++KXEN_W_LEARN_APPLYKI
+-Qualitätsindikator für Anwendungsdatenset: KI=%1
+
++KXEN_W_CABSTRACTMODEL_SEND_TEST
+-Testmodus für %1 wird gestartet
+
+#Note for translator: do not translate RTG
++KXEN_W_RTG_LEARN_NOTRAININGDATASET
+-Keine Eingabedaten für RTG.
+
++KXEN_W_RTG_LEARN_NOAPPLYOUTDATASET
+-Keine Ausgabe für RTG.
+
++KXEN_E_RTG_REFIDCOLUMN_NOTFOUND
+-Keine Spalte '%1' im Eingabedatenset.
+
++KXEN_W_RTG_PROGRESS
+-Referenztabelle wird erstellt
+
++KXEN_W_RTG_ENTRY_NBREAD
+-%1 Einträge gelesen
+
++KXEN_W_RTG_TOTALREFS
+-%1 Referenzen gefunden
+
++KXEN_I_KTS_MAX_HORIZON_LESS_THAN_REQUESTED
+-Der maximale konfidente Horizont des endgültigen Modells ist %2. Dies ist kleiner als der angeforderte Horizont von %1.
+
++KXEN_I_KTS_OUTLIER_DETECTED_IN_FINAL_MODEL
+-Für das endgültige Modell wurde ein Ausreißer bei Zeitpunkt (%1) erkannt.
+
++KXEN_I_KTS_OUTLIER_DETECTED
+-Für den Trend (%1) wurde ein Ausreißer bei Zeitpunkt (%2) erkannt.
+
++KXEN_I_KTS_VARIABLE_SELECTION_NO_USEFUL_EXP_FOR_TREND
+-Beim Schätzen des Trends (%1) wurden alle prognoseunabhängigen Variablen vom automatischen Variablenauswahlprozess verworfen. Dieser Trend wird für den Wettbewerb verworfen.
+
++KXEN_E_INVALIDARG_ERRORBARCONFIDENCE
+-Problem beim Festlegen des Prognosekonfidenzintervalls.
+
++KXEN_E_KTS_INVALID_VARIABLE_SELECTION_PERCENTAGE
+-Der Prozentanteil der in der Variablenauswahl beibehaltenen Variablenbeiträge ist nicht gültig. Er muss zwischen 0 (ausschließlich) und 1 liegen.
+
++KXEN_WARN_KTS_WARNING_DATES
+-Im Vergleich mit dem Durchschnittsdelta divergiert die Differenz zwischen (%1) und (%2).
+
++KXEN_WARN_KTS_NB_OF_REQUIRED_FOREC_DIFFERENT_FROM_THE_TRAINING
+-Das Modell wird auf (%2) Prognosen angewendet, obwohl es 
+-für (%1) Prognosen erstellt und optimiert wurde.
+
++KXEN_E_KTS_DATE_NOSTRICLY_INCREASING
+-Datumsvariable (%1) muss streng steigend sein.
+
++KXEN_E_KTS_DATE_NOSTRICLY_INCREASING_DETECTED_AT
+-Die Datumsvariable (%1) muss streng steigend sein. 
+-Die Zeitreihen-Engine hat erkannt, dass (%3) auf den Wert (%2) folgt.
+
++KXEN_I_KTS_GUESSED_DATECOLUMN
+-Die Datumsspaltenvariable wurde als (%1) vorgeschlagen.
+
++KXEN_I_KTS_GUESSED_DATECOLUMN_AS_KXINDEX
+-Die Datumsspaltenvariable wurde als virtueller Schlüssel (%1) vorgeschlagen.
+
++KXEN_I_KTS_GUESSED_DATECOLUMN_FIRST_NUM_INT
+-Die Datumsspaltenvariable wurde als (%1) vorgeschlagen.
+
++KXEN_E_KTS_UNABLE_TO_GUESS_DATE_COLUMN
+-Die Zeitreihen-Engine konnte keine Datumsspaltenvariable vorschlagen. Definieren Sie eine Variable (DateColumnName-Parameter).
+
++KXEN_E_KTS_INVALID_DATECOL
+-DateColumnName-Parameter (%1) entspricht keiner vorhandenen Variablen.
+
++KXEN_E_KTS_INVALID_DATECOL_TYPE
+-Die Datumsvariable (%1) ist ungültig. Sie muss stetig sein.
+
++KXEN_E_KTS_INVALID_DATECOL_STORAGE
+-Der Speicher für die Datumsvariable (%1) ist ungültig.
+
++KXEN_E_KTS_INVALID_DATECOL_CONSTANT
+-Die Datumsvariable (%1) ist ungültig. Sie darf nicht konstant sein. 
+
++KXEN_E_KTS_INVALID_DATECOL_FORMAT
+-Angegebenes Format der Datumsvariablen (%1) ist ungültig. Das Format muss einer 
+-Zahl oder einem ISO-Datum entsprechen: yyyy-MM-dd oder yyyy-MM-dd hh:mm:ss
+
++KXEN_E_KTS_INVALID_DATECOL_BADROLE
+-Die Datumsvariable '%1' muss die Rolle "Eingabe" haben.
+
++KXEN_E_KTS_INVALID_TARGET
+-Die Variable (%1) entspricht der Datumsvariablen UND der 
+-Zielvariablen
+
++KXEN_E_KTS_NODATEVARIABLERESTORED
+-Eine Datumsvariable könnte nicht wiederhergestellt werden!
+
++KXEN_E_KTS_UNEXPECTEDEMPTYVALUE
+-Leeren Wert für die Variable (%1) in Zeile (%2) gefunden. 
+-Leere Werte werden von der Zeitreihen-Engine nicht unterstützt.
+
++KXEN_W_KTS_TREND_DISCARDED
+-Das Trendmodell (%1) wurde für den Wettbewerb verworfen.
+
++KXEN_W_KTS_AR_DISCARDED
+-Das autoregressive Modell (%1) wurde für den Wettbewerb verworfen.
+
++KXEN_W_KTS_DISCARDED_MODEL
+-Das Modell (%1) wurde für den Wettbewerb verworfen. 
+
++KXEN_W_KTS_REGENGINE_INVERT_FAILURE
+-Regression (%1) fehlgeschlagen.
+
++KXEN_W_KTS_REGENGINE_MODELSELECTION_FAILURE
+-Regression (%1) fehlgeschlagen.
+
++KXEN_I_KTS_VARIABLE_SELECTION
+-Automatische Variablenauswahl wird gleich für das Modell (%1) ausgeführt.
+
++KXEN_I_KTS_NO_VARIABLE_SELECTION
+-Keine automatische Variablenauswahl für das Modell (%1) erforderlich.
+
++KXEN_I_KTS_VARIABLE_SELECTION_PERF_IMPROVED
+-Nach einer Variablenauswahl hat sich der kumulative L2 für das Modell (%1) von (%2) auf (%3) verbessert.
+
++KXEN_I_KTS_FINAL_SUMMARY_MODEL
+-Das endgültige Modell ist (%1).
+
++KXEN_I_KTS_FINAL_SUMMARY_HORIZON_COMPLEXITY
+-Der maximale Horizont des endgültigen Modells ist (%1), die Komplexität ist (%2).
+
++KXEN_I_KTS_FINAL_SUMMARY_MINP2_CUML2
+-Das Minimum von Pearson (P2) des endgültigen Modells bezogen auf den Horizont ist (%1), sein kumulativer mittlerer quadratischer Fehler ist (%2).
+
++KXEN_I_KTS_FINAL_SUMMARY_L1_MAPE
+-Weitere Performance-Indikatoren für das endgültige Modell sind: L1=(%1) und MAPE=(%2). 
+
++KXEN_W_KTS_SIGNAL_IS_ZERO_ON_VALIDATION_USE_RMSE
+-Das Signal ist für das Validierungsdatenset fast null. Der mittlere quadratische Fehler wird als Prognose-Performance-Kennzahl für die Modellauswahl erzwungen.
+
++KXEN_W_KTS_TOP_BEST_MODEL
+-Das Modell (%1) wurde in die Auswahl der besten Modelle aufgenommen. 
+
++KXEN_I_KTS_CONFIG_OPTION
+-Die erweiterte Konfigurationsoption (%1) ist aktiviert. Dies kann den Lern- oder Anwendungsprozess grundlegend ändern.
+
++KXEN_I_KTS_IGNORING_KTS_CONFIG_OPTIONS
+-Beim Lesen der erweiterten Zeitreihen-Konfigurationsoptionen ist ein Fehler aufgetreten. Alle erweiterten Konfigurationsoptionen für die Zeitreihen-Engine werden ignoriert.
+
++KXEN_W_KTS_FORCEDONEXP_WITHOUTEXP
+-Die generierten Modelle sollten einen Trend haben, bei dem nur prognoseunabhängige 
+-Variablen verwendet werden.
+-Es gibt jedoch keine angegebenen prognoseunabhängigen Variablen!
+-Die Standardmodellierung wurde reaktiviert.
+
++KXEN_E_NOACCEPTABLEEXPFORREGENGINE
+-Die generierten Modelle sollten einen Trend haben, bei dem nur zusätzliche prognostizierbare 
+-Variablen verwendet werden.
+-Es gibt jedoch keine akzeptablen Variablen für die Regression-Engine 
+-(zum Beispiel konstante Variablen).
+-Das Training wurde hier gestoppt.
+
++KXEN_W_KTS_AUTOREGRESSION_DEACTIVATED
+-Die generierten Modelle sollten einen Trend haben, bei dem nur zusätzliche prognostizierbare 
+-Variablen verwendet werden.
+-Das nur auf einem autoregressiven Prozess basierende Modell wurde deaktiviert.
+
++KXEN_E_TSERIES_BADVALUE
+-Der Wert %1 (erstes oder letztes Datum) ist nicht
+-mit dem deklarierten Datumstyp kompatibel.
+
++KXEN_W_CTRANSFORM_UPDATEOUTINDICES_NOTARGET
+-Zielvariable wurde nicht gefunden....
+
++KXEN_W_CTRANSFORM_UPDATEOUTINDICES_INVALIDINPUTSIZE
+-Die Anzahl der Eingaben ist nicht kohärent!
+
++KXEN_E_CTRANSFORM_NOINPUTS
+-Set der Modelleingabevariablen darf nicht leer sein.
+
++KXEN_E_CTRANSFORM_NOTARGETS
+-Variablen-Set für Modellziel darf nicht leer sein.
+
+#Note for translator: do not translate "dayOfMonth", "dayOfWeek" - "datetime" can be translated as "date and time"
++KXEN_W_KTS_NOSEASONALVARTREATED
+-Saisonale Variablen (dayOfMonth, dayOfWeek, ...) werden nicht behandelt.
+-Die Datumsvariable hat nicht das Format date oder datetime.
+
++KXEN_W_KTS_NO_LAGGEDVARS_TOGENERATE_AR
+-Keine verzögerten Variablen generiert. Schritt "Schwankungen" wurde übersprungen.
+
++KXEN_E_KTS_LEARN_NOMODEL
+-Problem bei der Erstellung von Zeitreihenmodellen.
+
++KXEN_E_KTS_INVALID_CUTTRAININGPOLICY
+-Die ausgewählte Unterteilungsstrategie ist ungültig. Wählen Sie "Sequenziell", 
+-"Sequenziell ohne Test" oder "Explizit".
+
++KXEN_W_KTS_BEGIN_DETRENDING
+-Trendanalyse...
+
++KXEN_E_KTS_TIMEVAR_MAYBECONSTANT
+-Datumsvariable (%1) kann konstant sein.
+
++KXEN_E_KTS_ERROR_WHILE_COMPUTING_TICKS
+-Problem beim Berechnen der Referenzindizes für die Zyklen.
+
++KXEN_W_KTS_BEGIN_DECYCLING
+-Periodizitätsanalyse...
+
++KXEN_W_KTS_NUMBER_OF_CYCLIC_VARIABLES
+-(%1) zyklische Variablen werden analysiert.
+
++KXEN_W_KTS_NUMBER_OF_SEASONAL_VARIABLES
+-(%1) saisonale Variablen werden analysiert.
+
++KXEN_W_KTS_SMOOTHING_CYCLIC_VARIABLES
+-Angelegte periodische Variablen werden geglättet...
+
++KXEN_W_KTS_CYCLES_DISABLED
+-Die Modellgenerierung ist benutzerdefiniert. Die Zyklen sind deaktiviert. Sie werden bei der Modellierung nicht verwendet.
+
++KXEN_W_KTS_SEASONALS_DISABLED
+-Die Modellgenerierung ist benutzerdefiniert. Die saisonalen Variablen sind deaktiviert. Sie werden bei der Modellierung nicht verwendet.
+
++KXEN_W_KTS_PERIODIC_EXTRAPREDS_DISABLED
+-Die Modellgenerierung ist benutzerdefiniert. Die periodischen prognoseunabhängigen Variablen sind deaktiviert. Sie werden bei der Modellierung nicht verwendet.
+
++KXEN_W_KTS_ALL_PERIODIC_COMPONENTS_DISABLED
+-Die Modellgenerierung ist benutzerdefiniert. Alle periodischen Variablen sind deaktiviert. Bei der Modellierung wird keine Periodizitätsanalyse durchgeführt.
+
++KXEN_W_KTS_COMPUTING_MODELS_PERFS
+-Leistungen werden für jedes Modell in einer sofortigen Prognose berechnet
+
++KXEN_W_KTS_COMPUTE_AF_FOR
+-Leistungen werden für (%1) in (%2) Prognosen berechnet
+
++KXEN_W_KTS_COMPUTING_MODEL_STATISTICS
+-Statistik wird für das ausgewählte Modell berechnet
+
++KXEN_W_KTS_COMPUTING_MODEL_AUTOFEEDPERF
+-Statistik wird für das ausgewählte Modell berechnet
+
++KXEN_W_KTS_CHOSEN_MODEL
+-Ausgewähltes Modell ist (%1)
+
++KXEN_W_KTS_MODEL_TREND
+-Ausgewählter Trend ist (%1)
+
++KXEN_W_KTS_MODEL_NOTREND
+-Kein Trend ausgewählt
+
++KXEN_W_KTS_MODEL_CYCLES
+-Ausgewählte Periodizität ist (%1)
+
++KXEN_W_KTS_MODEL_NOCYCLES
+-Keine Periodizität ausgewählt
+
+#Note for translator: %1 stands for the formula of the auto-regressive model (fluctuations). For example, AR(24).
++KXEN_W_KTS_MODEL_FLUCTU
+-Schwankungen entsprechen dem Modell (%1).
+
++KXEN_W_KTS_MODEL_NOFLUCTU
+-Keine modellierten Schwankungen
+
++KXEN_W_KTS_LEARN_FINISHED
+-Zeitreihen-Lernphase abgeschlossen
+
++KXEN_W_KTS_LEARN_MEMORYERROR
+-Speicherzuordnungsfehler in Time-Series-Modell
+
++KXEN_W_KTS_DECYCLING_LOOP
+-Periodizitätsnummer wird berechnet (%1)
+
++KXEN_W_KTS_FLUCTUATIONSANALYSIS
+-Schwankungsanalyse...
+
+#Note for translator: %1 is the number of forecasts requested by the user. %2 is the number of forecasts actually computed. 
+#For example, the user asked for a model that forecasts the next month (30 days), but the engine was only able to cover two week (14 days).
++KXEN_WARN_KTS_AUTOFEEDCOUNT_TOO_HIGH
+-Angeforderter Horizont (%1) ist für eine zuverlässige Prognose zu hoch.
+-Leistungen werden für die ersten (%2) Prognosen berechnet.
+
++KXEN_E_KTS_ESTIMATIONSIZE_INFTOFOUR
+-Schätzungsgröße (%1) ist nicht ausreichend (kleiner als 4).
+
++KXEN_E_KTS_VALIDATIONSIZE_INFTOFOUR
+-Validierungsgröße (%1) ist nicht ausreichend (kleiner als 4).
+
++KXEN_WARN_KTS_UNPREDICTIBLEEXTRAS_NOTIMPLEMENTEDYET
+-Die Analyse mit prognoseunabhängigen Variablen ist noch nicht implementiert.
+-Dieser Parameter wird in der Lernphase ignoriert, und die Lernphase wird fortgesetzt.
+
++KXEN_WARN_KTS_NO_MODEL_TO_APPLY
+-Kein anzuwendendes Modell.
+-Möglicherweise wurde in der Lernphase kein Modell generiert.
+
++KXEN_W_KTS_LEARN_REGRESSION_PROGRESS
+-Klassifikations-/Regressions-Lernphase wird ausgeführt...
+
++KXEN_W_KTS_LEARN_REGRESSION_NBREAD
+-Klassifikations-/Regressions-Lernphase wird ausgeführt: (%1) Fälle gelesen
+
++KXEN_W_KTS_FLUCTUMODEL
+-Schwankungsmodelltyp ist (%2) für die Variable (%1)
+
++KXEN_W_KTS_AUTOFEEDL2
+-Kumulativer L2 in der Vorhersage ist (%2) für (%1)
+
++KXEN_WARN_KTS_INVALIDAUTOFEEDCOUNT_SETTO1
+-Anzahl der angeforderten Prognosen ist kleiner als 1. 
+-Diese Anzahl wurde auf 1 gesetzt.
+
++KXEN_E_KTS_TARGETVAR_ISNOTCONTINUOUS
+-Zielvariable (%1) ist nicht stetig.
+
++KXEN_W_KTS_VAR_PERF
+-Informationen zur Variablenperformance: (%1)
+
++KXEN_W_KTS_PHASE_TIMING
+-Verstrichene Zeit während der Trainingsphase: (%2) Mikrosekunden.
+
++KXEN_W_KTS_EXTRASPREDINPUTS_NOTAVALIDTREND
+-Das Trendmodell für prognoseunabhängige Variablen wurde verworfen
+
++KXEN_WARN_KTS_INSUFFICIENTDATA_TOGENERATEAR
+-Nicht genügend Daten (%1) zum Generieren eines autoregressiven Modells
+
++KXEN_W_KTS_MAXNUMBEROFLAGS
+-(%1) Verzögerungen für jedes autoregressive Modell analysiert.
+
++KXEN_W_KTS_DECYCLING_LOOP_BEFOREAFTER
+-Gewinnperformance der Periodizitätsnummer (%1) wird berechnet
+
++KXEN_W_KTS_FLUCTU_BEFOREAFTER
+-Gewinnperformance der autoregressiven Modelle wird berechnet
+
++KXEN_W_KTS_COMPARING_AUTOFEEDPERFS
+-Prognoseperformance jedes Modells wird verglichen.
+
++KXEN_W_KTS_AUTOFEED_INF
+-Modell (%1), kumulativer mittlerer quadratischer Fehler im Prognosehorizont: (%2).
+
++KXEN_W_MEMORYSPACE_IN_USE
+-Speicherplatz %1 wird verwendet.
+
++KXEN_WARN_KTS_FIND_DIVERGENTAR
+-Abweichendes autoregressives Modell suchen: (%1)
+
++KXEN_E_KTS_NOTENOUGHLINES_INTHESPACE
+-Ihre Prognoseinformationen reichen zur Berechnung so vieler Prognosen nicht aus.
+
++KXEN_W_KTS_NUMBER_OF_EXTRASPRED_VARIABLES
+-(%1) prognoseunabhängige Variablen werden analysiert.
+
++KXEN_W_KTS_NOMODEL_CHOSEN
+-Die Engine hat kein Modell gefunden.
+
++KXEN_E_KTS_LASTROWWITHEXTRASPREDICTABLE_NOT_INFORMED
+-Sie haben prognoseunabhängige Variablen angegeben, aber nicht den Endzeilenindex
+-mit Prognoseinformationen.
+
++KXEN_E_KTS_LASTROWTRAINING_HASTOBEFILLED_WITHEXTRASPRED
+-Sie haben prognoseunabhängige Variablen angegeben. Deshalb müssen Sie
+-den Zeilenindex für das Ende des Trainingssets angeben (ohne
+-Prognoseinformationen).
+
++KXEN_E_KTS_LASTROWAPPLYIN_HASTOBEFILLED_WITHEXTRASPRED
+-Sie haben prognoseunabhängige Variablen angegeben. Sie müssen
+-den Index für die letzte Zeile des Anwendungsdatensets angeben (ohne
+-Prognoseinformationen).
+
++KXEN_E_KTS_FUTURE_VALUES_FOR_KEYS_NOT_FILLED
+-Für den Abruf der Prognosen müssen alle zukünftigen Werte für alle Schlüsselvariablen im Anwendungsdatenset bezogen auf den angeforderten Horizont gefüllt werden.
+
++KXEN_E_KTS_NEED_TO_FILL_FUTURE_VALUES_FOR_KEYS
+-Für den Abruf der Prognosen müssen alle zukünftigen Werte für alle Schlüsselvariablen im Anwendungsdatenset bezogen auf den angeforderten Horizont gefüllt werden.
+
++KXEN_E_KTS_INSUFFICIENT_FUTURE_VALUES_FILLED_FOR_KEYS
+-Zukünftige Werte für alle Schlüsselvariablen müssen im Anwendungsdatenset gefüllt werden. Es gibt nicht genügend anzuwendende Werte für den angeforderten Horizont (%3).
+
++KXEN_E_KTS_UNEXPECTEDEMPTYDATE
+-Leeres Datum in der Datei gefunden...
+
++KXEN_E_KTS_DATEWITHNEGATIVEVALUES
+-Die Datumsvariable enthält negative Werte!
+
++KXEN_E_KTS_INSUFFICIENT_NBOFEXTRASPRED_WITH_FOREC_ASKED
+-Das Trainingsdatenset enthält nicht genügend Werte für
+-prognoseunabhängige Variablen, um die Anzahl der angeforderten Prognosen abdecken zu können.
+
++KXEN_E_KTS_CANNOT_APPLY_ON_NEW_DATA
+-Die Engine kann das Modell auf diese Daten nicht anwenden. Diese Daten haben keinen
+-zulässigen Datumsbereich.
+
++KXEN_W_KTS_DOTEST_NBREAD
+-Modell wird angewendet: (%1) Fälle gelesen
+
++KXEN_W_KTS_DOTEST_PROGRESS
+-Modell wird angewendet...
+
++KXEN_I_KTS_L2P2FIT_VALIDATION
+-Entsprechungs-Performance bei Validierung:                 P2=%1 L2=%2
+
++KXEN_I_KTS_L2P2FC_VALIDATION
+-Performance der letzten Prognose (=%1) bei Validierung: 	P2=%2 L2=%3
+
++KXEN_I_KTS_L2P2FIT_TEST
+-Entsprechungs-Performance bei Test:                       P2=%1 L2=%2
+
++KXEN_I_KTS_L2P2FC_TEST
+-Performance der letzten Prognose (=%1) bei Test:        P2=%2 L2=%3
+
++KXEN_W_CODBCSPACE_OPEN_NOTABLE
+-Tabelle %1 ist nicht vorhanden oder kann nicht aufgerufen werden.
+
++KXEN_W_ODBCSPACE_CREATETABLE
+-Tabelle %1 kann nicht angelegt werden.
+
++KXEN_W_ODBCSPACE_POPULATETABLE
+-Daten können nicht in die Tabelle %1 geladen werden.
+
++KXEN_W_ODBCSPACE_DROPTABLE
+-Tabelle %1 kann nicht gelöscht werden.
+
++KXEN_W_ODBCSPACE_CREATEINDEX
+-Index in Tabelle %1 kann nicht angelegt werden.
+
++KXEN_W_ODBCSPACE_ALTERTABLE
+-Das Layout der Tabelle %1 kann nicht geändert werden.
+
++KXEN_W_ODBCCASEITER_LOTSOFERROR
+-%1 Fehler beim Aktualisieren der Tabelle %2 aufgetreten.
+
++KXEN_W_ODBCCASEITER_INSERT
+-Zeile mit Primärschlüsseln kann nicht eingefügt werden: 
+-[%1]
+
++KXEN_W_ODBCCASEITER_UPDATE
+-Zeile mit Primärschlüsseln kann nicht aktualisiert werden: 
+-[%1]
+
++KXEN_W_LEARN_OVERLAPP
+-Überschneidung wird abgedeckt: %1
+
++KXEN_W_LEARN_GAZFREQ
+-Häufigkeit nicht zugeordneter Datensätze: %1
+
++KXEN_W_CKMEANS_E_CANNOT_GENERATE_CODE
+-Code %1 nicht verfügbar
+
++KXEN_W_CODEGEN_E_DATETIME_NOT_SUPPORTED
+-Datumsvariablen werden vom Codegenerierer %1 nicht unterstützt
+
++KXEN_W_CODEGEN_E_QUANTILE_NOT_SUPPORTED
+-Generierung von Quantilen wird vom Codegenerierer %1 nicht unterstützt
+
++KXEN_W_ODBC_DUPLICATEFIELD
+-Feldname %1 doppelt.
+-Verwenden Sie '%1 als <UniqueName>' in Ihrer SQL-Anforderung.
+
++KXEN_W_CKMEANS_NOMOREDATA
+-Nicht genügend Daten zum Initialisieren des Segmentierers.
+
++KXEN_W_KAR_TEST_NBREAD
+-Modell wird angewendet: (%1) Fälle gelesen
+
++KXEN_W_KAR_TEST_PROGRESS
+-Modell wird angewendet...
+
++KXEN_E_KAR_REFIDCOLUMN_NOTFOUND
+-ID-Spalte '%1' in Assoziationsregeln-Referenztabelle nicht gefunden.
+
++KXEN_W_KAR_ENTRY_NBREAD
+-Interne Assoziationsregeltabelle wird erstellt: %1 Einträge hinzugefügt
+
++KXEN_W_KAR_ENTRY_PROGRESS
+-Interne Assoziationsregeltabelle wird erstellt
+
++KXEN_E_KAR_DUPLICATED_TICKET
+-Identifikator '%1' ist in der Referenztabelle redundant.
+
++KXEN_E_KAR_MISSING_TRANSACTION
+-Keine Transaktion für Identifikator '%1' gefunden
+
++KXEN_W_KAR_VARNODISCRETE
+-Elementvariable (%1) ist nicht diskret.
+
++KXEN_W_KAR_DOFIRSTPASSONLOG
+-Statistik für die Elementvariable wird berechnet...
+
++KXEN_W_KAR_DOFIRSTPASSONLOG_PROGRESS
+-Tabelle mit den Anwendungsdaten bezüglich der Elementvariablen wird aktualisiert...
+
++KXEN_W_KAR_DOFIRSTPASSONLOG_NBREAD
+-Statistik wird berechnet: (%1) Fälle gelesen
+
++KXEN_W_KARTABLE_POPULATE
+-Statistik für die Elementvariable wird berechnet...
+
++KXEN_W_KARTABLE_POPULATE_PROGRESS
+-Anzahl der Sitzungen wird aktualisiert...
+
++KXEN_W_KARTABLE_POPULATE_NBREAD
+-Übergangsvektoren werden erstellt: (%1) Transaktionen gelesen
+
++KXEN_W_KAR_APPLY_RULES
+-Regeln werden auf Fälle angewendet...
+
++KXEN_W_KAR_LEARN_NOMODEL
+-Fehler: Kein Modell gefunden
+
++KXEN_W_KAR_SPACENOTFOUND
+-Fehler: Raum (%1) nicht gefunden...
+
++KXEN_E_KAR_VARNOTFOUND
+-Fehler: Variable (%1) nicht gefunden...
+
++KXEN_E_KAR_NODATEVARIABLESPECIFIED
+-Fehler: Keine Datumsvariable für den Sequenzmodus angegeben.
+
++KXEN_E_KAR_DATEVARIABLESTORAGENOTCORRECT
+-Fehler: Die angegebene Datumsvariable (%1) hat keinen gültigen Speicher (%2).
+-Gültige Speicher: integer, number, date (yyyy-mm-dd) 
+-und datetime (yyyy-mm-dd hh:mm:ss).
+
++KXEN_W_KAR_NBTRANSACTIONS_PROGRESS
+-Berechnung wird ausgeführt...
+
++KXEN_W_KAR_NBSESSIONS_PROGRESS
+-Berechnung wird ausgeführt...
+
++KXEN_W_KAR_NBTRANSACTIONS_NBREAD
+-(%1) Transaktionen gefunden
+
++KXEN_W_KAR_NBSESSIONS_NBREAD
+-(%1) Sitzungen gefunden
+
++KXEN_W_KAR_GETTRANSACTIONS
+-Transaktionen werden importiert...
+
++KXEN_W_KAR_GETTRANSACTIONS_PROGRESS
+-Import wird ausgeführt...
+
++KXEN_W_KAR_GETTRANSACTIONS_NBREAD
+-(%1) Transaktionen importiert
+
++KXEN_W_KAR_CREATESESSIONSANDRULES
+-Sitzungen werden importiert und Regeln angelegt: Chunk-Anzahl %1.
+
++KXEN_W_KAR_CREATESESSIONSANDRULES_PROGRESS
+-Berechnung wird ausgeführt...
+
++KXEN_W_KAR_CREATESESSIONSANDRULES_NBREAD
+-Sitzungen werden importiert und Regeln angelegt: (%1) Sitzungen gelesen.
+
++KXEN_W_KAR_CHUNKS_WITH_ORDEREDKEY
+-Warnung:  Schlüsselvariable der Transaktionen (%1) muss sortiert sein, 
+-um Chunks mit der Assoziationsregeln-Engine verwenden zu können!
+
++KAR_E_CUTSESSIONFOUND
+-Das Transaktionsdatenset ist nicht nach Sitzungsschlüssel sortiert: Die Chunks-Lernstrategie 
+-kann nicht verwendet werden.
+-Die Sitzung (%1) ist nicht angrenzend.
+
++KXEN_I_KAR_SEQUENCESCOMPUTING
+-Sequenzstatistik wird berechnet...
+
++KXEN_I_KAR_REAJUSTRULESSUPPORT
+-Unterstützungsregeln werden nach Verwendung von Chunks neu angepasst...
+
++KXEN_I_KAR_REAJUSTRULESSUPPORT_PROGRESS
+-Neuanpassung wird ausgeführt...
+
++KXEN_I_KAR_REAJUSTRULESSUPPORT_NBREAD
+-Unterstützung wird neu angepasst: (%1) Sitzungen gelesen
+
++KAR_E_KEYSHAVENOTTHESAMESTORAGEORVALUE
+-Die für den Join verwendeten Schlüssel haben nicht denselben Speicher oder denselben Werttyp.
+
++KXEN_E_KAR_UNKNOWNCATEGORY
+-Die Kategorie (%1) ist für die Elementvariable nicht vorhanden.
+
++KXEN_E_KAR_UNKNOWNCATEGORY_CONSEQUENTSEXCLUDEDLIST
+-Die Kategorie (%1), die in der Liste der aus der
+-Assoziationsregelgenerierung auszuschließenden Aktionsteile angegeben ist, ist für die
+-Elementvariable nicht vorhanden.
+-Der Lernprozess wird fortgesetzt, ohne die Kategorie zu verwenden.
+
++KXEN_E_KAR_UNKNOWNCATEGORY_TOOMANYEXCLUDED
+-Viele Kategorien, die in der Liste der von der Assoziationsregelgenerierung
+-auszuschließenden Aktionsteile angegeben sind, sind für die Elementvariable nicht vorhanden.
+-Es werden keine Nachrichten zum Ausschließen unbekannter Kategorien mehr ausgegeben.
+-Der Lernprozess wird ohne Berücksichtigung dieser unbekannten Kategorien fortgesetzt.
+
++KXEN_E_KAR_UNKNOWNCATEGORY_CONSEQUENTSINCLUDEDLIST
+-Die Kategorie (%1), die in der Liste der in die 
+-Assoziationsregelgenerierung einzubeziehenden Aktionsteile angegeben ist, ist für die
+-Elementvariable nicht vorhanden.
+-Der Lernprozess wird fortgesetzt, ohne die Kategorie zu verwenden.
+
++KXEN_E_KAR_UNKNOWNCATEGORY_TOOMANYINCLUDED
+-Viele Kategorien, die in der Liste der in die Assoziationsregelgenerierung
+-einzubeziehenden Aktionsteile angegeben sind, sind für die Elementvariable nicht vorhanden.
+-Es werden keine Nachrichten zum Einbeziehen unbekannter Kategorien mehr ausgegeben.
+-Der Lernprozess wird ohne Berücksichtigung dieser unbekannten Kategorien fortgesetzt.
+
++KXEN_E_KAR_UNKNOWNCATEGORY_APPLYCONSEQUENTSLIST
+-Die Kategorie (%1), die in der Liste der Aktionsteile angegeben ist,
+-die zu den zu aktivierenden Assoziationsregeln beim Anwenden gehören, ist für die
+-Elementvariable nicht vorhanden.
+-Die Anwendung wird fortgesetzt, ohne die Kategorie zu verwenden.
+
++KXEN_W_USERSPACE_GUESS_PBM_WITH_FIELD
+-Die Beschreibung von Feldnummer %1 ist ungültig.
+
++KXEN_W_FILESPACE_SOME_LINES_HAS_BEEN_SKIPPED_TO_FIND_A_HEADER
+-Erste %1 Zeilen wurden übersprungen, bevor ein gültiger Kopf gefunden wurde.
+
++KXEN_W_TERADATA_5_00_DEMO_ISSUES
+-Mögliche Probleme in Zusammenhang mit der Demo-CD für Unicode und Teradata.
+
++KXEN_W_TERADATA_CLIENT_CHARSET_UNMATCH_MULTILANGISDEFAULT
+-Der in Ihrer ODBC-Verbindung verwendete Zeichensatz ist %1. Dies entspricht nicht 
+-Ihrer MultiLanguageIsDefault-Option und kann Probleme verursachen.
+
++KXEN_E_CUSERSPACE_BEGIN_BADCOLUMNCOUNT
+-Inkompatible Anzahl von Spalten: %1 in Beschreibung, %2 in Datenset.
+
++KXEN_E_KTS_TARGETISEXPTOO
+-Die Zielvariable (%1) kann nicht als prognoseunabhängige Variable verwendet werden.
+-Sie wird aus der Liste der prognoseunabhängigen Variablen ausgeschlossen.
+
++KXEN_E_KTS_DATEISEXPTOO
+-Die Datumsvariable (%1) kann nicht als prognoseunabhängige Variable verwendet werden.
+-Sie wird aus der Liste der prognoseunabhängigen Variablen ausgeschlossen.
+
++KXEN_W_RREGRESSION_INVALIDRULEPARAM
+-Ungültige Wahrscheinlichkeitswerte. Die Werte müssen Folgendes erfüllen: 
+-0 < niedrige Wahrscheinlichkeit < hohe Wahrscheinlichkeit < 1
+
++KXEN_W_RREGRESSION_INVALIDRULESCORE
+-Ungültige Punktwerte. Die Werte müssen Folgendes erfüllen: 
+-niedriger Punktwert < hoher Punktwert
+
+#NOTR
++KXEN_DBGMODELS_LASTCOMPARISON
+-(%1): MH=(%2), L2=(%3)
+
++KXEN_W_RREGRESSION_HIGHORDERSCORECARD
+-"Regelmodus" kann nicht aktiviert werden, wenn die Polynomordnung größer als 1 ist.
+
++KXEN_W_ELOG_TOTALREFS
+-Anzahl der Referenzen: %1
+
++KXEN_W_ELOG_TOTALTRANS
+-Anzahl der Transaktionen: %1
+
++KXEN_W_ELOG_TOTALPROCESSED
+-Anzahl der verarbeiteten Transaktionen: %1
+
++KXEN_W_ELOG_MATCHING
+-Anzahl der übereinstimmenden Referenzen: %1
+
++KXEN_W_ELOG_MINDATE
+-Minimales Transaktionsdatum: %1
+
++KXEN_W_ELOG_MAXDATE
+-Maximales Transaktionsdatum: %1
+
++KXEN_W_CKMEANS_BADNBCLUSTERS
+-Fehler: Falsche Clusteranzahl (muss >1 sein).
+
++KXEN_E_CUSERSPACE_UNKNOWNERROR
+-Unbekannter Fehler beim Zugriff auf externe Daten (Aufruf: %1)
+
++KXEN_E_CUSERSTORE_UNKNOWNERROR
+-Unbekannter Fehler beim Zugriff auf externe Daten (Aufruf: %1)
+
++KXEN_E_CUSERCASEITER_UNKNOWNERROR
+-Unbekannter Fehler beim Zugriff auf externe Daten (Aufruf: %1)
+
++KXEN_E_CUSERSTORE_SETOPTION
+-Wert %2 kann nicht für die Option %1 vergeben werden
+
++KXEN_E_CUSER_NOTIMPLEMENTED
+-Aufruf von %1 ist nicht implementiert.
+
++KXEN_W_CUSERSPACE_OPEN_NOTUSERSTORE
+-Inkompatible Speicherklasse für %1
+
++KXEN_W_CUSERSPACE_INVALIDSTORAGE
+-Ungültiger Variablenspeicher (Code %1)
+
++KXEN_W_CUSERSPACE_INVALIDVALUETYPE
+-Ungültiger Variablentyp (Code %1)
+
++KXEN_W_CSSEGMENTER_LEARN_ONEVARLEFT
+-Fehler: Segmentierung nur für eine Variable!
+
+#NOTR
++KXEN_W_CSVMCLASSIFOPTIMIZER_OPTIMIZE_NOC
+-Error: wrong 'C' conditioning!
+
++KXEN_W_CSVMCLASSIFICATION_ONLYONETARGET
+-Fehler: SVM kann nur mit genau einem Ziel verwendet werden.
+
++KXEN_W_CSVMCLASSIFICATION_LEARN_NO_C_CONVERGENCE
+-Fehler: Keine Übereinstimmung bei der Suche nach einem passenden Wert für 'C'!
+
++KXEN_W_CSVMCLASSIFICATION_COMPUTEPERFPB
+-Problem beim Aktualisieren von internen Leistungskennzahlen
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
+#NOTR
++KXEN_W_CSVMCLASSIFICATION_LEARN_MEMORYERROR
+-Memory allocation error in support vector model.
+-This data set contains too many lines.
+
++KXEN_W_CSVMCLASSIFICATION_RESULTSFROMPARAMETER_NOTFOUND
+-Fehler beim Abruf des Parameters
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_W_CSVMCLASSIFICATION_RESULTSTOPARAMETER_ERROROPENSVFILE
+-Fehler beim Öffnen der Datei zum Sichern der Support Vectors.
+
++KXEN_W_CSVMCLASSIFICATION_IGNOREDWRONGMAXBLOCKSIZE
+-Werte-Set für maximale Blockgröße ist falsch. Dieser Wert wurde ignoriert.
+
++KXEN_W_CSVMCLASSIFICATION_IGNOREDWRONGMAXMEMSIZE
+-Werte-Set für maximale Cache-Größe ist falsch. Dieser Wert wurde ignoriert.
+
++KXEN_W_CSVMCLASSIFICATION_COMPUTECACHEDINPUTS_STACKPB
+-Fehler beim Datenzugriff
+
++KXEN_W_CSVMCLASSIFICATION_INITKERNEL_NOMEMORY
+-Speicherzuordnungsfehler
+
+#NOTR
++KXEN_W_CSVMCLASSIFICATION_WRITESUPPVECT_WRITEERROR
+-An Error occurred while writing support vectors.
+
++KXEN_W_CSVMCLASSIFICATION_READSUPPVECT_READERROR
+-Fehler beim Lesen der Support Vectors.
+
++KXEN_W_CSVMCLASSIFICATION_READSUPPVECT_INVALIDFORMAT
+-Datei mit Support Vectors nicht erkannt.
+
++KXEN_W_CRREGRESSION_SIMULATION_SKIP
+-Modell hat die Simulation aufgrund des internen Modus übersprungen
+
++KXEN_W_CRREGRESSION_SIMULATION_CHECKFIRST
+-Internes Kohärenzproblem bei der Simulation.
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_W_CRREGRESSION_LEARN_NUMERICALERROR
+-Interner numerischer Fehler
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_W_STATBUILDER_LEARN_NUMERICALERROR
+-Interner numerischer Fehler
+-Dies sollte nicht auftreten. Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_W_ODBCERROR
+-Nachricht aus ODBC: %1
+
++KXEN_E_INTERNAL_ASSERTION_FAILED
+-Zielsystem muss mit dem Ursprungssystem kompatibel sein:
+-%1
+
++KXEN_E_CODBCSPACE_SELECT_NOT_OPEN
+-Problem bei dem Versuch, die SQL-Anweisung zu öffnen:
+-%1
+-Nachricht aus ODBC: %2
+
++KXEN_W_CMEMORYSPACE_OPEN_NOTOPENSTORE
+-Speicherplatz %1 ist nicht vorhanden.
+
++KXEN_W_NAIVEBAYES_LEARN_PROGRESS
+-Lernen von "Naiver Bayes"...
+
++KXEN_W_CMEMORYSPACE_CREATE_CANNOTCREATE
+-Problem beim Anlegen von Speicherplatz %1
+
++KXEN_W_KMEANS_FORPERF_PASS
+-Aktualisierung der Performance (%1)
+
++KXEN_E_CFILESPACE_GUESSDESCRIPTION_NOLINES
+-Datei %1 kann nicht analysiert werden. Keine gültigen Zeilen vorhanden.
+
++KXEN_W_CFILESPACE_GUESSDESCRIPTION_NOFILE
+-Die Datei kann nicht analysiert werden:
+-Prüfen Sie Ihre Zugriffsrechte!
+
++KXEN_W_CCODER_ALIGNPROBLEM
+-Statistikkohärenzproblem aufgetreten
+-Bitte wenden Sie sich an den SAP-Support.
+
++KXEN_W_VAR_STORAGEVALUE
+-Debuggen: Variable %1 von Typ %2 und Klasse %3
+
++KXEN_W_VAR_KI_ESTIM_VALID
+-Debuggen: Variable %1: KI-Schätzung: %2 Validierung: %3
+
++KXEN_W_VAR_KI_TEST_KR
+-Debuggen: Variable %1: KI-Test: %2 KR: %3
+
++KXEN_E_APP_SETTINGS_WRONG_EXTRA_MODE_VALUE
+-Ungültiger Wert (%1) von "Zusätzlicher Modus" für ein stetiges Ziel.
+
++KXEN_E_RREGRESSION_NULL_SUMCONTRIB
+-Alle Beiträge sind null.
+
++KXEN_W_CTRANSFORM_CATEGORY_FREQUENCY
+-Kategorie %1 mit einer Häufigkeit von %2
+
++KXEN_W_RREGRESSION_INVALIDTARGETFORRULEMODE
+-"Regelmodus" oder "Risikomodus" kann nicht aktiviert werden, wenn die Zielvariable stetig ist.
+
++KXEN_ITERATION_VARIABLESELECTION
+-Index der aktuellen Iteration %1
+-Referenz-KI: %2 Referenz-KR: %3
+
++KXEN_VARIABLE_KI_KR_VARIABLESELECTION
+-Anzahl der beibehaltenen Variablen %1
+-KI: %2 KR: %3
+
++KXEN_W_CTEXTCODER_DICTIONARY_SIZE
+-Wörterbuchgröße
+
++KXEN_W_CTEXTCODER_FIRSTWORDCOUNT
+-Häufigkeit des ersten Worts
+
++KXEN_W_CTEXTCODER_EMPTYDICTIONARY
+-Das Wörterbuch ist leer.
+
++KXEN_W_CTEXTCODER_STOPWORD
+-Liste der Stoppwörter
+
++KXEN_W_CTEXTCODER_LANGUAGE_RECOGNITION_PROGRESS
+-Spracherkennung wird ausgeführt...
+
++KXEN_W_CTEXTCODER_LANGUAGE_RECOGNITION_NBREAD
+-Spracherkennung wird ausgeführt: %1 Elemente gelesen
+
++KXEN_W_CTEXTCODER_DICTIONARY_CONSTRUCTION_PROGRESS
+-Wörterbuch wird aufgebaut...
+
++KXEN_W_CTEXTCODER_LEARN_FINISHED
+-Textkodierungs-Lernphase abgeschlossen
+
++KXEN_W_TEXTCODER_MISSINGOPTION
+-+Fehlende Optionen für die Textkodierungs-Engine
+
++KXEN_W_TEXTCODER_BADUTF8_WORD
+-Das Wort %3 (%1) in Zeile %2 wurde von der Textkodierungs-Engine wegen eines falschen UTF-8-Formats übersprungen.
+
++KXEN_E_TEXTCODER_BADUTF8_DATASET
+-Datenset %1 enthält zu viele Wörter im ungültigen UTF-8-Format; der Textkodierungsprozess wird gestoppt.
+
++KXEN_E_TEXTCODER_BADUTF8_LANGUAGE_FILE
+-Falsche UTF-8-Zeichenfolge in der Textkodierungs-Sprachdatei '%1' gefunden.
+-Zeichenfolge: %2.
+-Fehler: %3.
+
++KXEN_W_TEXTCODER_NB_ROOT_GENERATE
+-Für die Daten %1 wurden %2 Stämme generiert.
+
++KXEN_W_TEXTCODER_NB_ROOT_IGNORE
+-Für die Daten %1 wurden %2 Stämme ignoriert.
+
++KXEN_E_TEXTCODER_BADSYNTAX_LANGUAGE_FILE
+-In der Textkodierungs-Sprachdatei '%1' wurde ein Fehler aufgrund einer ungültigen Syntax in einem regulären Ausdruck gefunden.
+-Regulärer Ausdruck: %2.
+-Fehler: %3.
+
++KXEN_W_CTEXT_CODER_CONFIGURATION_FILE_DOES_NOT_EXIST
+-Datei KxLanguage.cfg ist im Speicher %1 nicht vorhanden.
+-Es wird keine Sprache geladen.
+
++KXEN_W_CTEXT_CODER_CONFIGURATION_FILE_INVALID
+-Datei KxLanguage.cfg ist im Speicher %1 ungültig.
+-Es wird keine Sprache geladen.
+
++KXEN_W_CTEXT_CODER_CONFIGURATION_FILE_INVALID_KEY
+-Schlüssel %1 ist in der Konfigurationsdatei KxLanguage.cfg ungültig
+
++KXEN_W_CTEXT_CODER_CONFIGURATION_FILE_INVALID_FILE
+-für den Schlüssel %1 ist die Datei %2 in der Konfigurationsdatei KxLanguage.cfg nicht vorhanden
+
++KXEN_W_CTEXT_CODER_CONFIGURATION_FILE_INVALID_LINE
+-Schlüssel %1 hat in der Datei KxLanguage.cfg keinen zugeordneten Wert
+
+
++KXEN_W_CTEXT_CODER_CONFIGURATION_FILE_LANGUAGE_REDECLARATION
+-Sprachenname %1 ist bereits einer anderen Sprache zugeordnet.
+
+
++KXEN_W_TEXTCODER_JAPANESE_UNAVAILABLE
+-Teilung für Japanisch ist auf Ihrem Computer nicht verfügbar
+
++KXEN_E_CTEXTCODER_USERLIB_SETOPTION
+-Wert %2 kann nicht für die Option %1 vergeben werden
+
++KXEN_E_CTEXTCODER_USERLIB_ERROR
+-Bei der Verwendung einer externen Bibliothek durch die Textkodierungs-Engine ist ein Fehler aufgetreten. 
+-Weitere Details finden Sie im Protokoll.
+
++KXEN_W_TEXT_CODER_BADSTOPLIST_FILE
+-Die als Stoppliste verwendete Datei %1 scheint sich geändert zu haben.
+
++KXEN_W_TEXT_CODER_BADSTEMMINGRULE_FILE
+-Die für Stammbildungsregeln verwendete Datei %1 scheint sich geändert zu haben.
+
++KXEN_W_TEXT_CODER_BADCONCEPTLIST_FILE
+-Die für Konzepte verwendete Datei %1 scheint sich geändert zu haben.
+
++KXEN_W_TEXT_CODER_BADSYNONYMLIST_FILE
+-Die für Synonyme verwendete Datei %1 scheint sich geändert zu haben.
+
++KXEN_W_TEXT_CODER_BAD_LANGUAGE_FILE
+-Variable %2 konnte im Raum %1 nicht hinzugefügt werden. Dieser Raum wird nicht verwendet werden.
+
++KXEN_W_VARSEL_BEGIN
+-Automatische Auswahl...
+
++KXEN_W_VARSEL_PROGRESS_ITERATION
+-Statistik für Iteration %1 wird aktualisiert
+
++KXEN_W_VARSEL_PROGRESS_ITERATION_DETAIL
+-%1 Variablen beibehalten KI=%2 KR=%3
+
++KXEN_W_VARSEL_PROGRESS_ITERATION_PROGRESS
+-Für die aktuelle Iteration: %1 Variablen beibehalten, KI = %2, KR = %3
+
++KXEN_W_CTEXTCODER_DICTIONARY_CREATION
+-Textkodierungswörterbuch wird angelegt...
+
++KXEN_W_CTEXTCODER_DICTIONARY_CREATION_NBREAD
+-Textkodierungswörterbuch wird angelegt: %1 Elemente gelesen.
+
++KXEN_W_CTEXTCODER_NO_CONCEPT_LIST
+-Die von Spalte %2 verwendete Sprache %1 hat keine Definitionsdatei für die Konzeptliste. 
+
++KXEN_W_CTEXTCODER_NO_STOP_LIST
+-Die von Spalte %2 verwendete Sprache %1 hat keine Definitionsdatei für die Stoppliste.
+
++KXEN_W_CTEXTCODER_NO_STEMMING_RULES
+-Die von Spalte %2 verwendete Sprache %1 hat keine Definitionsdatei für die Stammbildungsregeln.
+
++KXEN_W_CTEXTCODER_NO_SYNONYM_LIST
+-Die von Spalte %2 verwendete Sprache %1 hat keine Definitionsdatei für die Synonymliste.
+
++KXEN_E_TEXT_CODER_UNKNOWN_RANKING_STRATEGY
+-Unbekannte Rangfolgestrategie
+
++KXEN_W_TEXTCOD_LEARN_NODATASET
+-Datenset '%1' nicht gefunden
+
++KXEN_E_TEXT_CODER_UNKNOWN_KTC_DATA_STORE
+-Textkodierungsspeicher '%1' kann nicht geöffnet werden
+
+
++KXEN_W_CTEXTCODER_UNVALID_KTC_DATA_STORE_RELOAD_CANTAPPLY
+-Speicher %1 konnte nicht geöffnet werden. Es wird keine Sprache geladen, und es kann keine Anwendung
+- vorgenommen werden.
+
++KXEN_W_TEXT_CODER_LANGUAGE_NOT_RECOGNIZED
+-Für das textuelle Feld '%1 kann die Sprache nicht erkannt werden
+
++KXEN_W_TEXT_CODER_GLOBAL_LANGUAGE_NOT_RECOGNIZED
+-Für das gesamte Datenset kann die Sprache nicht erkannt werden:
+-Die Wörter scheinen zu keiner definierten Sprache zu gehören.
+-Versuchen Sie, eine benutzerdefinierte Sprache (zum Beispiel "en") zu aktivieren
+-und die Stoppwortkürzung und Stammbildungskürzung zu deaktivieren.
+-Für das Datenset wird eine einfache Textteilung ohne Sprachenbehandlung verwendet.
+
++KXEN_W_CTEXT_CODER_INVALID_CONCEPT
+- Ungültige Konzeptdeklaration: "%1 = %2" (Zeile %3 von Datei %4)
+
++KXEN_W_CTEXT_CODER_CONCEPT_ALREADY_MAPED
+- Das Wortset "%1" ist bereits mit dem Konzept "%2" zugeordnet
+- (Zeile %3 in Datei %4)
+
++KXEN_W_CTEXT_CODER_CONCEPT_ERROR
+- Die Konfigurationsdatei für Konzept (%1) enthält einen Fehler. 
+- Weitere Details finden Sie im Protokoll 
+
++KXEN_W_CTEXT_CODER_INVALID_SYNONYM
+- Ungültige Synonymdeklaration: "%1 = %2" (Zeile %3 in Datei %4)
+
++KXEN_W_CTEXT_CODER_SYNONYM_ALREADY_MAPED
+- Wort "%1" ist bereits mit dem Synonym "%2" zugeordnet
+- (Zeile %3 in Datei %4)
+
++KXEN_W_CTEXT_CODER_SYNONYM_ERROR
+- Die Konfigurationsdatei für Konzept (%1) enthält einen Fehler.
+- Weitere Details finden Sie im Protokoll 
+
++KXEN_W_CTEXT_CODER_STEMMING_RULE_NUMBER_DUPLICATE
+- Die Stammbildungsregel-Nummer %1 ist bereits mit einer anderen Regel in der Datei %2 verknüpft.
+- Diese Regel wird ignoriert.
+
++KXEN_W_CTEXT_CODER_STEMMING_RULE_INVALID_INTEGER_FIELD
+- Feldnummer %1 der Stammbildungsregel in Zeile %2 der Datei %3
+- muss eine Zahl sein. Diese Regel wird ignoriert. 
+
++KXEN_W_CTEXT_CODER_STEMMING_RULE_TAB_AT_END_OF_LINE
+-Die Datei %1 enthält an einem oder mehreren Zeilenenden 
+- einen oder mehrere Tabulatoren.
+-Dies könnte beim Parsen der Datei Fehler verursachen.
+
++KXEN_E_TEXT_CODER_NO_TEXTUAL_IN_INPUTS
+-Die Textkodierungs-Engine wird verwendet, aber es gibt keine definierten textuellen Variablen.
+-Prüfen Sie, ob Sie diese möglicherweise übersprungen haben.
+
++KXEN_E_RREGRESSION_AUTOSELECTION_IN_MULTITARGET
+-Automatische Variablenauswahl ist für Modelle mit mehreren Zielen nicht verfügbar.
+
++KXEN_W_CTEXTCODER_GLOBAL_LANGUAGE_DETECTED
+-Die für das Datenset erkannte Sprache ist '%1'.
+
++KXEN_W_CTEXTCODER_NO_LANGUAGE
+-Da keine Sprache verfügbar ist, werden keine Regeln (Stammbildung, Konzepte usw.) angewendet.
+
++KXEN_W_CTEXTCODER_COULD_NOT_DETERMINE_LANGUAGE
+-Die Sprache konnte nicht erkannt werden. Möglicherweise: %1.
+-Es werden keine Regeln (Stammbildung, Konzepte usw.) angewendet.
+
++KXEN_W_CTEXTCODER_LANGUAGE_DETECTED
+-Die für das Feld %2 erkannte Sprache ist %1.
+
++KXEN_W_CTEXTCODER_UNVALID_VARIABLE_PREFIX
+-Präfix einer Textkodierungsvariablen darf nicht "/" sein.
+
++KXEN_W_CTEXTCODER_UNVALID_RANKING_STRATEGY
+-Diese Rangfolgestrategie wurde deaktiviert, es wird der Standard (Häufigkeit) verwendet.
+
++KXEN_E_KTS_INVALID_DATECOL_KEYLEVEL
+-Schlüsselebene für Variablenrolle der Datumsspalte '%1' muss auf 1 gesetzt sein.
+
++KXEN_E_KTS_VARNAME_STARTS_WITH_KTS
+-Variablenname '%1' beginnt mit "kts_" und kann mit internen Zeitreihenvariablen in Konflikt stehen.
+-Benennen Sie die Variable um, oder definieren Sie eine Zuordnung.
+-Die Lernphase wurde gestoppt.
+
++KXEN_W_TABLE_ALREADY_CONTAINS_VARIABLE
+-Die Zieltabelle enthält bereits die Spalte '%1'.
+
++KXEN_W_CRREGRESSION_STRATEGY
+-Problem bei der Strategieinitialisierung.
+
++KXEN_W_SQLEXECUTION
+-Die folgende SQL-Anweisung:
+-%1
+-kann nicht korrekt ausgeführt werden.
+
++KXEN_E_INVALID_LIBRARY
+-Ihr aktueller Speicher %1 kann nicht geladen werden, weil
+-Sie keinen Zugriff auf die Bibliothek %2 haben.
+
+#Note for translator: %1 stands for the name of the programming code (such as C++, Java, SQL)
++KXEN_E_CANNOT_GENERATE_CODE_WITH_GREAT_ORDER
+-Automated-Analytics-Codegenerierer kann keinen %1-Code für eine Polynomordnung größer als 1 generieren.
+
+#Note for translator: %1 stands for the name of the programming code (such as C++, Java, SQL)
++KXEN_W_CKMEANS_E_CANNOT_GENERATE_CODE_SQL
+-%1-Code ist nicht verfügbar, wenn der SQL-Modus deaktiviert ist.
+
+#Note for translator: %1 stands for the name of the programming code (such as C++, Java, SQL)
++KXEN_W_CKMEANS_E_CANNOT_GENERATE_CODE_NOSQL
+-%1-Code ist nicht verfügbar, wenn der SQL-Modus aktiviert ist.
+
++KXEN_W_CSECOD_EMPTY_DATE
+-Leerer Datumswert für die Zeile '%1'.
+
++KXEN_W_CSECOD_MORE_EMPTY_DATE
+-Weitere leere Datumswerte erkannt, für diesen Fall werden keine weiteren Nachrichten mehr angezeigt.
+
++KXEN_W_CHANGE_VARIABLE_PREFIX
+-Dieser Ausgabevariablenname ist bereits in den Eingabedaten vorhanden.
+-Ändern Sie das Präfix, das zur Erstellung der Ausgabevariablen verwendet wird.
+
++KXEN_W_CELOG_LEARN_BY_CHUNK
+-Lernen nach Chunks
+
++KXEN_W_CELOG_CHUNK_NUMBER
+-Chunknummer %1 wird verarbeitet
+
++KXEN_W_CELOG_FILLING
+-%1 Aggregate werden gefüllt
+
++KXEN_W_CELOG_CHUNK_FILL
+-Aktueller Chunk wird gesichert...
+
++KXEN_W_CARRIAGE_RETURN_REMOVED
+-Wagenrücklaufzeichen wurden im Datenset %1, in der Spalte %2, in der Zeile %3 gefunden. 
+-Sie wurden durch ein Leerzeichen ersetzt. 
+-Wagenrücklaufzeichen haben starke Auswirkungen auf Automated-Analytics-Modelle. 
+-Es wird dringend empfohlen, sie aus den Eingabedaten zu entfernen.
+
++KXEN_W_CKXENTOSQLTRANSLATOR_ORDERBY_IN_COUNT_FOR_SELECT
+-Sie verwenden eine SELECT-Anweisung mit mehreren SELECT und einem ORDER BY.
+-Diese Art von Anweisung lässt die Verwendung eines einfachen COUNT mit ODBC nicht zu.
+-Wenn die Berechnung lange dauert, empfehlen wir Ihnen, eine Sicht mit Ihrer Anweisung anzulegen und in Automated Analytics zu verwenden.
+
++KXEN_W_KAR_WRONG_RULEID
+-Das Modell, das Sie versuchen zu laden, enthält möglicherweise einige Fehler.
+-Um die Konsistenz der Ergebnisse sicherzustellen, sollten Sie das Modell mit Ihrer aktuellen Version von SAP BusinessObjects Predictive Analytics neu erstellen.
+
++KXEN_W_KSN_LICENCE_NODESLIMIT
+-Die Gesamtanzahl an Knoten (%1 Millionen) ist größer als die Lizenz zulässt (%2 Millionen).
+
++KXEN_W_KSN_GRAPHLOAD_LOADTIME
+-Zeit für Laden der Netzwerkgraphen: %1 Sekunde(n)
+
++KXEN_W_KSN_INDIRTABLE_LOADTIME
+-Zeit für Laden der Identifikatorkonvertierungstabelle: %1 Sekunde(n)
+
++KXEN_I_KSN_DERIVEGRAPH
+-Graphprojektion wird gestartet: %1 -> %2
+
++KXEN_I_KSN_DERIVEGRAPH_LOADTIME
+-Berechnungszeit für Kantengraphen: %1 Sekunde(n)
+
++KXEN_I_KSN_COMMUNITY_DETECTION_TIME
+-Community-Erkennungszeit für Graph '%1': %2 Sekunde(n)
+
++KXEN_I_KSN_NODEPAIRING_LOADTIME
+-Knotenpaarungszeit für die Graphen '%1' und '%2': %3 Sekunde(n)
+
++KXEN_I_KSN_SINGLENODEPAIRING_LOADTIME
+-Knotenpaarungszeit für Graph '%1' (%2): %3 Sekunde(n)
+
++KXEN_I_KSN_NODESTABLE_LOADTIME
+-Zeit zum Laden der Tabelle für beschreibende Attribute der Knoten: %1 Sekunde(n)
+
++KXEN_W_KSN_LOAD_INDIRTABLE
+-Dereferenzierungstabelle wird geladen...
+
++KXEN_W_KSN_LOAD_NODESTABLE
+-Tabelle für beschreibende Attribute der Knoten wird geladen...
+
++KXEN_W_KSN_LOAD_GRAPHS
+-Graphen werden geladen...
+
++KXEN_E_KSN_INVALID_IMPLNAME
+-Ungültiger Implementierungsname
+
++KXEN_E_KSN_NODES_IDCOLUMN_NOTFOUND
+-ID-Spalte '%1' in Knotentabelle nicht gefunden.
+
++KXEN_E_KSN_NODES_BADVARIABLE
+-Die Variable '%1' wurde im Knotenausstattungs-Datenset nicht gefunden.
+
++KXEN_W_KSN_NODES_TOOMANY_VALUES
+-Spalte '%1' hat mehr als '%2' unterschiedliche Werte. 
+-Nur die ersten '%2' Werte werden für die Berechnung der Ausgabevariablen beibehalten.
+-Andere Werte werden in einer 'KxOther'-Variablen gruppiert.
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_BADVARIABLE
+-Ungültiger Variablenname '%1' für Social
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_EVT_DATECOLUMN_NOTFOUND
+-Datumsspalte '%1' für Social nicht gefunden.
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_EVT_LINKCOLUMN_NOTFOUND
+-Verknüpfungsspalte '%1' für Social nicht gefunden.
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_EVT_DISTCOLUMN_NOTFOUND
+-Entfernungsspalte '%1' für Social nicht gefunden.
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_EVT_FILTERCOLUMN_NOTFOUND
+-Filterspalte '%1' für Social nicht gefunden.
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_EVT_IDENTICAL_NODECOLUMN
+-Quellverknüpfungsspalte und Zielverknüpfungsspalte können im Social-Ereignisdatenset nicht identisch sein.
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_INDIRTABLE_NODECOLUMN_NOTFOUND
+-Knotenspalte '%1' in Social-Identifikatorkonvertierungstabelle nicht gefunden.
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_INDIRTABLE_IDCOLUMN_NOTFOUND
+-ID-Spalte '%1' in Social-Identifikatorkonvertierungstabelle nicht gefunden.
+
++KXEN_E_KSN_INDIRTABLE_IDENTICALCOLUMN
+-Knotenspalte und ID-Spalte dürfen in der Identifikatorkonvertierungstabelle nicht identisch sein.
+
++KXEN_E_KSN_INDIRTABLE_NODE_EXISTS
+-Mehrere Einträge für Knoten %1 in der Identifikatorkonvertierungstabelle
+
+#Note for translator: Social is a product name - Do not translate.
++KXEN_E_KSN_COLUMN_NOTFOUND
+-Ungültiger Spaltenname '%1' für Social
+
++KXEN_W_KSN_GRAPHLOAD_NBREAD
+-Graphen werden geladen: %1 Fälle gelesen.
+
++KXEN_W_KSN_GRAPHLOAD_PROGRESS
+-Graphen werden erstellt...
+
++KXEN_W_KSN_GRAPHLOAD_LINKS_DATA_READ_TIME
+-Datenset der Verknüpfungen gelesen in %1 s
+
++KXEN_I_KSN_GRAPHS_TOTAL_NODESCOUNT
+-Gesamtanzahl der eindeutigen Knoten: %3 (%1 + %2)
+
+#Note for tranlator: Graph '<graph name>': <number> nodes, <number> links
++KXEN_I_KSN_GRAPHS_SUMMARY_REPORT
+-Graph '%1': %2 Knoten, %3 Verknüpfungen
+
+#Note for tranlator: Graph '<graph name>': <number> + <number> nodes, <number> links
++KXEN_I_KSN_GRAPHS_SUMMARY_REPORT_BIPARTITE
+-Graph '%1': %2 + %3 Knoten, %4 Verknüpfungen
+
++KXEN_I_KSN_GRAPHS_STATS_UNDIRECTED
+-Statistik für Graph '%1':
+--Dichte: %2
+--Median des Grads: %3
+
++KXEN_I_KSN_GRAPHS_STATS_DIRECTED
+-Statistik für Graph '%1':
+--Dichte: %2
+--Median des Eingangsgrads: %3
+--Median des Ausgangsgrads: %4
+
++KXEN_I_KSN_GRAPHS_STATS_BIPARTITE
+-Statistik für Graph '%1':
+--Dichte: %2
+--Median des Grads der ersten Population: %3
+--Median des Grads der zweiten Population: %4
+
++KXEN_W_KSN_INDIRTABLE_NBREAD
+-Datenset für Identifikatorkonvertierung wird geladen: %1 Fälle gelesen
+
++KXEN_W_KSN_INDIRTABLE_PROGRESS
+-Datenset für Identifikatorkonvertierung wird geladen...
+
++KXEN_W_KSN_NODESTABLE_NBREAD
+-Tabelle für beschreibende Attribute der Knoten wird geladen: %1 Fälle gelesen
+
++KXEN_W_KSN_NODESTABLE_PROGRESS
+-Tabelle für beschreibende Attribute der Knoten wird geladen...
+
++KXEN_I_KSN_DERIVEGRAPH_PROGRESS
+-Kantengraphen werden erstellt...
+
++KXEN_I_KSN_DERIVEGRAPH_NBREAD
+-Kantengraphen werden erstellt: Knoten %1 (von %2) wird verarbeitet
+
++KXEN_I_KSN_NODEPAIRING_PROGRESS
+-Knotenpaarungsgraphen werden erstellt...
+
++KXEN_I_KSN_NODEPAIRING_NBREAD
+-Knotenpaarungsgraphen werden erstellt: Knoten %1 von %2 wird verarbeitet
+
++KXEN_I_KSN_NODEPAIRING_TIME
+-Knotenpaarungsgraphen erstellt in %1 s
+
++KXEN_I_KSN_NODEPAIRING_BUILDLIST_PROGRESS
+-Kandidatenliste für Paarung wird erstellt...
+
++KXEN_I_KSN_PROJECTION_BUILDLIST_PROGRESS
+-Kandidatenliste für Projektion wird erstellt...
+
++KXEN_I_KSN_NODEPAIRING_LISTS_DISPLAY
+-Anzahl der in Graph %1, aber nicht in Graph %2 gefundenen Knoten: %3.
+
++KXEN_E_KSN_NODEPAIRING_BADGRAPHTYPES
+-Die Knotenpaarungsverarbeitung für die Graphen '%1' und '%2' ist nicht möglich, da ihr Typ nicht identisch ist.
+
++KXEN_E_KSN_GRAPH_ALREADYEXISTS
+-Graph '%1' ist bereits vorhanden.
+
++KXEN_E_KSN_NEIGHBGRAPH_NOTDIRECTED
+-Graphen des Typs k-nächste-Nachbarn (kNN) können nicht ungerichtet sein.
+
++KXEN_E_KSN_GRAPH_NOT_BIPARTITE
+-Graph '%1' ist kein bipartiter Graph.
+
++KXEN_E_KSN_NEIGHBGRAPH_INVALIDVALUE
+-Die maximale Anzahl der Nachbarn für den Graphen '%1' muss ein positiver Wert sein.
+
++KXEN_E_KSN_BAD_NODESAVESPACE
+-Beim Anlegen des Graphknoten-Sicherungsraums '%1' ist ein Fehler aufgetreten.
+
++KXEN_E_KSN_BAD_LINKSAVESPACE
+-Beim Anlegen des Graphverknüpfungs-Sicherungsraums '%1' ist ein Fehler aufgetreten.
+
++KXEN_E_KSN_BAD_COMMUNITIES_SAVESPACE
+-Beim Anlegen des Graph-Community-Sicherungsraums '%1' ist ein Fehler aufgetreten.
+
++KXEN_E_KSN_APPLY_NODEIDCOLUMN_NOTFOUND
+-ID-Spalte '%1' des Anwendungsdatensets kann nicht festgelegt werden
+
++KXEN_E_KSN_SAVESPACE_COLUMN_NOTFOUND
+-Spalte '%1' kann im Sicherungsraum nicht gefunden werden
+
++KXEN_E_KSN_BAD_LINKATTR_STORAGE
+-Die Verknüpfungsattributspalte hat einen ungültigen Speichertyp. Dieser muss number oder integer sein).
+
++KXEN_E_KSN_BAD_LINKATTR_COLUMN
+-Verknüpfungsattributspalte '%1' kann nicht gefunden werden
+
++KXEN_W_KSN_EXCLUSIVE_NEIGHBORSMODE
+-Der Anwendungsmodus "Nachbarn" ist mit keiner anderen Ausgabevariablen kompatibel.
+
++KXEN_E_KSN_COLFILTER_BAD_VALUES
+-Filterwerte für die Spalte '%1' sind falsch.
+-Es ist nicht möglich, für dieselbe Spalte einen Filterwert und ein Filterintervall festzulegen.
+
++KXEN_E_KSN_COLFILTER_BAD_NOTVALUES
+-Filterwerte für die Spalte '%1' sind falsch.
+-Es ist nicht möglich, für dieselbe Spalte einen Filter mit anzunehmenden Werten und auszuschließenden Werten festzulegen.
+
++KXEN_E_KSN_COLFILTER_BAD_INTERVAL
+-Falsche interne Werte in Spalte '%1'.
+-Der Maximalwert '%2' ist kleiner als der Minimalwert '%3'.
+
++KXEN_E_KSN_APPLY_NODEPROPERTY_NOTFOUND
+-'%1' ist keine verfügbare Knotenausstattungsvariable.
+
++KXEN_E_KSN_GRAPH_NOT_FOUND
+-Graph '%1' ist nicht vorhanden.
+
++KXEN_I_KSN_COMMUNITY_DETECTION
+-Community-Erkennung in Graph '%1'
+
++KXEN_I_KSN_COMMUNITY_DETECTION_PROGRESS
+-Community-Erkennung in Graph...
+
++KXEN_I_KSN_COMMUNITY_DETECTION_NBREAD
+-Community-Erkennung: '%1' Knoten verarbeitet
+
++KXEN_I_KSN_COMMUNITY_MODULARITY_GAIN
+-Modularitätssteigerung bei Übergabe von '%1': '%2' -> '%3'
+
++KXEN_W_KSN_COMMUNITY_RESTORE
+-Gesicherte Communitys werden erneut geladen
+
++KXEN_W_KSN_COMMUNITY_RESTORE_PROGRESS
+-Gesicherte Communitys werden erneut geladen...
+
++KXEN_W_KSN_COMMUNITY_RESTORE_NODE_NOTFOUND
+-Knoten '%1' wurde in Graph '%2' beim Community-Wiederherstellungsprozess nicht gefunden.
+
++KXEN_I_KSN_COMMUNITY_FOUND_NUMBER
+-Anzahl der erkannten Communitys für Graph '%2': %1
+
++KXEN_I_KSN_COMMUNITY_GRAPH_INITIAL_MODULARITY
+-Anfängliche Modularität für Graph '%2': %1
+
++KXEN_I_KSN_COMMUNITY_GRAPH_END_MODULARITY
+-Endgültige Modularität für Graph '%2': %1
+
++KXEN_I_KSN_COMMUNITY_DETECTION_PASS
+-Community-Erkennung in Graph '%1': Übergabezahl %2
+
++KXEN_I_KSN_STATISTICS
+-Gesamtstatistik für Graphen berechnen
+
++KXEN_I_KSN_STATISTICS_PROGRESS
+-Gesamtstatistik für Graphen wird berechnet...
+
++KXEN_I_KSN_STATISTICS_NBREAD
+-Zusätzliche Statistik berechnen: %1 Knoten wird von %2 verarbeitet
+
++KXEN_I_KSN_STATISTICS_PROCESS_SIZE
+-Prozessgröße nach Berechnung der Graphstatistik: %1 KB
+
++KXEN_I_KSN_STATISTICS_TIME
+-Statistikberechnung abgeschlossen in %1 Sekunde(n)
+
++KXEN_I_KSN_GRAPHS_STATS_UNDIRECTED_FIT
+-Potenzgesetz der Gradverteilung für Graph '%1': %2
+-Anpassungsgüte: %3
+
++KXEN_I_KSN_GRAPHS_STATS_DIRECTED_IN_FIT
+-Potenzgesetz der Eingangsgradverteilung für Graph '%1': %2
+-Anpassungsgüte: %3
+
++KXEN_I_KSN_GRAPHS_STATS_DIRECTED_OUT_FIT
+-Potenzgesetz der Ausgangsgradverteilung für Graph '%1': %2
+-Anpassungsgüte: %3
+
++KXEN_E_KSN_COMMUNITY_BIPARTITE_GRAPH
+-Community-Erkennung ist für den bipartiten Graph '%1' nicht verfügbar
+
++KXEN_I_KSN_COMMUNITY_DETECTION_TOTAL_TIME
+-Community-Erkennungszeit für Graph '%1': %2 Sekunde(n).
+
++KXEN_I_KSN_COMMUNITY_DETECTION_PASS_TIME
+-Verstrichene Zeit bei der Übergabe von %1: %2 Sekunde(n).
+
++KXEN_W_KSN_GRAPHLOAD_PROCESS_SIZE
+-Graphspeichernutzung: %1 KB
+
++KXEN_W_KSN_COMMUNITY_DETECTION_PROCESS_SIZE
+-Prozessgröße nach Community-Erkennung in Graph '%1': %2 KB
+
++KXEN_W_KSN_STATISTICS_PROCESS_SIZE
+-Prozessgröße nach Berechnung der Graphstatistik: %1 KB
+
++KXEN_W_KSN_NODESTABLE_PROCESS_SIZE
+-Prozessgröße nach dem Laden des Datensets mit beschreibenden Attributen des Knotens für den Graphen: %1 KB
+
++KXEN_W_KSN_NODESTABLE_DUPLICATE_ID
+-Doppelter Eintrag für Knoten '%1' im Datenset mit beschreibenden Attributen des Knotens in Zeile '%2'
+-Prüfen Sie das Datenset. Die vorhandenen Eigenschaften werden durch neue ersetzt.
+
++KXEN_I_KSN_COMMUNITY_PARTITION_TO_GRAPH_CREATED
+-Community-Graph %1 aus vorheriger Partition angelegt (%2 Knoten)
+
++KXEN_E_KSN_COMMUNITY_OTHERGRAPH_NOCOMMUNITIES
+-Der für die Community-Initialisierung erforderliche Graph %1 hat keine Community
+
++KXEN_I_KSN_COMMUNITY_SMALLEST_COMMUNITY
+-Kleinste Community für Graph %1 enthält %2 Knoten (Anzahl %3)
+
++KXEN_I_KSN_COMMUNITY_BIGGEST_COMMUNITY
+-Größte Community für Graph %1 enthält %2 Knoten (Anzahl %3)
+
++KXEN_I_KSN_COMMUNITY_PARTITION_TO_GRAPH_PROGRESS
+-Neuer Community-Graph wird aus vorheriger Partition erstellt...
+
++KXEN_I_KSN_COMMUNITY_PARTITION_TO_GRAPH_NBREAD
+-Neuer Community-Graph wird aus vorheriger Partition erstellt: %1 Knoten wird von %2 verarbeitet
+
++KXEN_I_KSN_COMMUNITY_PARTITION_TO_GRAPH_TIME
+-Community-Grapherstellung (aus vorheriger Partition) abgeschlossen in %1 Sekunde(n)
+
++KXEN_I_KSN_GRAPH_DIFFUSION
+-Diffusion in Graph %1 wird berechnet
+
++KXEN_I_KSN_GRAPH_DIFFUSION_ITERATION
+-Diffusion in Graph %1 wird berechnet: Iteration %2
+
++KXEN_I_KSN_GRAPH_DIFFUSION_PROGRESS
+-Diffusion in Graph %1 wird berechnet...
+
++KXEN_I_KSN_GRAPH_DIFFUSION_NBREAD
+-Diffusion in Graph %1 wird berechnet: %2 Knoten verarbeitet...
+
++KXEN_I_KSN_GRAPH_DIFFUSION_TOTAL_TIME
+-Gesamtzeit für Graphdiffusion in Graph %1: %2 Sekunde(n)
+
++KXEN_E_KSN_APPLY_SPA_VALUES_NOT_READY
+-Werte für Anwendung der Graphdiffusion sind noch nicht bereit.
+
++KXEN_E_EMPTY_DATASET_NAME
+-Leerer Datensetname. Prüfen Sie die Datenquellenparameter des Graphfilters.
+
++KXEN_E_EMPTY_COLUMN_NAME
+-Leerer Spaltenname. Prüfen Sie die Datenquellenparameter des Graphfilters.
+
++KXEN_E_FROMMODEL_MODEL_NOT_FOUND
+-Das Modell %1 wurde nicht gefunden. Prüfen Sie die Parameter der Datenquelle des Graphfilters.
+
++KXEN_E_FROMMODEL_GRAPH_NOT_FOUND
+-Der Graph %2 wurde im Modell %1 nicht gefunden. Prüfen Sie die Parameter der Datenquelle des Graphfilters.
+
++KXEN_E_KSN_INVALID_MODEL_NO_KSN
+-Modell %1 enthält kein gültiges Social-Modell.
+
++KXEN_E_FROMMODEL_STORE_NOT_OPEN
+-Speicher %1 kann nicht geöffnet werden
+
++KXEN_E_FROMMODEL_COULDNT_OPEN_MODEL
+-Problem beim Öffnen von Modell %1
+
++KXEN_I_KSN_MEGAHUBS_BUILD_LIST_PROGRESS
+-Graph wird auf Mega-Hubs überprüft...
+
++KXEN_I_KSN_MEGAHUBS_BUILD_LIST_NBREAD
+-Graph wird auf Mega-Hubs überprüft: %1 Knoten wird von %2 verarbeitet
+
++KXEN_I_KSN_MEGAHUBS_BUILD_LIST_TIME
+-Mega-Hubs-Liste erstellt in %1 s
+
++KXEN_I_KSN_MEGAHUBS_REMOVAL_PROGRESS
+-Mega-Hubs werden entfernt...
+
++KXEN_I_KSN_MEGAHUBS_REMOVAL_NBREAD
+-Mega-Hubs werden entfernt: %1 Knoten wird von %2 verarbeitet
+
++KXEN_I_KSN_MEGAHUBS_REMOVAL_TIME
+-Mega-Hubs entfernt in %1 s
+
++KXEN_I_KSN_MEGAHUBS_REMOVAL_GRAPH_NODES_COUNT_BEFORE
+-Der Graph %1 hat %3 Knoten aus dem Satz %2 (vor Entfernen der Mega-Hubs)
+
++KXEN_I_KSN_MEGAHUBS_REMOVAL_GRAPH_NODES_COUNT_AFTER
+-Der Graph %1 hat %3 Knoten aus dem Satz %2 (nach Entfernen der Mega-Hubs)
+
++KXEN_E_KSN_MEGAHUB_BAD_USERTHRESHOLD
+-Benutzerdefinierte Mega-Hub-Schwelle ungültig
+
++KXEN_I_KSN_MEGAHUB_DETECTION_THRESHOLD
+-Mega-Hub-Schwelle für Graph '%1' ist %2. %3 Knoten wurden entfernt.
+
++KXEN_W_KSN_MEGAHUB_DETECTION_BELOW_500
+-Mega-Hub-Schwelle für Graph %1 ist %2. Sie wird auf den Minimalwert (500) gesetzt.
+
++KXEN_I_KSN_ORPHANS_REMOVAL_PROGRESS
+-Verwaiste Knoten werden entfernt
+
++KXEN_I_KSN_ORPHANS_REMOVAL_NBREAD
+-Verwaiste Knoten werden entfernt: %1 Knoten (von %2) verarbeitet...
+
++KXEN_I_KSN_ORPHANS_REMOVAL_TIME
+-Entfernung der verwaisten Knoten abgeschlossen in %1 Sekunde(n)
+
++KXEN_W_KSN_COMMUNITYLINKSMODE_TOOMUCH_GRAPHS
+-Der Anwendungsmodus "Community-Verknüpfungen" kann nicht in mehreren Graphen verwendet werden.
+
++KXEN_E_KSN_COMMUNITYLINKSMODE_NO_COMMUNITIES
+-Graph %1 hat keine Community.
+
++KXEN_E_KSN_MEGAHUB_ON_RESTORED_GRAPH_W_COM
+-Mega-Hub-Erkennung kann nicht ausgeführt werden, wenn ein Graph mit seinen Communitys wiederhergestellt wird (Graph %1'). 
+-Entfernen Sie entweder die Mega-Hub-Erkennung, oder erzwingen Sie eine neue Community-Erkennung.
+
++KXEN_E_SOCIAL_NO_NODES_ATTRIBUTES
+-Für diese Population ist kein Attribut vorhanden.
+
++KXEN_E_KSN_NODEPAIRING_INDEPENDENCENOTALLOWED
+-Der Modus "Unabhängigkeitsverhältnis" kann bei der Paarung von zwei Graphen nicht verwendet werden. 
+
++KXEN_E_KSN_APPLY_DIFFUSION_ERROR
+-Fehler bei der Vorbereitung der Graphdiffusionswerte.
+
++KXEN_I_KSN_LEARN_DATE
+-Lerndatum des Modells: %1
+
++KXEN_E_ODBCCASEITER_TOOMANY_SQLEXECUTE_ERRORS
+-Schreiben der Daten fehlgeschlagen, der SQL-Treiber hat mehr als %1 Fehler beim Schreiben der Daten gemeldet. Prüfen Sie die Detailprotokolle, um die Ursache des Problems zu identifizieren.
+
++KXEN_E_SAME_VARIABLE_NAME_AS_INPUT_CUSTOM
+-Die Variable '%1' sollte von %2 generiert werden, aber sie ist im Referenzdatenset vorhanden. Ändern Sie das Präfix der Variablen %2, um das Problem zu beheben.
+
++KXEN_W_INDATAAPPLY_PROBA_WITHOUT_SCORE
+-Die Punktwertausgabe wird benötigt, um die Wahrscheinlichkeit zu generieren.
+-Der optimierte Anwendungsmodus kann nicht ausgeführt werden.
+-Die Anwendung wechselt zum Standardanwendungsmodus.
+
++KXEN_W_ODBC_ROWCOUNT
+-Abfrage betrifft %1 Zeilen
+
++KXEN_K2RASDECISIONTREE_INVALIDDATASET
+-Datensetname %1 ist ungültig. Zulässige Namen sind "Schätzung", "Validierung" oder "Test".
+
++KXEN_K2RASDECISIONTREE_INVALIDTARGETNAME
+-Zielname %1 ist ungültig. 
+-Der Wert muss ein vorhandenes Ziel sein.
+
++KXEN_K2RASDECISIONTREE_INVALIDGROUP
+-Die Gruppe %1 ist für die Variable %2 nicht vorhanden.
+
++KXEN_K2RASDECISIONTREE_TOOMANYEXPAND
+-In der OLAP-Anforderung ist nur eine Variable ohne Gruppe zulässig.
+
++KXEN_K2RASDECISIONTREE_INVALIDVARNAME
+-Die Variable %1 gehört nicht zur wichtigsten Variablen des Ziels %2.
+
++KXEN_K2RASDECISIONTREE_TOOMANYVARIABLE
+-In der OLAP-Anforderung sind nicht mehr als %1 Variablen zulässig.
+-Sie haben die Anforderung mit %2 Variablen gefüllt.
+
++KXEN_E_K2RASDECISIONTREE_BAD_LINKSAVESPACE
+-Beim Anlegen des OlapCube-Sicherungsraums '%1' ist ein Fehler aufgetreten.
+
++KXEN_W_K2RASDECISIONTREE_KXOLAPFILE_MISSING
+-Datei %1 ist im Speicher %2 nicht vorhanden. K2RasDecisionTree wird nicht aktiviert.
+
++KXEN_E_CELOG_NO_OPERATOR
+-Kein Operator angegeben. Kehren Sie zurück zu den Parametern der Ereignisprotokollierungs-Engine, und wählen Sie mindesten einen Operator aus.
+
++KXEN_E_RISK_GBO
+-Das Gut/Schlecht-Chancenverhältnis muss positiv sein (0 ausgeschlossen).
+
++KXEN_E_RISK_PDO
+-Der Punkt zum Verdoppeln des Chancenverhältnisses darf nicht 0 sein.
+
++KXEN_W_CODEGEN_MICROSECOND_NOT_SUPPORTED
+-Datumsteil 'MicroSecond' wird vom Codegenerierer nicht unterstützt.
+-Führen Sie ein Neutraining Ihres Modells in einer Automated-Analytics-Version höher als 5.0.4 durch.
+
++KXEN_UDF_LIMITATION
+-Der aktuelle Code konnte nicht generiert werden, weil das Ist-Modell 
+- %1 Parameter verwendet, sodass die maximale Anzahl der autorisierten Parameter
+- des Codes (auf %3 Parameter beschränkt) überschritten wird.
+
++KXEN_FORCE_SMARTDECLARATION
+-Die Eingabeliste enthält %1 Parameter, sodass das Limit %2 der internen 
+-ODBC-Parameter überschritten wird.
+-Somit werden im Code nur Variablen mit einem Koeffizienten ungleich 0,0 generiert.
+
++KXEN_W_GAIN_CHART_PROGRESS
+-Steigerungsdiagramm für Validierungsdatenset wird erstellt...
+
++KXEN_E_CCONNCONTAINERPERSISTENCERUNNER_MULTI_STEPS_AS_VIEW_NOT_HANDLED
+-Das Anlegen von Sichten mit einer komplexen Datenmanipulation (mit mehreren Schritten) wird noch nicht unterstützt.
+-'%1' wird nicht angelegt.
+
++KXEN_W_NOKMX_FOR_CONSTANT_MODEL
+-Das aktuelle Modell für das Ziel %1 ist konstant.
+-Die Anwendung kann keinen Code für Ihr aktuelles Modell generieren.
+
++KXEN_W_VARIABLE_EXCLUSION_CONST_AFTER_COMPRESSION
+-Die Variable '%1' wurde in Bezug auf das Ziel '%2' vollständig komprimiert. Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_CONST_ON_ESTIMATION
+-'%1' Variablen sind im Datenset "Schätzung" konstant. Sie werden aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_KEEP_VARIABLES
+-Alle Variablen wurden in Bezug auf das Ziel '%2' ausgeschlossen. Als letzte Notlösung wird ein Modell mit den folgenden Variablen erstellt: '%1'.
+
++KXEN_W_VARIABLE_EXCLUSION_LARGE_KI_DIFF_ESTIM_VALID
+-Die Variable '%1' weist eine große KI-Differenz zwischen den Datensets "Schätzung" und "Validierung" in Bezug auf das Ziel '%2' auf. Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_NONE_KEPT
+-Alle Variablen wurden in Bezug auf das Ziel '%1' ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_SMALL_KI_ESTIM
+-Die Variable '%1' hat einen sehr niedrigen KI im Datenset "Schätzung" in Bezug auf das Ziel '%2'. Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_SMALL_KI_VALID
+-Die Variable '%1' hat einen sehr niedrigen KI im Datenset "Validierung" in Bezug auf das Ziel '%2'. Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_SMALL_KR
+-Die Variable '%1' ist in Bezug auf das Ziel '%2' nicht robust genug (sehr niedriger KR). Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_SMALL_KIADDKR
+-Die Variable '%1' liefert in Bezug auf das Ziel '%2' keine ausreichend robusten Informationen (sehr niedriger KI und KR). Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_SMALL_VARIANCE
+-Die Variable '%1' hat eine sehr geringe Varianz im Datenset "Schätzung". Sie wird in Bezug auf das Ziel '%2' aus dem Modell ausgeschlossen.
+
++KXEN_W_VARIABLE_EXCLUSION_SMALL_VARIANCE_AND_KI
+-Die Variable '%1' hat in Bezug auf das Ziel '%2' eine sehr geringe Varianz und einen sehr niedrigen KI im Datenset "Schätzung". Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_W_LEAK_VARIABLE_EXCLUSION
+-Die Variable '%1' war in Bezug auf das Ziel '%2' nicht korrekt gekapselt. Sie wird in Bezug auf dieses Ziel aus dem Modell ausgeschlossen.
+
++KXEN_I_ODBCMETADATACACHE_NB_REQUEST_EXISTING
+-Für den von Benutzer %3 verwendeten DSN %2 gab es %1 Existenzanforderung(en) im ODBC-Metadaten-Cache.
+
++KXEN_I_ODBCMETADATACACHE_NB_EXISTING
+-Für den von Benutzer %3 verwendeten DSN %2 gab es %1 Existenztreffer im ODBC-Metadaten-Cache.
+
++KXEN_I_ODBCMETADATACACHE_NB_NON_EXISTING
+-Für den von Benutzer %3 verwendeten DSN %2 gab es %1 Nichtexistenztreffer im ODBC-Metadaten-Cache.
+
++KXEN_I_ODBCMETADATACACHE_NB_REQUESTS_FIELDS
+-Für den von Benutzer %3 verwendeten DSN %2 gab es %1 Feldanforderung(en) im ODBC-Metadaten-Cache.
+
++KXEN_I_ODBCMETADATACACHE_NB_EXISTING_FIELDS
+-Für den von Benutzer %3 verwendeten DSN %2 gab es %1 Feldtreffer im ODBC-Metadaten-Cache.
+
++KXEN_W_ODBCFLUSH
+-%1 Daten wurden gelöscht.
+
++KXEN_W_CHANGE_OUTPUT_NAME
+-Aufgrund des ODBC-Standards wurde der Variablenname %1 in %2 geändert.
+
++KXEN_E_KSN_IDBA_LINKS
+-Die interne Tabelle %1 ist in der Anwendungsdatenbank nicht vorhanden.
+
++KXEN_E_KSN_IDBA_UNSAVEDMODEL
+-Das aktuelle Modell wurde in der Anwendungsdatenbank nicht gesichert.
+-Die datenbankinterne Anwendung konnte nicht durchgeführt werden.
+
++KXEN_E_KSN_NOACTIVE_GRAPH
+-Kein aktiver Graph für die Anwendung.
+
++KXEN_E_SQLEXECUTE_FAIL
+-Die folgende SQL-Abfrage hat eine unerwartete Ausnahme generiert.
+-SQL-Abfrage: %1
+
++KXEN_W_KSN_OPTIMIZESPEED_NOTADVISED
+-Deaktivieren Sie die Optimierung der Geschwindigkeit für Graph %1:
+-Durch die ausgewählte Gewichtungsrichtlinie wird der Prozess verlangsamt.
+
++KXEN_E_SMARTOUTPUT_IDBA_NOT_EXIST
+-Diese Ausgabevariable %1 ist nicht mit der Datenbank der direkten Anwendung konform.
+
++KXEN_E_KSN_EVT_VARCOLUMN_NOTFOUND
+-Die Variable '%1' wurde im Ereignisdatenset '%2' nicht gefunden.
+
+
++KXEN_E_KSN_TGT_VARCOLUMN_NOTFOUND
+-Die Zielvariable '%1' wurde im Ereignisdatenset '%2' nicht gefunden.
+
+
++KXEN_W_KSN_PROXIMITY_NO_WEIGHT_USING_DATE_AS_WEIGHT
+-Der temporale Nähemodus wurde aktiviert.
+-Die Datumsvariable (%1) wird für die Gewichtungsbestimmung der Verknüpfungen verwendet.
+
+
+#Note for translator: Links weight column is thus expected to be '<name of the weight variable>' instead of '<name of the date variable>'.
++KXEN_E_KSN_PROXIMITY_MODE_INCOMPATIBLE_LINK_DATE_COLUMNS
+-Der temporale Nähemodus wurde aktiviert.
+-Als Gewichtungsspalte der Verknüpfungen wird daher '%2' anstelle von '%1' erwartet.
+
+
++KXEN_I_DUPLICATE_TILES_CHECK_TOTAL
+-Der Graph '%1' enthält %2 Knotendubletten (mit Kachelsemantik).
+
+
++KXEN_I_DUPLICATE_TILES_CHECK1
+-Vorkommen von Kacheldubletten wird gleich geprüft (mit Strategie 1)
+
+
++KXEN_I_DUPLICATE_TILES_CHECK1_PROGRESS
+-Kacheldubletten werden geprüft: %1 (von %2) Kachel(n) verarbeitet
+
+
++KXEN_I_DUPLICATE_TILES_CHECK1_TIME
+-Vorkommen von Kacheldubletten wurde geprüft in %1 Sekunde(n) (mit Strategie 1)
+
+
++KXEN_I_DUPLICATE_TILES_CHECK1_TOTAL
+-Der Graph '%1' enthält %2 Knotendubletten (mit Kachelsemantik).
+
+
++KXEN_I_DUPLICATE_TILES_CHECK2
+-Vorkommen von Kacheldubletten wird gleich geprüft (mit Strategie 1)
+
+
++KXEN_I_DUPLICATE_TILES_CHECK2_PROGRESS
+-Kacheldubletten werden geprüft: %1 Kacheln(n) verarbeitet (von %2)
+
+
++KXEN_I_DUPLICATE_TILES_CHECK2_TIME
+-Vorkommen von Kacheldubletten wurde geprüft in %1 Sekunde(n) (mit Strategie 2)
+
+
++KXEN_I_DUPLICATE_TILES_CHECK2_TOTAL
+-Der Graph '%1' enthält %2 Knotendubletten (mit Kachelsemantik).
+
+
++KXEN_I_DUPLICATE_TILES_CHECK3
+-Vorkommen von Kacheldubletten wird gleich geprüft (mit Strategie 3)
+
+
++KXEN_I_DUPLICATE_TILES_CHECK3_PROGRESS
+-Kacheldubletten werden geprüft: %1 (von %2) Kachel(n) verarbeitet
+
+
++KXEN_I_DUPLICATE_TILES_CHECK3_TIME
+-Vorkommen von Kacheldubletten wurde geprüft in %1 Sekunde(n) (mit Strategie 3)
+
+
++KXEN_I_DUPLICATE_TILES_CHECK3_TOTAL
+-Der Graph '%1' enthält %2 Knotendubletten (mit Kachelsemantik).
+
+#NOTR
++KXEN_E_KSN_ATTRIBUTES_COLLISION
+-Some inconsistencies have been detected within the various declarations of the attribute '%1': %2.
+
+#NOTR
++KXEN_E_KSN_NODE_PROP_ACCU_COLLISION
+-Some inconsistencies have been detected within the various declarations of
+-the attribute '%1'. %2.
+
+
++KXEN_E_KSN_BAD_ATTRS_SAVESPACE
+-Knotenattribute konnten in der Datei/Tabelle '%1' nicht gesichert werden.
+-Der angegebene Pfad/Name ist möglicherweise ungültig.
+
+
++KXEN_E_KSN_ATTRTABLE_FORNODESET_NOTFOUND
+-Ausstattungstabelle für den Knotensatz '%1' konnte nicht gefunden werden.
+
+
++KXEN_I_KSN_PROJECTION_PREPARE_TFIDF_PROGRESS
+-Vorbereitungsphase der Terminushäufigkeit/inverse Dokumenthäufigkeit-Berechnung wird ausgeführt: %1 von %2 Knoten verarbeitet
+
+
++KXEN_I_KSN_PROJECTION_PREPARE_TFIDF_NBREAD
+-Terminushäufigkeit/inverse Dokumenthäufigkeit-Vorbereitungsphase: %1 Fälle gelesen
+
+
++KXEN_I_KSN_BIPARTITE_PROJECTION_NB_DERIVED_NODES_TO_CREATE
+-Graph '%1' hat jetzt %3 (abgeleitete) Knoten mehr.
+
+
++KXEN_I_KSN_DERIVED_NODES_CREATION_START
+-Aus Graphen abgeleitete Knoten werden gleich angelegt.
+
+
++KXEN_I_KSN_DERIVED_NODES_CREATION_PROGRESS
+-Aus Graphen abgeleitete Knoten werden angelegt: %1 (von %2) Knoteninformationen verarbeitet
+
+
++KXEN_I_KSN_DERIVED_NODES_CREATION_NBREAD
+-Aus Graphen abgeleitete Knoten werden angelegt. %1 von %2 Knoten verarbeitet
+
+
++KXEN_I_KSN_DERIVED_NODES_CREATION_TIME
+-Anlegen der aus Graphen abgeleiteten Knoten abgeschlossen in %1 Sekunde(n).
+
+
++KXEN_I_GRAPH_LINK_SORT
+-Verknüpfungen mit '%1' werden gleich sortiert.
+-%2 Knoten (aus dem Knotensatz '%3') werden verarbeitet.
+
++KXEN_I_GRAPH_LINK_SORTED
+-Verknüpfungen mit/aus %1 Knoten wurden sortiert.
+
++KXEN_I_GRAPH_LINK_SORT_TIME
+-Verknüpfungen sortiert in %1 Sekunde(n)
+
+
++KXEN_I_GRAPH_LINK_SORT_PROGRESS
+-Graphverknüpfungen werden sortiert: %1 Quellknoten verarbeitet (von %2)
+
+
++KXEN_E_KSN_INVALID_POSITION_VARIABLE_TYPE
+-Die Variable '%1', deren Speicher '%2' ist, kann nicht verwendet werden, wenn eine Positionsvariable erwartet wird.
+
+
++KXEN_E_KSN_INVALID_TILE_SIZE
+-Ungültige Kachelgrößenangabe: %1.
+
+
++KXEN_E_KSN_INVALID_NODE_ID_VARSTORAGE
+-Kachelidentifikation kann nicht auf der Variable '%1' basieren, da ihr Speicher '%2' ist. Ändern Sie den Variablenspeicher.
+
++KXEN_I_TILES_INFO_NB_UPDATED
+-Aktualisierung der Kachelinformationen. %1 verarbeitet.
+
++KXEN_I_TILES_INFO_UPDATE_PROGRESS
+-Kachelinformationen werden aktualisiert: %1 von %2 Kachel(n) verarbeitet
+
++KXEN_I_TILES_INFO_UPDATE
+-Kachelinformationen werden gleich aktualisiert
+
++KXEN_I_TILES_INFO_UPDATED_TIME
+-Kachelinformationen aktualisiert in %1 Sekunde(n)
+
++KXEN_I_DUPLICATE_TILES_TO_REMOVE
+-%3 Kacheldublette(n) werden gleich aus '%2' entfernt
+
++KXEN_I_DUPLICATE_TILES_CLEAN_UP
+-Kacheldubletten werden entfernt. %1 verarbeitet
+
++KXEN_I_DUPLICATE_TILES_CLEAN_UP_PROGRESS
+-Kacheldubletten werden entfernt: %1 (von %2) Kachel(n) verarbeitet
+
++KXEN_I_DUPLICATE_TILES_CLEAN_UP_TIME
+-Kacheldubletten entfernt in %1 Sekunde(n).
+
++KXEN_I_GRAPH_LINKS_COMPRESS
+-Graphverknüpfungen werden gleich komprimiert
+
++KXEN_I_GRAPH_LINKS_COMPRESS_PROGRESS
+-Graphverknüpfungen werden komprimiert
+
++KXEN_E_UNSUPPORTED_GRAPHTYPE
+-Der Codegenerierer unterstützt bipartiten Graphen als Projektion nicht.
+
++KXEN_I_KSN_BIPARTITE_PROJECTION_ITERATION
+-Graphprojektionsiteration %1 (von %2) wird gestartet
+
++KXEN_I_KSN_BIPARTITE_PROJECTION_ITERATION_TIME
+-Graphprojektionsiteration abgeschlossen in %3 Sekunde(n)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_ITER
+-Erkennung und Entfernung veralteter Verknüpfungen für Graph '%3'. Iteration %1 wird gestartet,
+-%2 Knoten werden geprüft.
+
++KXEN_I_KSN_PROJECTED_LINKS_BATCH_CREATION_START
+-Für die Erstellung von Kantengraphverknüpfungen ('%1') wurde der Batchmodus ausgewählt. Dieser Schritt wird gestartet.
+
++KXEN_I_KSN_PROJECTED_LINKS_BATCH_CREATION_NBREAD
+-Batcherstellung von Kantengraphverknüpfungen: %1 von %2 Elementen verarbeitet
+
++KXEN_I_KSN_PROJECTED_LINKS_BATCH_CREATION_TIME
+-Batcherstellung von Kantengraphverknüpfungen abgeschlossen in %1 Sekunde(n)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_START
+-Erkennung und Entfernung veralteter Verknüpfungen wird gestartet.
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_TIME
+-Erkennung und Entfernung veralteter Verknüpfungen beendet in %1 Sekunde(n)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_1
+-Erkennung und Entfernung veralteter Verknüpfungen aus bipartitem Graph '%1' wird gestartet (Phase 1)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_1_PROGRESS
+-Veraltete Verknüpfungen werden erkannt und entfernt (Phase 1): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_1_NBREAD
+-Veraltete Verknüpfungen werden erkannt und entfernt (Phase 1): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_1_TIME
+-Erkennung und Entfernung veralteter Verknüpfungen für Graph '%1' abgeschlossen in %2 Sekunde(n) (Phase 1)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_2
+-Erkennung und Entfernung veralteter Verknüpfungen aus bipartitem Graph '%1' wird gestartet (Phase 2)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_2_PROGRESS
+-Veraltete Verknüpfungen werden erkannt und entfernt (Phase 2): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_2_NBREAD
+-Veraltete Verknüpfungen werden erkannt und entfernt (Phase 2): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_SRC_GRAPH_PHASE_2_TIME
+-Erkennung und Entfernung veralteter Verknüpfungen für Graph '%1' abgeschlossen in %2 Sekunde(n) (Phase 2)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_1
+-Erkennung und Entfernung veralteter Verknüpfungen aus Kantengraph '%1' wird gestartet (Phase 1)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_1_PROGRESS
+-Veraltete Kantengraphverknüpfungen werden erkannt und entfernt (Phase 1): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_1_NBREAD
+-Veraltete Kantengraphverknüpfungen werden erkannt und entfernt (Phase 1): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_1_TIME
+-Erkennung und Entfernung veralteter Verknüpfungen für Kantengraph '%1' abgeschlossen in %2 Sekunde(n) (Phase 1)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_2
+-Erkennung und Entfernung veralteter Verknüpfungen aus Kantengraph '%1' wird gestartet (Phase 2)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_2_PROGRESS
+-Veraltete Kantengraphverknüpfungen werden erkannt und entfernt (Phase 2): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_2_NBREAD
+-Veraltete Kantengraphverknüpfungen werden erkannt und entfernt (Phase 2): %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_DRVD_GRAPH_PHASE_2_TIME
+-Erkennung und Entfernung veralteter Verknüpfungen für Kantengraph '%1' abgeschlossen in %2 Sekunde(n) (Phase 2)
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_NODES_REPO
+-Veraltete Knoten werden aus dem zentralen Repository entfernt.
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_NODES_REPO_PROGRESS
+-Veraltete Knoten werden aus dem zentralen Repository entfernt: %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_NODES_REPO_NBREAD
+-Veraltete Knoten werden aus dem zentralen Repository entfernt: %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_NODES_REPO_TIME
+-Veraltete Knoten wurden in %2 Sekunde(n) aus dem zentralen Repository entfernt.
+
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_GENERATION
+-Erkennung und Entfernung veralteter Verknüpfungen mit Knoten der Generierung '%2' aus Graph '%1' wird gestartet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_GENERATION_PROGRESS
+-Veraltete Graphverknüpfungen werden erkannt und entfernt: %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_GENERATION_NBREAD
+-Veraltete Graphverknüpfungen werden erkannt und entfernt: %1 von %2 verarbeitet
+
++KXEN_I_KSN_DERIVED_LINKS_GRBG_COLLECT_GENERATION_TIME
+-Erkennung und Entfernung veralteter Verknüpfungen für Graph '%1' abgeschlossen in %2 Sekunde(n)
+
++KXEN_W_VARIABLE_NO_COMPOSITION_IMPROVEMENT
+-Diese zusammengesetzte Variable '%1' trägt nicht zur Verbesserung des Modells bei und wird im Hinblick auf das Ziel (%2) verworfen.
+
++KXEN_E_KTS_COMPOSITE_NOT_YET_SUPPORTED
+-Die Zeitreihen-Engine unterstützt zusammengesetzte Variablen noch nicht als prognoseunabhängige Variablen.
+
++KXEN_W_RREGRESSION_RULE_MODE_NOT_SUPPORTED
+-Der Regelmodus wird nicht mehr von der Klassifikations-/Regressions-Engine unterstützt.
+
++KXEN_I_KSN_PARETO_CURVE_BATCH_BUILD
+-Pareto-Kurven werden gleich berechnet.
+
++KXEN_I_KSN_PARETO_CURVE_BATCH_BUILD_PROGRESS
+-Pareto-Kurven werden berechnet
+
++KXEN_I_KSN_PARETO_CURVE_BATCH_BUILD_NBREAD
+-Pareto-Kurven werden berechnet: %1 Knoten verarbeitet.
+
++KXEN_I_KSN_PARETO_CURVE_BATCH_BUILD_TIME
+-Pareto-Kurven erstellt in %1 Sekunde(n)
+
++KXEN_W_KSN_PARTIALLY_RESTORED_MODEL
+-Das Social-Modell konnte nicht vollständig wiederhergestellt werden. Folgende Informationen fehlen: '%1'.
+
++KXEN_W_CODEGEN_COMPOSITE_NOT_SUPPORTED
+-Eine der Modellvariablen ist zusammengesetzt, zusammengesetzte Variablen werden jedoch vom Codegenerierer nicht unterstützt.
+-Der angeforderte Code kann nicht generiert werden.
+
++KXEN_E_NO_ODBCLIB_NOTFOUND
+-Auf dieser Plattform wurde keine ODBC-Implementierung gefunden.
+
++KXEN_E_WRONG_TGT_NAME
+-EstimatorOf von der Variable %1 konnte nicht %2 sein.
+-Der Grund dafür ist, dass das Ziel nicht existiert. Überprüfen Sie die Groß-/Kleinschreibungsrichtlinie für EstimatorOf.
+
+#Note for translator: In-database Modeling does not yet support user-defined multi-targets (a number) for '(modeling component/transform name)' components.
++KXEN_W_IDBM_MULTI_TARGETS_MODE_NOT_SUPPORTED
+-Die datenbankinterne Modellierung unterstützt noch nicht mehrere benutzerdefinierte Ziele (%2) für '%1'-Komponenten.
+
+#Note for translator: For In-database Modeling, regression polynom order cannot be (a number) (and is expected to be 1).
++KXEN_W_IDBM_K2R_ORDER_NOT_SUPPORTED
+-Bei der datenbankinternen Modellierung kann die Regressionspolynomordnung nicht %1 sein (der erwartete Wert ist 1).
+
+#Note for translator: In-database Modeling does not yet support (a modeling component/transform name) with decision tree.
++KXEN_W_IDBM_DECISION_MODE_K2R_NOT_SUPPORTED
+-Die datenbankinterne Modellierung unterstützt noch nicht %1 mit Entscheidungsbaum.
+
+#Note for translator: In-database Modeling does not yet support (a modeling component/transform name) with risk mode.
++KXEN_W_IDBM_RISK_MODE_K2R_NOT_SUPPORTED
+-Die datenbankinterne Modellierung unterstützt noch nicht %1 mit Risikomodus.
+
+#Note for translator: In-database Modeling does not yet support (a modeling component/transform name) with gain charts.
++KXEN_W_IDBM_K2R_GAIN_CHARTS_NOT_SUPPORTED
+-Die datenbankinterne Modellierung unterstützt noch nicht %1 mit Steigerungsdiagrammen.
+
+#Note for translator: Input dataset statistics computed using In-database Modeling in (number) seconds.
++KXEN_W_LEARN_STAT_IDBM_END_TIME_SECS
+-Statistik für Input-Datenset wurde mithilfe der datenbankinternen Modellierung in %1 Sekunden berechnet.
+
+#Note for translator: Input dataset statistics computed using In-database Modeling in (number) milliseconds.
++KXEN_W_LEARN_STAT_IDBM_END_TIME_MS
+-Die eingegebenen Datensetstatistiken wurden mithilfe der datenbankinternen Modellierung in %1 Millisekunden berechnet.
+
+#Note for translator: In-database Modeling does not yet support continuous targets(list of continuous targets).
++KXEN_W_IDBM_REGRESSION_MODELS_NOT_SUPPORTED
+-Die datenbankinterne Modellierung unterstützt noch nicht stetige Ziele (%1).
+
+
++KXEN_W_LEARN_IDBM_REGRESSION_NOT_YET_SUPPORTED
+-Die Trainingsdatenquelle unterstützt noch nicht die datenbankinterne Modellierung für die Berechnung der Robust Regression.
+
++KXEN_W_LEARN_IDBM_REGRESSION_START
+-Datenbankinterne Modellierung der Robust Regression wird ausgeführt...
+
+#Note for translator: In-database Modeling robust regression executed in (number) seconds.
++KXEN_W_LEARN_IDBM_REGRESSION_END_TIME
+-Die datenbankinterne Modellierung der Robust Regression wurde in %1 Sekunden ausgeführt.
+
++KXEN_W_KTS_SOFT_MODE
+-Das Zeitreihenmodell kann nicht regulär aufgebaut werden. Stattdessen wird es auf Grundlage der Schätzvariable %1 aufgebaut.
+
++KXEN_W_KTS_SMALLDATASET_DETECTED
+-Das Trainingsdatenset ist zu klein für eine Zeitreihenanalyse. Das Prognosemodell wird im Soft-Modus generiert.
+
++KXEN_W_KTS_SUSPICIOUS_PERF_ON_NULL_SIGNAL
+-Das Signal für das Validierungsdatenset ist null. Der MAPE-Fehler kann nicht errechnet werden und wird standardmäßig auf 0 gesetzt.

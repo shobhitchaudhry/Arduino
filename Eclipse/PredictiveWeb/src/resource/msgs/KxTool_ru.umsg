@@ -1,0 +1,383 @@
++S_KXTOOL__OK
+-Успешно
+
++S_KXTOOL__FALSE
+-Ожидается отрицательный тест
+
++E_KXTOOL__UNEXPECTED
+-Непредвиденная внутренняя ошибка: обратитесь в поддержку.
+
++E_KXTOOL__INTERNAL_ERROR
+-Внутренняя ошибка
+
++E_KXTOOL__NOTIMPL
+-Функция не реализована
+
++E_KXTOOL__OUTOFMEMORY
+-Нет памяти
+
++E_KXTOOL__INVALIDARG
+-Один или несколько аргументов недействительны.
+
++E_KXTOOL__NOINTERFACE
+-Этот интерфейс не поддерживается.
+
++E_KXTOOL__POINTER
+-Недействительный указатель
+
++E_KXTOOL__HANDLE
+-Недействительный ид. номер
+
++E_KXTOOL__ABORT
+-Операция %1 прервана
+
++E_KXTOOL__FAIL
+-Ошибка: один или несколько указанных параметров недействительны.
+
++E_KXTOOL__ACCESSDENIED
+-Нет доступа к объекту %1.
+
++E_KXTOOL__NOMOREDATA
+-Данные недоступны
+
++E_KXOBJC__INVALIDST
+-Неверное состояние %1 для объекта %2
+
++E_KXOBJC__INVALIDST_NA
+-Неверное состояние
+
++E_SYSTEM__THREADPB
+-Проблема с потоком %1
+
++E_SYSTEM__THREADPB_NA
+-Проблема с потоком 
+
++E_SYSTEM__MUTEXPB
+-Проблема с взаимным исключением %1
+
++E_SYSTEM__MUTEXPB_NA
+-Проблема с взаимным исключением 
+
++E_SYSTEM__2BIG
+-Слишком длинный список аргументов.
+
++E_SYSTEM__ACCES
+-Нет полномочий на объект %1
+
++E_SYSTEM__ACCES_NA
+-Нет полномочий на объект %1
+
++E_SYSTEM__AGAIN
+-Нет процессов, или недостаточно памяти/достигнут максимальный уровень вложенности
+
++E_SYSTEM__BADF
+-Недопустимый номер файла %1
+
++E_SYSTEM__CHILD
+-Нет порожденных процессов
+
++E_SYSTEM__DEADLOCK
+-Произойдет взаимоблокировка ресурсов
+
++E_SYSTEM__DOM
+-Ошибка домена в математической функции
+
++E_SYSTEM__EXIST
+-Файл %1 есть
+
++E_SYSTEM__EXIST_NA
+-Файл есть
+
++E_SYSTEM__INVAL
+-Недействительный аргумент %1
+
++E_SYSTEM__INVAL_NA
+-Недействительный аргумент 
+
++E_SYSTEM__MFILE
+-Слишком много открытых файлов %1
+
++E_SYSTEM__MFILE_NA
+-Слишком много открытых файлов 
+
++E_SYSTEM__NOENT
+-Нет такого файла или каталога %1
+
++E_SYSTEM__NOENT_NA
+-Нет такого файла или каталога 
+
++E_SYSTEM__NOMEM
+-Недостаточно памяти
+
++E_SYSTEM__NOSPC
+-Нет места на устройстве
+
++E_SYSTEM__RANGE
+-Результат слишком большой
+
++E_SYSTEM__XDEV
+-Связь между устройствами
+
++E_KXOBJC__INCOMPVALUESTORAGE
+-Несовместимое значение (%2) и содержимое (%3) для переменной %1
+
++E_KXOBJC__BADSTORAGE
+-Недействительное содержимое (%2) для переменной %1
+
++E_KXOBJC__BADVALUE
+-Недействительное значение (%2) для переменной %1
+
++E_KXOBJC__NOCONTEXT
+-Объект контекста не найден
+
++E_KXOBJC__BADSYNCHRO
+-Дерево параметров больше не синхронизовано!
+
++E_SYSTEM__UTF16WRITE_NOTSUPPORTED
+-Использование формата UTF-16 для файла %1 не поддерживается.
+
++E_SYSTEM__NUMERICAL
+-Числовая ошибка
+
++E_SYSTEM__CANCELOPERATION
+-Операция отменена
+
++KXEN_E_WRONGSTRINGFORVARIANTSET
+-Попытка создания набора вариантов из строки '%1'
+-Это некорректно, обратитесь в поддержку.
+
++KXEN_E_WRONGSTRINGFORSEGMENT
+-Попытка создания сегмента из строки %1
+-Это некорректно, обратитесь в поддержку.
+
++KXEN_E_WRONGSTRINGFORCOMPOSITE
+-Попытка создания составной переменной из строки %1
+-Это некорректно, обратитесь в поддержку.
+
++KXEN_E_WRONGSEGMENTBOUNDS
+-Попытка создания сегмента между %1 и %2.
+-Это некорректно, обратитесь в поддержку.
+
++KXEN_E_WRONG_DIRAC_SEGMENT
+-Попытка создания недействительного сегмента.
+-Это некорректно, обратитесь в поддержку.
+
++KXEN_E_WRONG_SEGMENT_INTEGER_SPEC
+-Попытка создания недействительного целочисленного сегмента.
+-Это некорректно, обратитесь в поддержку.
+
++KXEN_E_WRONG_SEGMENT_SPEC
+-Попытка создания сегмента с неверной спецификацией.
+-Это некорректно, обратитесь в поддержку.
+
++KXEN_E_WRONG_SEGMENT_EMPTY_BOUNDS
+-Попытка создания сегмента с пустыми границами.
+-Это некорректно, обратитесь в поддержку.
+
++E_SYSTEM__BADVALUE
+-Недействительное значение (%1)
+
++E_SYSTEM__BADVALUE_NA
+-Недействительное значение
+
++KXEN_E_REGEXP_ERROR
+-Непредвиденная ошибка регулярного выражения (выражение: %2, код ошибки: %1)
+
++KXEN_E_REGEXP_BADSYNTAX
+-Недопустимый синтаксис регулярного выражения (выражение: %1, ошибка: %2)
+
+#NOTR
++KXEN_E_REGEXP_NULL
+-Null regexp
+
+#NOTR
++KXEN_E_REGEXP_BADOPTION
+-Bad option
+
+#NOTR
++KXEN_E_REGEXP_BADMAGIC
+-Bad magic number
+
++KXEN_E_REGEXP_UNKNOWN_NODE
+-Неизвестный узел
+
++KXEN_E_REGEXP_NOMEMORY
+-Нет памяти
+
++KXEN_E_REGEXP_NOSUBSTRING
+-Нет подстроки
+
+#NOTR
++KXEN_E_REGEXP_MATCHLIMIT
+-Limit match
+
+#NOTR
++KXEN_E_REGEXP_CALLOUT
+-Callout
+
++KXEN_E_REGEXP_BADUTF8
+-Ошибка регулярного выражения: источник не является действительным UTF-8 (источник: %2, код ошибки: %1).
+
+#NOTR
++KXEN_E_REGEXP_BADUTF8_OFFSET
+-Bad UTF-8 offset
+
+#NOTR
++KXEN_E_REGEXP_PARTIAL
+-Partial
+
+#NOTR
++KXEN_E_REGEXP_BADPARTIAL
+-Bad partial
+
+#NOTR
++KXEN_E_REGEXP_INTERNAL
+-Internal
+
+#NOTR
++KXEN_E_REGEXP_BADCOUNT
+-Bad account
+
+#NOTR
++KXEN_E_REGEXP_DFA_UITEM
+-Dfa uitem
+
+#NOTR
++KXEN_E_REGEXP_DFA_UCOND
+-Dfa ucond
+
+#NOTR
++KXEN_E_REGEXP_DFA_UMLIMIT
+-Dfa umlimit
+
+#NOTR
++KXEN_E_REGEXP_DFA_WSSIZE
+-Dfa wssize
+
+#NOTR
++KXEN_E_REGEXP_DFA_RECURSE
+-Dfa recurse
+
++KXEN_E_REGEXP_UNKNOWN_ERROR
+-Неизвестная ошибка
+
++KXEN_E_LOGCONF_CANNOTCREATE
+-Невозможно создать аппендер класса '%1'.
+
++KXEN_E_LOGCONF_CANNOTPROCESS
+-Невозможно обработать ключ конфигурации журнала '%2' для аппендера '%1'. 
+
++KXEN_E_RESOURCE_BUSY
+-Ресурс %1 уже использует и блокировал %2.
+
++KXEN_E_RESOURCE_BUSY_2_FULL_INFO
+-Пользователь %3 на сервере %2 с %1
+-Повторите последнюю операцию через несколько минут.
+
+#Note for translator:
+#This message is displayed after the following string : The repository <Name of repository> is already used and locked by <Name of user> on
++KXEN_E_RESOURCE_BUSY_2
+-Сервер %2 с %1
+-Повторите последнюю операцию через несколько минут.
+
++KXEN_E_ERR_MULTI_INSTANCE_LOCK_FILE_UNEXPECTED
+-Блокировку ресурса %1 невозможно настроить.
+-Причина: %2.
+-Это некорректно, обратитесь в поддержку.
+
++E_BUSY
+-Ресурс блокирован и занят.
+
++KXEN_E_RESOURCE_BUSY_NO_INFO
+-Ресурс %1 используется и блокирован.
+-Повторите последнюю операцию через несколько минут.
+
++KXEN_E_AUTHENT_ACCESDENIED
+-Нет доступа для этой учетной записи пользователя.
+
++KXEN_E_AUTHENT_MAXTRIES
+-Достигнут разрешенный максимум попыток аутентификации.
+
++KXEN_E_AUTHENT_ERROR
+-Аутентификация имени пользователя и пароля не выполнена (%1).
+
++E_KXTOOL__PROCESS_CREATE
+-Ошибка при создании процесса: %1
+
++E_KXTOOL__TIMEOUT
+-Время ожидания при запуске подпроцесса
+
++E_KXTOOL__CONCURRENCY
+-Недействительный параллельный доступ
+-Это некорректно, обратитесь в поддержку.
+
++E_KXTOOL__APIMOREDATA
+-Другие данные доступны для этого вызова.
+-Это некорректно. Обратитесь в поддержку.
+
++KXEN_E_AUTHENT_VOIDARG
+-Попытка конфигурации аутентификатора пустой операции (опция недоступна)
+
+#Note for translator: PAM stands for 'Pluggable Authentication Module'
++KXEN_E_AUTHENT_SYSARG
+-Попытка конфигурации системного аутентификатора без активированного подключаемого модуля аутентификации (опция недоступна)
+
++KXEN_E_AUTHENT_AUTOSYSARG
+-Попытка конфигурации автоматического системного аутентификатора без активированного подключаемого модуля аутентификации (опция недоступна)
+
++KXEN_E_CONFIG_INVALID_OPTION
+-Неизвестная конфигурация: опция '%1'
+
++KXEN_E_CONFIG_INVALID_OPTION_FOR_WINDOWS
+-Windows не поддерживает опцию '%1'
+
++KXEN_E_FILEWRITE
+-Ошибка записи в файл '%1': %2
+
++KXEN_E_FILECURSOR
+-Ошибка доступа к файлу '%1': %2
+
++KXEN_E_CHARSET_NOTSUPPORTED
+-Преобразование из набора символов '%1' в UTF-8 не поддерживается операционной системой
+
++KXEN_E_INTERNAL_ERROR
+-Непредвиденная внутренняя ошибка
+-Обратитесь в поддержку SAP.
+-Подробные данные ошибки: %1
+
++KXEN_E_AUTHENT_CANT_CHANGE_PWD
+-Этот метод аутентификации не разрешает смену пароля.
+
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_ERROR
+-Неизвестная ошибка при смене пароля
+
++KXEN_E_AUTHENT_CHANGE_PWD_UNKNOWN_USER
+-Неизвестный пользователь
+
++KXEN_E_AUTHENT_ERROR_FAIL_TO_IDENTIFY
+-Ошибка аутентификации пользователя %1.
+
+
++KXEN_E_AUTHENT_INVALIDTOKEN
+-Попытка обсуждения с недействительным маркером.
+
++KXEN_E_AUTHENT_DISCUSSION_TOO_OLDTOKEN
+-Диалог удален, так как он был неактивным слишком долго.
+
++KXEN_E_NETWORK_ACCESS
+-Нет доступа к сетевому ресурсу '%1' для пользователя '%2'.
+
++KXEN_E_NETWORKCONNECTION_NOTALLOWED
+-Доступ к сетевым ресурсам со входом в систему не разрешен.
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND_IN_LIB
+-Ошибка: Внешняя функция '%1' не найдена в библиотеке '%2'.
+
++KXEN_E_EXTERNALFUNCTION_NOTFOUND
+-Ошибка: Внешняя функция '%1' не найдена во внешней библиотеке.
+
++KXEN_E_JAVA_INTERNAL_ERROR
+-Непредвиденная внутренняя ошибка Java
+-Обратитесь в службу поддержки SAP.
+-Подробные данные ошибки: %1
